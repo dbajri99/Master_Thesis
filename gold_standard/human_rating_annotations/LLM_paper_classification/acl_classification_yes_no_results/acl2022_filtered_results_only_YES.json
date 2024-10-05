@@ -1,0 +1,655 @@
+[
+    {
+        "title": "AlephBERT: Language Model Pre-training and Evaluation from Sub-Word to Sentence Level",
+        "authors": [
+            "Amit Seker",
+            "Elron Bandel",
+            "Dan Bareket",
+            "Idan Brusilovsky",
+            "Refael Greenfeld",
+            "Reut Tsarfaty"
+        ],
+        "published": "2022",
+        "summary": "Large Pre-trained Language Models (PLMs) have become ubiquitous in the development of language understanding technology and lie at the heart of many artificial intelligence advances. While advances reported for English using PLMs are unprecedented, reported advances using PLMs for Hebrew are few and far between. The problem is twofold. First, so far, Hebrew resources for training large language models are not of the same magnitude as their English counterparts. Second, most benchmarks available to evaluate progress in Hebrew NLP require morphological boundaries which are not available in the output of standard PLMs. In this work we remedy both aspects. We present AlephBERT, a large PLM for Modern Hebrew, trained on larger vocabulary and a larger dataset than any Hebrew PLM before. Moreover, we introduce a novel neural architecture that recovers the morphological segments encoded in contextualized embedding vectors. Based on this new morphological component we offer an evaluation suite consisting of multiple tasks and benchmarks that cover sentence-level, word-level and sub-word level analyses. On all tasks, AlephBERT obtains state-of-the-art results beyond contemporary Hebrew baselines. We make our AlephBERT model, the morphological extraction model, and the Hebrew evaluation suite publicly available, for evaluating future Hebrew PLMs.",
+        "pdf_link": "https://aclanthology.org/2022.acl-long.4.pdf"
+    },
+    {
+        "title": "GLM: General Language Model Pretraining with Autoregressive Blank Infilling",
+        "authors": [
+            "Zhengxiao Du",
+            "Yujie Qian",
+            "Xiao Liu",
+            "Ming Ding",
+            "Jiezhong Qiu",
+            "Zhilin Yang",
+            "Jie Tang"
+        ],
+        "published": "2022",
+        "summary": "There have been various types of pretraining architectures including autoencoding models (e.g., BERT), autoregressive models (e.g., GPT), and encoder-decoder models (e.g., T5). However, none of the pretraining frameworks performs the best for all tasks of three main categories including natural language understanding (NLU), unconditional generation, and conditional generation. We propose a General Language Model (GLM) based on autoregressive blank infilling to address this challenge. GLM improves blank filling pretraining by adding 2D positional encodings and allowing an arbitrary order to predict spans, which results in performance gains over BERT and T5 on NLU tasks. Meanwhile, GLM can be pretrained for different types of tasks by varying the number and lengths of blanks. On a wide range of tasks across NLU, conditional and unconditional generation, GLM outperforms BERT, T5, and GPT given the same model sizes and data, and achieves the best performance from a single pretrained model with 1.25\u00d7 parameters of BERT Large , demonstrating its generalizability to different downstream tasks.",
+        "pdf_link": "https://aclanthology.org/2022.acl-long.26.pdf"
+    },
+    {
+        "title": "Towards Comprehensive Patent Approval Predictions:Beyond Traditional Document Classification",
+        "authors": [
+            "Xiaochen Gao",
+            "Zhaoyi Hou",
+            "Yifei Ning",
+            "Kewen Zhao",
+            "Beilei He",
+            "Jingbo Shang",
+            "Vish Krishnan"
+        ],
+        "published": "2022",
+        "summary": "Predicting the approval chance of a patent application is a challenging problem involving multiple facets. The most crucial facet is arguably the novelty \u2014 35 U.S. Code \u00a7 102 rejects more recent applications that have very similar prior arts. Such novelty evaluations differ the patent approval prediction from conventional document classification \u2014 Successful patent applications may share similar writing patterns; however, too-similar newer applications would receive the opposite label, thus confusing standard document classifiers (e.g., BERT). To address this issue, we propose a novel framework that unifies the document classifier with handcrafted features, particularly time-dependent novelty scores. Specifically, we formulate the novelty scores by comparing each application with millions of prior arts using a hybrid of efficient filters and a neural bi-encoder. Moreover, we impose a new regularization term into the classification objective to enforce the monotonic change of approval prediction w.r.t. novelty scores. From extensive experiments on a large-scale USPTO dataset, we find that standard BERT fine-tuning can partially learn the correct relationship between novelty and approvals from inconsistent data. However, our time-dependent novelty features offer a boost on top of it. Also, our monotonic regularization, while shrinking the search space, can drive the optimizer to better local optima, yielding a further small performance gain.",
+        "pdf_link": "https://aclanthology.org/2022.acl-long.28.pdf"
+    },
+    {
+        "title": "Answer-level Calibration for Free-form Multiple Choice Question Answering",
+        "authors": [
+            "Sawan Kumar"
+        ],
+        "published": "2022",
+        "summary": "Pre-trained language models have recently shown that training on large corpora using the language modeling objective enables few-shot and zero-shot capabilities on a variety of NLP tasks, including commonsense reasoning tasks. This is achieved using text interactions with the model, usually by posing the task as a natural language text completion problem. While using language model probabilities to obtain task specific scores has been generally useful, it often requires task-specific heuristics such as length normalization, or probability calibration. In this work, we consider the question answering format, where we need to choose from a set of (free-form) textual choices of unspecified lengths given a context. We present ALC (Answer-Level Calibration), where our main suggestion is to model context-independent biases in terms of the probability of a choice without the associated context and to subsequently remove it using an unsupervised estimate of similarity with the full context. We show that our unsupervised answer-level calibration consistently improves over or is competitive with baselines using standard evaluation metrics on a variety of tasks including commonsense reasoning tasks. Further, we show that popular datasets potentially favor models biased towards easy cues which are available independent of the context. We analyze such biases using an associated F1-score. Our analysis indicates that answer-level calibration is able to remove such biases and leads to a more robust measure of model capability.",
+        "pdf_link": "https://aclanthology.org/2022.acl-long.49.pdf"
+    },
+    {
+        "title": "Meta-learning via Language Model In-context Tuning",
+        "authors": [
+            "Yanda Chen",
+            "Ruiqi Zhong",
+            "Sheng Zha",
+            "George Karypis",
+            "He He"
+        ],
+        "published": "2022",
+        "summary": "The goal of meta-learning is to learn to adapt to a new task with only a few labeled examples. Inspired by the recent progress in large language models, we propose in-context tuning (ICT), which recasts task adaptation and prediction as a simple sequence prediction problem: to form the input sequence, we concatenate the task instruction, labeled in-context examples, and the target input to predict; to meta-train the model to learn from in-context examples, we fine-tune a pre-trained language model (LM) to predict the target label given the input sequence on a collection of tasks.We benchmark our method on two collections of text classification tasks: LAMA and BinaryClfs. Compared to MAML which adapts the model through gradient descent, our method leverages the inductive bias of pre-trained LMs to perform pattern matching, and outperforms MAML by an absolute 6% average AUC-ROC score on BinaryClfs, gaining more advantage with increasing model size. Compared to non-fine-tuned in-context learning (i.e. prompting a raw LM), in-context tuning meta-trains the model to learn from in-context examples. On BinaryClfs, ICT improves the average AUC-ROC score by an absolute 10%, and reduces the variance due to example ordering by 6x and example choices by 2x.",
+        "pdf_link": "https://aclanthology.org/2022.acl-long.53.pdf"
+    },
+    {
+        "title": "RoCBert: Robust Chinese Bert with Multimodal Contrastive Pretraining",
+        "authors": [
+            "Hui Su",
+            "Weiwei Shi",
+            "Xiaoyu Shen",
+            "Zhou Xiao",
+            "Tuo Ji",
+            "Jiarui Fang",
+            "Jie Zhou"
+        ],
+        "published": "2022",
+        "summary": "Large-scale pretrained language models have achieved SOTA results on NLP tasks. However, they have been shown vulnerable to adversarial attacks especially for logographic languages like Chinese. In this work, we propose RoCBert: a pretrained Chinese Bert that is robust to various forms of adversarial attacks like word perturbation, synonyms, typos, etc. It is pretrained with the contrastive learning objective which maximizes the label consistency under different synthesized adversarial examples. The model takes as input multimodal information including the semantic, phonetic and visual features. We show all these features areimportant to the model robustness since the attack can be performed in all the three forms. Across 5 Chinese NLU tasks, RoCBert outperforms strong baselines under three blackbox adversarial algorithms without sacrificing the performance on clean testset. It also performs the best in the toxic content detection task under human-made attacks.",
+        "pdf_link": "https://aclanthology.org/2022.acl-long.65.pdf"
+    },
+    {
+        "title": "Auto-Debias: Debiasing Masked Language Models with Automated Biased Prompts",
+        "authors": [
+            "Yue Guo",
+            "Yi Yang",
+            "Ahmed Abbasi"
+        ],
+        "published": "2022",
+        "summary": "Human-like biases and undesired social stereotypes exist in large pretrained language models. Given the wide adoption of these models in real-world applications, mitigating such biases has become an emerging and important task. In this paper, we propose an automatic method to mitigate the biases in pretrained language models. Different from previous debiasing work that uses external corpora to fine-tune the pretrained models, we instead directly probe the biases encoded in pretrained models through prompts. Specifically, we propose a variant of the beam search method to automatically search for biased prompts such that the cloze-style completions are the most different with respect to different demographic groups. Given the identified biased prompts, we then propose a distribution alignment loss to mitigate the biases. Experiment results on standard datasets and metrics show that our proposed Auto-Debias approach can significantly reduce biases, including gender and racial bias, in pretrained language models such as BERT, RoBERTa and ALBERT. Moreover, the improvement in fairness does not decrease the language models\u2019 understanding abilities, as shown using the GLUE benchmark.",
+        "pdf_link": "https://aclanthology.org/2022.acl-long.72.pdf"
+    },
+    {
+        "title": "A Closer Look at How Fine-tuning Changes BERT",
+        "authors": [
+            "Yichu Zhou",
+            "Vivek Srikumar"
+        ],
+        "published": "2022",
+        "summary": "Given the prevalence of pre-trained contextualized representations in today\u2019s NLP, there have been many efforts to understand what information they contain, and why they seem to be universally successful. The most common approach to use these representations involves fine-tuning them for an end task. Yet, how fine-tuning changes the underlying embedding space is less studied. In this work, we study the English BERT family and use two probing techniques to analyze how fine-tuning changes the space. We hypothesize that fine-tuning affects classification performance by increasing the distances between examples associated with different labels. We confirm this hypothesis with carefully designed experiments on five different NLP tasks. Via these experiments, we also discover an exception to the prevailing wisdom that \u201cfine-tuning always improves performance\u201d. Finally, by comparing the representations before and after fine-tuning, we discover that fine-tuning does not introduce arbitrary changes to representations; instead, it adjusts the representations to downstream tasks while largely preserving the original spatial structure of the data points.",
+        "pdf_link": "https://aclanthology.org/2022.acl-long.75.pdf"
+    },
+    {
+        "title": "GPT-D: Inducing Dementia-related Linguistic Anomalies by Deliberate Degradation of Artificial Neural Language Models",
+        "authors": [
+            "Changye Li",
+            "David Knopman",
+            "Weizhe Xu",
+            "Trevor Cohen",
+            "Serguei Pakhomov"
+        ],
+        "published": "2022",
+        "summary": "Deep learning (DL) techniques involving fine-tuning large numbers of model parameters have delivered impressive performance on the task of discriminating between language produced by cognitively healthy individuals, and those with Alzheimer\u2019s disease (AD). However, questions remain about their ability to generalize beyond the small reference sets that are publicly available for research. As an alternative to fitting model parameters directly, we propose a novel method by which a Transformer DL model (GPT-2) pre-trained on general English text is paired with an artificially degraded version of itself (GPT-D), to compute the ratio between these two models\u2019 perplexities on language from cognitively healthy and impaired individuals. This technique approaches state-of-the-art performance on text data from a widely used \u201cCookie Theft\u201d picture description task, and unlike established alternatives also generalizes well to spontaneous conversations. Furthermore, GPT-D generates text with characteristics known to be associated with AD, demonstrating the induction of dementia-related linguistic anomalies. Our study is a step toward better understanding of the relationships between the inner workings of generative neural language models, the language that they produce, and the deleterious effects of dementia on human speech and language characteristics.",
+        "pdf_link": "https://aclanthology.org/2022.acl-long.131.pdf"
+    },
+    {
+        "title": "Distributionally Robust Finetuning BERT for Covariate Drift in Spoken Language Understanding",
+        "authors": [
+            "Samuel Broscheit",
+            "Quynh Do",
+            "Judith Gaspers"
+        ],
+        "published": "2022",
+        "summary": "In this study, we investigate robustness against covariate drift in spoken language understanding (SLU). Covariate drift can occur in SLUwhen there is a drift between training and testing regarding what users request or how they request it. To study this we propose a method that exploits natural variations in data to create a covariate drift in SLU datasets. Experiments show that a state-of-the-art BERT-based model suffers performance loss under this drift. To mitigate the performance loss, we investigate distributionally robust optimization (DRO) for finetuning BERT-based models. We discuss some recent DRO methods, propose two new variants and empirically show that DRO improves robustness under drift.",
+        "pdf_link": "https://aclanthology.org/2022.acl-long.139.pdf"
+    },
+    {
+        "title": "CTRLEval: An Unsupervised Reference-Free Metric for Evaluating Controlled Text Generation",
+        "authors": [
+            "Pei Ke",
+            "Hao Zhou",
+            "Yankai Lin",
+            "Peng Li",
+            "Jie Zhou",
+            "Xiaoyan Zhu",
+            "Minlie Huang"
+        ],
+        "published": "2022",
+        "summary": "Existing reference-free metrics have obvious limitations for evaluating controlled text generation models. Unsupervised metrics can only provide a task-agnostic evaluation result which correlates weakly with human judgments, whereas supervised ones may overfit task-specific data with poor generalization ability to other datasets. In this paper, we propose an unsupervised reference-free metric called CTRLEval, which evaluates controlled text generation from different aspects by formulating each aspect into multiple text infilling tasks. On top of these tasks, the metric assembles the generation probabilities from a pre-trained language model without any model training. Experimental results show that our metric has higher correlations with human judgments than other baselines, while obtaining better generalization of evaluating generated texts from different models and with different qualities.",
+        "pdf_link": "https://aclanthology.org/2022.acl-long.164.pdf"
+    },
+    {
+        "title": "Are Prompt-based Models Clueless?",
+        "authors": [
+            "Pride Kavumba",
+            "Ryo Takahashi",
+            "Yusuke Oda"
+        ],
+        "published": "2022",
+        "summary": "Finetuning large pre-trained language models with a task-specific head has advanced the state-of-the-art on many natural language understanding benchmarks. However, models with a task-specific head require a lot of training data, making them susceptible to learning and exploiting dataset-specific superficial cues that do not generalize to other datasets. Prompting has reduced the data requirement by reusing the language model head and formatting the task input to match the pre-training objective. Therefore, it is expected that few-shot prompt-based models do not exploit superficial cues. This paper presents an empirical examination of whether few-shot prompt-based models also exploit superficial cues. Analyzing few-shot prompt-based models on MNLI, SNLI, HANS, and COPA has revealed that prompt-based models also exploit superficial cues. While the models perform well on instances with superficial cues, they often underperform or only marginally outperform random accuracy on instances without superficial cues.",
+        "pdf_link": "https://aclanthology.org/2022.acl-long.166.pdf"
+    },
+    {
+        "title": "Contextual Representation Learning beyond Masked Language Modeling",
+        "authors": [
+            "Zhiyi Fu",
+            "Wangchunshu Zhou",
+            "Jingjing Xu",
+            "Hao Zhou",
+            "Lei Li"
+        ],
+        "published": "2022",
+        "summary": "Currently, masked language modeling (e.g., BERT) is the prime choice to learn contextualized representations. Due to the pervasiveness, it naturally raises an interesting question: how do masked language models (MLMs) learn contextual representations? In this work, we analyze the learning dynamics of MLMs and find that it adopts sampled embeddings as anchors to estimate and inject contextual semantics to representations, which limits the efficiency and effectiveness of MLMs. To address these problems, we propose TACO, a simple yet effective representation learning approach to directly model global semantics. To be specific, TACO extracts and aligns contextual semantics hidden in contextualized representations to encourage models to attend global semantics when generating contextualized representations. Experiments on the GLUE benchmark show that TACO achieves up to 5x speedup and up to 1.2 points average improvement over MLM.",
+        "pdf_link": "https://aclanthology.org/2022.acl-long.193.pdf"
+    },
+    {
+        "title": "Unsupervised Corpus Aware Language Model Pre-training for Dense Passage Retrieval",
+        "authors": [
+            "Luyu Gao",
+            "Jamie Callan"
+        ],
+        "published": "2022",
+        "summary": "Recent research demonstrates the effectiveness of using fine-tuned language models (LM) for dense retrieval. However, dense retrievers are hard to train, typically requiring heavily engineered fine-tuning pipelines to realize their full potential. In this paper, we identify and address two underlying problems of dense retrievers: i) fragility to training data noise and ii) requiring large batches to robustly learn the embedding space. We use the recently proposed Condenser pre-training architecture, which learns to condense information into the dense vector through LM pre-training. On top of it, we propose coCondenser, which adds an unsupervised corpus-level contrastive loss to warm up the passage embedding space. Experiments on MS-MARCO, Natural Question, and Trivia QA datasets show that coCondenser removes the need for heavy data engineering such as augmentation, synthesis, or filtering, and the need for large batch training. It shows comparable performance to RocketQA, a state-of-the-art, heavily engineered system, using simple small batch fine-tuning.",
+        "pdf_link": "https://aclanthology.org/2022.acl-long.203.pdf"
+    },
+    {
+        "title": "Confidence Based Bidirectional Global Context Aware Training Framework for Neural Machine Translation",
+        "authors": [
+            "Chulun Zhou",
+            "Fandong Meng",
+            "Jie Zhou",
+            "Min Zhang",
+            "Hongji Wang",
+            "Jinsong Su"
+        ],
+        "published": "2022",
+        "summary": "Most dominant neural machine translation (NMT) models are restricted to make predictions only according to the local context of preceding words in a left-to-right manner. Although many previous studies try to incorporate global information into NMT models, there still exist limitations on how to effectively exploit bidirectional global context. In this paper, we propose a Confidence Based Bidirectional Global Context Aware (CBBGCA) training framework for NMT, where the NMT model is jointly trained with an auxiliary conditional masked language model (CMLM). The training consists of two stages: (1) multi-task joint training; (2) confidence based knowledge distillation. At the first stage, by sharing encoder parameters, the NMT model is additionally supervised by the signal from the CMLM decoder that contains bidirectional global contexts. Moreover, at the second stage, using the CMLM as teacher, we further pertinently incorporate bidirectional global context to the NMT model on its unconfidently-predicted target words via knowledge distillation. Experimental results show that our proposed CBBGCA training framework significantly improves the NMT model by +1.02, +1.30 and +0.57 BLEU scores on three large-scale translation datasets, namely WMT\u201914 English-to-German, WMT\u201919 Chinese-to-English and WMT\u201914 English-to-French, respectively.",
+        "pdf_link": "https://aclanthology.org/2022.acl-long.206.pdf"
+    },
+    {
+        "title": "TruthfulQA: Measuring How Models Mimic Human Falsehoods",
+        "authors": [
+            "Stephanie Lin",
+            "Jacob Hilton",
+            "Owain Evans"
+        ],
+        "published": "2022",
+        "summary": "We propose a benchmark to measure whether a language model is truthful in generating answers to questions. The benchmark comprises 817 questions that span 38 categories, including health, law, finance and politics. We crafted questions that some humans would answer falsely due to a false belief or misconception. To perform well, models must avoid generating false answers learned from imitating human texts. We tested GPT-3, GPT-Neo/J, GPT-2 and a T5-based model. The best model was truthful on 58% of questions, while human performance was 94%. Models generated many false answers that mimic popular misconceptions and have the potential to deceive humans. The largest models were generally the least truthful. This contrasts with other NLP tasks, where performance improves with model size. However, this result is expected if false answers are learned from the training distribution. We suggest that scaling up models alone is less promising for improving truthfulness than fine-tuning using training objectives other than imitation of text from the web.",
+        "pdf_link": "https://aclanthology.org/2022.acl-long.229.pdf"
+    },
+    {
+        "title": "ToxiGen: A Large-Scale Machine-Generated Dataset for Adversarial and Implicit Hate Speech Detection",
+        "authors": [
+            "Thomas Hartvigsen",
+            "Saadia Gabriel",
+            "Hamid Palangi",
+            "Maarten Sap",
+            "Dipankar Ray",
+            "Ece Kamar"
+        ],
+        "published": "2022",
+        "summary": "Toxic language detection systems often falsely flag text that contains minority group mentions as toxic, as those groups are often the targets of online hate. Such over-reliance on spurious correlations also causes systems to struggle with detecting implicitly toxic language. To help mitigate these issues, we create ToxiGen, a new large-scale and machine-generated dataset of 274k toxic and benign statements about 13 minority groups. We develop a demonstration-based prompting framework and an adversarial classifier-in-the-loop decoding method to generate subtly toxic and benign text with a massive pretrained language model. Controlling machine generation in this way allows ToxiGen to cover implicitly toxic text at a larger scale, and about more demographic groups, than previous resources of human-written text. We conduct a human evaluation on a challenging subset of ToxiGen and find that annotators struggle to distinguish machine-generated text from human-written language. We also find that 94.5% of toxic examples are labeled as hate speech by human annotators. Using three publicly-available datasets, we show that finetuning a toxicity classifier on our data improves its performance on human-written data substantially. We also demonstrate that ToxiGen can be used to fight machine-generated toxicity as finetuning improves the classifier significantly on our evaluation subset.",
+        "pdf_link": "https://aclanthology.org/2022.acl-long.234.pdf"
+    },
+    {
+        "title": "NumGLUE: A Suite of Fundamental yet Challenging Mathematical Reasoning Tasks",
+        "authors": [
+            "Swaroop Mishra",
+            "Arindam Mitra",
+            "Neeraj Varshney",
+            "Bhavdeep Sachdeva",
+            "Peter Clark",
+            "Chitta Baral",
+            "Ashwin Kalyan"
+        ],
+        "published": "2022",
+        "summary": "Given the ubiquitous nature of numbers in text, reasoning with numbers to perform simple calculations is an important skill of AI systems. While many datasets and models have been developed to this end, state-of-the-art AI systems are brittle; failing to perform the underlying mathematical reasoning when they appear in a slightly different scenario. Drawing inspiration from GLUE that was proposed in the context of natural language understanding, we propose NumGLUE, a multi-task benchmark that evaluates the performance of AI systems on eight different tasks, that at their core require simple arithmetic understanding. We show that this benchmark is far from being solved with neural models including state-of-the-art large-scale language models performing significantly worse than humans (lower by 46.4 %). Further, NumGLUE promotes sharing knowledge across tasks, especially those with limited training data as evidenced by the superior performance (average gain of 3.4 % on each task) when a model is jointly trained on all the tasks as opposed to task-specific modeling. Finally, we hope that NumGLUE will encourage systems that perform robust and general arithmetic reasoning within language, a first step towards being able to perform more complex mathematical reasoning.",
+        "pdf_link": "https://aclanthology.org/2022.acl-long.246.pdf"
+    },
+    {
+        "title": "Upstream Mitigation Is Not All You Need: Testing the Bias Transfer Hypothesis in Pre-Trained Language Models",
+        "authors": [
+            "Ryan Steed",
+            "Swetasudha Panda",
+            "Ari Kobren",
+            "Michael Wick"
+        ],
+        "published": "2022",
+        "summary": "A few large, homogenous, pre-trained models undergird many machine learning systems \u2014 and often, these models contain harmful stereotypes learned from the internet. We investigate the bias transfer hypothesis: the theory that social biases (such as stereotypes) internalized by large language models during pre-training transfer into harmful task-specific behavior after fine-tuning. For two classification tasks, we find that reducing intrinsic bias with controlled interventions before fine-tuning does little to mitigate the classifier\u2019s discriminatory behavior after fine-tuning. Regression analysis suggests that downstream disparities are better explained by biases in the fine-tuning dataset. Still, pre-training plays a role: simple alterations to co-occurrence rates in the fine-tuning dataset are ineffective when the model has been pre-trained. Our results encourage practitioners to focus more on dataset quality and context-specific harms.",
+        "pdf_link": "https://aclanthology.org/2022.acl-long.247.pdf"
+    },
+    {
+        "title": "ePiC: Employing Proverbs in Context as a Benchmark for Abstract Language Understanding",
+        "authors": [
+            "Sayan Ghosh",
+            "Shashank Srivastava"
+        ],
+        "published": "2022",
+        "summary": "While large language models have shown exciting progress on several NLP benchmarks, evaluating their ability for complex analogical reasoning remains under-explored. Here, we introduce a high-quality crowdsourced dataset of narratives for employing proverbs in context as a benchmark for abstract language understanding. The dataset provides fine-grained annotation of aligned spans between proverbs and narratives, and contains minimal lexical overlaps between narratives and proverbs, ensuring that models need to go beyond surface-level reasoning to succeed. We explore three tasks: (1) proverb recommendation and alignment prediction, (2) narrative generation for a given proverb and topic, and (3) identifying narratives with similar motifs. Our experiments show that neural language models struggle on these tasks compared to humans, and these tasks pose multiple learning challenges.",
+        "pdf_link": "https://aclanthology.org/2022.acl-long.276.pdf"
+    },
+    {
+        "title": "Bag-of-Words vs. Graph vs. Sequence in Text Classification: Questioning the Necessity of Text-Graphs and the Surprising Strength of a Wide MLP",
+        "authors": [
+            "Lukas Galke",
+            "Ansgar Scherp"
+        ],
+        "published": "2022",
+        "summary": "Graph neural networks have triggered a resurgence of graph-based text classification methods, defining today\u2019s state of the art. We show that a wide multi-layer perceptron (MLP) using a Bag-of-Words (BoW) outperforms the recent graph-based models TextGCN and HeteGCN in an inductive text classification setting and is comparable with HyperGAT. Moreover, we fine-tune a sequence-based BERT and a lightweight DistilBERT model, which both outperform all state-of-the-art models. These results question the importance of synthetic graphs used in modern text classifiers. In terms of efficiency, DistilBERT is still twice as large as our BoW-based wide MLP, while graph-based models like TextGCN require setting up an \ud835\udcaa(N2) graph, where N is the vocabulary plus corpus size. Finally, since Transformers need to compute \ud835\udcaa(L2) attention weights with sequence length L, the MLP models show higher training and inference speeds on datasets with long sequences.",
+        "pdf_link": "https://aclanthology.org/2022.acl-long.279.pdf"
+    },
+    {
+        "title": "Compression of Generative Pre-trained Language Models via Quantization",
+        "authors": [
+            "Chaofan Tao",
+            "Lu Hou",
+            "Wei Zhang",
+            "Lifeng Shang",
+            "Xin Jiang",
+            "Qun Liu",
+            "Ping Luo",
+            "Ngai Wong"
+        ],
+        "published": "2022",
+        "summary": "The increasing size of generative Pre-trained Language Models (PLMs) have greatly increased the demand for model compression. Despite various methods to compress BERT or its variants, there are few attempts to compress generative PLMs, and the underlying difficulty remains unclear. In this paper, we compress generative PLMs by quantization. We find that previous quantization methods fail on generative tasks due to the homogeneous word embeddings caused by reduced capacity and the varied distribution of weights. Correspondingly, we propose a token-level contrastive distillation to learn distinguishable word embeddings, and a module-wise dynamic scaling to make quantizers adaptive to different modules. Empirical results on various tasks show that our proposed method outperforms the state-of-the-art compression methods on generative PLMs by a clear margin. With comparable performance with the full-precision models, we achieve 14.4x and 13.4x compression rate on GPT-2 and BART, respectively.",
+        "pdf_link": "https://aclanthology.org/2022.acl-long.331.pdf"
+    },
+    {
+        "title": "KinyaBERT: a Morphology-aware Kinyarwanda Language Model",
+        "authors": [
+            "Antoine Nzeyimana",
+            "Andre Niyongabo Rubungo"
+        ],
+        "published": "2022",
+        "summary": "Pre-trained language models such as BERT have been successful at tackling many natural language processing tasks. However, the unsupervised sub-word tokenization methods commonly used in these models (e.g., byte-pair encoding - BPE) are sub-optimal at handling morphologically rich languages. Even given a morphological analyzer, naive sequencing of morphemes into a standard BERT architecture is inefficient at capturing morphological compositionality and expressing word-relative syntactic regularities. We address these challenges by proposing a simple yet effective two-tier BERT architecture that leverages a morphological analyzer and explicitly represents morphological compositionality.Despite the success of BERT, most of its evaluations have been conducted on high-resource languages, obscuring its applicability on low-resource languages. We evaluate our proposed method on the low-resource morphologically rich Kinyarwanda language, naming the proposed model architecture KinyaBERT. A robust set of experimental results reveal that KinyaBERT outperforms solid baselines by 2% in F1 score on a named entity recognition task and by 4.3% in average score of a machine-translated GLUE benchmark. KinyaBERT fine-tuning has better convergence and achieves more robust results on multiple tasks even in the presence of translation noise.",
+        "pdf_link": "https://aclanthology.org/2022.acl-long.367.pdf"
+    },
+    {
+        "title": "Flooding-X: Improving BERT\u2019s Resistance to Adversarial Attacks via Loss-Restricted Fine-Tuning",
+        "authors": [
+            "Qin Liu",
+            "Rui Zheng",
+            "Bao Rong",
+            "Jingyi Liu",
+            "ZhiHua Liu",
+            "Zhanzhan Cheng",
+            "Liang Qiao",
+            "Tao Gui",
+            "Qi Zhang",
+            "Xuanjing Huang"
+        ],
+        "published": "2022",
+        "summary": "Adversarial robustness has attracted much attention recently, and the mainstream solution is adversarial training. However, the tradition of generating adversarial perturbations for each input embedding (in the settings of NLP) scales up the training computational complexity by the number of gradient steps it takes to obtain the adversarial samples. To address this problem, we leverage Flooding method which primarily aims at better generalization and we find promising in defending adversarial attacks. We further propose an effective criterion to bring hyper-parameter-dependent flooding into effect with a narrowed-down search space by measuring how the gradient steps taken within one epoch affect the loss of each batch. Our approach requires zero adversarial sample for training, and its time consumption is equivalent to fine-tuning, which can be 2-15 times faster than standard adversarial training. We experimentally show that our method improves BERT\u2019s resistance to textual adversarial attacks by a large margin, and achieves state-of-the-art robust accuracy on various text classification and GLUE tasks.",
+        "pdf_link": "https://aclanthology.org/2022.acl-long.386.pdf"
+    },
+    {
+        "title": "What does the sea say to the shore? A BERT based DST style approach for speaker to dialogue attribution in novels",
+        "authors": [
+            "Carolina Cuesta-Lazaro",
+            "Animesh Prasad",
+            "Trevor Wood"
+        ],
+        "published": "2022",
+        "summary": "We present a complete pipeline to extract characters in a novel and link them to their direct-speech utterances. Our model is divided into three independent components: extracting direct-speech, compiling a list of characters, and attributing those characters to their utterances. Although we find that existing systems can perform the first two tasks accurately, attributing characters to direct speech is a challenging problem due to the narrator\u2019s lack of explicit character mentions, and the frequent use of nominal and pronominal coreference when such explicit mentions are made. We adapt the progress made on Dialogue State Tracking to tackle a new problem: attributing speakers to dialogues. This is the first application of deep learning to speaker attribution, and it shows that is possible to overcome the need for the hand-crafted features and rules used in the past. Our full pipeline improves the performance of state-of-the-art models by a relative 50% in F1-score.",
+        "pdf_link": "https://aclanthology.org/2022.acl-long.400.pdf"
+    },
+    {
+        "title": "Probing Simile Knowledge from Pre-trained Language Models",
+        "authors": [
+            "Weijie Chen",
+            "Yongzhu Chang",
+            "Rongsheng Zhang",
+            "Jiashu Pu",
+            "Guandan Chen",
+            "Le Zhang",
+            "Yadong Xi",
+            "Yijiang Chen",
+            "Chang Su"
+        ],
+        "published": "2022",
+        "summary": "Simile interpretation (SI) and simile generation (SG) are challenging tasks for NLP because models require adequate world knowledge to produce predictions. Previous works have employed many hand-crafted resources to bring knowledge-related into models, which is time-consuming and labor-intensive. In recent years, pre-trained language models (PLMs) based approaches have become the de-facto standard in NLP since they learn generic knowledge from a large corpus. The knowledge embedded in PLMs may be useful for SI and SG tasks. Nevertheless, there are few works to explore it. In this paper, we probe simile knowledge from PLMs to solve the SI and SG tasks in the unified framework of simile triple completion for the first time. The backbone of our framework is to construct masked sentences with manual patterns and then predict the candidate words in the masked position. In this framework, we adopt a secondary training process (Adjective-Noun mask Training) with the masked language model (MLM) loss to enhance the prediction diversity of candidate words in the masked position. Moreover, pattern ensemble (PE) and pattern search (PS) are applied to improve the quality of predicted words. Finally, automatic and human evaluations demonstrate the effectiveness of our framework in both SI and SG tasks.",
+        "pdf_link": "https://aclanthology.org/2022.acl-long.404.pdf"
+    },
+    {
+        "title": "SHIELD: Defending Textual Neural Networks against Multiple Black-Box Adversarial Attacks with Stochastic Multi-Expert Patcher",
+        "authors": [
+            "Thai Le",
+            "Noseong Park",
+            "Dongwon Lee"
+        ],
+        "published": "2022",
+        "summary": "Even though several methods have proposed to defend textual neural network (NN) models against black-box adversarial attacks, they often defend against a specific text perturbation strategy and/or require re-training the models from scratch. This leads to a lack of generalization in practice and redundant computation. In particular, the state-of-the-art transformer models (e.g., BERT, RoBERTa) require great time and computation resources. By borrowing an idea from software engineering, in order to address these limitations, we propose a novel algorithm, SHIELD, which modifies and re-trains only the last layer of a textual NN, and thus it \u201cpatches\u201d and \u201ctransforms\u201d the NN into a stochastic weighted ensemble of multi-expert prediction heads. Considering that most of current black-box attacks rely on iterative search mechanisms to optimize their adversarial perturbations, SHIELD confuses the attackers by automatically utilizing different weighted ensembles of predictors depending on the input. In other words, SHIELD breaks a fundamental assumption of the attack, which is a victim NN model remains constant during an attack. By conducting comprehensive experiments, we demonstrate that all of CNN, RNN, BERT, and RoBERTa-based textual NNs, once patched by SHIELD, exhibit a relative enhancement of 15%\u201370% in accuracy on average against 14 different black-box attacks, outperforming 6 defensive baselines across 3 public datasets. All codes are to be released.",
+        "pdf_link": "https://aclanthology.org/2022.acl-long.459.pdf"
+    },
+    {
+        "title": "A Token-level Reference-free Hallucination Detection Benchmark for Free-form Text Generation",
+        "authors": [
+            "Tianyu Liu",
+            "Yizhe Zhang",
+            "Chris Brockett",
+            "Yi Mao",
+            "Zhifang Sui",
+            "Weizhu Chen",
+            "Bill Dolan"
+        ],
+        "published": "2022",
+        "summary": "Large pretrained generative models like GPT-3 often suffer from hallucinating non-existent or incorrect content, which undermines their potential merits in real applications. Existing work usually attempts to detect these hallucinations based on a corresponding oracle reference at a sentence or document level. However ground-truth references may not be readily available for many free-form text generation applications, and sentence- or document-level detection may fail to provide the fine-grained signals that would prevent fallacious content in real time. As a first step to addressing these issues, we propose a novel token-level, reference-free hallucination detection task and an associated annotated dataset named HaDeS (HAllucination DEtection dataSet). To create this dataset, we first perturb a large number of text segments extracted from English language Wikipedia, and then verify these with crowd-sourced annotations. To mitigate label imbalance during annotation, we utilize an iterative model-in-loop strategy. We conduct comprehensive data analyses and create multiple baseline models.",
+        "pdf_link": "https://aclanthology.org/2022.acl-long.464.pdf"
+    },
+    {
+        "title": "Low-Rank Softmax Can Have Unargmaxable Classes in Theory but Rarely in Practice",
+        "authors": [
+            "Andreas Grivas",
+            "Nikolay Bogoychev",
+            "Adam Lopez"
+        ],
+        "published": "2022",
+        "summary": "Classifiers in natural language processing (NLP) often have a large number of output classes. For example, neural language models (LMs) and machine translation (MT) models both predict tokens from a vocabulary of thousands. The Softmax output layer of these models typically receives as input a dense feature representation, which has much lower dimensionality than the output. In theory, the result is some words may be impossible to be predicted via argmax, irrespective of input features, and empirically, there is evidence this happens in small language models (Demeter et al., 2020). In this paper we ask whether it can happen in practical large language models and translation models. To do so, we develop algorithms to detect such unargmaxable tokens in public models. We find that 13 out of 150 models do indeed have such tokens; however, they are very infrequent and unlikely to impact model quality. We release our algorithms and code to the public.",
+        "pdf_link": "https://aclanthology.org/2022.acl-long.465.pdf"
+    },
+    {
+        "title": "Is GPT-3 Text Indistinguishable from Human Text? Scarecrow: A Framework for Scrutinizing Machine Text",
+        "authors": [
+            "Yao Dou",
+            "Maxwell Forbes",
+            "Rik Koncel-Kedziorski",
+            "Noah A. Smith",
+            "Yejin Choi"
+        ],
+        "published": "2022",
+        "summary": "Modern neural language models can produce remarkably fluent and grammatical text. So much, in fact, that recent work by Clark et al. (2021) has reported that conventional crowdsourcing can no longer reliably distinguish between machine-authored (GPT-3) and human-authored writing. As errors in machine generations become ever subtler and harder to spot, it poses a new challenge to the research community for robust machine text evaluation. We propose a new framework called Scarecrow for scrutinizing machine text via crowd annotation. To support the broad range of real machine errors that can be identified by laypeople, the ten error categories of Scarecrow\u2014such as redundancy, commonsense errors, and incoherence\u2014are identified through several rounds of crowd annotation experiments without a predefined ontology. We then use Scarecrow to collect over 41k error spans in human-written and machine-generated paragraphs of English language news text. We isolate factors for detailed analysis, including parameter count, training data, and various decoding-time configurations. Our approach successfully quantifies measurable gaps between human authored text and generations from models of several sizes, including fourteen configurations of GPT-3. In addition, our analysis unveils new insights, with detailed rationales provided by laypeople, e.g., that the commonsense capabilities have been improving with larger models while math capabilities have not, and that the choices of simple decoding hyperparameters can make remarkable differences on the perceived quality of machine text. We release our training material, annotation toolkit and dataset at https://yao-dou.github.io/scarecrow/.",
+        "pdf_link": "https://aclanthology.org/2022.acl-long.501.pdf"
+    },
+    {
+        "title": "Transkimmer: Transformer Learns to Layer-wise Skim",
+        "authors": [
+            "Yue Guan",
+            "Zhengyi Li",
+            "Jingwen Leng",
+            "Zhouhan Lin",
+            "Minyi Guo"
+        ],
+        "published": "2022",
+        "summary": "Transformer architecture has become the de-facto model for many machine learning tasks from natural language processing and computer vision. As such, improving its computational efficiency becomes paramount. One of the major computational inefficiency of Transformer based models is that they spend the identical amount of computation throughout all layers. Prior works have proposed to augment the Transformer model with the capability of skimming tokens to improve its computational efficiency. However, they suffer from not having effectual and end-to-end optimization of the discrete skimming predictor. To address the above limitations, we propose the Transkimmer architecture, which learns to identify hidden state tokens that are not required by each layer. The skimmed tokens are then forwarded directly to the final output, thus reducing the computation of the successive layers. The key idea in Transkimmer is to add a parameterized predictor before each layer that learns to make the skimming decision. We also propose to adopt reparameterization trick and add skim loss for the end-to-end training of Transkimmer. Transkimmer achieves 10.97x average speedup on GLUE benchmark compared with vanilla BERT-base baseline with less than 1% accuracy degradation.",
+        "pdf_link": "https://aclanthology.org/2022.acl-long.502.pdf"
+    },
+    {
+        "title": "ABC: Attention with Bounded-memory Control",
+        "authors": [
+            "Hao Peng",
+            "Jungo Kasai",
+            "Nikolaos Pappas",
+            "Dani Yogatama",
+            "Zhaofeng Wu",
+            "Lingpeng Kong",
+            "Roy Schwartz",
+            "Noah A. Smith"
+        ],
+        "published": "2022",
+        "summary": "Transformer architectures have achieved state- of-the-art results on a variety of natural language processing (NLP) tasks. However, their attention mechanism comes with a quadratic complexity in sequence lengths, making the computational overhead prohibitive, especially for long sequences. Attention context can be seen as a random-access memory with each token taking a slot. Under this perspective, the memory size grows linearly with the sequence length, and so does the overhead of reading from it. One way to improve the efficiency is to bound the memory size. We show that disparate approaches can be subsumed into one abstraction, attention with bounded-memory control (ABC), and they vary in their organization of the memory. ABC reveals new, unexplored possibilities. First, it connects several efficient attention variants that would otherwise seem apart. Second, this abstraction gives new insights\u2014an established approach (Wang et al., 2020b) previously thought to not be applicable in causal attention, actually is. Last, we present a new instance of ABC, which draws inspiration from existing ABC approaches, but replaces their heuristic memory-organizing functions with a learned, contextualized one. Our experiments on language modeling, machine translation, and masked language model finetuning show that our approach outperforms previous efficient attention models; compared to the strong transformer baselines, it significantly improves the inference time and space efficiency with no or negligible accuracy loss.",
+        "pdf_link": "https://aclanthology.org/2022.acl-long.515.pdf"
+    },
+    {
+        "title": "Cluster & Tune: Boost Cold Start Performance in Text Classification",
+        "authors": [
+            "Eyal Shnarch",
+            "Ariel Gera",
+            "Alon Halfon",
+            "Lena Dankin",
+            "Leshem Choshen",
+            "Ranit Aharonov",
+            "Noam Slonim"
+        ],
+        "published": "2022",
+        "summary": "In real-world scenarios, a text classification task often begins with a cold start, when labeled data is scarce. In such cases, the common practice of fine-tuning pre-trained models, such as BERT, for a target classification task, is prone to produce poor performance. We suggest a method to boost the performance of such models by adding an intermediate unsupervised classification task, between the pre-training and fine-tuning phases. As such an intermediate task, we perform clustering and train the pre-trained model on predicting the cluster labels. We test this hypothesis on various data sets, and show that this additional classification phase can significantly improve performance, mainly for topical classification tasks, when the number of labeled instances available for fine-tuning is only a couple of dozen to a few hundred.",
+        "pdf_link": "https://aclanthology.org/2022.acl-long.526.pdf"
+    },
+    {
+        "title": "Fair and Argumentative Language Modeling for Computational Argumentation",
+        "authors": [
+            "Carolin Holtermann",
+            "Anne Lauscher",
+            "Simone Ponzetto"
+        ],
+        "published": "2022",
+        "summary": "Although much work in NLP has focused on measuring and mitigating stereotypical bias in semantic spaces, research addressing bias in computational argumentation is still in its infancy. In this paper, we address this research gap and conduct a thorough investigation of bias in argumentative language models. To this end, we introduce ABBA, a novel resource for bias measurement specifically tailored to argumentation. We employ our resource to assess the effect of argumentative fine-tuning and debiasing on the intrinsic bias found in transformer-based language models using a lightweight adapter-based approach that is more sustainable and parameter-efficient than full fine-tuning. Finally, we analyze the potential impact of language model debiasing on the performance in argument quality prediction, a downstream task of computational argumentation. Our results show that we are able to successfully and sustainably remove bias in general and argumentative language models while preserving (and sometimes improving) model performance in downstream tasks. We make all experimental code and data available at https://github.com/umanlp/FairArgumentativeLM.",
+        "pdf_link": "https://aclanthology.org/2022.acl-long.541.pdf"
+    },
+    {
+        "title": "Softmax Bottleneck Makes Language Models Unable to Represent Multi-mode Word Distributions",
+        "authors": [
+            "Haw-Shiuan Chang",
+            "Andrew McCallum"
+        ],
+        "published": "2022",
+        "summary": "Neural language models (LMs) such as GPT-2 estimate the probability distribution over the next word by a softmax over the vocabulary. The softmax layer produces the distribution based on the dot products of a single hidden state and the embeddings of words in the vocabulary. However, we discover that this single hidden state cannot produce all probability distributions regardless of the LM size or training data size because the single hidden state embedding cannot be close to the embeddings of all the possible next words simultaneously when there are other interfering word embeddings between them. In this work, we demonstrate the importance of this limitation both theoretically and practically. Our work not only deepens our understanding of softmax bottleneck and mixture of softmax (MoS) but also inspires us to propose multi-facet softmax (MFS) to address the limitations of MoS. Extensive empirical analyses confirm our findings and show that against MoS, the proposed MFS achieves two-fold improvements in the perplexity of GPT-2 and BERT.",
+        "pdf_link": "https://aclanthology.org/2022.acl-long.554.pdf"
+    },
+    {
+        "title": "Fantastically Ordered Prompts and Where to Find Them: Overcoming Few-Shot Prompt Order Sensitivity",
+        "authors": [
+            "Yao Lu",
+            "Max Bartolo",
+            "Alastair Moore",
+            "Sebastian Riedel",
+            "Pontus Stenetorp"
+        ],
+        "published": "2022",
+        "summary": "When primed with only a handful of training samples, very large, pretrained language models such as GPT-3 have shown competitive results when compared to fully-supervised, fine-tuned, large, pretrained language models. We demonstrate that the order in which the samples are provided can make the difference between near state-of-the-art and random guess performance: essentially some permutations are \u201cfantastic\u201d and some not. We analyse this phenomenon in detail, establishing that: it is present across model sizes (even for the largest current models), it is not related to a specific subset of samples, and that a given good permutation for one model is not transferable to another. While one could use a development set to determine which permutations are performant, this would deviate from the true few-shot setting as it requires additional annotated data. Instead, we use the generative nature of language models to construct an artificial development set and based on entropy statistics of the candidate permutations on this set, we identify performant prompts. Our method yields a 13% relative improvement for GPT-family models across eleven different established text classification tasks.",
+        "pdf_link": "https://aclanthology.org/2022.acl-long.556.pdf"
+    },
+    {
+        "title": "Coherence boosting: When your pretrained language model is not paying enough attention",
+        "authors": [
+            "Nikolay Malkin",
+            "Zhen Wang",
+            "Nebojsa Jojic"
+        ],
+        "published": "2022",
+        "summary": "Long-range semantic coherence remains a challenge in automatic language generation and understanding. We demonstrate that large language models have insufficiently learned the effect of distant words on next-token prediction. We present coherence boosting, an inference procedure that increases a LM\u2019s focus on a long context. We show the benefits of coherence boosting with pretrained models by distributional analyses of generated ordinary text and dialog responses. It is also found that coherence boosting with state-of-the-art models for various zero-shot NLP tasks yields performance gains with no additional training.",
+        "pdf_link": "https://aclanthology.org/2022.acl-long.565.pdf"
+    },
+    {
+        "title": "Improving the Generalizability of Depression Detection by Leveraging Clinical Questionnaires",
+        "authors": [
+            "Thong Nguyen",
+            "Andrew Yates",
+            "Ayah Zirikly",
+            "Bart Desmet",
+            "Arman Cohan"
+        ],
+        "published": "2022",
+        "summary": "Automated methods have been widely used to identify and analyze mental health conditions (e.g., depression) from various sources of information, including social media. Yet, deployment of such models in real-world healthcare applications faces challenges including poor out-of-domain generalization and lack of trust in black box models. In this work, we propose approaches for depression detection that are constrained to different degrees by the presence of symptoms described in PHQ9, a questionnaire used by clinicians in the depression screening process. In dataset-transfer experiments on three social media datasets, we find that grounding the model in PHQ9\u2019s symptoms substantially improves its ability to generalize to out-of-distribution data compared to a standard BERT-based approach. Furthermore, this approach can still perform competitively on in-domain data. These results and our qualitative analyses suggest that grounding model predictions in clinically-relevant symptoms can improve generalizability while producing a model that is easier to inspect.",
+        "pdf_link": "https://aclanthology.org/2022.acl-long.578.pdf"
+    },
+    {
+        "title": "Internet-Augmented Dialogue Generation",
+        "authors": [
+            "Mojtaba Komeili",
+            "Kurt Shuster",
+            "Jason Weston"
+        ],
+        "published": "2022",
+        "summary": "The largest store of continually updating knowledge on our planet can be accessed via internet search. In this work we study giving access to this information to conversational agents. Large language models, even though they store an impressive amount of knowledge within their weights, are known to hallucinate facts when generating dialogue (Shuster et al., 2021); moreover, those facts are frozen in time at the point of model training. In contrast, we propose an approach that learns to generate an internet search query based on the context, and then conditions on the search results to finally generate a response, a method that can employ up-to-the-minute relevant information. We train and evaluate such models on a newly collected dataset of human-human conversations whereby one of the speakers is given access to internet search during knowledgedriven discussions in order to ground their responses. We find that search-query based access of the internet in conversation provides superior performance compared to existing approaches that either use no augmentation or FAISS-based retrieval (Lewis et al., 2020b).",
+        "pdf_link": "https://aclanthology.org/2022.acl-long.579.pdf"
+    },
+    {
+        "title": "Text-Free Prosody-Aware Generative Spoken Language Modeling",
+        "authors": [
+            "Eugene Kharitonov",
+            "Ann Lee",
+            "Adam Polyak",
+            "Yossi Adi",
+            "Jade Copet",
+            "Kushal Lakhotia",
+            "Tu Anh Nguyen",
+            "Morgane Riviere",
+            "Abdelrahman Mohamed",
+            "Emmanuel Dupoux",
+            "Wei-Ning Hsu"
+        ],
+        "published": "2022",
+        "summary": "Speech pre-training has primarily demonstrated efficacy on classification tasks, while its capability of generating novel speech, similar to how GPT-2 can generate coherent paragraphs, has barely been explored. Generative Spoken Language Modeling (GSLM) (CITATION) is the only prior work addressing the generative aspect of speech pre-training, which builds a text-free language model using discovered units. Unfortunately, because the units used in GSLM discard most prosodic information, GSLM fails to leverage prosody for better comprehension and does not generate expressive speech. In this work, we present a prosody-aware generative spoken language model (pGSLM). It is composed of a multi-stream transformer language model (MS-TLM) of speech, represented as discovered unit and prosodic feature streams, and an adapted HiFi-GAN model converting MS-TLM outputs to waveforms. Experimental results show that the pGSLM can utilize prosody to improve both prosody and content modeling, and also generate natural, meaningful, and coherent speech given a spoken prompt. Audio samples can be found at https://speechbot.github.io/pgslm. Codes and models are available at https://github.com/pytorch/fairseq/tree/main/examples/textless_nlp/pgslm.",
+        "pdf_link": "https://aclanthology.org/2022.acl-long.593.pdf"
+    },
+    {
+        "title": "P-Tuning: Prompt Tuning Can Be Comparable to Fine-tuning Across Scales and Tasks",
+        "authors": [
+            "Xiao Liu",
+            "Kaixuan Ji",
+            "Yicheng Fu",
+            "Weng Tam",
+            "Zhengxiao Du",
+            "Zhilin Yang",
+            "Jie Tang"
+        ],
+        "published": "2022",
+        "summary": "Prompt tuning, which only tunes continuous prompts with a frozen language model, substantially reduces per-task storage and memory usage at training. However, in the context of NLU, prior work reveals that prompt tuning does not perform well for normal-sized pretrained models. We also find that existing methods of prompt tuning cannot handle hard sequence labeling tasks, indicating a lack of universality. We present a novel empirical finding that properly optimized prompt tuning can be universally effective across a wide range of model scales and NLU tasks. It matches the performance of finetuning while having only 0.1%-3% tuned parameters. Our method P-Tuning v2 is an implementation of Deep Prompt Tuning (CITATION) optimized and adapted for NLU. Given the universality and simplicity of P-Tuning v2, we believe it can serve as an alternative to finetuning and a strong baseline for future research.",
+        "pdf_link": "https://aclanthology.org/2022.acl-short.8.pdf"
+    },
+    {
+        "title": "Does BERT Know that the IS-A Relation Is Transitive?",
+        "authors": [
+            "Ruixi Lin",
+            "Hwee Tou Ng"
+        ],
+        "published": "2022",
+        "summary": "The success of a natural language processing (NLP) system on a task does not amount to fully understanding the complexity of the task, typified by many deep learning models. One such question is: can a black-box model make logically consistent predictions for transitive relations? Recent studies suggest that pre-trained BERT can capture lexico-semantic clues from words in the context. However, to what extent BERT captures the transitive nature of some lexical relations is unclear. From a probing perspective, we examine WordNet word senses and the IS-A relation, which is a transitive relation. That is, for senses A, B, and C, A is-a B and B is-a C entail A is-a C. We aim to quantify how much BERT agrees with the transitive property of IS-A relations, via a minimalist probing setting. Our investigation reveals that BERT\u2019s predictions do not fully obey the transitivity property of the IS-A relation.",
+        "pdf_link": "https://aclanthology.org/2022.acl-short.11.pdf"
+    },
+    {
+        "title": "Data Contamination: From Memorization to Exploitation",
+        "authors": [
+            "Inbal Magar",
+            "Roy Schwartz"
+        ],
+        "published": "2022",
+        "summary": "Pretrained language models are typically trained on massive web-based datasets, which are often \u201ccontaminated\u201d with downstream test sets. It is not clear to what extent models exploit the contaminated data for downstream tasks. We present a principled method to study this question. We pretrain BERT models on joint corpora of Wikipedia and labeled downstream datasets, and fine-tune them on the relevant task. Comparing performance between samples seen and unseen during pretraining enables us to define and quantify levels of memorization and exploitation. Experiments with two models and three downstream tasks show that exploitation exists in some cases, but in others the models memorize the contaminated data, but do not exploit it. We show that these two measures are affected by different factors such as the number of duplications of the contaminated data and the model size. Our results highlight the importance of analyzing massive web-scale datasets to verify that progress in NLP is obtained by better language understanding and not better data exploitation.",
+        "pdf_link": "https://aclanthology.org/2022.acl-short.18.pdf"
+    },
+    {
+        "title": "Kronecker Decomposition for GPT Compression",
+        "authors": [
+            "Ali Edalati",
+            "Marzieh Tahaei",
+            "Ahmad Rashid",
+            "Vahid Nia",
+            "James Clark",
+            "Mehdi Rezagholizadeh"
+        ],
+        "published": "2022",
+        "summary": "GPT is an auto-regressive Transformer-based pre-trained language model which has attracted a lot of attention in the natural language processing (NLP) domain. The success of GPT is mostly attributed to its pre-training on huge amount of data and its large number of parameters. Despite the superior performance of GPT, this overparameterized nature of GPT can be very prohibitive for deploying this model on devices with limited computational power or memory. This problem can be mitigated using model compression techniques; however, compressing GPT models has not been investigated much in the literature. In this work, we use Kronecker decomposition to compress the linear mappings of the GPT-2 model. Our Kronecker GPT-2 model (KnGPT2) is initialized based on the Kronecker decomposed version of the GPT-2 model and then is undergone a very light pre- training on only a small portion of the training data with intermediate layer knowledge distillation (ILKD). Finally, our KnGPT2 is fine-tuned on downstream tasks using ILKD as well. We evaluate our model on both language modeling and General Language Understanding Evaluation benchmark tasks and show that with more efficient pre-training and similar number of parameters, our KnGPT2 outperforms the existing DistilGPT2 model significantly.",
+        "pdf_link": "https://aclanthology.org/2022.acl-short.24.pdf"
+    },
+    {
+        "title": "Exploiting Language Model Prompts Using Similarity Measures: A Case Study on the Word-in-Context Task",
+        "authors": [
+            "Mohsen Tabasi",
+            "Kiamehr Rezaee",
+            "Mohammad Taher Pilehvar"
+        ],
+        "published": "2022",
+        "summary": "As a recent development in few-shot learning, prompt-based techniques have demonstrated promising potential in a variety of natural language processing tasks. However, despite proving competitive on most tasks in the GLUE and SuperGLUE benchmarks, existing prompt-based techniques fail on the semantic distinction task of the Word-in-Context (WiC) dataset. Specifically, none of the existing few-shot approaches (including the in-context learning of GPT-3) can attain a performance that is meaningfully different from the random baseline. Trying to fill this gap, we propose a new prompting technique, based on similarity metrics, which boosts few-shot performance to the level of fully supervised methods. Our simple adaptation shows that the failure of existing prompt-based techniques in semantic distinction is due to their improper configuration, rather than lack of relevant knowledge in the representations. We also show that this approach can be effectively extended to other downstream tasks for which a single prompt is sufficient.",
+        "pdf_link": "https://aclanthology.org/2022.acl-short.36.pdf"
+    },
+    {
+        "title": "Fire Burns, Sword Cuts: Commonsense Inductive Bias for Exploration in Text-based Games",
+        "authors": [
+            "Dongwon Ryu",
+            "Ehsan Shareghi",
+            "Meng Fang",
+            "Yunqiu Xu",
+            "Shirui Pan",
+            "Reza Haf"
+        ],
+        "published": "2022",
+        "summary": "Text-based games (TGs) are exciting testbeds for developing deep reinforcement learning techniques due to their partially observed environments and large action spaces. In these games, the agent learns to explore the environment via natural language interactions with the game simulator. A fundamental challenge in TGs is the efficient exploration of the large action space when the agent has not yet acquired enough knowledge about the environment. We propose CommExpl, an exploration technique that injects external commonsense knowledge, via a pretrained language model (LM), into the agent during training when the agent is the most uncertain about its next action. Our method exhibits improvement on the collected game scores during the training in four out of nine games from Jericho. Additionally, the produced trajectory of actions exhibit lower perplexity, when tested with a pretrained LM, indicating better closeness to human language.",
+        "pdf_link": "https://aclanthology.org/2022.acl-short.56.pdf"
+    },
+    {
+        "title": "When classifying grammatical role, BERT doesn\u2019t care about word order... except when it matters",
+        "authors": [
+            "Isabel Papadimitriou",
+            "Richard Futrell",
+            "Kyle Mahowald"
+        ],
+        "published": "2022",
+        "summary": "Because meaning can often be inferred from lexical semantics alone, word order is often a redundant cue in natural language. For example, the words chopped, chef, and onion are more likely used to convey \u201cThe chef chopped the onion,\u201d not \u201cThe onion chopped the chef.\u201d Recent work has shown large language models to be surprisingly word order invariant, but crucially has largely considered natural prototypical inputs, where compositional meaning mostly matches lexical expectations. To overcome this confound, we probe grammatical role representation in English BERT and GPT-2, on instances where lexical expectations are not sufficient, and word order knowledge is necessary for correct classification. Such non-prototypical instances are naturally occurring English sentences with inanimate subjects or animate objects, or sentences where we systematically swap the arguments to make sentences like \u201cThe onion chopped the chef\u201d. We find that, while early layer embeddings are largely lexical, word order is in fact crucial in defining the later-layer representations of words in semantically non-prototypical positions. Our experiments isolate the effect of word order on the contextualization process, and highlight how models use context in the uncommon, but critical, instances where it matters.",
+        "pdf_link": "https://aclanthology.org/2022.acl-short.71.pdf"
+    },
+    {
+        "title": "A Recipe for Arbitrary Text Style Transfer with Large Language Models",
+        "authors": [
+            "Emily Reif",
+            "Daphne Ippolito",
+            "Ann Yuan",
+            "Andy Coenen",
+            "Chris Callison-Burch",
+            "Jason Wei"
+        ],
+        "published": "2022",
+        "summary": "In this paper, we leverage large language models (LLMs) to perform zero-shot text style transfer. We present a prompting method that we call augmented zero-shot learning, which frames style transfer as a sentence rewriting task and requires only a natural language instruction, without model fine-tuning or exemplars in the target style. Augmented zero-shot learning is simple and demonstrates promising results not just on standard style transfer tasks such as sentiment, but also on arbitrary transformations such as \u2018make this melodramatic\u2019 or \u2018insert a metaphor.\u2019",
+        "pdf_link": "https://aclanthology.org/2022.acl-short.94.pdf"
+    },
+    {
+        "title": "Exploring Cross-lingual Text Detoxification with Large Multilingual Language Models.",
+        "authors": [
+            "Daniil Moskovskiy",
+            "Daryna Dementieva",
+            "Alexander Panchenko"
+        ],
+        "published": "2022",
+        "summary": "Detoxification is a task of generating text in polite style while preserving meaning and fluency of the original toxic text. Existing detoxification methods are monolingual i.e. designed to work in one exact language. This work investigates multilingual and cross-lingual detoxification and the behavior of large multilingual models in this setting. Unlike previous works we aim to make large language models able to perform detoxification without direct fine-tuning in a given language. Experiments show that multilingual models are capable of performing multilingual style transfer. However, tested state-of-the-art models are not able to perform cross-lingual detoxification and direct fine-tuning on exact language is currently inevitable and motivating the need of further research in this direction.",
+        "pdf_link": "https://aclanthology.org/2022.acl-srw.26.pdf"
+    },
+    {
+        "title": "Cue-bot: A Conversational Agent for Assistive Technology",
+        "authors": [
+            "Shachi H Kumar",
+            "Hsuan Su",
+            "Ramesh Manuvinakurike",
+            "Maximilian C. Pinaroc",
+            "Sai Prasad",
+            "Saurav Sahay",
+            "Lama Nachman"
+        ],
+        "published": "2022",
+        "summary": "Intelligent conversational assistants have become an integral part of our lives for performing simple tasks. However, such agents, for example, Google bots, Alexa and others are yet to have any social impact on minority population, for example, for people with neurological disorders and people with speech, language and social communication disorders, sometimes with locked-in states where speaking or typing is a challenge. Language model technologies can be very powerful tools in enabling these users to carry out daily communication and social interactions. In this work, we present a system that users with varied levels of disabilties can use to interact with the world, supported by eye-tracking, mouse controls and an intelligent agent Cue-bot, that can represent the user in a conversation. The agent provides relevant controllable \u2018cues\u2019 to generate desirable responses quickly for an ongoing dialog context. In the context of usage of such systems for people with degenerative disorders, we present automatic and human evaluation of our cue/keyword predictor and the controllable dialog system and show that our models perform significantly better than models without control and can also reduce user effort (fewer keystrokes) and speed up communication (typing time) significantly.",
+        "pdf_link": "https://aclanthology.org/2022.acl-demo.19.pdf"
+    },
+    {
+        "title": "Zero- and Few-Shot NLP with Pretrained Language Models",
+        "authors": [
+            "Iz Beltagy",
+            "Arman Cohan",
+            "Robert Logan IV",
+            "Sewon Min",
+            "Sameer Singh"
+        ],
+        "published": "2022",
+        "summary": "The ability to efficiently learn from little-to-no data is critical to applying NLP to tasks where data collection is costly or otherwise difficult. This is a challenging setting both academically and practically\u2014particularly because training neutral models typically require large amount of labeled data. More recently, advances in pretraining on unlabelled data have brought up the potential of better zero-shot or few-shot learning (Devlin et al., 2019; Brown et al., 2020). In particular, over the past year, a great deal of research has been conducted to better learn from limited data using large-scale language models. In this tutorial, we aim at bringing interested NLP researchers up to speed about the recent and ongoing techniques for zero- and few-shot learning with pretrained language models. Additionally, our goal is to reveal new research opportunities to the audience, which will hopefully bring us closer to address existing challenges in this domain.",
+        "pdf_link": "https://aclanthology.org/2022.acl-tutorials.6.pdf"
+    }
+]

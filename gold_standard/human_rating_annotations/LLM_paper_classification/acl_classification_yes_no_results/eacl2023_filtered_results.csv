@@ -1,0 +1,59 @@
+Title,Mentions LLM Limitations
+WinoDict: Probing language models for in-context word acquisition,yes
+Nationality Bias in Text Generation,yes
+Do we need Label Regularization to Fine-tune Pre-trained Language Models?,yes
+A Discerning Several Thousand Judgments: GPT-3 Rates the Article + Adjective + Numeral + Noun Construction,yes
+"“John is 50 years old, can his son be 65?” Evaluating NLP Models’ Understanding of Feasibility",yes
+Scaling Back-Translation with Domain Text Generation for Sign Language Gloss Translation,yes
+Self-imitation Learning for Action Generation in Text-based Games,no
+The Functional Relevance of Probed Information: A Case Study,no
+Parameter-Efficient Tuning with Special Token Adaptation,no
+Teacher Intervention: Improving Convergence of Quantization Aware Training for Ultra-Low Precision Transformers,yes
+Find Parent then Label Children: A Two-stage Taxonomy Completion Method with Pre-trained Language Model,no
+On Robustness of Prompt-based Semantic Parsing with Large Pre-trained Language Model: An Empirical Study on Codex,yes
+MiniALBERT: Model Distillation via Parameter-Efficient Recursive Transformers,yes
+K-hop neighbourhood regularization for few-shot learning on graphs: A case study of text classification,no
+Selective In-Context Data Augmentation for Intent Detection using Pointwise V-Information,no
+A Systematic Search for Compound Semantics in Pretrained BERT Architectures,yes
+FrameBERT: Conceptual Metaphor Detection with Frame Embedding Learning,no
+SODAPOP: Open-Ended Discovery of Social Biases in Social Commonsense Reasoning Models,yes
+Fiction-Writing Mode: An Effective Control for Human-Machine Collaborative Writing,no
+Robustness Challenges in Model Distillation and Pruning for Natural Language Understanding,yes
+Unified Neural Topic Model via Contrastive Learning and Term Weighting,no
+LEALLA: Learning Lightweight Language-agnostic Sentence Embeddings with Knowledge Distillation,yes
+Extracting Victim Counts from Text,yes
+GLADIS: A General and Large Acronym Disambiguation Benchmark,no
+A Psycholinguistic Analysis of BERT’s Representations of Compounds,no
+UDAPTER - Efficient Domain Adaptation Using Adapters,no
+Exploring Category Structure with Contextual Language Models and Lexical Semantic Networks,no
+Opportunities and Challenges in Neural Dialog Tutoring,yes
+Assessing Out-of-Domain Language Model Performance from Few Examples,yes
+Bootstrapping Multilingual Semantic Parsers using Large Language Models,yes
+Towards preserving word order importance through Forced Invalidation,yes
+Penguins Don’t Fly: Reasoning about Generics through Instantiations and Exceptions,no
+Adding Instructions during Pretraining: Effective way of Controlling Toxicity in Language Models,yes
+SwitchPrompt: Learning Domain-Specific Gated Soft Prompts for Classification in Low-Resource Domains,no
+Do dialogue representations align with perception? An empirical study,no
+Real-Time Visual Feedback to Guide Benchmark Creation: A Human-and-Metric-in-the-Loop Workflow,yes
+Unsupervised Improvement of Factual Knowledge in Language Models,yes
+Learning to Ignore Adversarial Attacks,yes
+Should You Mask 15% in Masked Language Modeling?,yes
+Salient Span Masking for Temporal Understanding,no
+Contextual Dynamic Prompting for Response Generation in Task-oriented Dialog Systems,no
+When Do Pre-Training Biases Propagate to Downstream Tasks? A Case Study in Text Summarization,yes
+BERT Shows Garden Path Effects,yes
+DyLoRA: Parameter-Efficient Tuning of Pre-trained Models using Dynamic Search-Free Low-Rank Adaptation,yes
+Language Generation Models Can Cause Harm: So What Can We Do About It? An Actionable Survey,yes
+A simple but effective model for attachment in discourse parsing with multi-task learning for relation labeling,no
+Semantic Specialization for Knowledge-based Word Sense Disambiguation,no
+BERT Is Not The Count: Learning to Match Mathematical Statements with Proofs,no
+Retrieval-augmented Image Captioning,no
+Representation biases in sentence transformers,no
+Social Commonsense for Explanation and Cultural Bias Discovery,yes
+"GrIPS: Gradient-free, Edit-based Instruction Search for Prompting Large Language Models",yes
+DiscoScore: Evaluating Text Generation with BERT and Discourse Coherence,yes
+Know your audience: specializing grounded language models with listener subtraction,no
+FISH: A Financial Interactive System for Signal Highlighting,no
+CoTEVer: Chain of Thought Prompting Annotation Toolkit for Explanation Verification,yes
+A Unified Framework for Emotion Identification and Generation in Dialogues,no
+Addressing Domain Changes in Task-oriented Conversational Agents through Dialogue Adaptation,no

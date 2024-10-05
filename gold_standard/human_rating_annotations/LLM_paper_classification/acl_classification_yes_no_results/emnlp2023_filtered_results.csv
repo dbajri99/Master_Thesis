@@ -1,0 +1,369 @@
+Title,Mentions LLM Limitations
+IAG: Induction-Augmented Generation Framework for Answering Reasoning Questions,yes
+Primacy Effect of ChatGPT,yes
+Evaluating the Rationale Understanding of Critical Reasoning in Logical Reading Comprehension,yes
+Theory of Mind for Multi-Agent Collaboration via Large Language Models,yes
+Establishing Trustworthiness: Rethinking Tasks and Model Evaluation,yes
+GPTAraEval: A Comprehensive Evaluation of ChatGPT on Arabic NLP,yes
+Evaluating Object Hallucination in Large Vision-Language Models,yes
+Parameter-efficient Tuning for Large Language Model without Calculating Its Gradients,yes
+CompoundPiece: Evaluating and Improving Decompounding Performance of Language Models,yes
+How to Enhance Causal Discrimination of Utterances: A Case on Affective Reasoning,yes
+Temporal Knowledge Graph Forecasting Without Knowledge Using In-Context Learning,yes
+Knowledge Graph Compression Enhances Diverse Commonsense Generation,yes
+LLM-FP4: 4-Bit Floating-Point Quantized Transformers,yes
+LLM-powered Data Augmentation for Enhanced Cross-lingual Performance,yes
+Conceptual structure coheres in human cognition but not in large language models,yes
+Towards LLM-driven Dialogue State Tracking,yes
+We’re Afraid Language Models Aren’t Modeling Ambiguity,yes
+Fidelity-Enriched Contrastive Search: Reconciling the Faithfulness-Diversity Trade-Off in Text Generation,no
+"Reading Books is Great, But Not if You Are Driving! Visually Grounded Reasoning about Defeasible Commonsense Norms",yes
+Enhancing Uncertainty-Based Hallucination Detection with Stronger Focus,yes
+Tree of Clarifications: Answering Ambiguous Questions with Retrieval-Augmented Large Language Models,yes
+Large Language Models Can Self-Improve,yes
+CodeT5+: Open Code Large Language Models for Code Understanding and Generation,yes
+Hyperpolyglot LLMs: Cross-Lingual Interpretability in Token Embeddings,no
+SeqXGPT: Sentence-Level AI-Generated Text Detection,yes
+QTSumm: Query-Focused Summarization over Tabular Data,yes
+Towards Robust Pruning: An Adaptive Knowledge-Retention Pruning Strategy for Language Models,yes
+Unveiling the Implicit Toxicity in Large Language Models,yes
+Is ChatGPT a General-Purpose Natural Language Processing Task Solver?,yes
+ALCUNA: Large Language Models Meet New Knowledge,yes
+Transcending Scaling Laws with 0.1% Extra Compute,yes
+CoAnnotating: Uncertainty-Guided Work Allocation between Human and Large Language Models for Data Annotation,yes
+Robust Prompt Optimization for Large Language Models Against Distribution Shifts,yes
+Exploiting Asymmetry for Synthetic Training Data Generation: SynthIE and the Case of Information Extraction,no
+Increasing Coverage and Precision of Textual Information in Multilingual Knowledge Graphs,yes
+Outlier Suppression+: Accurate quantization of large language models by equivalent and effective shifting and scaling,no
+Interpreting Embedding Spaces by Conceptualization,yes
+Knowledge-Augmented Language Model Verification,yes
+Failures Pave the Way: Enhancing Large Language Models through Tuning-free Rule Accumulation,yes
+Active Instruction Tuning: Improving Cross-Task Generalization by Training on Prompt Sensitive Tasks,yes
+“Fifty Shades of Bias”: Normative Ratings of Gender Bias in GPT Generated English Text,yes
+ChatGPT to Replace Crowdsourcing of Paraphrases for Intent Classification: Higher Diversity and Comparable Model Robustness,yes
+Democratizing Reasoning Ability: Tailored Learning from Large Language Model,yes
+OpenAsp: A Benchmark for Multi-document Open Aspect-based Summarization,yes
+Self-Influence Guided Data Reweighting for Language Model Pre-training,yes
+TrueTeacher: Learning Factual Consistency Evaluation with Large Language Models,yes
+Larger Probes Tell a Different Story: Extending Psycholinguistic Datasets Via In-Context Learning,yes
+CRT-QA: A Dataset of Complex Reasoning Question Answering over Tabular Data,no
+MAGNIFICo: Evaluating the In-Context Learning Ability of Large Language Models to Generalize to Novel Interpretations,yes
+Generating and Evaluating Tests for K-12 Students with Language Model Simulations: A Case Study on Sentence Reading Efficiency,yes
+Counter Turing Test (CT2): AI-Generated Text Detection is Not as Easy as You May Think - Introducing AI Detectability Index (ADI),yes
+Instructed Language Models with Retrievers Are Powerful Entity Linkers,yes
+Does the Correctness of Factual Knowledge Matter for Factual Knowledge-Enhanced Pre-trained Language Models?,yes
+The Shifted and The Overlooked: A Task-oriented Investigation of User-GPT Interactions,no
+"The Past, Present and Better Future of Feedback Learning in Large Language Models for Subjective Human Preferences and Values",yes
+TempTabQA: Temporal Question Answering for Semi-Structured Tables,yes
+Task-Level Thinking Steps Help Large Language Models for Challenging Classification Task,yes
+G-Eval: NLG Evaluation using Gpt-4 with Better Human Alignment,yes
+"The Troubling Emergence of Hallucination in Large Language Models - An Extensive Definition, Quantification, and Prescriptive Remediations",yes
+Improving Summarization with Human Edits,yes
+The Skipped Beat: A Study of Sociopragmatic Understanding in LLMs for 64 Languages,yes
+Understanding the Effect of Model Compression on Social Bias in Large Language Models,yes
+BioPlanner: Automatic Evaluation of LLMs on Protocol Planning in Biology,yes
+Cross-lingual Prompting: Improving Zero-shot Chain-of-Thought Reasoning across Languages,yes
+FinGPT: Large Generative Models for a Small Language,yes
+Indicative Summarization of Long Discussions,no
+"Plan, Verify and Switch: Integrated Reasoning with Diverse X-of-Thoughts",yes
+Critic-Driven Decoding for Mitigating Hallucinations in Data-to-text Generation,yes
+Can Language Models Laugh at YouTube Short-form Videos?,yes
+API-Bank: A Comprehensive Benchmark for Tool-Augmented LLMs,yes
+Lion: Adversarial Distillation of Proprietary Large Language Models,yes
+Evaluating Large Language Models on Controlled Generation Tasks,yes
+"DeSIQ: Towards an Unbiased, Challenging Benchmark for Social Intelligence Understanding",yes
+"Why LLMs Hallucinate, and How to Get (Evidential) Closure: Perceptual, Intensional, and Extensional Learning for Faithful Natural Language Generation",yes
+Can LLMs Facilitate Interpretation of Pre-trained Language Models?,yes
+Oolong: Investigating What Makes Transfer Learning Hard with Controlled Studies,yes
+Knowledge Rumination for Pre-trained Language Models,yes
+Struct-XLM: A Structure Discovery Multilingual Language Model for Enhancing Cross-lingual Transfer through Reinforcement Learning,yes
+AdaSent: Efficient Domain-Adapted Sentence Embeddings for Few-Shot Classification,no
+Dancing Between Success and Failure: Edit-level Simplification Evaluation using SALSA,yes
+GPT-RE: In-context Learning for Relation Extraction using Large Language Models,yes
+INFORM : Information eNtropy based multi-step reasoning FOR large language Models,yes
+Adaptive Gating in Mixture-of-Experts based Language Models,yes
+On the Automatic Generation and Simplification of Children’s Stories,yes
+The Curious Case of Hallucinatory (Un)answerability: Finding Truths in the Hidden States of Over-Confident Large Language Models,yes
+Small Language Models Fine-tuned to Coordinate Larger Language Models improve Complex Reasoning,yes
+ReasoningLM: Enabling Structural Subgraph Reasoning in Pre-trained Language Models for Question Answering over Knowledge Graph,yes
+Deep Natural Language Feature Learning for Interpretable Prediction,yes
+ROBBIE: Robust Bias Evaluation of Large Generative Language Models,yes
+Adapting Language Models to Compress Contexts,yes
+COVID-19 Vaccine Misinformation in Middle Income Countries,yes
+Contrastive Learning of Sentence Embeddings from Scratch,yes
+DisCo: Distilled Student Models Co-training for Semi-supervised Text Mining,yes
+Dynosaur: A Dynamic Growth Paradigm for Instruction-Tuning Data Curation,yes
+Sparse Low-rank Adaptation of Pre-trained Language Models,yes
+The Art of SOCRATIC QUESTIONING: Recursive Thinking with Large Language Models,yes
+MEGA: Multilingual Evaluation of Generative AI,yes
+Large Language Models are Temporal and Causal Reasoners for Video Question Answering,yes
+Prompting Large Language Models with Chain-of-Thought for Few-Shot Knowledge Base Question Generation,yes
+TrojanSQL: SQL Injection against Natural Language Interface to Database,yes
+Preserving Privacy Through Dememorization: An Unlearning Technique For Mitigating Memorization Risks In Language Models,yes
+Meta-Learning Online Adaptation of Language Models,yes
+Noisy Exemplars Make Large Language Models More Robust: A Domain-Agnostic Behavioral Analysis,yes
+Can Large Language Models Capture Dissenting Human Voices?,yes
+DecoMT: Decomposed Prompting for Machine Translation Between Related Languages using Large Language Models,yes
+Well Begun is Half Done: Generator-agnostic Knowledge Pre-Selection for Knowledge-Grounded Dialogue,yes
+Merging Generated and Retrieved Knowledge for Open-Domain QA,yes
+A Cheaper and Better Diffusion Language Model with Soft-Masked Noise,yes
+Cognitive Dissonance: Why Do Language Model Outputs Disagree with Internal Representations of Truthfulness?,yes
+Can We Edit Factual Knowledge by In-Context Learning?,yes
+Ignore This Title and HackAPrompt: Exposing Systemic Vulnerabilities of LLMs Through a Global Prompt Hacking Competition,yes
+Localizing Active Objects from Egocentric Vision with Symbolic World Knowledge,yes
+Prompting is not a substitute for probability measurements in large language models,yes
+LINC: A Neurosymbolic Approach for Logical Reasoning by Combining Language Models with First-Order Logic Provers,yes
+LLM-Adapters: An Adapter Family for Parameter-Efficient Fine-Tuning of Large Language Models,yes
+Query Rewriting in Retrieval-Augmented Large Language Models,no
+PromptMix: A Class Boundary Augmentation Method for Large Language Model Distillation,yes
+QUDeval: The Evaluation of Questions Under Discussion Discourse Parsing,yes
+PRCA: Fitting Black-Box Large Language Models for Retrieval Question Answering via Pluggable Reward-Driven Contextual Adapter,yes
+Exploring Chain of Thought Style Prompting for Text-to-SQL,yes
+Harnessing Black-Box Control to Boost Commonsense in LM’s Generation,yes
+Just Ask for Calibration: Strategies for Eliciting Calibrated Confidence Scores from Language Models Fine-Tuned with Human Feedback,yes
+"The Effect of Scaling, Retrieval Augmentation and Form on the Factual Consistency of Language Models",yes
+Semi-automatic Data Enhancement for Document-Level Relation Extraction with Distant Supervision from Large Language Models,yes
+Dialogue Chain-of-Thought Distillation for Commonsense-aware Conversational Agents,yes
+C-STS: Conditional Semantic Textual Similarity,yes
+HyperRouter: Towards Efficient Training and Inference of Sparse Mixture of Experts,yes
+"Fine-tuned LLMs Know More, Hallucinate Less with Few-Shot Sequence-to-Sequence Semantic Parsing over Wikidata",yes
+ZEROTOP: Zero-Shot Task-Oriented Semantic Parsing using Large Language Models,yes
+Ditto: A Simple and Efficient Approach to Improve Sentence Embeddings,yes
+INSTRUCTSCORE: Towards Explainable Text Generation Evaluation with Automatic Feedback,yes
+CHEF in the Language Kitchen: A Generative Data Augmentation Leveraging Korean Morpheme Ingredients,no
+Towards Interpretable Mental Health Analysis with Large Language Models,yes
+Baize: An Open-Source Chat Model with Parameter-Efficient Tuning on Self-Chat Data,no
+Beyond Factuality: A Comprehensive Evaluation of Large Language Models as Knowledge Generators,yes
+Compressing Context to Enhance Inference Efficiency of Large Language Models,yes
+MoT: Memory-of-Thought Enables ChatGPT to Self-Improve,yes
+Can You Follow Me? Testing Situational Understanding for ChatGPT,yes
+"Towards Reliable Misinformation Mitigation: Generalization, Uncertainty, and GPT-4",yes
+HaluEval: A Large-Scale Hallucination Evaluation Benchmark for Large Language Models,yes
+Enabling Large Language Models to Generate Text with Citations,yes
+Pre-Trained Language Models Augmented with Synthetic Scanpaths for Natural Language Understanding,no
+Counting the Bugs in ChatGPT’s Wugs: A Multilingual Investigation into the Morphological Capabilities of a Large Language Model,yes
+Adapt in Contexts: Retrieval-Augmented Domain Adaptation via In-Context Learning,yes
+MAF: Multi-Aspect Feedback for Improving Reasoning in Large Language Models,yes
+Personalized Distillation: Empowering Open-Sourced LLMs with Adaptive Learning for Code Generation,yes
+Do Language Models Have a Common Sense regarding Time? Revisiting Temporal Commonsense Reasoning in the Era of Large Language Models,yes
+Evaluation of African American Language Bias in Natural Language Generation,yes
+EtiCor: Corpus for Analyzing LLMs for Etiquettes,yes
+An Investigation of LLMs’ Inefficacy in Understanding Converse Relations,yes
+ZGUL: Zero-shot Generalization to Unseen Languages using Multi-source Ensembling of Language Adapters,yes
+Log-FGAER: Logic-Guided Fine-Grained Address Entity Recognition from Multi-Turn Spoken Dialogue,yes
+Unified Low-Resource Sequence Labeling by Sample-Aware Dynamic Sparse Finetuning,yes
+Benchmarking and Improving Text-to-SQL Generation under Ambiguity,yes
+Prompt-Based Monte-Carlo Tree Search for Goal-oriented Dialogue Policy Planning,yes
+HiddenTables and PyQTax: A Cooperative Game and Dataset For TableQA to Ensure Scale and Data Privacy Across a Myriad of Taxonomies,yes
+"Speak, Memory: An Archaeology of Books Known to ChatGPT/GPT-4",yes
+Copyright Violations and Large Language Models,yes
+Symbolic Planning and Code Generation for Grounded Dialogue,yes
+Universal Self-Adaptive Prompting,yes
+Beat LLMs at Their Own Game: Zero-Shot LLM-Generated Text Detection via Querying ChatGPT,yes
+Faithful Model Evaluation for Model-Based Metrics,yes
+Have LLMs Advanced Enough? A Challenging Problem Solving Benchmark For Large Language Models,yes
+WiCE: Real-World Entailment for Claims in Wikipedia,no
+Shall We Pretrain Autoregressive Language Models with Retrieval? A Comprehensive Study,no
+SCITAB: A Challenging Benchmark for Compositional Reasoning and Claim Verification on Scientific Tables,yes
+Task-Agnostic Low-Rank Adapters for Unseen English Dialects,yes
+Federated Learning of Large Language Models with Parameter-Efficient Prompt Tuning and Adaptive Optimization,yes
+TheoremQA: A Theorem-driven Question Answering Dataset,yes
+Don’t Trust ChatGPT when your Question is not in English: A Study of Multilingual Abilities and Types of LLMs,no
+Automatic Prompt Optimization with “Gradient Descent” and Beam Search,yes
+Active Retrieval Augmented Generation,yes
+DialCoT Meets PPO: Decomposing and Exploring Reasoning Paths in Smaller Language Models,yes
+Reasoning with Language Model is Planning with World Model,yes
+LLM-enhanced Self-training for Cross-domain Constituency Parsing,yes
+Editing Common Sense in Transformers,yes
+IfQA: A Dataset for Open-domain Question Answering under Counterfactual Presuppositions,yes
+How Do Large Language Models Capture the Ever-changing World Knowledge? A Review of Recent Advances,yes
+DecipherPref: Analyzing Influential Factors in Human Preference Judgments via GPT-4,yes
+Generating Data for Symbolic Language with Large Language Models,yes
+DALE: Generative Data Augmentation for Low-Resource Legal NLP,yes
+trlX: A Framework for Large Scale Reinforcement Learning from Human Feedback,yes
+This is not a Dataset: A Large Negation Benchmark to Challenge Large Language Models,yes
+SOUL: Towards Sentiment and Opinion Understanding of Language,yes
+Regulation and NLP (RegNLP): Taming Large Language Models,yes
+"MedEval: A Multi-Level, Multi-Task, and Multi-Domain Medical Benchmark for Language Model Evaluation",yes
+Evaluation Metrics in the Era of GPT-4: Reliably Evaluating Large Language Models on Sequence to Sequence Tasks,yes
+“Mistakes Help Us Grow”: Facilitating and Evaluating Growth Mindset Supportive Language in Classrooms,yes
+Unnatural Error Correction: GPT-4 Can Almost Perfectly Handle Unnatural Scrambled Text,yes
+Detecting and Mitigating Hallucinations in Multilingual Summarisation,yes
+SelfCheckGPT: Zero-Resource Black-Box Hallucination Detection for Generative Large Language Models,yes
+Revisiting Instruction Fine-tuned Model Evaluation to Guide Industrial Applications,yes
+EasyQuant: An Efficient Data-free Quantization Algorithm for LLMs,yes
+APrompt: Attention Prompt Tuning for Efficient Adaptation of Pre-trained Language Models,yes
+Learning Preference Model for LLMs via Automatic Preference Data Generation,yes
+StructGPT: A General Framework for Large Language Model to Reason over Structured Data,no
+Model-tuning Via Prompts Makes NLP Models Adversarially Robust,no
+Revisiting Automated Topic Model Evaluation with Large Language Models,yes
+ORCHID: A Chinese Debate Corpus for Target-Independent Stance Detection and Argumentative Dialogue Summarization,yes
+Explore-Instruct: Enhancing Domain-Specific Instruction Coverage through Active Exploration,yes
+Just Adjust One Prompt: Enhancing In-Context Dialogue Scoring via Constructing the Optimal Subgraph of Demonstrations and Prompts,yes
+EpiK-Eval: Evaluation for Language Models as Epistemic Models,yes
+On Bilingual Lexicon Induction with Large Language Models,yes
+"CRaSh: Clustering, Removing, and Sharing Enhance Fine-tuning without Full Large Language Model",yes
+Large Language Models are biased to overestimate profoundness,yes
+SummEdits: Measuring LLM Ability at Factual Reasoning Through The Lens of Summarization,yes
+Quantifying the redundancy between prosody and text,yes
+A Video Is Worth 4096 Tokens: Verbalize Videos To Understand Them In Zero Shot,no
+Label Words are Anchors: An Information Flow Perspective for Understanding In-Context Learning,yes
+Prompting Scientific Names for Zero-Shot Species Recognition,yes
+Do All Languages Cost the Same? Tokenization in the Era of Commercial Language Models,yes
+MULTITuDE: Large-Scale Multilingual Machine-Generated Text Detection Benchmark,yes
+Revisiting Block-based Quantisation: What is Important for Sub-8-bit LLM Inference?,yes
+Reducing Sequence Length by Predicting Edit Spans with Large Language Models,yes
+Instruct and Extract: Instruction Tuning for On-Demand Information Extraction,yes
+Rethinking the Evaluation for Conversational Recommendation in the Era of Large Language Models,yes
+Appraising the Potential Uses and Harms of LLMs for Medical Systematic Reviews,yes
+Contrastive Learning for Inference in Dialogue,yes
+"Editing Large Language Models: Problems, Methods, and Opportunities",yes
+Large Language Models Meet Open-World Intent Discovery and Recognition: An Evaluation of ChatGPT,yes
+The Distributional Hypothesis Does Not Fully Explain the Benefits of Masked Language Model Pretraining,yes
+Learning to Rank Context for Named Entity Recognition Using a Synthetic Dataset,yes
+Improving Diversity of Demographic Representation in Large Language Models via Collective-Critiques and Self-Voting,yes
+Hidding the Ghostwriters: An Adversarial Evaluation of AI-Generated Student Essay Detection,yes
+Contextual Interaction for Argument Post Quality Assessment,yes
+Synthetic Data Generation with Large Language Models for Text Classification: Potential and Limitations,yes
+People Make Better Edits: Measuring the Efficacy of LLM-Generated Counterfactually Augmented Data for Harmful Language Detection,yes
+Learning from Mistakes via Cooperative Study Assistant for Large Language Models,yes
+Conceptor-Aided Debiasing of Large Language Models,yes
+CoMPosT: Characterizing and Evaluating Caricature in LLM Simulations,yes
+Grammar-Constrained Decoding for Structured NLP Tasks without Finetuning,yes
+Evaluating Evaluation Metrics: A Framework for Analyzing NLG Evaluation Metrics using Measurement Theory,yes
+Revisiting the Knowledge Injection Frameworks,yes
+Zero-shot Faithfulness Evaluation for Text Summarization with Foundation Language Model,no
+Collaborative Generative AI: Integrating GPT-k for Efficient Editing in Text-to-Image Generation,yes
+clembench: Using Game Play to Evaluate Chat-Optimized Language Models as Conversational Agents,yes
+Polyglot or Not? Measuring Multilingual Encyclopedic Knowledge in Foundation Models,yes
+UDAPDR: Unsupervised Domain Adaptation via LLM Prompting and Distillation of Rerankers,yes
+Data Similarity is Not Enough to Explain Language Model Performance,yes
+An Integrative Survey on Mental Health Conversational Agents to Bridge Computer Science and Medical Perspectives,no
+Do LLMs Understand Social Knowledge? Evaluating the Sociability of Large Language Models with SocKET Benchmark,yes
+Axiomatic Preference Modeling for Longform Question Answering,no
+Integrating Language Models into Direct Speech Translation: An Inference-Time Solution to Control Gender Inflection,yes
+StoryAnalogy: Deriving Story-level Analogies from Large Language Models to Unlock Analogical Understanding,yes
+TRIGO: Benchmarking Formal Mathematical Proof Reduction for Generative Language Models,no
+CESAR: Automatic Induction of Compositional Instructions for Multi-turn Dialogs,yes
+Reward-Augmented Decoding: Efficient Controlled Text Generation With a Unidirectional Reward Model,yes
+Cabbage Sweeter than Cake? Analysing the Potential of Large Language Models for Learning Conceptual Spaces,yes
+An Empirical Study of Translation Hypothesis Ensembling with Large Language Models,yes
+Visually-Situated Natural Language Understanding with Contrastive Reading Model and Frozen Large Language Models,yes
+Unlearn What You Want to Forget: Efficient Unlearning for LLMs,yes
+Precedent-Enhanced Legal Judgment Prediction with LLM and Domain-Model Collaboration,yes
+FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation,yes
+Calc-X and Calcformers: Empowering Arithmetical Chain-of-Thought through Interaction with Symbolic Systems,yes
+CoF-CoT: Enhancing Large Language Models with Coarse-to-Fine Chain-of-Thought Prompting for Multi-domain NLU Tasks,yes
+StereoMap: Quantifying the Awareness of Human-like Stereotypes in Large Language Models,yes
+"Select, Prompt, Filter: Distilling Large Language Models for Summarizing Conversations",yes
+UPRISE: Universal Prompt Retrieval for Improving Zero-Shot Evaluation,yes
+Large Language Models Only Pass Primary School Exams in Indonesia: A Comprehensive Test on IndoMMLU,yes
+Multi-Source Multi-Type Knowledge Exploration and Exploitation for Dialogue Generation,yes
+Multilingual Large Language Models Are Not (Yet) Code-Switchers,yes
+Large Language Models: The Need for Nuance in Current Debates and a Pragmatic Perspective on Understanding,yes
+The CoT Collection: Improving Zero-shot and Few-shot Learning of Language Models via Chain-of-Thought Fine-Tuning,yes
+Explaining Interactions Between Text Spans,yes
+Question Answering as Programming for Solving Time-Sensitive Questions,yes
+Context Compression for Auto-regressive Transformers with Sentinel Tokens,yes
+Generative Adversarial Training with Perturbed Token Detection for Model Robustness,yes
+Large Language Models and Multimodal Retrieval for Visual Word Sense Disambiguation,yes
+Doolittle: Benchmarks and Corpora for Academic Writing Formalization,yes
+Token Prediction as Implicit Classification to Identify LLM-Generated Text,yes
+XLM-V: Overcoming the Vocabulary Bottleneck in Multilingual Masked Language Models,no
+NameGuess: Column Name Expansion for Tabular Data,no
+BLESS: Benchmarking Large Language Models on Sentence Simplification,no
+LLMLingua: Compressing Prompts for Accelerated Inference of Large Language Models,yes
+Conversation Chronicles: Towards Diverse Temporal and Relational Dynamics in Multi-Session Conversations,yes
+CLAIR: Evaluating Image Captions with Large Language Models,yes
+MoPe: Model Perturbation based Privacy Attacks on Language Models,yes
+Aligning Large Language Models through Synthetic Feedback,yes
+You Told Me That Joke Twice: A Systematic Investigation of Transferability and Robustness of Humor Detection Models,yes
+Empower Nested Boolean Logic via Self-Supervised Curriculum Learning,yes
+DADA: Dialect Adaptation via Dynamic Aggregation of Linguistic Rules,yes
+Can We Edit Multimodal Large Language Models?,yes
+ClusterLLM: Large Language Models as a Guide for Text Clustering,yes
+Syllogistic Reasoning for Legal Judgment Analysis,yes
+KCTS: Knowledge-Constrained Tree Search Decoding with Token-Level Hallucination Detection,yes
+CRUSH4SQL: Collective Retrieval Using Schema Hallucination For Text2SQL,yes
+Language Models with Rationality,yes
+Mitigating Temporal Misalignment by Discarding Outdated Facts,yes
+Fighting Fire with Fire: The Dual Role of LLMs in Crafting and Detecting Elusive Disinformation,yes
+Let GPT be a Math Tutor: Teaching Math Word Problem Solvers with Customized Exercise Generation,yes
+FANToM: A Benchmark for Stress-testing Machine Theory of Mind in Interactions,yes
+FreeAL: Towards Human-Free Active Learning in the Era of Large Language Models,yes
+API-Assisted Code Generation for Question Answering on Varied Table Structures,no
+Outlier Dimensions Encode Task Specific Knowledge,yes
+Enhancing Computation Efficiency in Large Language Models through Weight and Activation Quantization,yes
+Assessing Step-by-Step Reasoning against Lexical Negation: A Case Study on Syllogism,yes
+Chain-of-Thought Tuning: Masked Language Models can also Think Step By Step in Natural Language Understanding,yes
+A Simple Baseline for Knowledge-Based Visual Question Answering,yes
+Is ChatGPT Good at Search? Investigating Large Language Models as Re-Ranking Agents,yes
+DiNeR: A Large Realistic Dataset for Evaluating Compositional Generalization,no
+It Ain’t Over: A Multi-aspect Diverse Math Word Problem Dataset,no
+Dr ChatGPT tell me what I want to hear: How different prompts impact health answer correctness,yes
+Exchange-of-Thought: Enhancing Large Language Model Capabilities through Cross-Model Communication,no
+Prompting with Pseudo-Code Instructions,yes
+CRAB: Assessing the Strength of Causal Relationships Between Real-world Events,yes
+NORMSAGE: Multi-Lingual Multi-Cultural Norm Discovery from Conversations On-the-Fly,no
+FACTIFY3M: A benchmark for multimodal fact verification with explainability through 5W Question-Answering,no
+Specialist or Generalist? Instruction Tuning for Specific NLP Tasks,yes
+Making Large Language Models Better Data Creators,yes
+Hallucination Detection for Generative Large Language Models by Bayesian Sequential Estimation,yes
+Guideline Learning for In-Context Information Extraction,yes
+Rationale-Enhanced Language Models are Better Continual Relation Learners,no
+From Values to Opinions: Predicting Human Behaviors and Stances Using Value-Injected Large Language Models,no
+Self-ICL: Zero-Shot In-Context Learning with Self-Generated Demonstrations,yes
+MQuAKE: Assessing Knowledge Editing in Language Models via Multi-Hop Questions,yes
+Are Compressed Language Models Less Subgroup Robust?,no
+NL2TL: Transforming Natural Languages to Temporal Logics using Large Language Models,yes
+Consistency Analysis of ChatGPT,yes
+AnyTOD: A Programmable Task-Oriented Dialog System,yes
+Zero-Shot Multi-Label Topic Inference with Sentence Encoders and LLMs,yes
+Exploring Distributional Shifts in Large Language Models for Code Analysis,yes
+A Benchmark for Reasoning with Spatial Prepositions,yes
+Document-Level Machine Translation with Large Language Models,yes
+Argue with Me Tersely: Towards Sentence-Level Counter-Argument Generation,no
+LLM-driven Instruction Following: Progresses and Concerns,yes
+Mitigating Societal Harms in Large Language Models,yes
+Creative Natural Language Generation,yes
+Fabricator: An Open Source Toolkit for Generating Labeled Training Data with Teacher LLMs,yes
+CHATREPORT: Democratizing Sustainability Disclosure Analysis through LLM-based Tools,yes
+RaLLe: A Framework for Developing and Evaluating Retrieval-Augmented Large Language Models,yes
+H2O Open Ecosystem for State-of-the-art Large Language Models,yes
+Koala: An Index for Quantifying Overlaps with Pre-training Corpora,no
+FLEEK: Factual Error Detection and Correction with Evidence Retrieved from External Knowledge,yes
+CLEVA: Chinese Language Models EVAluation Platform,yes
+MusicAgent: An AI Agent for Music Understanding and Generation with Large Language Models,yes
+MiniChain: A Small Library for Coding with Large Language Models,yes
+Okapi: Instruction-tuned Large Language Models in Multiple Languages with Reinforcement Learning from Human Feedback,yes
+InsightPilot: An LLM-Empowered Automated Data Exploration System,yes
+Prompt2Model: Generating Deployable Models from Natural Language Instructions,yes
+NeMo Guardrails: A Toolkit for Controllable and Safe LLM Applications with Programmable Rails,yes
+LM-Polygraph: Uncertainty Estimation for Language Models,yes
+Prompterator: Iterate Efficiently towards More Effective Prompts,yes
+"ZhuJiu: A Multi-dimensional, Multi-faceted Chinese Benchmark for Large Language Models",no
+CoLLiE: Collaborative Training of Large Language Models in an Efficient Way,no
+Video-LLaMA: An Instruction-tuned Audio-Visual Language Model for Video Understanding,yes
+ModelScope-Agent: Building Your Customizable Agent System with Open-source Large Language Models,no
+Gatekeeper to save COGS and improve efficiency of Text Prediction,yes
+Text2Topic: Multi-Label Text Classification System for Efficient Topic Detection in User Generated Content with Zero-Shot Capabilities,yes
+Investigating Table-to-Text Generation Capabilities of Large Language Models in Real-World Information Seeking Scenarios,yes
+WordArt Designer: User-Driven Artistic Typography Synthesis using Large Language Models,yes
+Empower Large Language Model to Perform Better on Industrial Domain-Specific Question Answering,yes
+"Enhancing Extreme Multi-Label Text Classification: Addressing Challenges in Model, Data, and Evaluation",no
+Building Real-World Meeting Summarization Systems using Large Language Models: A Practical Perspective,yes
+AART: AI-Assisted Red-Teaming with Diverse Data Generation for New LLM-powered Applications,yes
+Are ChatGPT and GPT-4 General-Purpose Solvers for Financial Text Analytics? A Study on Several Typical Tasks,yes
+PILLOW: Enhancing Efficient Instruction Fine-tuning via Prompt Matching,yes
+InsightNet : Structured Insight Mining from Customer Feedback,no
+CarExpert: Leveraging Large Language Models for In-Car Conversational Question Answering,yes
+JarviX: A LLM No code Platform for Tabular Data Analysis and Optimization,yes
+"Self-Criticism: Aligning Large Language Models with their Understanding of Helpfulness, Honesty, and Harmlessness",yes
+InstructPTS: Instruction-Tuning LLMs for Product Title Summarization,yes
+LLM4Vis: Explainable Visualization Recommendation using ChatGPT,yes
+DocumentNet: Bridging the Data Gap in Document Pre-training,no
+Harnessing LLMs for Temporal Data - A Study on Explainable Financial Time Series Forecasting,yes
+"ViGPTQA - State-of-the-Art LLMs for Vietnamese Question Answering: System Overview, Core Models Training, and Evaluations",yes
+On Sample-Efficient Code Generation,yes
+Graph Meets LLM: A Novel Approach to Collaborative Filtering for Robust Conversational Understanding,yes
+DELPHI: Data for Evaluating LLMs’ Performance in Handling Controversial Issues,yes
