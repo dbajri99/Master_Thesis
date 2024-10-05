@@ -1,0 +1,174 @@
+[
+    {
+        "title": "Arabic Dialect Identification with a Few Labeled Examples Using Generative Adversarial Networks",
+        "authors": [
+            "Mahmoud Yusuf",
+            "Marwan Torki",
+            "Nagwa El-Makky"
+        ],
+        "published": "2022",
+        "summary": "Given the challenges and complexities introduced while dealing with Dialect Arabic (DA) variations, Transformer based models, e.g., BERT, outperformed other models in dealing with the DA identification task. However, to fine-tune these models, a large corpus is required. Getting a large number high quality labeled examples for some Dialect Arabic classes is challenging and time-consuming. In this paper, we address the Dialect Arabic Identification task. We extend the transformer-based models, ARBERT and MARBERT, with unlabeled data in a generative adversarial setting using Semi-Supervised Generative Adversarial Networks (SS-GAN). Our model enabled producing high-quality embeddings for the Dialect Arabic examples and aided the model to better generalize for the downstream classification task given few labeled examples. Experimental results showed that our model reached better performance and faster convergence when only a few labeled examples are available.",
+        "pdf_link": "https://aclanthology.org/2022.aacl-main.16.pdf"
+    },
+    {
+        "title": "Named Entity Recognition in Twitter: A Dataset and Analysis on Short-Term Temporal Shifts",
+        "authors": [
+            "Asahi Ushio",
+            "Francesco Barbieri",
+            "Vitor Sousa",
+            "Leonardo Neves",
+            "Jose Camacho-Collados"
+        ],
+        "published": "2022",
+        "summary": "Recent progress in language model pre-training has led to important improvements in Named Entity Recognition (NER). Nonetheless, this progress has been mainly tested in well-formatted documents such as news, Wikipedia, or scientific articles. In social media the landscape is different, in which it adds another layer of complexity due to its noisy and dynamic nature. In this paper, we focus on NER in Twitter, one of the largest social media platforms, and construct a new NER dataset, TweetNER7, which contains seven entity types annotated over 11,382 tweets from September 2019 to August 2021. The dataset was constructed by carefully distributing the tweets over time and taking representative trends as a basis. Along with the dataset, we provide a set of language model baselines and perform an analysis on the language model performance on the task, especially analyzing the impact of different time periods. In particular, we focus on three important temporal aspects in our analysis: short-term degradation of NER models over time, strategies to fine-tune a language model over different periods, and self-labeling as an alternative to lack of recently-labeled data. TweetNER7 is released publicly (https://huggingface.co/datasets/tner/tweetner7) along with the models fine-tuned on it (NER models have been integrated into TweetNLP and can be found at https://github.com/asahi417/tner/tree/master/examples/tweetner7_paper).",
+        "pdf_link": "https://aclanthology.org/2022.aacl-main.25.pdf"
+    },
+    {
+        "title": "VLStereoSet: A Study of Stereotypical Bias in Pre-trained Vision-Language Models",
+        "authors": [
+            "Kankan Zhou",
+            "Eason Lai",
+            "Jing Jiang"
+        ],
+        "published": "2022",
+        "summary": "In this paper we study how to measure stereotypical bias in pre-trained vision-language models. We leverage a recently released text-only dataset, StereoSet, which covers a wide range of stereotypical bias, and extend it into a vision-language probing dataset called VLStereoSet to measure stereotypical bias in vision-language models. We analyze the differences between text and image and propose a probing task that detects bias by evaluating a model\u2019s tendency to pick stereotypical statements as captions for anti-stereotypical images. We further define several metrics to measure both a vision-language model\u2019s overall stereotypical bias and its intra-modal and inter-modal bias. Experiments on six representative pre-trained vision-language models demonstrate that stereotypical biases clearly exist in most of these models and across all four bias categories, with gender bias slightly more evident. Further analysis using gender bias data and two vision-language models also suggest that both intra-modal and inter-modal bias exist.",
+        "pdf_link": "https://aclanthology.org/2022.aacl-main.40.pdf"
+    },
+    {
+        "title": "Is Encoder-Decoder Redundant for Neural Machine Translation?",
+        "authors": [
+            "Yingbo Gao",
+            "Christian Herold",
+            "Zijian Yang",
+            "Hermann Ney"
+        ],
+        "published": "2022",
+        "summary": "Encoder-decoder architecture is widely adopted for sequence-to-sequence modeling tasks. For machine translation, despite the evolution from long short-term memory networks to Transformer networks, plus the introduction and development of attention mechanism, encoder-decoder is still the de facto neural network architecture for state-of-the-art models. While the motivation for decoding information from some hidden space is straightforward, the strict separation of the encoding and decoding steps into an encoder and a decoder in the model architecture is not necessarily a must. Compared to the task of autoregressive language modeling in the target language, machine translation simply has an additional source sentence as context. Given the fact that neural language models nowadays can already handle rather long contexts in the target language, it is natural to ask whether simply concatenating the source and target sentences and training a language model to do translation would work. In this work, we investigate the aforementioned concept for machine translation. Specifically, we experiment with bilingual translation, translation with additional target monolingual data, and multilingual translation. In all cases, this alternative approach performs on par with the baseline encoder-decoder Transformer, suggesting that an encoder-decoder architecture might be redundant for neural machine translation.",
+        "pdf_link": "https://aclanthology.org/2022.aacl-main.43.pdf"
+    },
+    {
+        "title": "SBERT studies Meaning Representations: Decomposing Sentence Embeddings into Explainable Semantic Features",
+        "authors": [
+            "Juri Opitz",
+            "Anette Frank"
+        ],
+        "published": "2022",
+        "summary": "Models based on large-pretrained language models, such as S(entence)BERT, provide effective and efficient sentence embeddings that show high correlation to human similarity ratings, but lack interpretability. On the other hand, graph metrics for graph-based meaning representations (e.g., Abstract Meaning Representation, AMR) can make explicit the semantic aspects in which two sentences are similar. However, such metrics tend to be slow, rely on parsers, and do not reach state-of-the-art performance when rating sentence similarity. In this work, we aim at the best of both worlds, by learning to induce Semantically Structured Sentence BERT embeddings (S3BERT). Our S3BERT embeddings are composed of explainable sub-embeddings that emphasize various sentence meaning features (e.g., semantic roles, negation, or quantification). We show how to i) learn a decomposition of the sentence embeddings into meaning features, through approximation of a suite of interpretable semantic AMR graph metrics, and how to ii) preserve the overall power of the neural embeddings by controlling the decomposition learning process with a second objective that enforces consistency with the similarity ratings of an SBERT teacher model. In our experimental studies, we show that our approach offers interpretability \u2013 while preserving the effectiveness and efficiency of the neural sentence embeddings.",
+        "pdf_link": "https://aclanthology.org/2022.aacl-main.48.pdf"
+    },
+    {
+        "title": "Unsupervised Domain Adaptation for Sparse Retrieval by Filling Vocabulary and Word Frequency Gaps",
+        "authors": [
+            "Hiroki Iida",
+            "Naoaki Okazaki"
+        ],
+        "published": "2022",
+        "summary": "IR models using a pretrained language model significantly outperform lexical approaches like BM25. In particular, SPLADE, which encodes texts to sparse vectors, is an effective model for practical use because it shows robustness to out-of-domain datasets. However, SPLADE still struggles with exact matching of low-frequency words in training data. In addition, domain shifts in vocabulary and word frequencies deteriorate the IR performance of SPLADE. Because supervision data are scarce in the target domain, addressing the domain shifts without supervision data is necessary. This paper proposes an unsupervised domain adaptation method by filling vocabulary and word-frequency gaps. First, we expand a vocabulary and execute continual pretraining with a masked language model on a corpus of the target domain. Then, we multiply SPLADE-encoded sparse vectors by inverse document frequency weights to consider the importance of documents with low-frequency words. We conducted experiments using our method on datasets with a large vocabulary gap from a source domain. We show that our method outperforms the present state-of-the-art domain adaptation method. In addition, our method achieves state-of-the-art results, combined with BM25.",
+        "pdf_link": "https://aclanthology.org/2022.aacl-main.57.pdf"
+    },
+    {
+        "title": "Cross-lingual Few-Shot Learning on Unseen Languages",
+        "authors": [
+            "Genta Winata",
+            "Shijie Wu",
+            "Mayank Kulkarni",
+            "Thamar Solorio",
+            "Daniel Preotiuc-Pietro"
+        ],
+        "published": "2022",
+        "summary": "Large pre-trained language models (LMs) have demonstrated the ability to obtain good performance on downstream tasks with limited examples in cross-lingual settings. However, this was mostly studied for relatively resource-rich languages, where at least enough unlabeled data is available to be included in pre-training a multilingual language model. In this paper, we explore the problem of cross-lingual transfer in unseen languages, where no unlabeled data is available for pre-training a model. We use a downstream sentiment analysis task across 12 languages, including 8 unseen languages, to analyze the effectiveness of several few-shot learning strategies across the three major types of model architectures and their learning dynamics. We also compare strategies for selecting languages for transfer and contrast findings across languages seen in pre-training compared to those that are not. Our findings contribute to the body of knowledge on cross-lingual models for low-resource settings that is paramount to increasing coverage, diversity, and equity in access to NLP technology. We show that, in few-shot learning, linguistically similar and geographically similar languages are useful for cross-lingual adaptation, but taking the context from a mixture of random source languages is surprisingly more effective. We also compare different model architectures and show that the encoder-only model, XLM-R, gives the best downstream task performance.",
+        "pdf_link": "https://aclanthology.org/2022.aacl-main.59.pdf"
+    },
+    {
+        "title": "Enhancing Financial Table and Text Question Answering with Tabular Graph and Numerical Reasoning",
+        "authors": [
+            "Rungsiman Nararatwong",
+            "Natthawut Kertkeidkachorn",
+            "Ryutaro Ichise"
+        ],
+        "published": "2022",
+        "summary": "Typical financial documents consist of tables, texts, and numbers. Given sufficient training data, large language models (LM) can learn the tabular structures and perform numerical reasoning well in question answering (QA). However, their performances fall significantly when data and computational resources are limited. This study improves this performance drop by infusing explicit tabular structures through a graph neural network (GNN). We proposed a model developed from the baseline of a financial QA dataset named TAT-QA. The baseline model, TagOp, consists of answer span (evidence) extraction and numerical reasoning modules. As our main contributions, we introduced two components to the model: a GNN-based evidence extraction module for tables and an improved numerical reasoning module. The latter provides a solution to TagOp\u2019s arithmetic calculation problem specific to operations requiring number ordering, such as subtraction and division, which account for a large portion of numerical reasoning. Our evaluation shows that the graph module has the advantage in low-resource settings, while the improved numerical reasoning significantly outperforms the baseline model.",
+        "pdf_link": "https://aclanthology.org/2022.aacl-main.72.pdf"
+    },
+    {
+        "title": "A Simple Yet Effective Hybrid Pre-trained Language Model for Unsupervised Sentence Acceptability Prediction",
+        "authors": [
+            "Yang Zhao",
+            "Issei Yoshida"
+        ],
+        "published": "2022",
+        "summary": "Sentence acceptability judgment assesses to what degree a sentence is acceptable to native speakers of the language. Most unsupervised prediction approaches rely on a language model to obtain the likelihood of a sentence that reflects acceptability. However, two problems exist: first, low-frequency words would have a significant negative impact on the sentence likelihood derived from the language model; second, when it comes to multiple domains, the language model needs to be trained on domain-specific text for domain adaptation. To address both problems, we propose a simple method that substitutes Part-of-Speech (POS) tags for low-frequency words in sentences used for continual training of masked language models. Experimental results show that our word-tag-hybrid BERT model brings improvement on both a sentence acceptability benchmark and a cross-domain sentence acceptability evaluation corpus. Furthermore, our annotated cross-domain sentence acceptability evaluation corpus would benefit future research.",
+        "pdf_link": "https://aclanthology.org/2022.aacl-short.25.pdf"
+    },
+    {
+        "title": "Do ever larger octopi still amplify reporting biases? Evidence from judgments of typical colour",
+        "authors": [
+            "Fangyu Liu",
+            "Julian Eisenschlos",
+            "Jeremy Cole",
+            "Nigel Collier"
+        ],
+        "published": "2022",
+        "summary": "Language models (LMs) trained on raw texts have no direct access to the physical world. Gordon and Van Durme (2013) point out that LMs can thus suffer from reporting bias: texts rarely report on common facts, instead focusing on the unusual aspects of a situation. If LMs are only trained on text corpora and naively memorise local co-occurrence statistics, they thus naturally would learn a biased view of the physical world. While prior studies have repeatedly verified that LMs of smaller scales (e.g., RoBERTa, GPT-2) amplify reporting bias, it remains unknown whether such trends continue when models are scaled up. We investigate reporting bias from the perspective of colour in larger language models (LLMs) such as PaLM and GPT-3. Specifically, we query LLMs for the typical colour of objects, which is one simple type of perceptually grounded physical common sense. Surprisingly, we find that LLMs significantly outperform smaller LMs in determining an object\u2019s typical colour and more closely track human judgments, instead of overfitting to surface patterns stored in texts. This suggests that very large models of language alone are able to overcome certain types of reporting bias that are characterized by local co-occurrences.",
+        "pdf_link": "https://aclanthology.org/2022.aacl-short.27.pdf"
+    },
+    {
+        "title": "Demographic-Aware Language Model Fine-tuning as a Bias Mitigation Technique",
+        "authors": [
+            "Aparna Garimella",
+            "Rada Mihalcea",
+            "Akhash Amarnath"
+        ],
+        "published": "2022",
+        "summary": "BERT-like language models (LMs), when exposed to large unstructured datasets, are known to learn and sometimes even amplify the biases present in such data. These biases generally reflect social stereotypes with respect to gender, race, age, and others. In this paper, we analyze the variations in gender and racial biases in BERT, a large pre-trained LM, when exposed to different demographic groups. Specifically, we investigate the effect of fine-tuning BERT on text authored by historically disadvantaged demographic groups in comparison to that by advantaged groups. We show that simply by fine-tuning BERT-like LMs on text authored by certain demographic groups can result in the mitigation of social biases in these LMs against various target groups.",
+        "pdf_link": "https://aclanthology.org/2022.aacl-short.38.pdf"
+    },
+    {
+        "title": "MiQA: A Benchmark for Inference on Metaphorical Questions",
+        "authors": [
+            "Iulia Com\u0219a",
+            "Julian Eisenschlos",
+            "Srini Narayanan"
+        ],
+        "published": "2022",
+        "summary": "We propose a benchmark to assess the capability of large language models to reason with conventional metaphors. Our benchmark combines the previously isolated topics of metaphor detection and commonsense reasoning into a single task that requires a model to make inferences by accurately selecting between the literal and metaphorical register. We examine the performance of state-of-the-art pre-trained models on binary-choice tasks and find a large discrepancy between the performance of small and very large models, going from chance to near-human level. We also analyse the largest model in a generative setting and find that although human performance is approached, careful multiple-shot prompting is required.",
+        "pdf_link": "https://aclanthology.org/2022.aacl-short.46.pdf"
+    },
+    {
+        "title": "CLASP: Few-Shot Cross-Lingual Data Augmentation for Semantic Parsing",
+        "authors": [
+            "Andy Rosenbaum",
+            "Saleh Soltan",
+            "Wael Hamza",
+            "Marco Damonte",
+            "Isabel Groves",
+            "Amir Saffari"
+        ],
+        "published": "2022",
+        "summary": "A bottleneck to developing Semantic Parsing (SP) models is the need for a large volume of human-labeled training data. Given the complexity and cost of human annotation for SP, labeled data is often scarce, particularly in multilingual settings. Large Language Models (LLMs) excel at SP given only a few examples, however LLMs are unsuitable for runtime systems which require low latency. In this work, we propose CLASP, a simple method to improve low-resource SP for moderate-sized models: we generate synthetic data from AlexaTM 20B to augment the training set for a model 40x smaller (500M parameters). We evaluate on two datasets in low-resource settings: English PIZZA, containing either 348 or 16 real examples, and mTOP cross-lingual zero-shot, where training data is available only in English, and the model must generalize to four new languages. On both datasets, we show significant improvements over strong baseline methods.",
+        "pdf_link": "https://aclanthology.org/2022.aacl-short.56.pdf"
+    },
+    {
+        "title": "Toward Building a Language Model for Understanding Temporal Commonsense",
+        "authors": [
+            "Mayuko Kimura",
+            "Lis Kanashiro Pereira",
+            "Ichiro Kobayashi"
+        ],
+        "published": "2022",
+        "summary": "The ability to capture temporal commonsense relationships for time-related events expressed in text is a very important task in natural language understanding. On the other hand, pre-trained language models such as BERT, which have recently achieved great success in a wide range of natural language processing tasks, are still considered to have poor performance in temporal reasoning. In this paper, we focus on the development of language models for temporal commonsense inference over several pre-trained language models. Our model relies on multi-step fine-tuning using multiple corpora, and masked language modeling to predict masked temporal indicators that are crucial for temporal commonsense reasoning. We also experimented with multi-task learning and build a language model that can improve performance on multiple time-related tasks. In our experiments, multi-step fine-tuning using the general commonsense reading task as auxiliary task produced the best results. This result showed a significant improvement in accuracy over standard fine-tuning in the temporal commonsense inference task.",
+        "pdf_link": "https://aclanthology.org/2022.aacl-srw.3.pdf"
+    },
+    {
+        "title": "C3PO: A Lightweight Copying Mechanism for Translating Pseudocode to Code",
+        "authors": [
+            "Vishruth Veerendranath",
+            "Vibha Masti",
+            "Prajwal Anagani",
+            "Mamatha Hr"
+        ],
+        "published": "2022",
+        "summary": "Writing computer programs is a skill that remains inaccessible to most due to the barrier of programming language (PL) syntax. While large language models (LLMs) have been proposed to translate natural language pseudocode to PL code, they are costly in terms of data and compute. We propose a lightweight alternative to LLMs that exploits the property of code wherein most tokens can be simply copied from the pseudocode. We divide the problem into three phases: Copy, Generate, and Combine. In the Copy Phase, a binary classifier is employed to determine and mask the pseudocode tokens that can be directly copied into the code. In the Generate Phase, a Sequence-to-Sequence model is used to generate the masked PL code equivalent. In the Combine Phase, the generated sequence is combined with the tokens that the Copy Phase had masked. We show that our C3PO models achieve similar performance to non-C3PO models while reducing the computational cost of training as well as the vocabulary sizes.",
+        "pdf_link": "https://aclanthology.org/2022.aacl-srw.7.pdf"
+    }
+]

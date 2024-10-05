@@ -1,0 +1,388 @@
+[
+    {
+        "title": "WinoDict: Probing language models for in-context word acquisition",
+        "authors": [
+            "Julian Martin Eisenschlos",
+            "Jeremy R. Cole",
+            "Fangyu Liu",
+            "William W. Cohen"
+        ],
+        "published": "2023",
+        "summary": "We introduce a new in-context learning paradigm to measure Large Language Models\u2019 (LLMs) ability to learn novel words during inference. In particular, we rewrite Winograd-style co-reference resolution problems by replacing the key concept word with a synthetic but plausible word that the model must understand to complete the task. Solving this task requires the model to make use of the dictionary definition of the new word given in the prompt. This benchmark addresses word acquisition, one important aspect of the diachronic degradation known to afflict LLMs. As LLMs are frozen in time at the moment they are trained, they are normally unable to reflect the way language changes over time. We show that the accuracy of LLMs compared to the original Winograd tasks decreases radically in our benchmark, thus identifying a limitation of current models and providing a benchmark to measure future improvements in LLMs ability to do in-context learning.",
+        "pdf_link": "https://aclanthology.org/2023.eacl-main.7.pdf"
+    },
+    {
+        "title": "Nationality Bias in Text Generation",
+        "authors": [
+            "Pranav Narayanan Venkit",
+            "Sanjana Gautam",
+            "Ruchi Panchanadikar",
+            "Ting-Hao Huang",
+            "Shomir Wilson"
+        ],
+        "published": "2023",
+        "summary": "Little attention is placed on analyzing nationality bias in language models, especially when nationality is highly used as a factor in increasing the performance of social NLP models. This paper examines how a text generation model, GPT-2, accentuates pre-existing societal biases about country-based demonyms. We generate stories using GPT-2 for various nationalities and use sensitivity analysis to explore how the number of internet users and the country\u2019s economic status impacts the sentiment of the stories. To reduce the propagation of biases through large language models (LLM), we explore the debiasing method of adversarial triggering. Our results show that GPT-2 demonstrates significant bias against countries with lower internet users, and adversarial triggering effectively reduces the same.",
+        "pdf_link": "https://aclanthology.org/2023.eacl-main.9.pdf"
+    },
+    {
+        "title": "Do we need Label Regularization to Fine-tune Pre-trained Language Models?",
+        "authors": [
+            "Ivan Kobyzev",
+            "Aref Jafari",
+            "Mehdi Rezagholizadeh",
+            "Tianda Li",
+            "Alan Do-Omri",
+            "Peng Lu",
+            "Pascal Poupart",
+            "Ali Ghodsi"
+        ],
+        "published": "2023",
+        "summary": "Knowledge Distillation (KD) is a prominent neural model compression technique that heavily relies on teacher network predictions to guide the training of a student model. Considering the ever-growing size of pre-trained language models (PLMs), KD is often adopted in many NLP tasks involving PLMs. However, it is evident that in KD, deploying the teacher network during training adds to the memory and computational requirements of training. In the computer vision literature, the necessity of the teacher network is put under scrutiny by showing that KD is a label regularization technique that can be replaced with lighter teacher-free variants such as the label-smoothing technique. However, to the best of our knowledge, this issue is not investigated in NLP. Therefore, this work concerns studying different label regularization techniques and whether we actually need them to improve the fine-tuning of smaller PLM networks on downstream tasks. In this regard, we did a comprehensive set of experiments on different PLMs such as BERT, RoBERTa, and GPT with more than 600 distinct trials and ran each configuration five times. This investigation led to a surprising observation that KD and other label regularization techniques do not play any meaningful role over regular fine-tuning when the student model is pre-trained. We further explore this phenomenon in different settings of NLP and computer vision tasks and demonstrate that pre-training itself acts as a kind of regularization, and additional label regularization is unnecessary.",
+        "pdf_link": "https://aclanthology.org/2023.eacl-main.13.pdf"
+    },
+    {
+        "title": "A Discerning Several Thousand Judgments: GPT-3 Rates the Article + Adjective + Numeral + Noun Construction",
+        "authors": [
+            "Kyle Mahowald"
+        ],
+        "published": "2023",
+        "summary": "Knowledge of syntax includes knowledge of rare, idiosyncratic constructions. LLMs must overcome frequency biases in order to master such constructions. In this study, I prompt GPT-3 to give acceptability judgments on the English-language Article + Adjective + Numeral + Noun construction (e.g., \u201ca lovely five days\u201d). I validate the prompt using the CoLA corpus of acceptability judgments and then zero in on the AANN construction. I compare GPT- 3\u2019s judgments to crowdsourced human judgments on a subset of sentences. GPT-3\u2019s judgments are broadly similar to human judgments and generally align with proposed constraints in the literature but, in some cases, GPT-3\u2019s judgments and human judgments diverge from the literature and from each other.",
+        "pdf_link": "https://aclanthology.org/2023.eacl-main.20.pdf"
+    },
+    {
+        "title": "\u201cJohn is 50 years old, can his son be 65?\u201d Evaluating NLP Models\u2019 Understanding of Feasibility",
+        "authors": [
+            "Himanshu Gupta",
+            "Neeraj Varshney",
+            "Swaroop Mishra",
+            "Kuntal Kumar Pal",
+            "Saurabh Arjun Sawant",
+            "Kevin Scaria",
+            "Siddharth Goyal",
+            "Chitta Baral"
+        ],
+        "published": "2023",
+        "summary": "In current NLP research, large-scale language models and their abilities are widely being discussed. Some recent works have also found notable failures of these models. Often these failure examples involve complex reasoning abilities. This work focuses on a simple commonsense ability, reasoning about when an action (or its effect) is feasible. To this end, we introduce FeasibilityQA, a question-answering dataset involving binary classification (BCQ) and multi-choice multi-correct questions (MCQ) that test understanding of feasibility. We show that even state-of-the-art models such as GPT-3, GPT-2, and T5 struggle to answer the feasibility questions correctly. Specifically, on (MCQ, BCQ) questions, GPT-3 achieves accuracy of just (19%, 62%) and (25%, 64%) in zero-shot and few-shot settings, respectively. We also evaluate models by providing relevant knowledge statements required to answer the question and find that the additional knowledge leads to a 7% gain in performance, but the overall performance still remains low. These results make one wonder how much commonsense knowledge about action feasibility is encoded in state-of-the-art models and how well they can reason about it.",
+        "pdf_link": "https://aclanthology.org/2023.eacl-main.30.pdf"
+    },
+    {
+        "title": "Scaling Back-Translation with Domain Text Generation for Sign Language Gloss Translation",
+        "authors": [
+            "Jinhui Ye",
+            "Wenxiang Jiao",
+            "Xing Wang",
+            "Zhaopeng Tu"
+        ],
+        "published": "2023",
+        "summary": "Sign language gloss translation aims to translate the sign glosses into spoken language texts, which is challenging due to the scarcity of labeled gloss-text parallel data. Back translation (BT), which generates pseudo-parallel data by translating in-domain spoken language texts into sign glosses, has been applied to alleviate the data scarcity problem. However, the lack of large-scale high-quality in-domain spoken language text data limits the effect of BT. In this paper, to overcome the limitation, we propose a Prompt based domain text Generation (PGen) approach to produce the large-scale in-domain spoken language text data. Specifically, PGen randomly concatenates sentences from the original in-domain spoken language text data as prompts to induce a pre-trained language model (i.e., GPT-2) to generate spoken language texts in a similar style. Experimental results on three benchmarks of sign language gloss translation in varied languages demonstrate that BT with spoken language texts generated by PGen significantly outperforms the compared methods. In addition, as the scale of spoken language texts generated by PGen increases, the BT technique can achieve further improvements, demonstrating the effectiveness of our approach. We release the code and data for facilitating future research in this field.",
+        "pdf_link": "https://aclanthology.org/2023.eacl-main.34.pdf"
+    },
+    {
+        "title": "Teacher Intervention: Improving Convergence of Quantization Aware Training for Ultra-Low Precision Transformers",
+        "authors": [
+            "Minsoo Kim",
+            "Kyuhong Shim",
+            "Seongmin Park",
+            "Wonyong Sung",
+            "Jungwook Choi"
+        ],
+        "published": "2023",
+        "summary": "Pre-trained Transformer models such as BERT have shown great success in a wide range of applications, but at the cost of substantial increases in model complexity. Quantization-aware training (QAT) is a promising method to lower the implementation cost and energy consumption. However, aggressive quantization below 2-bit causes considerable accuracy degradation due to unstable convergence, especially when the downstream dataset is not abundant. This work proposes a proactive knowledge distillation method called Teacher Intervention (TI) for fast converging QAT of ultra-low precision pre-trained Transformers. TI intervenes layer-wise signal propagation with the intact signal from the teacher to remove the interference of propagated quantization errors, smoothing loss surface of QAT and expediting the convergence. Furthermore, we propose a gradual intervention mechanism to stabilize the recovery of subsections of Transformer layers from quantization. The proposed schemes enable fast convergence of QAT and improve the model accuracy regardless of the diverse characteristics of downstream fine-tuning tasks. We demonstrate that TI consistently achieves superior accuracy with significantly lower fine-tuning iterations on well-known Transformers of natural language processing as well as computer vision compared to the state-of-the-art QAT methods.",
+        "pdf_link": "https://aclanthology.org/2023.eacl-main.64.pdf"
+    },
+    {
+        "title": "On Robustness of Prompt-based Semantic Parsing with Large Pre-trained Language Model: An Empirical Study on Codex",
+        "authors": [
+            "Terry Yue Zhuo",
+            "Zhuang Li",
+            "Yujin Huang",
+            "Fatemeh Shiri",
+            "Weiqing Wang",
+            "Gholamreza Haffari",
+            "Yuan-Fang Li"
+        ],
+        "published": "2023",
+        "summary": "Semantic parsing is a technique aimed at constructing a structured representation of the meaning of a natural-language question. Recent advances in language models trained on code have shown superior performance in generating these representations compared to language models trained solely on natural language text. The existing fine-tuned neural semantic parsers are vulnerable to adversarial attacks on natural-language inputs. While it has been established that the robustness of smaller semantic parsers can be enhanced through adversarial training, this approach is not feasible for large language models in real-world scenarios, as it requires both substantial computational resources and expensive human annotation on in-domain semantic parsing data. This paper presents the first empirical study on the adversarial robustness of a prompt-based semantic parser based on CODEX, a stateof-the-art (SOTA) language model trained on code. Our results demonstrate that the large language model of code is vulnerable to carefully crafted adversarial examples. To overcome this challenge, we propose methods for enhancing robustness without requiring substantial amounts of labelled data or intensive computational resources.",
+        "pdf_link": "https://aclanthology.org/2023.eacl-main.77.pdf"
+    },
+    {
+        "title": "MiniALBERT: Model Distillation via Parameter-Efficient Recursive Transformers",
+        "authors": [
+            "Mohammadmahdi Nouriborji",
+            "Omid Rohanian",
+            "Samaneh Kouchaki",
+            "David A. Clifton"
+        ],
+        "published": "2023",
+        "summary": "Pre-trained Language Models (LMs) have become an integral part of Natural Language Processing (NLP) in recent years, due to their superior performance in downstream applications. In spite of this resounding success, the usability of LMs is constrained by computational and time complexity, along with their increasing size; an issue that has been referred to as overparameterisation. Different strategies have been proposed in the literature to alleviate these problems, with the aim to create effective compact models that nearly match the performance of their bloated counterparts with negligible performance losses. One of the most popular techniques in this area of research is model distillation. Another potent but underutilised technique is cross-layer parameter sharing. In this work, we combine these two strategies and present MiniALBERT, a technique for converting the knowledge of fully parameterised LMs (such as BERT) into a compact recursive student. In addition, we investigate the application of bottleneck adapters for layer-wise adaptation of our recursive student, and also explore the efficacy of adapter tuning for fine-tuning of compact models. We test our proposed models on a number of general and biomedical NLP tasks to demonstrate their viability and compare them with the state-of-the-art and other existing compact models. All the codes used in the experiments and the pre-trained compact models will be made publicly available.",
+        "pdf_link": "https://aclanthology.org/2023.eacl-main.83.pdf"
+    },
+    {
+        "title": "A Systematic Search for Compound Semantics in Pretrained BERT Architectures",
+        "authors": [
+            "Filip Miletic",
+            "Sabine Schulte im Walde"
+        ],
+        "published": "2023",
+        "summary": "To date, transformer-based models such as BERT have been less successful in predicting compositionality of noun compounds than static word embeddings. This is likely related to a suboptimal use of the encoded information, reflecting an incomplete grasp of how the models represent the meanings of complex linguistic structures. This paper investigates variants of semantic knowledge derived from pretrained BERT when predicting the degrees of compositionality for 280 English noun compounds associated with human compositionality ratings. Our performance strongly improves on earlier unsupervised implementations of pretrained BERT and highlights beneficial decisions in data preprocessing, embedding computation, and compositionality estimation. The distinct linguistic roles of heads and modifiers are reflected by differences in BERT-derived representations, with empirical properties such as frequency, productivity, and ambiguity affecting model performance. The most relevant representational information is concentrated in the initial layers of the model architecture.",
+        "pdf_link": "https://aclanthology.org/2023.eacl-main.110.pdf"
+    },
+    {
+        "title": "SODAPOP: Open-Ended Discovery of Social Biases in Social Commonsense Reasoning Models",
+        "authors": [
+            "Haozhe An",
+            "Zongxia Li",
+            "Jieyu Zhao",
+            "Rachel Rudinger"
+        ],
+        "published": "2023",
+        "summary": "A common limitation of diagnostic tests for detecting social biases in NLP models is that they may only detect stereotypic associations that are pre-specified by the designer of the test. Since enumerating all possible problematic associations is infeasible, it is likely these tests fail to detect biases that are present in a model but not pre-specified by the designer. To address this limitation, we propose SODAPOP (SOcial bias Discovery from Answers about PeOPle), an approach for automatic social bias discovery in social commonsense question-answering. The SODAPOP pipeline generates modified instances from the Social IQa dataset (Sap et al., 2019b) by (1) substituting names associated with different demographic groups, and (2) generating many distractor answers from a masked language model. By using a social commonsense model to score the generated distractors, we are able to uncover the model\u2019s stereotypic associations between demographic groups and an open set of words. We also test SODAPOP on debiased models and show the limitations of multiple state-of-the-art debiasing algorithms.",
+        "pdf_link": "https://aclanthology.org/2023.eacl-main.116.pdf"
+    },
+    {
+        "title": "Robustness Challenges in Model Distillation and Pruning for Natural Language Understanding",
+        "authors": [
+            "Mengnan Du",
+            "Subhabrata Mukherjee",
+            "Yu Cheng",
+            "Milad Shokouhi",
+            "Xia Hu",
+            "Ahmed Hassan Awadallah"
+        ],
+        "published": "2023",
+        "summary": "Recent work has focused on compressing pre-trained language models (PLMs) like BERT where the major focus has been to improve the in-distribution performance for downstream tasks. However, very few of these studies have analyzed the impact of compression on the generalizability and robustness of compressed models for out-of-distribution (OOD) data. Towards this end, we study two popular model compression techniques including knowledge distillation and pruning and show that the compressed models are significantly less robust than their PLM counterparts on OOD test sets although they obtain similar performance on in-distribution development sets for a task. Further analysis indicates that the compressed models overfit on the shortcut samples and generalize poorly on the hard ones. We further leverage this observation to develop a regularization strategy for robust model compression based on sample uncertainty.",
+        "pdf_link": "https://aclanthology.org/2023.eacl-main.129.pdf"
+    },
+    {
+        "title": "LEALLA: Learning Lightweight Language-agnostic Sentence Embeddings with Knowledge Distillation",
+        "authors": [
+            "Zhuoyuan Mao",
+            "Tetsuji Nakagawa"
+        ],
+        "published": "2023",
+        "summary": "Large-scale language-agnostic sentence embedding models such as LaBSE (Feng et al., 2022) obtain state-of-the-art performance for parallel sentence alignment. However, these large-scale models can suffer from inference speed and computation overhead. This study systematically explores learning language-agnostic sentence embeddings with lightweight models. We demonstrate that a thin-deep encoder can construct robust low-dimensional sentence embeddings for 109 languages. With our proposed distillation methods, we achieve further improvements by incorporating knowledge from a teacher model. Empirical results on Tatoeba, United Nations, and BUCC show the effectiveness of our lightweight models. We release our lightweight language-agnostic sentence embedding models LEALLA on TensorFlow Hub.",
+        "pdf_link": "https://aclanthology.org/2023.eacl-main.138.pdf"
+    },
+    {
+        "title": "Extracting Victim Counts from Text",
+        "authors": [
+            "Mian Zhong",
+            "Shehzaad Dhuliawala",
+            "Niklas Stoehr"
+        ],
+        "published": "2023",
+        "summary": "Decision-makers in the humanitarian sector rely on timely and exact information during crisis events. Knowing how many civilians were injured during an earthquake is vital to allocate aids properly. Information about such victim counts are however often only available within full-text event descriptions from newspapers and other reports. Extracting numbers from text is challenging: numbers have different formats and may require numeric reasoning. This renders purely tagging approaches insufficient. As a consequence, fine-grained counts of injured, displaced, or abused victims beyond fatalities are often not extracted and remain unseen. We cast victim count extraction as a question answering (QA) task with a regression or classification objective. We compare tagging approaches: regex, dependency parsing, semantic role labeling, and advanced text-to-text models. Beyond model accuracy, we analyze extraction reliability and robustness which are key for this sensitive task. In particular, we discuss model calibration and investigate out-of-distribution and few-shot performance. Ultimately, we make a comprehensive recommendation on which model to select for different desiderata and data domains. Our work is among the first to apply numeracy-focused large language models in a real-world use case with a positive impact.",
+        "pdf_link": "https://aclanthology.org/2023.eacl-main.141.pdf"
+    },
+    {
+        "title": "Opportunities and Challenges in Neural Dialog Tutoring",
+        "authors": [
+            "Jakub Macina",
+            "Nico Daheim",
+            "Lingzhi Wang",
+            "Tanmay Sinha",
+            "Manu Kapur",
+            "Iryna Gurevych",
+            "Mrinmaya Sachan"
+        ],
+        "published": "2023",
+        "summary": "Designing dialog tutors has been challenging as it involves modeling the diverse and complex pedagogical strategies employed by human tutors. Although there have been significant recent advances in neural conversational systems using large language models and growth in available dialog corpora, dialog tutoring has largely remained unaffected by these advances. In this paper, we rigorously analyze various generative language models on two dialog tutoring datasets for language learning using automatic and human evaluations to understand the new opportunities brought by these advances as well as the challenges we must overcome to build models that would be usable in real educational settings. We find that although current approaches can model tutoring in constrained learning scenarios when the number of concepts to be taught and possible teacher strategies are small, they perform poorly in less constrained scenarios. Our human quality evaluation shows that both models and ground-truth annotations exhibit low performance in terms of equitable tutoring, which measures learning opportunities for students and how engaging the dialog is. To understand the behavior of our models in a real tutoring setting, we conduct a user study using expert annotators and find a significantly large number of model reasoning errors in 45% of conversations. Finally, we connect our findings to outline future work.",
+        "pdf_link": "https://aclanthology.org/2023.eacl-main.173.pdf"
+    },
+    {
+        "title": "Assessing Out-of-Domain Language Model Performance from Few Examples",
+        "authors": [
+            "Prasann Singhal",
+            "Jarad Forristal",
+            "Xi Ye",
+            "Greg Durrett"
+        ],
+        "published": "2023",
+        "summary": "While pretrained language models have exhibited impressive generalization capabilities, they still behave unpredictably under certain domain shifts. In particular, a model may learn a reasoning process on in-domain training data that does not hold for out-of-domain test data. We address the task of predicting out-of-domain (OOD) performance in a few-shot fashion: given a few target-domain examples and a set of models with similar training performance, can we understand how these models will perform on OOD test data? We benchmark the performance on this task when looking at model accuracy on the few-shot examples, then investigate how to incorporate analysis of the models\u2019 behavior using feature attributions to better tackle this problem. Specifically, we explore a set of factors designed to reveal model agreement with certain pathological heuristics that may indicate worse generalization capabilities. On textual entailment, paraphrase recognition, and a synthetic classification task, we show that attribution-based factors can help rank relative model OOD performance. However, accuracy on a few-shot test set is a surprisingly strong baseline, particularly when the system designer does not have in-depth prior knowledge about the domain shift.",
+        "pdf_link": "https://aclanthology.org/2023.eacl-main.175.pdf"
+    },
+    {
+        "title": "Bootstrapping Multilingual Semantic Parsers using Large Language Models",
+        "authors": [
+            "Abhijeet Awasthi",
+            "Nitish Gupta",
+            "Bidisha Samanta",
+            "Shachi Dave",
+            "Sunita Sarawagi",
+            "Partha Talukdar"
+        ],
+        "published": "2023",
+        "summary": "Despite cross-lingual generalization demonstrated by pre-trained multilingual models, the translate-train paradigm of transferring English datasets across multiple languages remains to be a key mechanism for training task-specific multilingual models. However, for many low-resource languages, the availability of a reliable translation service entails significant amounts of costly human-annotated translation pairs. Further, translation services may continue to be brittle due to domain mismatch between task-specific input text and general-purpose text used for training translation models. For multilingual semantic parsing, we demonstrate the effectiveness and flexibility offered by large language models (LLMs) for translating English datasets into several languages via few-shot prompting. Through extensive comparisons on two public datasets, MTOP and MASSIVE, spanning 50 languages and several domains, we show that our method of translating data using LLMs outperforms a strong translate-train baseline on 41 out of 50 languages. We study the key design choices that enable more effective multilingual data translation via prompted LLMs.",
+        "pdf_link": "https://aclanthology.org/2023.eacl-main.180.pdf"
+    },
+    {
+        "title": "Towards preserving word order importance through Forced Invalidation",
+        "authors": [
+            "Hadeel Al-Negheimish",
+            "Pranava Madhyastha",
+            "Alessandra Russo"
+        ],
+        "published": "2023",
+        "summary": "Large pre-trained language models such as BERT have been widely used as a framework for natural language understanding (NLU) tasks. However, recent findings have revealed that pre-trained language models are insensitive to word order. The performance on NLU tasks remains unchanged even after randomly permuting the word of a sentence, where crucial syntactic information is destroyed. To help preserve the importance of word order, we propose a simple approach called Forced Invalidation (FI): forcing the model to identify permuted sequences as invalid samples. We perform an extensive evaluation of our approach on various English NLU and QA based tasks over BERT-based and attention-based models over word embeddings. Our experiments demonstrate that FI significantly improves the sensitivity of the models to word order.",
+        "pdf_link": "https://aclanthology.org/2023.eacl-main.187.pdf"
+    },
+    {
+        "title": "Adding Instructions during Pretraining: Effective way of Controlling Toxicity in Language Models",
+        "authors": [
+            "Shrimai Prabhumoye",
+            "Mostofa Patwary",
+            "Mohammad Shoeybi",
+            "Bryan Catanzaro"
+        ],
+        "published": "2023",
+        "summary": "Pretrained large language models have become indispensable for solving various natural language processing (NLP) tasks. However, safely deploying them in real world applications is challenging because they generate toxic content. To address this challenge, we propose two novel pretraining data augmentation strategies that significantly reduce model toxicity without compromising its utility. Our two strategies are: (1) MEDA: adds raw toxicity score as meta-data to the pretraining samples, and (2) INST: adds instructions to those samples indicating their toxicity. Our results indicate that our best performing strategy (INST) substantially reduces the toxicity probability up to 61% while preserving the accuracy on five benchmark NLP tasks as well as improving AUC scores on four bias detection tasks by 1.3%. We also demonstrate the generalizability of our techniques by scaling the number of training samples and the number of model parameters.",
+        "pdf_link": "https://aclanthology.org/2023.eacl-main.193.pdf"
+    },
+    {
+        "title": "Real-Time Visual Feedback to Guide Benchmark Creation: A Human-and-Metric-in-the-Loop Workflow",
+        "authors": [
+            "Anjana Arunkumar",
+            "Swaroop Mishra",
+            "Bhavdeep Singh Sachdeva",
+            "Chitta Baral",
+            "Chris Bryan"
+        ],
+        "published": "2023",
+        "summary": "Recent research has shown that language models exploit \u2018artifacts\u2019 in benchmarks to solve tasks, rather than truly learning them, leading to inflated model performance. In pursuit of creating better benchmarks, we propose VAIDA, a novel benchmark creation paradigm for NLP, that focuses on guiding crowdworkers, an under-explored facet of addressing benchmark idiosyncrasies. VAIDA facilitates sample correction by providing realtime visual feedback and recommendations to improve sample quality. Our approach is domain, model, task, and metric agnostic, and constitutes a paradigm shift for robust, validated, and dynamic benchmark creation via human-and-metric-in-the-loop workflows. We evaluate via expert review and a user study with NASA TLX. We find that VAIDA decreases effort, frustration, mental, and temporal demands of crowdworkers and analysts, simultaneously increasing the performance of both user groups with a 45.8% decrease in the level of artifacts in created samples. As a by product of our user study, we observe that created samples are adversarial across models, leading to decreases of 31.3% (BERT), 22.5% (RoBERTa), 14.98% (GPT-3 fewshot) in performance.",
+        "pdf_link": "https://aclanthology.org/2023.eacl-main.212.pdf"
+    },
+    {
+        "title": "Unsupervised Improvement of Factual Knowledge in Language Models",
+        "authors": [
+            "Nafis Sadeq",
+            "Byungkyu Kang",
+            "Prarit Lamba",
+            "Julian McAuley"
+        ],
+        "published": "2023",
+        "summary": "Masked language modeling (MLM) plays a key role in pretraining large language models. But the MLM objective is often dominated by high-frequency words that are sub-optimal for learning factual knowledge. In this work, we propose an approach for influencing MLM pretraining in a way that can improve language model performance on a variety of knowledge-intensive tasks. We force the language model to prioritize informative words in a fully unsupervised way. Experiments demonstrate that the proposed approach can significantly improve the performance of pretrained language models on tasks such as factual recall, question answering, sentiment analysis, and natural language inference in a closed-book setting.",
+        "pdf_link": "https://aclanthology.org/2023.eacl-main.215.pdf"
+    },
+    {
+        "title": "Learning to Ignore Adversarial Attacks",
+        "authors": [
+            "Yiming Zhang",
+            "Yangqiaoyu Zhou",
+            "Samuel Carton",
+            "Chenhao Tan"
+        ],
+        "published": "2023",
+        "summary": "Despite the strong performance of current NLP models, they can be brittle against adversarial attacks. To enable effective learning against adversarial inputs, we introduce the use of rationale models that can explicitly learn to ignore attack tokens. We find that the rationale models can successfully ignore over 90% of attack tokens. This approach leads to consistent sizable improvements (~10%) over baseline models in robustness on three datasets for both BERT and RoBERTa, and also reliably outperforms data augmentation with adversarial examples alone. In many cases, we find that our method is able to close the gap between model performance on a clean test set and an attacked test set and hence reduce the effect of adversarial attacks.",
+        "pdf_link": "https://aclanthology.org/2023.eacl-main.216.pdf"
+    },
+    {
+        "title": "Should You Mask 15% in Masked Language Modeling?",
+        "authors": [
+            "Alexander Wettig",
+            "Tianyu Gao",
+            "Zexuan Zhong",
+            "Danqi Chen"
+        ],
+        "published": "2023",
+        "summary": "Masked language models (MLMs) conventionally mask 15% of tokens due to the belief that more masking would leave insufficient context to learn good representations; this masking rate has been widely used, regardless of model sizes or masking strategies. In this work, we revisit this important choice of MLM pre-training. We first establish that 15% is not universally optimal, and larger models should adopt a higher masking rate. Specifically, we find that masking 40% outperforms 15% for BERT-large size models on GLUE and SQuAD. Interestingly, an extremely high masking rate of 80% can still preserve 95% fine-tuning performance and most of the accuracy in linguistic probing, challenging the conventional wisdom about the role of the masking rate. We then examine the interplay between masking rates and masking strategies and find that uniform masking requires a higher masking rate compared to sophisticated masking strategies such as span or PMI masking. Finally, we argue that increasing the masking rate has two distinct effects: it leads to more corruption, which makes the prediction task more difficult; it also enables more predictions, which benefits optimization. Using this framework, we revisit BERT\u2019s 80-10-10 corruption strategy. Together, our results contribute to a better understanding of MLM pre-training.",
+        "pdf_link": "https://aclanthology.org/2023.eacl-main.217.pdf"
+    },
+    {
+        "title": "When Do Pre-Training Biases Propagate to Downstream Tasks? A Case Study in Text Summarization",
+        "authors": [
+            "Faisal Ladhak",
+            "Esin Durmus",
+            "Mirac Suzgun",
+            "Tianyi Zhang",
+            "Dan Jurafsky",
+            "Kathleen McKeown",
+            "Tatsunori Hashimoto"
+        ],
+        "published": "2023",
+        "summary": "Large language models (LLMs) are subject to sociocultural and other biases previously identified using intrinsic evaluations. However, when and how these intrinsic biases in pre-trained LM representations propagate to downstream, fine-tuned NLP tasks like summarization is not well understood. In this work, we investigate one type of bias\u2014name-nationality bias\u2014and trace it from the pre-training stage to a downstream summarization task across multiple summarization modeling choices. We show that these biases manifest themselves as hallucinations in summarization, leading to factually incorrect summaries. We also find that this propagation of biases is algorithm-dependent: more abstractive models allow biases to propagate more directly to downstream tasks as hallucinated facts. Building on these observations, we further analyze how changes to the adaptation method and fine-tuning data set affect name nationality biases and show that while they can reduce the overall rate of hallucinations, they do not change the types of biases that do appear.",
+        "pdf_link": "https://aclanthology.org/2023.eacl-main.234.pdf"
+    },
+    {
+        "title": "BERT Shows Garden Path Effects",
+        "authors": [
+            "Tovah Irwin",
+            "Kyra Wilson",
+            "Alec Marantz"
+        ],
+        "published": "2023",
+        "summary": "Garden path sentences (i.e. \u201cthe horse raced past the barn fell\u201d) are sentences that readers initially incorrectly parse, requiring partial or total re-analysis of the sentence structure. Given human difficulty in parsing garden paths, we aim to compare transformer language models\u2019 performance on these sentences. We assess a selection of models from the BERT family which have been fine-tuned on the question-answering task, and evaluate each model\u2019s performance on comprehension questions based on garden path and control sentences. We then further investigate the semantic roles assigned to arguments of verbs in garden path and control sentences by utilizing a probe task to directly assess which semantic role(s) the model assigns. We find that the models have relatively low performance in certain instances of question answering based on garden path contexts, and the model incorrectly assigns semantic roles, aligning for the most part with human performance.",
+        "pdf_link": "https://aclanthology.org/2023.eacl-main.235.pdf"
+    },
+    {
+        "title": "DyLoRA: Parameter-Efficient Tuning of Pre-trained Models using Dynamic Search-Free Low-Rank Adaptation",
+        "authors": [
+            "Mojtaba Valipour",
+            "Mehdi Rezagholizadeh",
+            "Ivan Kobyzev",
+            "Ali Ghodsi"
+        ],
+        "published": "2023",
+        "summary": "With the ever-growing size of pretrained models (PMs), fine-tuning them has become more expensive and resource-hungry. As a remedy, low-rank adapters (LoRA) keep the main pretrained weights of the model frozen and just introduce some learnable truncated SVD modules (so-called LoRA blocks) to the model. While LoRA blocks are parameter-efficient, they suffer from two major problems: first, the size of these blocks is fixed and cannot be modified after training (for example, if we need to change the rank of LoRA blocks, then we need to re-train them from scratch); second, optimizing their rank requires an exhaustive search and effort. In this work, we introduce a dynamic low-rank adaptation (DyLoRA) technique to address these two problems together. Our DyLoRA method trains LoRA blocks for a range of ranks instead of a single rank by sorting the representation learned by the adapter module at different ranks during training. We evaluate our solution on different natural language understanding (GLUE benchmark) and language generation tasks (E2E, DART and WebNLG) using different pretrained models such as RoBERTa and GPT with different sizes. Our results show that we can train dynamic search-free models with DyLoRA at least 4 to 7 times (depending to the task) faster than LoRA without significantly compromising performance. Moreover, our models can perform consistently well on a much larger range of ranks compared to LoRA.",
+        "pdf_link": "https://aclanthology.org/2023.eacl-main.239.pdf"
+    },
+    {
+        "title": "Language Generation Models Can Cause Harm: So What Can We Do About It? An Actionable Survey",
+        "authors": [
+            "Sachin Kumar",
+            "Vidhisha Balachandran",
+            "Lucille Njoo",
+            "Antonios Anastasopoulos",
+            "Yulia Tsvetkov"
+        ],
+        "published": "2023",
+        "summary": "Recent advances in the capacity of large language models to generate human-like text have resulted in their increased adoption in user-facing settings. In parallel, these improvements have prompted a heated discourse around the risks of societal harms they introduce, whether inadvertent or malicious. Several studies have explored these harms and called for their mitigation via development of safer, fairer models. Going beyond enumerating the risks of harms, this work provides a survey of practical methods for addressing potential threats and societal harms from language generation models. We draw on several prior works\u2019 taxonomies of language model risks to present a structured overview of strategies for detecting and ameliorating different kinds of risks/harms of language generators. Bridging diverse strands of research, this survey aims to serve as a practical guide for both LM researchers and practitioners, with explanations of different strategies\u2019 motivations, their limitations, and open problems for future research.",
+        "pdf_link": "https://aclanthology.org/2023.eacl-main.241.pdf"
+    },
+    {
+        "title": "Social Commonsense for Explanation and Cultural Bias Discovery",
+        "authors": [
+            "Lisa Bauer",
+            "Hanna Tischer",
+            "Mohit Bansal"
+        ],
+        "published": "2023",
+        "summary": "Social commonsense contains many human biases due to social and cultural influence (Sap et al., 2020; Emelin et al., 2020). We focus on identifying cultural biases in data, specifically causal assumptions and commonsense implications, that strongly influence model decisions for a variety of tasks designed for social impact. This enables us to examine data for bias by making explicit the causal (if-then, inferential) relations in social commonsense knowledge used for decision making, furthering interpretable commonsense reasoning from a dataset perspective. We apply our methods on 2 social tasks: emotion detection and perceived value detection. We identify influential social commonsense knowledge to explain model behavior in the following ways. First, we augment large-scale language models with social knowledge and show improvements for the tasks, indicating the implicit assumptions a model requires to be successful on each dataset. Second, we identify influential events in the datasets by using social knowledge to cluster data and demonstrate the influence that these events have on model behavior via leave-K-out experiments. This allows us to gain a dataset-level understanding of the events and causal commonsense relationships that strongly influence predictions. We then analyze these relationships to detect influential cultural bias in each dataset. Finally, we use our influential event identification for detecting mislabeled examples and improve training and performance through their removal. We support our findings with manual analysis.",
+        "pdf_link": "https://aclanthology.org/2023.eacl-main.271.pdf"
+    },
+    {
+        "title": "GrIPS: Gradient-free, Edit-based Instruction Search for Prompting Large Language Models",
+        "authors": [
+            "Archiki Prasad",
+            "Peter Hase",
+            "Xiang Zhou",
+            "Mohit Bansal"
+        ],
+        "published": "2023",
+        "summary": "Providing natural language instructions in prompts is a useful new paradigm for improving task performance of large language models in a zero-shot setting. Recent work has aimed to improve such prompts via manual rewriting or gradient-based tuning. However, manual rewriting is time-consuming and requires subjective interpretation, while gradient-based tuning can be extremely computationally demanding for large models and may not be feasible for API-based models. In this work, we introduce Gradient-free Instructional Prompt Search (GrIPS), a gradient-free, edit-based search approach for improving task instructions for large language models. GrIPS takes in instructions designed for humans and automatically returns an improved, edited prompt, while allowing for API-based tuning. With InstructGPT models, GrIPS improves the average task performance by up to 4.30 percentage points on eight classification tasks from the Natural Instructions dataset (with similar improvements for OPT, BLOOM, and FLAN-T5). We see improvements for both instruction-only prompts and instruction + k-shot examples prompts. Notably, GrIPS outperforms manual rewriting and purely example-based prompts while controlling for the available compute and data budget. Further, performance of GrIPS is comparable to select gradient-based tuning approaches. Qualitatively, we show our edits can simplify instructions and at times make them incoherent but nonetheless improve accuracy.",
+        "pdf_link": "https://aclanthology.org/2023.eacl-main.277.pdf"
+    },
+    {
+        "title": "DiscoScore: Evaluating Text Generation with BERT and Discourse Coherence",
+        "authors": [
+            "Wei Zhao",
+            "Michael Strube",
+            "Steffen Eger"
+        ],
+        "published": "2023",
+        "summary": "Recently, there has been a growing interest in designing text generation systems from a discourse coherence perspective, e.g., modeling the interdependence between sentences. Still, recent BERT-based evaluation metrics are weak in recognizing coherence, and thus are not reliable in a way to spot the discourse-level improvements of those text generation systems. In this work, we introduce DiscoScore, a parametrized discourse metric, which uses BERT to model discourse coherence from different perspectives, driven by Centering theory. Our experiments encompass 16 non-discourse and discourse metrics, including DiscoScore and popular coherence models, evaluated on summarization and document-level machine translation (MT). We find that (i) the majority of BERT-based metrics correlate much worse with human rated coherence than early discourse metrics, invented a decade ago; (ii) the recent state-of-the-art BARTScore is weak when operated at system level\u2014which is particularly problematic as systems are typically compared in this manner. DiscoScore, in contrast, achieves strong system-level correlation with human ratings, not only in coherence but also in factual consistency and other aspects, and surpasses BARTScore by over 10 correlation points on average. Further, aiming to understand DiscoScore, we provide justifications to the importance of discourse coherence for evaluation metrics, and explain the superiority of one variant over another. Our code is available at https://github.com/AIPHES/DiscoScore.",
+        "pdf_link": "https://aclanthology.org/2023.eacl-main.278.pdf"
+    },
+    {
+        "title": "CoTEVer: Chain of Thought Prompting Annotation Toolkit for Explanation Verification",
+        "authors": [
+            "Seungone Kim",
+            "Se June Joo",
+            "Yul Jang",
+            "Hyungjoo Chae",
+            "Jinyoung Yeo"
+        ],
+        "published": "2023",
+        "summary": "Chain-of-thought (CoT) prompting enables large language models (LLMs) to solve complex reasoning tasks by generating an explanation before the final prediction. Despite it\u2019s promising ability, a critical downside of CoT prompting is that the performance is greatly affected by the factuality of the generated explanation. To improve the correctness of the explanations, fine-tuning language models with explanation data is needed. However, there exists only a few datasets that can be used for such approaches, and no data collection tool for building them. Thus, we introduce CoTEVer, a tool-kit for annotating the factual correctness of generated explanations and collecting revision data of wrong explanations. Furthermore, we suggest several use cases where the data collected with CoTEVer can be utilized for enhancing the faithfulness of explanations. Our toolkit is publicly available at https://github.com/SeungoneKim/CoTEVer.",
+        "pdf_link": "https://aclanthology.org/2023.eacl-demo.23.pdf"
+    }
+]

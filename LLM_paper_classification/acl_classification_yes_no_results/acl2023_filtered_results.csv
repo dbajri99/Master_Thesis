@@ -1,0 +1,314 @@
+Title,Mentions LLM Limitations
+ACLM: A Selective-Denoising based Generative Data Augmentation Approach for Low-Resource Complex NER,yes
+Natural Language to Code Generation in Interactive Data Science Notebooks,no
+MIL-Decoding: Detoxifying Language Models at Token-Level via Multiple Instance Learning,yes
+A Method for Studying Semantic Construal in Grammatical Constructions with Interpretable Contextual Embedding Spaces,no
+Text Adversarial Purification as Defense against Adversarial Attacks,yes
+Tailor: A Soft-Prompt-Based Approach to Attribute-Based Controlled Text Generation,no
+Knowledge of cultural moral norms in large language models,yes
+Revealing Single Frame Bias for Video-and-Language Learning,no
+World-to-Words: Grounded Open Vocabulary Acquisition through Fast Mapping in Vision-Language Models,no
+A Causal Framework to Quantify the Robustness of Mathematical Reasoning with Language Models,yes
+Increasing Diversity While Maintaining Accuracy: Text Data Generation with Large Language Models and Human Interventions,yes
+Do Androids Laugh at Electric Sheep? Humor “Understanding” Benchmarks from The New Yorker Caption Contest,no
+Self-Edit: Fault-Aware Code Editor for Code Generation,yes
+Multi-CLS BERT: An Efficient Alternative to Traditional Ensembling,no
+Does GPT-3 Grasp Metaphors? Identifying Metaphor Mappings with Generative Language Models,yes
+ALERT: Adapt Language Models to Reasoning Tasks,yes
+Glot500: Scaling Multilingual Corpora and Language Models to 500 Languages,yes
+Pretrained Bidirectional Distillation for Machine Translation,yes
+ThinkSum: Probabilistic reasoning over sets using large language models,yes
+Synthetic Text Generation with Differential Privacy: A Simple and Practical Recipe,yes
+Cross-Domain Data Augmentation with Domain-Adaptive Language Modeling for Aspect-Based Sentiment Analysis,yes
+Marked Personas: Using Natural Language Prompts to Measure Stereotypes in Language Models,yes
+Vision Meets Definitions: Unsupervised Visual Word Sense Disambiguation Incorporating Gloss Information,no
+Elaboration-Generating Commonsense Question Answering at Scale,yes
+DaMSTF: Domain Adversarial Learning Enhanced Meta Self-Training for Domain Adaptation,yes
+Precise Zero-Shot Dense Retrieval without Relevance Labels,no
+Do language models have coherent mental models of everyday things?,yes
+Instruction Induction: From Few Examples to Natural Language Task Descriptions,no
+Peek Across: Improving Multi-Document Modeling via Cross-Document Question-Answering,no
+ELQA: A Corpus of Metalinguistic Questions and Answers about English,no
+Schema-Guided User Satisfaction Modeling for Task-Oriented Dialogues,no
+Robust Multi-bit Natural Language Watermarking through Invariant Features,no
+"KALM: Knowledge-Aware Integration of Local, Document, and Global Contexts for Long Document Understanding",yes
+SimLM: Pre-training with Representation Bottleneck for Dense Passage Retrieval,no
+Z-ICL: Zero-Shot In-Context Learning with Pseudo-Demonstrations,yes
+Cold-Start Data Selection for Better Few-shot Language Model Fine-tuning: A Prompt-based Uncertainty Propagation Approach,no
+Training-free Neural Architecture Search for RNNs and Transformers,yes
+Plan-and-Solve Prompting: Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models,yes
+Symbolic Chain-of-Thought Distillation: Small Models Can Also “Think” Step-by-Step,yes
+Generating EDU Extracts for Plan-Guided Summary Re-Ranking,no
+Towards Understanding Chain-of-Thought Prompting: An Empirical Study of What Matters,yes
+RMLM: A Flexible Defense Framework for Proactively Mitigating Word-level Adversarial Attacks,no
+DiffusEmp: A Diffusion Model-Based Framework with Multi-Grained Control for Empathetic Response Generation,no
+Dynamic and Efficient Inference for Text Generation via BERT Family,yes
+Did You Read the Instructions? Rethinking the Effectiveness of Task Definitions in Instruction Learning,no
+Interpretable Word Sense Representations via Definition Generation: The Case of Semantic Change Analysis,no
+An Invariant Learning Characterization of Controlled Text Generation,yes
+HyPe: Better Pre-trained Language Model Fine-tuning with Hidden Representation Perturbation,yes
+Word sense extension,no
+Decoding Symbolism in Language Models,yes
+A Survey on Zero Pronoun Translation,yes
+Alleviating Over-smoothing for Unsupervised Sentence Representation,yes
+From Characters to Words: Hierarchical Pre-trained Language Model for Open-vocabulary Language Understanding,no
+MatSci-NLP: Evaluating Scientific Language Models on Materials Science Language Tasks Using Text-to-Schema Modeling,no
+Code4Struct: Code Generation for Few-Shot Event Structure Prediction,yes
+Tree-Based Representation and Generation of Natural and Mathematical Language,no
+Entity Tracking in Language Models,yes
+Faithful Question Answering with Monte-Carlo Planning,yes
+Analyzing and Reducing the Performance Gap in Cross-Lingual Transfer with Fine-tuning Slow and Fast,yes
+Social-Group-Agnostic Bias Mitigation via the Stereotype Content Model,yes
+Revisiting the Gold Standard: Grounding Summarization Evaluation with Robust Human Evaluation,yes
+FIREBALL: A Dataset of Dungeons and Dragons Actual-Play with Structured Game State Information,yes
+Distilling Script Knowledge from Large Language Models for Constrained Language Planning,yes
+CELDA: Leveraging Black-box Language Model as Enhanced Classifier without Labels,yes
+MvP: Multi-view Prompting Improves Aspect Sentiment Tuple Prediction,no
+Explanation-based Finetuning Makes Models More Robust to Spurious Cues,yes
+CAME: Confidence-guided Adaptive Memory Efficient Optimization,no
+"On Second Thought, Let’s Not Think Step by Step! Bias and Toxicity in Zero-Shot Reasoning",yes
+Solving Math Word Problems via Cooperative Reasoning induced Language Models,yes
+DiffusionBERT: Improving Generative Masked Language Models with Diffusion Models,no
+Enhancing Dialogue Generation via Dynamic Graph Knowledge Aggregation,no
+Unified Demonstration Retriever for In-Context Learning,no
+Hidden Schema Networks,no
+"Don’t Generate, Discriminate: A Proposal for Grounding Language Models to Real-World Environments",yes
+Z-Code++: A Pre-trained Language Model Optimized for Abstractive Summarization,no
+Unsupervised Graph-Text Mutual Conversion with a Unified Pretrained Language Model,no
+Randomized Smoothing with Masked Inference for Adversarially Robust Text Classifications,yes
+MetaAdapt: Domain Adaptive Few-Shot Misinformation Detection via Meta Learning,yes
+Making Language Models Better Reasoners with Step-Aware Verifier,yes
+MISGENDERED: Limits of Large Language Models in Understanding Pronouns,yes
+Reasoning with Language Model Prompting: A Survey,no
+DISCO: Distilling Counterfactuals with Large Language Models,yes
+SCOTT: Self-Consistent Chain-of-Thought Distillation,yes
+Evaluating Open-Domain Question Answering in the Era of Large Language Models,yes
+Open-Domain Hierarchical Event Schema Induction by Incremental Prompting and Verification,yes
+Cross-View Language Modeling: Towards Unified Cross-Lingual Cross-Modal Pre-training,no
+Verify-and-Edit: A Knowledge-Enhanced Chain-of-Thought Framework,yes
+Toward Human-Like Evaluation for Natural Language Generation with Error Analysis,no
+Connective Prediction for Implicit Discourse Relation Recognition via Knowledge Distillation,yes
+What is the best recipe for character-level encoder-only modelling?,no
+Language model acceptability judgements are not always robust to context,yes
+RobuT: A Systematic Study of Table QA Robustness Against Human-Annotated Adversarial Perturbations,yes
+Similarity-weighted Construction of Contextualized Commonsense Knowledge Graphs for Knowledge-intense Argumentation Tasks,no
+Learning Non-linguistic Skills without Sacrificing Linguistic Proficiency,yes
+Multilingual LLMs are Better Cross-lingual In-context Learners with Alignment,yes
+MultiTabQA: Generating Tabular Answers for Multi-Table Question Answering,yes
+Long-Tailed Question Answering in an Open World,yes
+Parallel Context Windows for Large Language Models,yes
+ContraCLM: Contrastive Learning For Causal Language Model,no
+Contrastive Learning with Adversarial Examples for Alleviating Pathology of Language Model,yes
+FutureTOD: Teaching Future Knowledge to Pre-trained Language Model for Task-Oriented Dialogue,yes
+LAMBADA: Backward Chaining for Automated Reasoning in Natural Language,yes
+SQuARe: A Large-Scale Dataset of Sensitive Questions and Acceptable Responses Created through Human-Machine Collaboration,yes
+FLamE: Few-shot Learning from Natural Language Explanations,yes
+What social attitudes about gender does BERT encode? Leveraging insights from psycholinguistics,yes
+Interpretable Math Word Problem Solution Generation via Step-by-step Planning,no
+Are Experts Needed? On Human Evaluation of Counselling Reflection Generation,yes
+PairSpanBERT: An Enhanced Language Model for Bridging Resolution,no
+Few-shot In-context Learning on Knowledge Base Question Answering,no
+Fact-Checking Complex Claims with Program-Guided Reasoning,no
+Patton: Language Model Pretraining on Text-Rich Networks,no
+When and how to paraphrase for named entity recognition?,yes
+Are Machine Rationales (Not) Useful to Humans? Measuring and Improving Human Utility of Free-text Rationales,yes
+Learning Better Masking for Better Language Model Pre-training,no
+Multi-Level Knowledge Distillation for Out-of-Distribution Detection in Text,yes
+ByGPT5: End-to-End Style-conditioned Poetry Generation with Token-free Language Models,yes
+Matching Pairs: Attributing Fine-Tuned Models to their Pre-Trained Large Language Models,yes
+Large Language Models Meet NL2Code: A Survey,yes
+DarkBERT: A Language Model for the Dark Side of the Internet,yes
+Are You Copying My Model? Protecting the Copyright of Large Language Models for EaaS via Backdoor Watermark,yes
+RL4F: Generating Natural Language Feedback with Reinforcement Learning for Repairing Model Outputs,yes
+DIP: Dead code Insertion based Black-box Attack for Programming Language Model,yes
+Easy Guided Decoding in Providing Suggestions for Interactive Machine Translation,no
+Query Refinement Prompts for Closed-Book Long-Form QA,no
+Data Curation Alone Can Stabilize In-context Learning,yes
+S2ynRE: Two-stage Self-training with Synthetic data for Low-resource Relation Extraction,yes
+DSEE: Dually Sparsity-embedded Efficient Tuning of Pre-trained Language Models,yes
+A New Dataset and Empirical Study for Sentence Simplification in Chinese,yes
+AD-KD: Attribution-Driven Knowledge Distillation for Language Model Compression,yes
+Targeted Data Generation: Finding and Fixing Model Weaknesses,yes
+HiFi: High-Information Attention Heads Hold for Parameter-Efficient Model Adaptation,no
+On “Scientific Debt” in NLP: A Case for More Rigour in Language Model Pre-Training Research,yes
+Element-aware Summarization with Large Language Models: Expert-aligned Evaluation and Chain-of-Thought Method,yes
+Dynamic Regularization in UDA for Transformers in Multimodal Classification,no
+The CRINGE Loss: Learning what language not to model,yes
+"My side, your side and the evidence: Discovering aligned actor groups and the narratives they weave",yes
+"Synthesize, Prompt and Transfer: Zero-shot Conversational Question Generation with Pre-trained Language Model",no
+Backpack Language Models,no
+WinoQueer: A Community-in-the-Loop Benchmark for Anti-LGBTQ+ Bias in Large Language Models,yes
+Benchmarking Large Language Model Capabilities for Conditional Generation,yes
+Span-level Aspect-based Sentiment Analysis via Table Filling,no
+Learning Dynamic Contextualised Word Embeddings via Template-based Temporal Adaptation,no
+Searching for Needles in a Haystack: On the Role of Incidental Bilingualism in PaLM’s Translation Capability,yes
+I2D2: Inductive Knowledge Distillation with NeuroLogic and Self-Imitation,yes
+A Measure-Theoretic Characterization of Tight Language Models,no
+PromptRank: Unsupervised Keyphrase Extraction Using Prompt,no
+When Not to Trust Language Models: Investigating Effectiveness of Parametric and Non-Parametric Memories,yes
+SeeGULL: A Stereotype Benchmark with Broad Geo-Cultural Coverage Leveraging Generative Models,yes
+Say What You Mean! Large Language Models Speak Too Positively about Negative Commonsense Knowledge,yes
+Cognitive Reframing of Negative Thoughts through Human-Language Model Interaction,yes
+Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions,yes
+Direct Fact Retrieval from Knowledge Graphs without Entity Linking,no
+Improved Instruction Ordering in Recipe-Grounded Conversation,yes
+Token-wise Decomposition of Autoregressive Language Model Hidden States for Analyzing Model Predictions,yes
+Language Detoxification with Attribute-Discriminative Latent Space,yes
+Revisiting Token Dropping Strategy in Efficient BERT Pretraining,yes
+The Benefits of Bad Advice: Autocontrastive Decoding across Model Layers,no
+FACTIFY-5WQA: 5W Aspect-based Fact Verification through Question Answering,no
+Rethinking Masked Language Modeling for Chinese Spelling Correction,no
+A Multi-Modal Context Reasoning Approach for Conditional Inference on Joint Textual and Visual Clues,no
+Your spouse needs professional help: Determining the Contextual Appropriateness of Messages through Modeling Social Relationships,yes
+How Do In-Context Examples Affect Compositional Generalization?,yes
+Is GPT-3 a Good Data Annotator?,no
+Few-shot Event Detection: An Empirical Study and a Unified View,no
+Measuring Inductive Biases of In-Context Learning with Underspecified Demonstrations,yes
+AlignScore: Evaluating Factual Consistency with A Unified Alignment Function,no
+Introducing Semantics into Speech Encoders,yes
+Query-Efficient Black-Box Red Teaming via Bayesian Optimization,no
+SSD-LM: Semi-autoregressive Simplex-based Diffusion Language Model for Text Generation and Modular Control,yes
+"Recall, Expand, and Multi-Candidate Cross-Encode: Fast and Accurate Ultra-Fine Entity Typing",yes
+"Understanding Factual Errors in Summarization: Errors, Summarizers, Datasets, Error Detectors",yes
+BLOOM+1: Adding Language Support to BLOOM for Zero-Shot Prompting,no
+SLABERT Talk Pretty One Day: Modeling Second Language Acquisition with BERT,yes
+Contrastive Novelty-Augmented Learning: Anticipating Outliers with Large Language Models,yes
+Learning to Initialize: Can Meta Learning Improve Cross-task Generalization in Prompt Tuning?,no
+Rethinking the Role of Scale for In-Context Learning: An Interpretability-based Case Study at 66 Billion Scale,yes
+ESCOXLM-R: Multilingual Taxonomy-driven Pre-training for the Job Market Domain,yes
+Generalizing Backpropagation for Gradient-Based Interpretability,no
+Generic Temporal Reasoning with Differential Analysis and Explanation,no
+On the Blind Spots of Model-Based Evaluation Metrics for Text Generation,yes
+WhitenedCSE: Whitening-based Contrastive Learning of Sentence Embeddings,no
+DSRM: Boost Textual Adversarial Training with Distribution Shift Risk Minimization,no
+Downstream Datasets Make Surprisingly Good Pretraining Corpora,yes
+Contrastive Decoding: Open-ended Text Generation as Optimization,yes
+Resolving Indirect Referring Expressions for Entity Selection,no
+"Towards Leaving No Indic Language Behind: Building Monolingual Corpora, Benchmark and Models for Indic Languages",no
+Hybrid Transducer and Attention based Encoder-Decoder Modeling for Speech-to-Text Tasks,no
+Large-scale Lifelong Learning of In-context Instructions and How to Tackle It,no
+DT-Solver: Automated Theorem Proving with Dynamic-Tree Sampling Guided by Proof-level Value Function,no
+Effective Contrastive Weighting for Dense Query Expansion,no
+Reanalyzing L2 Preposition Learning with Bayesian Mixed Effects and a Pretrained Language Model,no
+MatCha: Enhancing Visual Language Pretraining with Math Reasoning and Chart Derendering,no
+UniSumm and SummZoo: Unified Model and Diverse Benchmark for Few-Shot Summarization,no
+Exploring and Verbalizing Academic Ideas by Concept Co-occurrence,no
+UniCoRN: Unified Cognitive Signal ReconstructioN bridging cognitive signals and human language,no
+Self-Instruct: Aligning Language Models with Self-Generated Instructions,yes
+Dissecting Transformer Length Extrapolation via the Lens of Receptive Field Analysis,no
+CHBias: Bias Evaluation and Mitigation of Chinese Conversational Language Models,yes
+Entailment as Robust Self-Learner,no
+ReCode: Robustness Evaluation of Code Generation Models,no
+Mitigating Label Biases for In-context Learning,yes
+LLM-Blender: Ensembling Large Language Models with Pairwise Ranking and Generative Fusion,yes
+Python Code Generation by Asking Clarification Questions,yes
+PAD-Net: An Efficient Framework for Dynamic Networks,no
+Unnatural Instructions: Tuning Language Models with (Almost) No Human Labor,no
+A Systematic Study of Knowledge Distillation for Natural Language Generation with Pseudo-Target Training,no
+Towards Benchmarking and Improving the Temporal Reasoning Capability of Large Language Models,yes
+Large Language Models Are Reasoning Teachers,yes
+Visually-augmented pretrained language models for NLP tasks without images,yes
+FERMAT: An Alternative to Accuracy for Numerical Reasoning,yes
+On Improving Summarization Factual Consistency from Natural Language Feedback,yes
+From Dogwhistles to Bullhorns: Unveiling Coded Rhetoric with Language Models,yes
+Exploring Large Language Models for Classical Philology,no
+DisorBERT: A Double Domain Adaptation Model for Detecting Signs of Mental Disorders in Social Media,no
+CodeIE: Large Code Generation Models are Better Few-Shot Information Extractors,yes
+Prompting PaLM for Translation: Assessing Strategies and Performance,yes
+LeXFiles and LegalLAMA: Facilitating English Multinational Legal Language Model Development,no
+Revisiting Relation Extraction in the era of Large Language Models,yes
+Can Large Language Models Be an Alternative to Human Evaluations?,yes
+An Empirical Analysis of Parameter-Efficient Methods for Debiasing Pre-Trained Language Models,yes
+Few-shot Reranking for Multi-hop QA via Language Model Prompting,no
+XSemPLR: Cross-Lingual Semantic Parsing in Multiple Natural Languages and Meaning Representations,yes
+Crosslingual Generalization through Multitask Finetuning,no
+LENS: A Learnable Evaluation Metric for Text Simplification,yes
+"RARR: Researching and Revising What Language Models Say, Using Language Models",yes
+Ellipsis-Dependent Reasoning: a New Challenge for Large Language Models,yes
+Tracing Linguistic Markers of Influence in a Large Online Organisation,no
+Dataset Distillation with Attention Labels for Fine-tuning BERT,no
+Improving Generalization in Language Model-based Text-to-SQL Semantic Parsing: Two Simple Semantic Boundary-based Techniques,yes
+BOLT: Fast Energy-based Controlled Text Generation with Tunable Biases,no
+Parameter-efficient Weight Ensembling Facilitates Task-level Knowledge Transfer,no
+Language Models Get a Gender Makeover: Mitigating Gender Bias with Few-Shot Data Interventions,yes
+PLUE: Language Understanding Evaluation Benchmark for Privacy Policies in English,no
+Split-NER: Named Entity Recognition via Two Question-Answering-based Classifications,no
+Credible without Credit: Domain Experts Assess Generative Language Models,yes
+Efficient Diagnosis Assignment Using Unstructured Clinical Notes,no
+MetaVL: Transferring In-Context Learning Ability From Language Models to Vision-Language Models,yes
+Going Beyond Sentence Embeddings: A Token-Level Matching Algorithm for Calculating Semantic Textual Similarity,no
+Probing Physical Reasoning with Counter-Commonsense Context,yes
+In and Out-of-Domain Text Adversarial Robustness via Label Smoothing,yes
+LM-CPPF: Paraphrasing-Guided Data Augmentation for Contrastive Prompt-Based Few-Shot Fine-Tuning,yes
+Exploring Continual Learning for Code Generation Models,yes
+Counterfactual reasoning: Testing language models’ understanding of hypothetical scenarios,no
+Gradient Ascent Post-training Enhances Language Model Generalization,no
+A Better Way to Do Masked Language Model Scoring,yes
+ChatGPT for Zero-shot Dialogue State Tracking: A Solution or an Opportunity?,yes
+Controllable Mixed-Initiative Dialogue Generation through Prompting,yes
+Trading Syntax Trees for Wordpieces: Target-oriented Opinion Words Extraction with Wordpieces and Aspect Enhancement,yes
+Do GPTs Produce Less Literal Translations?,yes
+Black-box language model explanation by context length probing,yes
+ReAugKD: Retrieval-Augmented Knowledge Distillation For Pre-trained Language Models,no
+Latent Positional Information is in the Self-Attention Variance of Transformer Language Models Without Positional Embeddings,yes
+Towards Adaptive Prefix Tuning for Parameter-Efficient Language Model Fine-tuning,yes
+Evaluating pragmatic abilities of image captioners on A3DS,yes
+"Summarizing, Simplifying, and Synthesizing Medical Evidence using GPT-3 (with Varying Success)",yes
+Hexatagging: Projective Dependency Parsing as Tagging,no
+Discourse-Level Representations can Improve Prediction of Degree of Anxiety,yes
+Controlling the Extraction of Memorized Data from Large Language Models via Prompt-Tuning,yes
+MultiTool-CoT: GPT-3 Can Use Multiple External Tools with Chain of Thought Prompting,yes
+MolXPT: Wrapping Molecules with Text for Generative Pre-training,no
+NarrowBERT: Accelerating Masked Language Model Pretraining and Inference,no
+S3HQA: A Three-Stage Approach for Multi-hop Text-Table Hybrid Question Answering,yes
+AutoConv: Automatically Generating Information-seeking Conversations with Large Language Models,yes
+Teaching Small Language Models to Reason,no
+A Simple and Effective Framework for Strict Zero-Shot Hierarchical Classification,yes
+Revisiting Automated Prompting: Are We Actually Doing Better?,yes
+How to Distill your BERT: An Empirical Study on the Impact of Weight Initialisation and Distillation Objectives,no
+Linear Classifier: An Often-Forgotten Baseline for Text Classification,no
+Human-in-the-loop Schema Induction,no
+Lingxi: A Diversity-aware Chinese Modern Poetry Generation System,yes
+LIDA: A Tool for Automatic Generation of Grammar-Agnostic Visualizations and Infographics using Large Language Models,yes
+The ROOTS Search Tool: Data Transparency for LLMs,no
+Inseq: An Interpretability Toolkit for Sequence Generation Models,no
+Pipeline for modeling causal beliefs from natural language,yes
+Which Spurious Correlations Impact Reasoning in NLI Models? A Visual Interactive Diagnosis through Data-Constrained Counterfactuals,no
+OpenICL: An Open-Source Framework for In-context Learning,yes
+A System for Answering Simple Questions in Multiple Languages,no
+Disease Network Constructor: a Pathway Extraction and Visualization,no
+Petals: Collaborative Inference and Fine-tuning of Large Models,yes
+DeepPavlov Dream: Platform for Building Generative AI Assistants,no
+ChatGPT vs Human-authored Text: Insights into Controllable Text Summarization and Sentence Style Transfer,yes
+The Turing Quest: Can Transformers Make Good NPCs?,no
+Making the Most Out of the Limited Context Length: Predictive Power Varies with Clinical Note Type and Note Section,yes
+MedTem2.0: Prompt-based Temporal Classification of Treatment Events from Discharge Summaries,no
+Building a Buzzer-quiz Answering System,no
+Combining Tradition with Modernness: Exploring Event Representations in Vision-and-Language Models for Visual Goal-Step Inference,no
+Data Selection for Fine-tuning Large Language Models Using Transferred Shapley Values,yes
+Moral Mimicry: Large Language Models Produce Moral Rationalizations Tailored to Political Identity,yes
+LECO: Improving Early Exiting via Learned Exits and Comparison-based Exiting Mechanism,no
+Authorship Attribution of Late 19th Century Novels using GAN-BERT,yes
+Semantic Accuracy in Natural Language Generation: A Thesis Proposal,yes
+Math Word Problem Solving by Generating Linguistic Variants of Problem Statements,no
+CWSeg: An Efficient and General Approach to Chinese Word Segmentation,yes
+MathPrompter: Mathematical Reasoning using Large Language Models,yes
+Label efficient semi-supervised conversational intent classification,no
+GKD: A General Knowledge Distillation Framework for Large-scale Pre-trained Language Model,yes
+KoSBI: A Dataset for Mitigating Social Bias Risks Towards Safer Large Language Model Applications,yes
+The economic trade-offs of large language models: A case study,yes
+Boosting Transformers and Language Models for Clinical Prediction in Immunotherapy,yes
+A Static Evaluation of Code Completion by Large Language Models,yes
+SaFER: A Robust and Efficient Framework for Fine-tuning BERT-based Classifier with Noisy Labels,yes
+Chemical Language Understanding Benchmark,no
+HyperT5: Towards Compute-Efficient Korean Language Modeling,no
+"Sharing Encoder Representations across Languages, Domains and Tasks in Large-Scale Spoken Language Understanding",yes
+DISCOSQA: A Knowledge Base Question Answering System for Space Debris based on Program Induction,no
+BADGE: Speeding Up BERT Inference after Deployment via Block-wise Bypasses and Divergence-based Early Exiting,no
+Evaluating Embedding APIs for Information Retrieval,no
+RadLing: Towards Efficient Radiology Report Understanding,no
+Exploring Zero and Few-shot Techniques for Intent Classification,yes
+Weakly supervised hierarchical multi-task classification of customer questions,no
+Complex Reasoning in Natural Language,yes
+"Everything you need to know about Multilingual LLMs: Towards fair, performant and reliable models for languages of the world",yes
+Generating Text from Language Models,yes

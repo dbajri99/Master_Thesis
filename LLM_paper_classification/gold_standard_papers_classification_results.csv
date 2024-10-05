@@ -1,0 +1,216 @@
+Title,Mentions LLM Limitations
+Evaluating Modular Dialogue System for Form Filling Using Large Language Models,yes
+Improving Cross-Domain Low-Resource Text Generation through LLM Post-Editing: A Programmer-Interpreter Approach,yes
+Re3val: Reinforced and Reranked Generative Retrieval,yes
+Reward Engineering for Generating Semi-structured Explanation,yes
+Are Large Language Model-based Evaluators the Solution to Scaling Up Multilingual Evaluation?,yes
+Why Generate When You Can Discriminate? A Novel Technique for Text Classification using Language Models,no
+Evaluating Large Language Models Trained on Code,yes
+Fine-tuning CLIP Text Encoders with Two-step Paraphrasing,yes
+ICE-Score: Instructing Large Language Models to Evaluate Code,yes
+Transformer-specific Interpretability,yes
+Can docstring reformulation with an LLM improve code generation?,yes
+Equipping Language Models with Tool Use Capability for Tabular Data Analysis in Finance,yes
+Generation-driven Contrastive Self-training for Zero-shot Text Classification with Instruction-following LLM,yes
+Document-Level Language Models for Machine Translation,yes
+ChatGPT MT: Competitive for High- (but Not Low-) Resource Languages,yes
+"Large Language Models Effectively Leverage Document-level Context for Literary Translation, but Critical Errors Persist",yes
+"Machine Translation with Large Language Models: Prompting, Few-shot Learning, and Fine-tuning with QLoRA",yes
+"Automating Behavioral Testing in Machine Translation",no
+"ChatGPT for Suicide Risk Assessment on Social Media: Quantitative Evaluation of Model Performance, Potentials and Limitations",yes
+GenIE: Generative Information Extraction,no
+Quantifying Adaptability in Pre-trained Language Models with 500 Tasks,yes
+PreCogIIITH at HinglishEval: Leveraging Code-Mixing Metrics & Language Model Embeddings To Estimate Code-Mix Quality,yes
+AmbiFC: Fact-Checking Ambiguous Claims with Evidence,yes
+Language Varieties of Italy: Technology Challenges and Opportunities,yes
+Benchmarking Large Language Models for News Summarization,yes
+mGPT: Few-Shot Learners Go Multilingual,no
+Large Language Models of Code Fail at Completing Code with Potential Bugs,yes
+Cultural Adaptation of Recipes,yes
+Metric-Free Learning Network with Dual Relations Propagation for Few-Shot Aspect Category Sentiment Analysis,no
+Addressing the Binning Problem in Calibration Assessment through Scalar Annotations,no
+An Energy-based Model for Word-level AutoCompletion in Computer-aided Translation,yes
+Lost in the Middle: How Language Models Use Long Contexts,yes
+Red Teaming Language Model Detectors with Language Models,yes
+Text Attribute Control via Closed-Loop Disentanglement,no
+Unifying Structured Data as Graph for Data-to-Text Pre-Training,no
+Exploring Human-Like Translation Strategy with Large Language Models,yes
+Retrieve What You Need: A Mutual Learning Framework for Open-domain Question Answering,no
+Evaluating the Ripple Effects of Knowledge Editing in Language Models,yes
+The Impact of Word Splitting on the Semantic Content of Contextualized Word Representations,yes
+Large Language Models Enable Few-Shot Clustering,no
+JustiLM: Few-shot Justification Generation for Explainable Fact-Checking of Real-world Claims,no
+To Diverge or Not to Diverge: A Morphosyntactic Perspective on Machine Translation vs Human Translation,yes
+What Do Self-Supervised Speech Models Know About Words?,no
+Are Character-level Translations Worth the Wait? Comparing ByT5 and mT5 for Machine Translation,no
+Geographic Adaptation of Pretrained Language Models,no
+Do Text Simplification Systems Preserve Meaning? A Human Evaluation via Reading Comprehension,yes
+Text-to-OverpassQL: A Natural Language Interface for Complex Geodata Querying of OpenStreetMap,yes
+Eliciting the Translation Ability of Large Language Models via Multilingual Finetuning with Translation Instructions,yes
+Semantics of Multiword Expressions in Transformer-Based Models: A Survey,yes
+Extracting Social Determinants of Health from Pediatric Patient Notes Using Large Language Models: Novel Corpus and Methods,yes
+Fairness in Large Language Models: A Taxonomic Survey,yes
+Algorithmic Collusion by Large Language Models,yes
+Recover: A Neuro-Symbolic Framework for Failure Detection and Recovery,yes
+Can Language Models Recognize Convincing Arguments?,yes
+WavLLM: Towards Robust and Adaptive Speech Large Language Model,yes
+RQ-RAG: Learning to Refine Queries for Retrieval Augmented Generation,yes
+CHOPS: CHat with custOmer Profile Systems for Customer Service with LLMs,yes
+NumeroLogic: Number Encoding for Enhanced LLMs' Numerical Reasoning,yes
+Can LLMs Master Math? Investigating Large Language Models on Math Stack Exchange,yes
+Augmenting NER Datasets with LLMs: Towards Automated and Refined Annotation,yes
+ST-LLM: Large Language Models Are Effective Temporal Learners,yes
+Title,Mentions LLM Limitations
+A Survey of using Large Language Models for Generating Infrastructure as Code,yes
+Injecting New Knowledge into Large Language Models via Supervised Fine-Tuning,yes
+"DataAgent: Evaluating Large Language Models' Ability to Answer Zero-Shot, Natural Language Queries",yes
+On-the-fly Definition Augmentation of LLMs for Biomedical NER,yes
+ITCMA: A Generative Agent Based on a Computational Consciousness Structure,yes
+Retrieval-Enhanced Knowledge Editing for Multi-Hop Question Answering in Language Models,yes
+Mixed Preference Optimization: Reinforcement Learning with Data Selection and Better Reference Model,yes
+FACTOID: FACtual enTailment fOr hallucInation Detection,yes
+Dual Instruction Tuning with Large Language Models for Mathematical Reasoning,yes
+Boosting Conversational Question Answering with Fine-Grained Retrieval-Augmentation and Self-Check,yes
+Aligning Large Language Models for Enhancing Psychiatric Interviews through Symptom Delineation and Summarization,yes
+PropTest: Automatic Property Testing for Improved Visual Programming,yes
+LARA: Linguistic-Adaptive Retrieval-Augmented LLMs for Multi-Turn Intent Classification,yes
+CodeS: Natural Language to Code Repository via Multi-Layer Sketch,yes
+"Synthesize Step-by-Step: Tools, Templates and LLMs as Data Generators for Reasoning-Based Chart VQA",yes
+ChatDBG: An AI-Powered Debugging Assistant,yes
+A Chain-of-Thought Prompting Approach with LLMs for Evaluating Students' Formative Assessment Responses in Science,yes
+Summing Up the Facts: Additive Mechanisms Behind Factual Recall in LLMs,yes
+CPSDBench: A Large Language Model Evaluation Benchmark and Baseline for Chinese Public Security Domain,yes
+GraphTranslator: Aligning Graph Model to Large Language Model for Open-ended Tasks,yes
+Title,Mentions LLM Limitations
+Using Large Language Models to Automate and Expedite Reinforcement Learning with Reward Machine,yes
+Evolutionary Computation in the Era of Large Language Model: Survey and Roadmap,yes
+Large Language Models Are Neurosymbolic Reasoners,yes
+LLMs for Relational Reasoning: How Far are We?,yes
+Large Language Models in Plant Biology,yes
+From LLM to Conversational Agent: A Memory Enhanced Architecture with Fine-Tuning of Large Language Models,yes
+GeoGalactica: A Scientific Large Language Model in Geoscience,yes
+Large Language Models for Generative Information Extraction: A Survey,no
+Building Efficient Universal Classifiers with Natural Language Inference,no
+Large Language Models for Conducting Advanced Text Analytics Information Systems Research,yes
+LLMs with User-defined Prompts as Generic Data Operators for Reliable Data Processing,yes
+Zero-Shot Cross-Lingual Reranking with Large Language Models for Low-Resource Languages,yes
+Comparative Analysis of Deep Natural Networks and Large Language Models for Aspect-Based Sentiment Analysis,yes
+LlaMaVAE: Guiding Large Language Model Generation via Continuous Latent Sentence Spaces,no
+A Comparative Analysis of Large Language Models for Code Documentation Generation,yes
+TigerBot: An Open Multilingual Multitask LLM,no
+Efficiently Programming Large Language Models using SGLang,yes
+Large Language Models on Graphs: A Comprehensive Survey,yes
+Still No Lie Detector for Language Models: Probing Empirical and Conceptual Roadblocks,yes
+SPAE: Semantic Pyramid AutoEncoder for Multimodal Generation with Frozen LLMs,yes
+Title,Mentions LLM Limitations
+Meta-Reasoning: Semantics-Symbol Deconstruction for Large Language Models,yes
+Large Language Models are Effective Text Rankers with Pairwise Ranking Prompting,yes
+Preference Ranking Optimization for Human Alignment,yes
+"A Survey on Large Language Models: Applications, Challenges, Limitations, and Practical Usage",yes
+Concept-Oriented Deep Learning with Large Language Models,yes
+Automatic Calibration and Error Correction for Generative Large Language Models via Pareto Optimal Self-Supervision,yes
+Taqyim: Evaluating Arabic NLP Tasks Using ChatGPT Models,yes
+Large Language Model as Attributed Training Data Generator: A Tale of Diversity and Bias,yes
+Large Language Models as Annotators: Enhancing Generalization of NLP Models at Minimal Cost,yes
+ChatGPT Label: Comparing the Quality of Human-Generated and LLM-Generated Annotations in Low-resource Language NLP Tasks,yes
+REFLECT: Summarizing Robot Experiences for Failure Explanation and Correction,yes
+Exploring the Robustness of Large Language Models for Solving Programming Problems,yes
+Language models are weak learners,yes
+Teaching Large Language Models to Self-Debug,yes
+Towards an Understanding and Explanation for Mixed-Initiative Artificial Scientific Text Detection,yes
+On the Possibilities of AI-Generated Text Detection,yes
+Learnings from Data Integration for Augmented Language Models,yes
+Graph-ToolFormer: To Empower LLMs with Graph Reasoning Ability via Prompt Augmented by ChatGPT,yes
+Towards Generating Functionally Correct Code Edits from Natural Language Issue Descriptions,yes
+Revisiting Automated Prompting: Are We Actually Doing Better?,yes
+Title,Mentions LLM Limitations
+Instruction Tuning with GPT-4,yes
+Exploring Language Models: A Comprehensive Survey and Analysis,yes
+"Whose Text Is It Anyway? Exploring BigCode, Intellectual Property, and Ethics",yes
+Challenges and Limitations of ChatGPT and Other Large Language Models,yes
+Document-Level Machine Translation with Large Language Models,yes
+LLM-Adapters: An Adapter Family for Parameter-Efficient Fine-Tuning of Large Language Models,yes
+Improving the Domain Adaptation of Retrieval Augmented Generation (RAG) Models for Open Domain Question Answering,no
+Assessing the Capacity of Transformer to Abstract Syntactic Representations: A Contrastive Analysis Based on Long-distance Agreement,no
+On the Role of Negative Precedent in Legal Outcome Prediction,yes
+Meta-Learning a Cross-lingual Manifold for Semantic Parsing,no
+OPAL: Ontology-Aware Pretrained Language Model for End-to-End Task-Oriented Dialogue,no
+Helpful Neighbors: Leveraging Neighbors in Geographic Feature Pronunciation,no
+Locally Typical Sampling,yes
+Improving Low-Resource Cross-lingual Parsing with Expected Statistic Regularization,no
+Cross-Lingual Dialogue Dataset Creation via Outline-Based Generation,yes
+Modeling Emotion Dynamics in Song Lyrics with State Space Models,no
+FeelingBlue: A Corpus for Understanding the Emotional Connotation of Color in Context,no
+An Empirical Survey of Data Augmentation for Limited Data Learning in NLP,no
+Coreference Resolution through a seq2seq Transition-Based System,no
+Transformers for Tabular Data Representation: A Survey of Models and Applications,no
+Title,Mentions LLM Limitations
+Generative Spoken Dialogue Language Modeling,no
+Discontinuous Combinatory Constituency Parsing,no
+Efficient Long-Text Understanding with Short-Text Models,no
+Hate Speech Classifiers Learn Normative Social Stereotypes,yes
+Domain-Specific Word Embeddings with Structure Prediction,no
+Why Does Surprisal From Larger Transformer-Based Language Models Provide a Poorer Fit to Human Reading Times?,yes
+On the Robustness of Dialogue History Representation in Conversational Question Answering: A Comprehensive Study and a New Prompt-based Method,no
+Bridging the Gap between Synthetic and Natural Questions via Sentence Decomposition for Semantic Parsing,no
+Naturalistic Causal Probing for Morpho-Syntax,no
+Tracking Brand-Associated Polarity-Bearing Topics in User Reviews,no
+Dubbing in Practice: A Large Scale Study of Human Localization With Insights for Automatic Dubbing,no
+Aggretriever: A Simple Approach to Aggregate Textual Representations for Robust Dense Passage Retrieval,yes
+InSCIt: Information-Seeking Conversations with Mixed-Initiative Interactions,no
+Sub-Character Tokenization for Chinese Pretrained Language Models,no
+Erasure of Unaligned Attributes from Neural Representations,yes
+Less is More: Mitigate Spurious Correlations for Open-Domain Dialogue Response Generation Models by Causal Discovery,no
+The Parallelism Tradeoff: Limitations of Log-Precision Transformers,yes
+Understanding and Detecting Hallucinations in Neural Machine Translation via Model Introspection,yes
+Visual Writing Prompts: Character-Grounded Story Generation with Curated Image Sequences,no
+Title,Mentions LLM Limitations
+Unleashing the True Potential of Sequence-to-Sequence Models for Sequence Tagging and Structure Parsing,no
+Questions Are All You Need to Train a Dense Passage Retriever,no
+Transparency Helps Reveal When Language Models Learn Meaning,yes
+Visual Spatial Reasoning,yes
+How Much Do Language Models Copy From Their Training Data? Evaluating Linguistic Novelty in Text Generation Using RAVEN,yes
+FRMT: A Benchmark for Few-Shot Region-Aware Machine Translation,no
+OpenFact: Factuality Enhanced Open Knowledge Extraction,no
+On Graph-based Reentrancy-free Semantic Parsing,no
+Supervised Gradual Machine Learning for Aspect-Term Sentiment Analysis,no
+Chinese Idiom Paraphrasing,no
+Evaluating Transformer Models and Human Behaviors on Chinese Character Naming,no
+Rank-Aware Negative Training for Semi-Supervised Text Classification,no
+MACSum: Controllable Summarization with Mixed Attributes,yes
+MENLI: Robust Evaluation Metrics from Natural Language Inference,yes
+Efficient Methods for Natural Language Processing: A Survey,yes
+Abstractive Meeting Summarization: A Survey,no
+Expectations over Unspoken Alternatives Predict Pragmatic Inferences,no
+Reasoning over Public and Private Data in Retrieval-Based Systems,no
+Multilingual Coreference Resolution in Multiparty Dialogue,no
+Title,Mentions LLM Limitations
+Directed Acyclic Transformer Pre-training for High-quality Non-autoregressive Text Generation,no
+Time-and-Space-Efficient Weighted Deduction,no
+Conditional Generation with a Question-Answering Blueprint,no
+Collective Human Opinions in Semantic Textual Similarity,no
+Design Choices for Crowdsourcing Implicit Discourse Relations: Revealing the Biases Introduced by Task Design,no
+Communication Drives the Emergence of Language Universals in Neural Agents: Evidence from the Word-order/Case-marking Trade-off,no
+A Cross-Linguistic Pressure for Uniform Information Density in Word Order,no
+Cross-functional Analysis of Generalization in Behavioral Learning,no
+Exploring Contrast Consistency of Open-Domain Question Answering Systems on Minimally Edited Questions,no
+Compositional Zero-Shot Domain Transfer with Text-to-Text Models,no
+MIRACL: A Multilingual Retrieval Dataset Covering 18 Diverse Languages,no
+DMDD: A Large-Scale Dataset for Dataset Mentions Detection,no
+T3L: Translate-and-Test Transfer Learning for Cross-Lingual Text Classification,yes
+"Introduction to Mathematical Language Processing: Informal Proofs, Word Problems, and Supporting Tasks",no
+Evaluating a Century of Progress on the Cognitive Science of Adjective Ordering,no
+Improving Multitask Retrieval by Promoting Task Specialization,no
+Calibrated Interpretation: Confidence Estimation in Semantic Parsing,no
+Intent-calibrated Self-training for Answer Selection in Open-domain Dialogues,no
+Benchmarking the Generation of Fact Checking Explanations,no
+T 2 -NER: A Two-Stage Span-Based Framework for Unified Named Entity Recognition with Templates,no
+PASTA: A Dataset for Modeling PArticipant STAtes in Narratives,yes
+U-CORE: A Unified Deep Cluster-wise Contrastive Framework for Open Relation Extraction,no
+In-Context Retrieval-Augmented Language Models,no
+Learning to Paraphrase Sentences to Different Complexity Levels,no
+Direct Speech Translation for Automatic Subtitling,no
+How Abstract Is Linguistic Generalization in Large Language Models? Experiments with Argument Structure,yes
+"Multi 3 WOZ: A Multilingual, Multi-Domain, Multi-Parallel Dataset for Training and Evaluating Culturally Adapted Task-Oriented Dialog Systems",yes
+Can Authorship Representation Learning Capture Stylistic Features?,no
+Optimal Transport Posterior Alignment for Cross-lingual Semantic Parsing,no

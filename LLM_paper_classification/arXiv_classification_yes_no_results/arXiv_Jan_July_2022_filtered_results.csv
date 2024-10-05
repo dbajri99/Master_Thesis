@@ -1,0 +1,1156 @@
+title,Mentions LLM Limitations
+Language model compression with weighted low-rank factorization,no
+GaitForeMer: Self-Supervised Pre-Training of Transformers via Human Motion Forecasting for Few-Shot Gait Impairment Severity Estimation,no
+Denoised MDPs: Learning World Models Better Than the World Itself,no
+Forecasting Future World Events with Neural Networks,no
+Watch and Match: Supercharging Imitation with Regularized Optimal Transport,no
+Improving Visual Grounding by Encouraging Consistent Gradient-based Explanations,no
+Two-Stage Classifier for COVID-19 Misinformation Detection Using BERT: a Study on Indonesian Tweets,no
+GitHub Copilot AI pair programmer: Asset or Liability?,yes
+The Topological BERT: Transforming Attention into Topology for Natural Language Processing,no
+BigBIO: A Framework for Data-Centric Biomedical Natural Language Processing,no
+Compressing Pre-trained Transformers via Low-Bit NxM Sparsity for Natural Language Understanding,yes
+"""Diversity and Uncertainty in Moderation"" are the Key to Data Selection for Multilingual Few-shot Transfer",no
+GSCLIP : A Framework for Explaining Distribution Shifts in Natural Language,no
+GPTs at Factify 2022: Prompt Aided Fact-Verification,no
+Two-Stage COVID19 Classification Using BERT Features,no
+Solving Quantitative Reasoning Problems with Language Models,yes
+Improving Deliberation by Text-Only and Semi-Supervised Training,no
+Towards a Data-Driven Requirements Engineering Approach: Automatic Analysis of User Reviews,no
+Simple and Effective Multi-sentence TTS with Expressive and Coherent Prosody,no
+Contextual Density Ratio for Language Model Biasing of Sequence to Sequence ASR Systems,no
+Chinese Word Sense Embedding with SememeWSD and Synonym Set,no
+Knowledge Distillation of Transformer-based Language Models Revisited,yes
+Bottleneck Low-rank Transformers for Low-resource Spoken Language Understanding,yes
+Proton: Probing Schema Linking Information from Pre-trained Language Models for Text-to-SQL Parsing,no
+CC-Riddle: A Question Answering Dataset of Chinese Character Riddles,yes
+Exploring linguistic feature and model combination for speech recognition based automatic AD detection,no
+Flexible text generation for counterfactual fairness probing,yes
+Adaptive Multi-view Rule Discovery for Weakly-Supervised Compatible Products Prediction,no
+NERDA-Con: Extending NER models for Continual Learning -- Integrating Distinct Tasks and Updating Distribution Shifts,yes
+Generalized Policy Improvement Algorithms with Theoretically Supported Sample Reuse,no
+Kwame for Science: An AI Teaching Assistant Based on Sentence-BERT for Science Education in West Africa,no
+Perspective (In)consistency of Paint by Text,no
+Materials Transformers Language Models for Generative Materials Design: a benchmark study,no
+PROTOtypical Logic Tensor Networks (PROTO-LTN) for Zero Shot Learning,no
+Repository-Level Prompt Generation for Large Language Models of Code,no
+TEVR: Improving Speech Recognition by Token Entropy Variance Reduction,no
+Distilling a Pretrained Language Model to a Multilingual ASR Model,no
+Adversarial Self-Attention for Language Understanding,no
+Construct a Sentence with Multiple Specified Words,no
+Value-Consistent Representation Learning for Data-Efficient Reinforcement Learning,no
+A Test for Evaluating Performance in Human-Computer Systems,no
+Using BERT Embeddings to Model Word Importance in Conversational Transcripts for Deaf and Hard of Hearing Users,no
+Text and author-level political inference using heterogeneous knowledge representations,no
+MVP: Multi-task Supervised Pre-training for Natural Language Generation,no
+Unified BERT for Few-shot Natural Language Understanding,no
+SC-Ques: A Sentence Completion Question Dataset for English as a Second Language Learners,no
+A Disability Lens towards Biases in GPT-3 Generated Open-Ended Languages,yes
+BERT Rankers are Brittle: a Study using Adversarial Document Perturbations,yes
+Constructing Cross-lingual Consumer Health Vocabulary with Word-Embedding from Comparable User Generated Content,no
+Mining Error Templates for Grammatical Error Correction,no
+Evaluating Generative Patent Language Models,no
+CGAR: Critic Guided Action Redistribution in Reinforcement Leaning,no
+Towards WinoQueer: Developing a Benchmark for Anti-Queer Bias in Large Language Models,yes
+DP-Parse: Finding Word Boundaries from Raw Speech with an Instance Lexicon,no
+GODEL: Large-Scale Pre-Training for Goal-Directed Dialog,no
+Answer Fast: Accelerating BERT on the Tensor Streaming Processor,no
+Multi-LexSum: Real-World Summaries of Civil Rights Lawsuits at Multiple Granularities,yes
+Scaling Autoregressive Models for Content-Rich Text-to-Image Generation,no
+Efficient and effective training of language and graph neural network models,no
+Don't Forget About Pronouns: Removing Gender Bias in Language Models Without Losing Factual Gender Information,yes
+Using cognitive psychology to understand GPT-3,yes
+BenchCLAMP: A Benchmark for Evaluating Language Models on Syntactic and Semantic Parsing,no
+Questions Are All You Need to Train a Dense Passage Retriever,no
+EnvPool: A Highly Parallel Reinforcement Learning Environment Execution Engine,no
+PlanBench: An Extensible Benchmark for Evaluating Large Language Models on Planning and Reasoning about Change,yes
+An Automatic and Efficient BERT Pruning for Edge AI Systems,no
+CoCoPIE XGen: A Full-Stack AI-Oriented Optimizing Framework,no
+TabText: A Flexible and Contextual Approach to Tabular Data Representation,yes
+KnowDA: All-in-One Knowledge Mixture Model for Data Augmentation in Low-Resource NLP,no
+TAPHSIR: Towards AnaPHoric Ambiguity Detection and ReSolution In Requirements,no
+Knowledge Graph Fusion for Language Model Fine-tuning,no
+General Framework for Reversible Data Hiding in Texts Based on Masked Language Modeling,no
+Automatic Controllable Product Copywriting for E-Commerce,no
+"Fewer Errors, but More Stereotypes? The Effect of Model Size on Gender Bias",yes
+SPBERTQA: A Two-Stage Question Answering System Based on Sentence Transformers for Medical Texts,no
+Domain-Adaptive Text Classification with Structured Knowledge from Unlabeled Data,yes
+Towards Unified Conversational Recommender Systems via Knowledge-Enhanced Prompt Learning,no
+An Embedded Feature Selection Framework for Control,no
+Can Language Models Capture Graph Semantics? From Graphs to Language Model and Vice-Versa,no
+Automatic Summarization of Russian Texts: Comparison of Extractive and Abstractive Methods,no
+Argumentative Text Generation in Economic Domain,no
+RuArg-2022: Argument Mining Evaluation,no
+VReBERT: A Simple and Flexible Transformer for Visual Relationship Detection,no
+Beyond Rewards: a Hierarchical Perspective on Offline Multiagent Behavioral Analysis,no
+niksss at HinglishEval: Language-agnostic BERT-based Contextual Embeddings with Catboost for Quality Evaluation of the Low-Resource Synthetically Generated Code-Mixed Hinglish Text,no
+Language with Vision: a Study on Grounded Word and Sentence Embeddings,no
+BITS Pilani at HinglishEval: Quality Evaluation for Code-Mixed Hinglish Text Using Transformers,no
+Local Slot Attention for Vision-and-Language Navigation,yes
+MSDF: A General Open-Domain Multi-Skill Dialog Framework,no
+Methods for Estimating and Improving Robustness of Language Models,yes
+Deep Multi-Task Models for Misogyny Identification and Categorization on Arabic Social Media,no
+Know your audience: specializing grounded language models with listener subtraction,no
+Characteristics of Harmful Text: Towards Rigorous Benchmarking of Language Models,yes
+Paraformer: Fast and Accurate Parallel Transformer for Non-autoregressive End-to-End Speech Recognition,no
+A Language Model With Million Sample Context For Raw Audio Using Transformer Architectures,no
+Self-Generated In-Context Learning: Leveraging Auto-regressive Language Models as a Demonstration Generator,no
+An Open-Domain QA System for e-Governance,no
+PreCogIIITH at HinglishEval : Leveraging Code-Mixing Metrics & Language Model Embeddings To Estimate Code-Mix Quality,no
+Accelerating Inference and Language Model Fusion of Recurrent Neural Network Transducers via End-to-End 4-bit Quantization,no
+Detecting Harmful Online Conversational Content towards LGBTQIA+ Individuals,no
+Emergent Abilities of Large Language Models,no
+Estimating Confidence of Predictions of Individual Classifiers and Their Ensembles for the Genre Classification Task,yes
+A Survey : Neural Networks for AMR-to-Text,no
+"Prioritized Training on Points that are Learnable, Worth Learning, and Not Yet Learnt",no
+SBERT studies Meaning Representations: Decomposing Sentence Embeddings into Explainable Semantic Features,yes
+RDU: A Region-based Approach to Form-style Document Understanding,no
+CERT: Continual Pre-Training on Sketches for Library-Oriented Code Generation,no
+LST: Ladder Side-Tuning for Parameter and Memory Efficient Transfer Learning,no
+Memory-Based Model Editing at Scale,yes
+Optimal Clipping and Magnitude-aware Differentiation for Improved Quantization-aware Training,no
+Language Models are General-Purpose Interfaces,no
+JiuZhang: A Chinese Pre-trained Language Model for Mathematical Problem Understanding,no
+Transition-based Abstract Meaning Representation Parsing with Contextual Embeddings,no
+Self-critiquing models for assisting human evaluators,no
+Improving Pre-trained Language Model Fine-tuning with Noise Stability Regularization,no
+Dealing with Sparse Rewards in Continuous Control Robotics via Heavy-Tailed Policies,no
+DeepEmotex: Classifying Emotion in Text Messages using Deep Transfer Learning,no
+Bridging the Gap Between Training and Inference of Bayesian Controllable Language Models,yes
+Comparative Snippet Generation,no
+From Human Days to Machine Seconds: Automatically Answering and Generating Machine Learning Final Exams,no
+Measuring the Carbon Intensity of AI in Cloud Instances,yes
+A Multi-Task Benchmark for Korean Legal Language Understanding and Judgement Prediction,no
+Putting GPT-3's Creativity to the (Alternative Uses) Test,no
+Unsupervised and Few-shot Parsing from Pretrained Language Models,no
+Sort by Structure: Language Model Ranking as Dependency Probing,no
+Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models,yes
+Extracting Zero-shot Common Sense from Large Language Models for Robot 3D Scene Understanding,no
+SsciBERT: A Pre-trained Language Model for Social Science Texts,no
+Joint Encoder-Decoder Self-Supervised Pre-training for ASR,no
+Context-based out-of-vocabulary word recovery for ASR systems in Indian languages,no
+Abstraction not Memory: BERT and the English Article System,no
+Learning to Generate Prompts for Dialogue Generation through Reinforcement Learning,no
+Revealing Single Frame Bias for Video-and-Language Learning,no
+Always Keep your Target in Mind: Studying Semantics and Improving Performance of Neural Lexical Substitution,no
+Searching for Optimal Subword Tokenization in Cross-domain NER,no
+OCHADAI at SemEval-2022 Task 2: Adversarial Training for Multilingual Idiomaticity Detection,no
+DynaMaR: Dynamic Prompt with Mask Token Representation,no
+Neuro-Symbolic Procedural Planning with Commonsense Prompting,yes
+Global Mixup: Eliminating Ambiguity with Clustering,no
+What do tokens know about their characters and how do they know it?,no
+Improving Contrastive Learning of Sentence Embeddings with Case-Augmented Positives and Retrieved Negatives,no
+Spam Detection Using BERT,no
+A computational psycholinguistic evaluation of the syntactic abilities of Galician BERT models at the interface of dependency resolution and training time,no
+Domain-specific Language Pre-training for Dialogue Comprehension on Clinical Inquiry-Answering Conversations,yes
+A sentiment analysis model for car review texts based on adversarial training and whole word mask BERT,no
+OrdinalCLIP: Learning Rank Prompts for Language-Guided Ordinal Regression,no
+Making Large Language Models Better Reasoners with Step-Aware Verifier,yes
+Exploring Cross-lingual Textual Style Transfer with Large Multilingual Language Models,yes
+Offline RL for Natural Language Generation with Implicit Language Q Learning,yes
+Sentiment Analysis of Online Travel Reviews Based on Capsule Network and Sentiment Lexicon,no
+"Speech Detection Task Against Asian Hate: BERT the Central, While Data-Centric Studies the Crucial",no
+Fault-Aware Neural Code Rankers,yes
+Actuarial Applications of Natural Language Processing Using Transformers: Case Studies for Using Text Features in an Actuarial Context,no
+Comparing Performance of Different Linguistically-Backed Word Embeddings for Cyberbullying Detection,no
+ZeroQuant: Efficient and Affordable Post-Training Quantization for Large-Scale Transformers,no
+Extreme Compression for Pre-trained Transformers Made Simple and Efficient,yes
+Visual Clues: Bridging Vision and Language Foundations for Image Paragraph Captioning,no
+Differentially Private Model Compression,yes
+"Relevance in Dialogue: Is Less More? An Empirical Comparison of Existing Metrics, and a Novel Simple Metric",no
+Extracting Similar Questions From Naturally-occurring Business Conversations,no
+Findings of the The RuATD Shared Task 2022 on Artificial Text Detection in Russian,no
+TCE at Qur'an QA 2022: Arabic Language Question Answering Over Holy Qur'an Using a Post-Processed Ensemble of BERT-based Models,no
+Latent Topology Induction for Understanding Contextualized Representations,no
+Automatic Generation of Programming Exercises and Code Explanations using Large Language Models,no
+"Code Generation Tools (Almost) for Free? A Study of Few-Shot, Pre-Trained Language Models on Code",no
+Decentralized Training of Foundation Models in Heterogeneous Environments,no
+A Multi-Policy Framework for Deep Learning-Based Fake News Detection,no
+On Reinforcement Learning and Distribution Matching for Fine-Tuning Language Models with no Catastrophic Forgetting,no
+Cross-View Language Modeling: Towards Unified Cross-Lingual Cross-Modal Pre-training,no
+Romantic-Computing,no
+MaskOCR: Text Recognition with Masked Encoder-Decoder Pretraining,no
+Assessing Group-level Gender Bias in Professional Evaluations: The Case of Medical Student End-of-Shift Feedback,no
+Order-sensitive Shapley Values for Evaluating Conceptual Soundness of NLP Models,yes
+FHIST: A Benchmark for Few-shot Classification of Histological Images,no
+The Contribution of Lyrics and Acoustics to Collaborative Understanding of Mood,no
+A Mixture-of-Expert Approach to RL-based Dialogue Management,yes
+"On the Usefulness of Embeddings, Clusters and Strings for Text Generator Evaluation",no
+Timing is Everything: Learning to Act Selectively with Costly Actions and Budgetary Constraints,no
+Knowledge Graph - Deep Learning: A Case Study in Question Answering in Aviation Safety Domain,no
+The CLRS Algorithmic Reasoning Benchmark,no
+hmBERT: Historical Multilingual Language Models for Named Entity Recognition,no
+A Unified Framework for Emotion Identification and Generation in Dialogues,no
+Leveraging Pre-Trained Language Models to Streamline Natural Language Interaction for Self-Tracking,no
+FinBERT-MRC: financial named entity recognition using BERT under the machine reading comprehension paradigm,no
+Automatic Short Math Answer Grading via In-context Meta-learning,yes
+Billions of Parameters Are Worth More Than In-domain Training Data: A case study in the Legal Case Entailment Task,no
+ZusammenQA: Data Augmentation with Specialized Models for Cross-lingual Open-retrieval Question Answering System,no
+Multi-Agent Reinforcement Learning is a Sequence Modeling Problem,no
+E2S2: Encoding-Enhanced Sequence-to-Sequence Pretraining for Language Understanding and Generation,no
+Rites de Passage: Elucidating Displacement to Emplacement of Refugees on Twitter,no
+COVID-19 Literature Mining and Retrieval using Text Mining Approaches,no
+CogVideo: Large-scale Pretraining for Text-to-Video Generation via Transformers,yes
+Urdu News Article Recommendation Model using Natural Language Processing Techniques,no
+Micro-Expression Recognition Based on Attribute Information Embedding and Cross-modal Contrastive Learning,no
+Learning Locality and Isotropy in Dialogue Modeling,no
+MiniDisc: Minimal Distillation Schedule for Language Model Compression,no
+Happenstance: Utilizing Semantic Search to Track Russian State Media Narratives about the Russo-Ukrainian War On Reddit,no
+Teaching Models to Express Their Uncertainty in Words,no
+Multimodal Fake News Detection via CLIP-Guided Learning,no
+Few-shot Subgoal Planning with Language Models,no
+Controllable Text Generation with Neurally-Decomposed Oracle,no
+Diffusion-LM Improves Controllable Text Generation,no
+Multimodal Masked Autoencoders Learn Transferable Representations,no
+FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness,no
+StereoKG: Data-Driven Knowledge Graph Construction for Cultural Knowledge and Stereotypes,no
+kNN-Prompt: Nearest Neighbor Zero-Shot Inference,no
+Tranception: protein fitness prediction with autoregressive transformers and inference-time retrieval,yes
+Quark: Controllable Text Generation with Reinforced Unlearning,yes
+Differentially Private Decoding in Large Language Models,yes
+Training and Inference on Any-Order Autoregressive Models the Right Way,no
+Discovering Policies with DOMiNO: Diversity Optimization Maintaining Near Optimality,no
+Federated Split BERT for Heterogeneous Text Classification,no
+Leveraging Dependency Grammar for Fine-Grained Offensive Language Detection using Graph Convolutional Networks,no
+Matryoshka Representation Learning,no
+BiT: Robustly Binarized Multi-distilled Transformer,yes
+Transcormer: Transformer for Sentence Scoring with Sliding Language Modeling,yes
+NaturalProver: Grounded Mathematical Proof Generation with Language Models,no
+"Understanding Factual Errors in Summarization: Errors, Summarizers, Datasets, Error Detectors",yes
+PLOG: Table-to-Logic Pretraining for Logical Table-to-Text Generation,yes
+"Train Flat, Then Compress: Sharpness-Aware Minimization Learns More Compressible Models",no
+Large Language Models are Few-Shot Clinical Information Extractors,yes
+Investigating the Benefits of Free-Form Rationales,no
+Ground-Truth Labels Matter: A Deeper Look into Input-Label Demonstrations,no
+Training Language Models with Memory Augmentation,no
+Few-shot Reranking for Multi-hop QA via Language Model Prompting,no
+Lifelong Learning Natural Language Processing Approach for Multilingual Data Classification,no
+Multimodal Knowledge Alignment with Reinforcement Learning,no
+Autoformalization with Large Language Models,no
+ORCA: Interpreting Prompted Language Models via Locating Supporting Data Evidence in the Ocean of Pretraining Data,no
+RobustLR: Evaluating Robustness to Logical Perturbation in Deductive Reasoning,yes
+Perturbation Augmentation for Fairer NLP,yes
+Gradient-Based Constrained Sampling from Language Models,yes
+RLPrompt: Optimizing Discrete Text Prompts with Reinforcement Learning,yes
+Is a Question Decomposition Unit All We Need?,no
+Segmenting Numerical Substitution Ciphers,no
+Text-to-Face Generation with StyleGAN2,no
+Memorization in NLP Fine-tuning Methods,yes
+Fine-grained Contrastive Learning for Relation Extraction,no
+Conditional set generation using Seq2seq models,no
+Low Resource Style Transfer via Domain Adaptive Meta Learning,no
+Improving CTC-based ASR Models with Gated Interlayer Collaboration,no
+Know Where You're Going: Meta-Learning for Parameter-Efficient Fine-Tuning,no
+Sparse*BERT: Sparse Models Generalize To New tasks and Domains,no
+Do we need Label Regularization to Fine-tune Pre-trained Language Models?,yes
+FLUTE: Figurative Language Understanding through Textual Explanations,no
+Sparse Mixers: Combining MoE and Mixing to build a more efficient BERT,no
+Fine-tuned Language Models are Continual Learners,yes
+Toxicity Detection with Generative Prompt-based Inference,yes
+Medical Scientific Table-to-Text Generation with Human-in-the-Loop under the Data Sparsity Constraint,yes
+K-12BERT: BERT for K-12 education,no
+Garden-Path Traversal in GPT-2,no
+Evaluating the Impact of Model Scale for Compositional Generalization in Semantic Parsing,yes
+EdiT5: Semi-Autoregressive Text-Editing with T5 Warm-Start,no
+PoeLM: A Meter- and Rhyme-Controllable Language Model for Unsupervised Poetry Generation,yes
+Enhancing Continual Learning with Global Prototypes: Counteracting Negative Representation Drift,no
+RetroMAE: Pre-Training Retrieval-oriented Language Models Via Masked Auto-Encoder,no
+Word-order typology in Multilingual BERT: A case study in subordinate-clause detection,yes
+ATTEMPT: Parameter-Efficient Multi-task Tuning via Attentional Mixtures of Soft Prompts,no
+The Authenticity Gap in Human Evaluation,yes
+Large Language Models are Zero-Shot Reasoners,yes
+Formulating Few-shot Fine-tuning Towards Language Model Pre-training: A Pilot Study on Named Entity Recognition,no
+PERT: A New Solution to Pinyin to Character Conversion Task,no
+On the Role of Bidirectionality in Language Model Pre-Training,no
+Penguins Don't Fly: Reasoning about Generics through Instantiations and Exceptions,no
+FlexiBERT: Are Current Transformer Architectures too Homogeneous and Rigid?,no
+On Measuring Social Biases in Prompt-Based Multi-Task Learning,yes
+Challenges in Measuring Bias via Open-Ended Language Generation,yes
+Simple Recurrence Improves Masked Language Models,no
+Learning to Ignore Adversarial Attacks,no
+On the Paradox of Learning to Reason from Data,yes
+HyperTree Proof Search for Neural Theorem Proving,no
+Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding,no
+"Towards Automated Document Revision: Grammatical Error Correction, Fluency Edits, and Beyond",no
+A Question-Answer Driven Approach to Reveal Affirmative Interpretations from Verbal Negations,no
+Multilingual Extraction and Categorization of Lexical Collocations with Graph-aware Transformers,no
+Outliers Dimensions that Disrupt Transformers Are Driven by Frequency,yes
+Looking for a Handsome Carpenter! Debiasing GPT-3 Job Advertisements,yes
+The Diminishing Returns of Masked Language Models to Science,no
+KOLD: Korean Offensive Language Dataset,no
+RL with KL penalties is better viewed as Bayesian inference,yes
+BBTv2: Towards a Gradient-Free Future with Large Language Models,no
+Prompt Tuning for Discriminative Pre-trained Language Models,no
+RuNNE-2022 Shared Task: Recognizing Nested Named Entities,no
+Supporting Vision-Language Model Inference with Confounder-pruning Knowledge Prompt,no
+BanglaNLG and BanglaT5: Benchmarks and Resources for Evaluating Low-Resource Natural Language Generation in Bangla,no
+Vector-Quantized Input-Contextualized Soft Prompts for Natural Language Understanding,no
+Artificial intelligence for topic modelling in Hindu philosophy: mapping themes between the Upanishads and the Bhagavad Gita,no
+Parameter-Efficient Sparsity for Large Language Models Fine-Tuning,yes
+Improving Short Text Classification With Augmented Data Using GPT-3,yes
+What should I Ask: A Knowledge-driven Approach for Follow-up Questions Generation in Conversational Surveys,no
+The Geometry of Multilingual Language Model Representations,no
+Thor: Wielding Hammers to Integrate Language Models and Automated Theorem Provers,yes
+A Graph Enhanced BERT Model for Event Prediction,no
+GraphMAE: Self-Supervised Masked Graph Autoencoders,no
+Instruction Induction: From Few Examples to Natural Language Task Descriptions,no
+A Domain-adaptive Pre-training Approach for Language Bias Detection in News,no
+Memorization Without Overfitting: Analyzing the Training Dynamics of Large Language Models,no
+Language Models with Image Descriptors are Strong Few-Shot Video-Language Learners,no
+Housekeep: Tidying Virtual Households using Commonsense Reasoning,no
+Life after BERT: What do Other Muppets Understand about Language?,no
+Revisiting Pre-trained Language Models and their Evaluation for Arabic Natural Language Understanding,no
+Least-to-Most Prompting Enables Complex Reasoning in Large Language Models,no
+HLATR: Enhance Multi-stage Text Retrieval with Hybrid List Aware Transformer Reranking,no
+Scenario-based Multi-product Advertising Copywriting Generation for E-Commerce,no
+Pre-training Data Quality and Quantity for a Low-Resource Language: New Corpus and BERT Models for Maltese,no
+Computable Artificial General Intelligence,no
+A Study on Transformer Configuration and Training Objective,no
+Named Entity Linking with Entity Representation by Multiple Embeddings,no
+Scaling Laws and Interpretability of Learning from Repeated Data,yes
+DeepStruct: Pretraining of Language Models for Structure Prediction,no
+Current Trends and Approaches in Synonyms Extraction: Potential Adaptation to Arabic,no
+UViM: A Unified Modeling Approach for Vision with Learned Guiding Codes,no
+Learning Task-relevant Representations for Generalization via Characteristic Functions of Reward Sequence Distributions,no
+Progressive Class Semantic Matching for Semi-supervised Text Classification,no
+Adversarial Body Shape Search for Legged Robots,no
+Prototypical Calibration for Few-shot Learning of Language Models,no
+Visually-Augmented Language Modeling,no
+Adversarial joint attacks on legged robots,no
+Exploring Extreme Parameter Compression for Pre-trained Language Models,no
+Evaluating and Inducing Personality in Pre-trained Language Models,no
+KERPLE: Kernelized Relative Positional Embedding for Length Extrapolation,no
+Automated Scoring for Reading Comprehension via In-context BERT Tuning,yes
+Towards Understanding Gender-Seniority Compound Bias in Natural Language Generation,yes
+Overcoming Language Disparity in Online Content Classification with Multimodal Learning,yes
+Enhancing Slot Tagging with Intent Features for Task Oriented Natural Language Understanding using BERT,no
+RankGen: Improving Text Generation with Large Ranking Models,no
+Selection-Inference: Exploiting Large Language Models for Interpretable Logical Reasoning,yes
+ArabGlossBERT: Fine-Tuning BERT on Context-Gloss Pairs for WSD,no
+Wojood: Nested Arabic Named Entity Corpus and Recognition using BERT,no
+"Great Power, Great Responsibility: Recommendations for Reducing Energy for Training Language Models",yes
+Acceptability Judgements via Examining the Topology of Attention Maps,no
+Automatic Spoken Language Identification using a Time-Delay Neural Network,no
+Psychiatric Scale Guided Risky Post Screening for Early Detection of Depression,no
+Nebula-I: A General Framework for Collaboratively Training Deep Learning Models on Low-Bandwidth Cloud Clusters,no
+A Weakly-Supervised Iterative Graph-Based Approach to Retrieve COVID-19 Misinformation Topics,no
+Are Prompt-based Models Clueless?,yes
+Transformer-based Program Synthesis for Low-Data Environments,yes
+Debiasing Neural Retrieval via In-batch Balancing Regularization,no
+Entailment Tree Explanations via Iterative Retrieval-Generation Reasoner,no
+LeRaC: Learning Rate Curriculum,no
+Masked Autoencoders As Spatiotemporal Learners,no
+Minimising Biasing Word Errors for Contextual ASR with the Tree-Constrained Pointer Generator,no
+GPoeT-2: A GPT-2 Based Poem Generator,no
+Evaluation of Transfer Learning for Polish with a Text-to-Text Model,no
+PASH at TREC 2021 Deep Learning Track: Generative Enhanced Model for Multi-stage Ranking,no
+ViralBERT: A User Focused BERT-Based Approach to Virality Prediction,no
+AvatarCLIP: Zero-Shot Text-Driven Generation and Animation of 3D Avatars,no
+Feature Aggregation in Zero-Shot Cross-Lingual Transfer Using Multilingual BERT,no
+SKILL: Structured Knowledge Infusion for Large Language Models,no
+SAMU-XLSR: Semantically-Aligned Multimodal Utterance-level Cross-Lingual Speech Representation,no
+SEMI-FND: Stacked Ensemble Based Multimodal Inference For Faster Fake News Detection,no
+Harnessing Multilingual Resources to Question Answering in Arabic,no
+The Primacy Bias in Deep Reinforcement Learning,no
+Qualitative Differences Between Evolutionary Strategies and Reinforcement Learning Methods for Control of Autonomous Agents,no
+Chemical transformer compression for accelerating both training and inference of molecular modeling,no
+"Heroes, Villains, and Victims, and GPT-3: Automated Extraction of Character Roles Without Training Data",no
+The AI Teacher Test: Measuring the Pedagogical Ability of Blender and GPT-3 in Educational Dialogues,yes
+What GPT Knows About Who is Who,yes
+Downstream Transformer Generation of Question-Answer Pairs with Preprocessing and Postprocessing Pipelines,no
+Transkimmer: Transformer Learns to Layer-wise Skim,yes
+TiBERT: Tibetan Pre-trained Language Model,no
+Classifiers are Better Experts for Controllable Text Generation,no
+Topic Modelling on Consumer Financial Protection Bureau Data: An Approach Using BERT Based Embeddings,no
+Discovering Latent Concepts Learned in BERT,yes
+Learning Lip-Based Audio-Visual Speaker Embeddings with AV-HuBERT,no
+Naturalistic Causal Probing for Morpho-Syntax,no
+Fake News Quick Detection on Dynamic Heterogeneous Information Networks,no
+RASAT: Integrating Relational Structures into Pretrained Seq2Seq Model for Text-to-SQL,no
+Unified Distributed Environment,no
+Bootstrapping Text Anonymization Models with Distant Supervision,no
+PathologyBERT -- Pre-trained Vs. A New Transformer Language Model for Pathology Domain,yes
+A Study of the Attention Abnormality in Trojaned BERTs,no
+Controlling Translation Formality Using Pre-trained Multilingual Language Models,no
+"Analyzing Hate Speech Data along Racial, Gender and Intersectional Axes",no
+Weakly Supervised Text Classification using Supervision Signals from a Language Model,no
+Improving Contextual Representation with Gloss Regularized Pre-training,no
+ViT5: Pretrained Text-to-Text Transformer for Vietnamese Language Generation,no
+TIE: Topological Information Enhanced Structural Reading Comprehension on Web Pages,no
+Localized Vision-Language Matching for Open-vocabulary Object Detection,no
+Is the Computation of Abstract Sameness Relations Human-Like in Neural Language Models?,no
+Efficient and Training-Free Control of Language Generation,no
+Towards Answering Open-ended Ethical Quandary Questions,yes
+SimCPSR: Simple Contrastive Learning for Paper Submission Recommendation System,no
+NER-MQMRC: Formulating Named Entity Recognition as Multi Question Machine Reading Comprehension,no
+AdaVAE: Exploring Adaptive GPT-2s in Variational Auto-Encoders for Language Modeling,no
+AppTek's Submission to the IWSLT 2022 Isometric Spoken Language Translation Task,no
+"A time-varying study of Chinese investor sentiment, stock market liquidity and volatility: Based on deep learning BERT model and TVP-VAR model",no
+"Structured, flexible, and robust: benchmarking and improving large language models towards more human-like behavior in out-of-distribution reasoning tasks",yes
+Ontology-Driven and Weakly Supervised Rare Disease Identification from Clinical Notes,no
+Aggregating Pairwise Semantic Differences for Few-Shot Claim Veracity Classification,no
+Clinical Prompt Learning with Frozen Language Models,yes
+Towards the Generation of Musical Explanations with GPT-3,yes
+Query-Based Keyphrase Extraction from Long Documents,yes
+Towards Unified Prompt Tuning for Few-shot Text Classification,yes
+Reducing Activation Recomputation in Large Transformer Models,yes
+UL2: Unifying Language Learning Paradigms,no
+Extracting Latent Steering Vectors from Pretrained Language Models,no
+Problems with Cosine as a Measure of Embedding Similarity for High Frequency Words,yes
+Symphony Generation with Permutation Invariant Language Model,no
+Ratatouille: A tool for Novel Recipe Generation,no
+The Importance of Context in Very Low Resource Language Modeling,no
+Deep learning based Chinese text sentiment mining and stock market correlation research,no
+From Distillation to Hard Negative Sampling: Making Sparse Neural IR Models More Effective,no
+Long Document Re-ranking with Modular Re-ranker,no
+LayoutXLM vs. GNN: An Empirical Evaluation of Relation Extraction for Documents,no
+Multi-segment preserving sampling for deep manifold sampler,no
+Research on the correlation between text emotion mining and stock market based on deep learning,no
+A Dataset and BERT-based Models for Targeted Sentiment Analysis on Turkish Texts,no
+A Balanced Data Approach for Evaluating Cross-Lingual Transfer: Mapping the Linguistic Blood Bank,no
+Automated Evaluation for Student Argumentative Writing: A Survey,no
+Robust (Controlled) Table-to-Text Generation with Structure-Aware Equivariance Learning,no
+Multimodal Semi-Supervised Learning for Text Recognition,no
+On the Use of BERT for Automated Essay Scoring: Joint Learning of Multi-Scale Essay Representation,no
+Beyond Distributional Hypothesis: Let Language Models Learn Meaning-Text Correspondence,yes
+Context-Aware Abbreviation Expansion Using Large Language Models,yes
+AKI-BERT: a Pre-trained Clinical Language Model for Early Prediction of Acute Kidney Injury,no
+Vector Representations of Idioms in Conversational Systems,yes
+Improving Downstream Task Performance by Treating Numbers as Entities,no
+"When a sentence does not introduce a discourse entity, Transformer-based models still sometimes refer to it",yes
+A Data Cartography based MixUp for Pre-trained Language Models,no
+The Unreliability of Explanations in Few-shot Prompting for Textual Reasoning,yes
+Prompt Distribution Learning,no
+RaFoLa: A Rationale-Annotated Corpus for Detecting Indicators of Forced Labour,no
+Language Models Can See: Plugging Visual Controls in Text Generation,no
+Exploiting Global and Local Hierarchies for Hierarchical Text Classification,no
+FastRE: Towards Fast Relation Extraction with Convolutional Encoder and Improved Cascade Binary Tagging Framework,no
+Robust Conversational Agents against Imperceptible Toxicity Triggers,yes
+Language Models in the Loop: Incorporating Prompting into Weak Supervision,no
+Using virtual edges to extract keywords from texts modeled as complex networks,no
+Provably Confidential Language Modelling,yes
+Data Governance in the Age of Large-Scale Data-Driven Language Technology,yes
+Explain and Conquer: Personalised Text-based Reviews to Achieve Transparency,no
+Mixed-effects transformers for hierarchical adaptation,no
+Improving In-Context Few-Shot Learning via Self-Supervised Training,no
+Efficient Fine-Tuning of BERT Models on the Edge,yes
+Finding patterns in Knowledge Attribution for Transformers,no
+Predicting Issue Types with seBERT,no
+Contrastive Learning for Prompt-Based Few-Shot Language Learners,no
+Embedding Hallucination for Few-Shot Language Fine-tuning,no
+SemAttack: Natural Textual Attacks via Different Semantic Spaces,yes
+OPT: Open Pre-trained Transformer Language Models,no
+BERTops: Studying BERT Representations under a Topological Lens,no
+CCLF: A Contrastive-Curiosity-Driven Learning Framework for Sample-Efficient Reinforcement Learning,no
+Entity-aware Transformers for Entity Search,no
+Seeding Diversity into AI Art,no
+Improving Students' Academic Performance with AI and Semantic Technologies,yes
+Teaching BERT to Wait: Balancing Accuracy and Latency for Streaming Disfluency Detection,no
+Medical Coding with Biomedical Transformer Ensembles and Zero/Few-shot Learning,yes
+Large-Scale Multi-Document Summarization with Information Extraction and Compression,no
+"MRKL Systems: A modular, neuro-symbolic architecture that combines large language models, external knowledge sources and discrete reasoning",yes
+ELQA: A Corpus of Metalinguistic Questions and Answers about English,no
+Detecting COVID-19 Conspiracy Theories with Transformers and TF-IDF,no
+LayoutBERT: Masked Language Layout Model for Object Insertion,no
+Engineering flexible machine learning systems by traversing functionally-invariant paths,no
+HateCheckHIn: Evaluating Hindi Hate Speech Detection Models,no
+Visualizing and Explaining Language Models,no
+StorSeismic: A new paradigm in deep learning for seismic processing,no
+Self-Programming Artificial Intelligence Using Code-Generating Language Models,no
+To Know by the Company Words Keep and What Else Lies in the Vicinity,no
+Training Naturalized Semantic Parsers with Very Little Data,no
+Flamingo: a Visual Language Model for Few-Shot Learning,no
+Training Language Models with Language Feedback,yes
+PyramidCLIP: Hierarchical Feature Alignment for Vision-language Model Pretraining,no
+C3-STISR: Scene Text Image Super-resolution with Triple Clues,no
+ExaASC: A General Target-Based Stance Detection Corpus in Arabic Language,no
+QRelScore: Better Evaluating Generated Questions with Deeper Understanding of Context-aware Relevance,no
+Czech Dataset for Cross-lingual Subjectivity Classification,no
+OA-Mine: Open-World Attribute Mining for E-Commerce Products with Weak Supervision,no
+Inferring Implicit Relations in Complex Questions with Language Models,yes
+Process-BERT: A Framework for Representation Learning on Educational Process Data,no
+CogView2: Faster and Better Text-to-Image Generation via Hierarchical Transformers,no
+RobBERTje: a Distilled Dutch BERT Model,no
+On the Effect of Pretraining Corpora on In-context Learning by a Large-scale Language Model,yes
+Post-Training Dialogue Summarization using Pseudo-Paraphrasing,no
+A Survey on Sentence Embedding Models Performance for Patent Analysis,no
+HPT: Hierarchy-aware Prompt Tuning for Hierarchical Text Classification,no
+Tailor: A Prompt-Based Approach to Attribute-Based Controlled Text Generation,no
+BiTimeBERT: Extending Pre-Trained Language Representations with Bi-Temporal Information,no
+DialogVED: A Pre-trained Latent Variable Encoder-Decoder Model for Dialog Response Generation,no
+An End-to-End Dialogue Summarization System for Sales Calls,yes
+RigoBERTa: A State-of-the-Art Language Model For Spanish,no
+SkillSpan: Hard and Soft Skill Extraction from English Job Postings,no
+Probing Simile Knowledge from Pre-trained Language Models,no
+Modern Baselines for SPARQL Semantic Parsing,no
+Multimodal Transformer-based Model for Buchwald-Hartwig and Suzuki-Miyaura Reaction Yield Prediction,no
+UBERT: A Novel Language Model for Synonymy Prediction at Scale in the UMLS Metathesaurus,no
+Better Query Graph Selection for Knowledge Base Question Answering,no
+Parkinson's disease diagnostics using AI and natural language knowledge transfer,no
+MILES: Visual BERT Pre-training with Injected Language Semantics for Video-text Retrieval,yes
+Science Checker: Extractive-Boolean Question Answering For Scientific Fact Checking,no
+You Don't Know My Favorite Color: Preventing Dialogue Representations from Revealing Speakers' Private Personas,yes
+GypSum: Learning Hybrid Representations for Code Summarization,no
+Approach to Predicting News -- A Precise Multi-LSTM Network With BERT,no
+Pretraining Chinese BERT for Detecting Word Insertion and Deletion Errors,yes
+C3: Continued Pretraining with Contrastive Weak Supervision for Cross Language Ad-Hoc Retrieval,no
+Crystal Transformer: Self-learning neural language model for Generative and Tinkering Design of Materials,no
+Super-Prompting: Utilizing Model-Independent Contextual Data to Reduce Data Annotation Required in Visual Commonsense Tasks,no
+The Causal News Corpus: Annotating Causal Relations in Event Sentences from News,no
+Which Discriminator for Cooperative Text Generation?,no
+Do Transformer Models Show Similar Attention Patterns to Task-Specific Human Gaze?,no
+ED2LM: Encoder-Decoder to Language Model for Faster Document Re-ranking Inference,yes
+Twitter-Based Gender Recognition Using Transformers,no
+Learning to Win Lottery Tickets in BERT Transfer via Task-agnostic Mask Training,no
+Locally Aggregated Feature Attribution on Natural Language Model Understanding,no
+Exploiting Session Information in BERT-based Session-aware Sequential Recommendation,no
+Reward Reports for Reinforcement Learning,no
+Data Distributional Properties Drive Emergent In-Context Learning in Transformers,yes
+Sparse and Dense Approaches for the Full-rank Retrieval of Responses for Dialogues,no
+KALA: Knowledge-Augmented Language Model Adaptation,yes
+Taygete at SemEval-2022 Task 4: RoBERTa based models for detecting Patronising and Condescending Language,no
+WaBERT: A Low-resource End-to-end Model for Spoken Language Understanding and Speech-to-BERT Alignment,no
+Improving the Generalizability of Depression Detection by Leveraging Clinical Questionnaires,no
+DiffCSE: Difference-based Contrastive Learning for Sentence Embeddings,no
+Revisiting Gaussian mixture critics in off-policy reinforcement learning: a sample-based approach,no
+Is Neural Topic Modelling Better than Clustering? An Empirical Study on Clustering with Contextual Embeddings for Topics,no
+Making the Most of Text Semantics to Improve Biomedical Vision--Language Processing,yes
+When Does Syntax Mediate Neural Language Model Performance? Evidence from Dropout Probes,no
+You Are What You Write: Preserving Privacy in the Era of Large Language Models,yes
+Is BERT Robust to Label Noise? A Study on Learning with Noisy Labels in Text Classification,yes
+Towards Arabic Sentence Simplification via Classification and Generative Approaches,no
+On the Representation Collapse of Sparse Mixture of Experts,no
+DialoKG: Knowledge-Structure Aware Task-Oriented Dialogue Generation,no
+What Makes Instruction Learning Hard? An Investigation and a New Challenge in a Synthetic Environment,yes
+ALBETO and DistilBETO: Lightweight Spanish Language Models,no
+Optimize_Prime@DravidianLangTech-ACL2022: Abusive Comment Detection in Tamil,no
+CodexDB: Generating Code for Processing SQL Queries using GPT-3 Codex,no
+Impact of Tokenization on Language Models: An Analysis for Turkish,yes
+Probing for the Usage of Grammatical Number,no
+Multimodal Hate Speech Detection from Bengali Memes and Texts,no
+DecBERT: Enhancing the Language Understanding of BERT with Causal Attention Masks,yes
+Mono vs Multilingual BERT for Hate Speech Detection and Text Classification: A Case Study in Marathi,no
+LitMC-BERT: transformer-based multi-label classification of biomedical literature with an application on COVID-19 literature curation,no
+Context-Aware Language Modeling for Goal-Oriented Dialogue Systems,yes
+Zero-shot Entity and Tweet Characterization with Designed Conditional Prompts and Contexts,no
+L3Cube-HingCorpus and HingBERT: A Code Mixed Hindi-English Dataset and BERT Language Models,yes
+UMass PCL at SemEval-2022 Task 4: Pre-trained Language Model Ensembles for Detecting Patronizing and Condescending Language,no
+Ingredient Extraction from Text in the Recipe Domain,no
+Pathologies of Pre-trained Language Models in Few-shot Fine-tuning,yes
+Knowledgeable Salient Span Mask for Enhancing Language Models as Knowledge Base,no
+nigam@COLIEE-22: Legal Case Retrieval and Entailment using Cascading of Lexical and Semantic-based models,no
+A Contrastive Cross-Channel Data Augmentation Framework for Aspect-based Sentiment Analysis,no
+Contrastive Learning with Hard Negative Entities for Entity Set Expansion,no
+WordAlchemy: A transformer-based Reverse Dictionary,no
+SimpleBERT: A Pre-trained Model That Learns to Generate Simple Words,no
+Probing Script Knowledge from Pre-Trained Models,no
+BLCU-ICALL at SemEval-2022 Task 1: Cross-Attention Multitasking Framework for Definition Modeling,no
+DialAug: Mixing up Dialogue Contexts in Contrastive Learning for Robust Conversational Modeling,no
+MoEBERT: from BERT to Mixture-of-Experts via Importance-Guided Adaptation,no
+CILDA: Contrastive Data Augmentation using Intermediate Layer Knowledge Distillation,no
+Just Fine-tune Twice: Selective Differential Privacy for Large Language Models,yes
+Semantic Structure based Query Graph Prediction for Question Answering over Knowledge Graph,no
+Evaluation Benchmarks for Spanish Sentence Representations,no
+Improving Passage Retrieval with Zero-Shot Question Generation,no
+Polling Latent Opinions: A Method for Computational Sociolinguistics Using Transformer Language Models,no
+Improving Pre-trained Language Models with Syntactic Dependency Prediction Task for Chinese Semantic Error Recognition,no
+mGPT: Few-Shot Learners Go Multilingual,no
+ML_LTU at SemEval-2022 Task 4: T5 Towards Identifying Patronizing and Condescending Language,no
+Is Surprisal in Issue Trackers Actionable?,no
+XDBERT: Distilling Visual Information to BERT from Cross-Modal Systems to Improve Language Understanding,no
+Improving Cross-Modal Understanding in Visual Dialog via Contrastive Learning,no
+Identifying and Measuring Token-Level Sentiment Bias in Pre-trained Language Models with Prompts,no
+Analysing similarities between legal court documents using natural language processing approaches based on Transformers,no
+Label Semantic Aware Pre-training for Few-shot Text Classification,no
+DeiT III: Revenge of the ViT,no
+Generative power of a protein language model trained on multiple sequence alignments,no
+Composite Code Sparse Autoencoders for first stage retrieval,no
+Rows from Many Sources: Enriching row completions from Wikidata with a pre-trained Language Model,no
+Does BERT really agree ? Fine-grained Analysis of Lexical Dependence on a Syntactic Task,no
+Multi-label topic classification for COVID-19 literature with Bioformer,no
+GPT-NeoX-20B: An Open-Source Autoregressive Language Model,no
+GAP: A Graph-aware Language Model Framework for Knowledge Graph-to-Text Generation,no
+CAMERO: Consistency Regularized Ensemble of Perturbed Language Models with Weight Sharing,yes
+Scalable Training of Language Models using JAX pjit and TPUv4,no
+Building Markovian Generative Architectures over Pretrained LM Backbones for Efficient Task-Oriented Dialog Systems,yes
+Local Feature Swapping for Generalization in Reinforcement Learning,no
+HuBERT-EE: Early Exiting HuBERT for Efficient Speech Recognition,no
+Automatic Multi-Label Prompting: Simple and Interpretable Few-Shot Classification,no
+Curriculum: A Broad-Coverage Benchmark for Linguistic Phenomena in Natural Language Understanding,yes
+TangoBERT: Reducing Inference Cost by using Cascaded Architecture,no
+IIITDWD-ShankarB@ Dravidian-CodeMixi-HASOC2021: mBERT based model for identification of offensive content in south Indian languages,no
+HIT at SemEval-2022 Task 2: Pre-trained Language Model for Idioms Detection,no
+Impossible Triangle: What's Next for Pre-trained Language Models?,yes
+L3Cube-MahaNER: A Marathi Named Entity Recognition Dataset and BERT models,no
+Mining Logical Event Schemas From Pre-Trained Language Models,no
+What Language Model Architecture and Pretraining Objective Work Best for Zero-Shot Generalization?,no
+MuCoT: Multilingual Contrastive Training for Question-Answering in Low-resource Languages,yes
+Do Not Fire the Linguist: Grammatical Profiles Help Language Models Detect Semantic Change,yes
+Solving Price Per Unit Problem Around the World: Formulating Fact Extraction as Question Answering,no
+Overlapping Word Removal is All You Need: Revisiting Data Imbalance in Hope Speech Detection,no
+ProtoTEx: Explaining Model Decisions with Prototype Tensors,no
+Doctor XAvIer: Explainable Diagnosis on Physician-Patient Dialogues and XAI Evaluation,no
+A Generative Language Model for Few-shot Aspect-Based Sentiment Analysis,no
+GDC- Generalized Distribution Calibration for Few-Shot Learning,no
+Tokenwise Contrastive Pretraining for Finer Speech-to-BERT Alignment in End-to-End Speech-to-Intent Systems,no
+Uniform Complexity for Text Generation,yes
+Team ÚFAL at CMCL 2022 Shared Task: Figuring out the correct recipe for predicting Eye-Tracking features using Pretrained Language Models,no
+JORLDY: a fully customizable open source framework for reinforcement learning,no
+Adapting BigScience Multilingual Model to Unseen Languages,no
+Fake news detection using parallel BERT deep neural networks,no
+Few-Shot Cross-lingual Transfer for Coarse-grained De-identification of Code-Mixed Clinical Texts,yes
+Breaking Character: Are Subwords Good Enough for MRLs After All?,no
+Pushing on Personality Detection from Verbal Behavior: A Transformer Meets Text Contours of Psycholinguistic Features,no
+Efficient Extraction of Pathologies from C-Spine Radiology Reports using Multi-Task Learning,no
+Benchmarking for Public Health Surveillance tasks on Social Media with a Domain-Specific Pretrained Language Model,yes
+MR-iNet Gym: Framework for Edge Deployment of Deep Reinforcement Learning on Embedded Software Defined Radio,no
+IDPG: An Instance-Dependent Prompt Generation Method,no
+"FoundationLayerNorm: Scaling BERT and GPT to 1,000 Layers",no
+Modeling Multi-Granularity Hierarchical Features for Relation Extraction,no
+Should we tweet this? Generative response modeling for predicting reception of public health messaging on Twitter,no
+"Show, Don't Tell: Demonstrations Outperform Descriptions for Schema-Guided Task-Oriented Dialogue",no
+MMTAfrica: Multilingual Machine Translation for African Languages,no
+Towards Understanding Large-Scale Discourse Structures in Pre-Trained and Fine-Tuned Language Models,no
+BioRED: A Rich Biomedical Relation Extraction Dataset,no
+Contextual Representation Learning beyond Masked Language Modeling,yes
+Fair and Argumentative Language Modeling for Computational Argumentation,yes
+Enhance Incomplete Utterance Restoration by Joint Learning Token Extraction and Text Generation,no
+RuBioRoBERTa: a pre-trained biomedical language model for Russian language biomedical text mining,no
+BioBART: Pretraining and Evaluation of A Biomedical Generative Language Model,yes
+Towards Semi-Supervised Learning of Automatic Post-Editing: Data-Synthesis by Infilling Mask with Erroneous Tokens,no
+Infusing Knowledge from Wikipedia to Enhance Stance Detection,no
+Q-learning with online random forests,no
+"Read, Revise, Repeat: A System Demonstration for Human-in-the-loop Iterative Text Revision",yes
+Testing the limits of natural language models for predicting human language judgments,yes
+BERTuit: Understanding Spanish language in Twitter through a native transformer,yes
+MAESTRO: Matched Speech Text Representations through Modality Matching,no
+Autoencoding Language Model Based Ensemble Learning for Commonsense Validation and Explanation,no
+Towards Automatic Construction of Filipino WordNet: Word Sense Induction and Synset Induction Using Sentence Embeddings,no
+Pretraining Text Encoders with Adversarial Mixture of Training Signal Generators,no
+Accelerating Attention through Gradient-Based Learned Runtime Pruning,no
+Knowledge Infused Decoding,yes
+Paying More Attention to Self-attention: Improving Pre-trained Language Models via Attention Guiding,no
+drsphelps at SemEval-2022 Task 2: Learning idiom representations using BERTRAM,no
+SecureBERT: A Domain-Specific Language Model for Cybersecurity,no
+Forecasting Cryptocurrency Returns from Sentiment Signals: An Analysis of BERT Classifiers and Weak Supervision,no
+DAGAM: Data Augmentation with Generation And Modification,yes
+Structure-aware Protein Self-supervised Learning,no
+An Exploratory Study on Code Attention in BERT,no
+LAMNER: Code Comment Generation Using Character Language Model and Named Entity Recognition,yes
+On the Effectiveness of Pretrained Models for API Learning,no
+PaLM: Scaling Language Modeling with Pathways,no
+Parameter-Efficient Neural Reranking for Cross-Lingual and Multilingual Retrieval,yes
+Abstractive summarization of hospitalisation histories with transformer networks,no
+Multilinguals at SemEval-2022 Task 11: Transformer Based Architecture for Complex NER,no
+SemanticCAP: Chromatin Accessibility Prediction Enhanced by Features Learning from a Language Model,no
+How Different are Pre-trained Transformers for Text Ranking?,no
+A Complementary Joint Training Approach Using Unpaired Speech and Text for Low-Resource Automatic Speech Recognition,no
+Data Augmentation for Intent Classification with Off-the-shelf Large Language Models,yes
+Applying Automatic Text Summarization for Fake News Detection,yes
+"Do As I Can, Not As I Say: Grounding Language in Robotic Affordances",yes
+A Machine With Human-Like Memory Systems,no
+Using Pre-Trained Language Models for Producing Counter Narratives Against Hate Speech: a Comparative Study,no
+Aligned Weight Regularizers for Pruning Pretrained Neural Networks,no
+Interpretable Saliency Maps And Self-Supervised Learning For Generalized Zero Shot Medical Image Classification,no
+Into-TTS : Intonation Template Based Prosody Control System,no
+Graph Enhanced BERT for Query Understanding,no
+POS-BERT: Point Cloud One-Stage BERT Pre-Training,no
+BERT-Assisted Semantic Annotation Correction for Emotion-Related Questions,no
+CTRLEval: An Unsupervised Reference-Free Metric for Evaluating Controlled Text Generation,yes
+Efficient comparison of sentence embeddings,no
+CharacterBERT and Self-Teaching for Improving the Robustness of Dense Retrievers on Queries with Typos,yes
+Socratic Models: Composing Zero-Shot Multimodal Reasoning with Language,no
+Monarch: Expressive Structured Matrices for Efficient and Accurate Training,no
+Evaluation of Fake News Detection with Knowledge-Enhanced Language Models,yes
+Zero-Shot Cross-lingual Aphasia Detection using Automatic Speech Recognition,no
+Cyberbullying detection across social media platforms via platform-aware adversarial encoding,no
+Feature Structure Distillation with Centered Kernel Alignment in BERT Transferring,no
+Predicting Intervention Approval in Clinical Trials through Multi-Document Summarization,no
+Syntax-informed Question Answering with Heterogeneous Graph Transformer,no
+NC-DRE: Leveraging Non-entity Clue Information for Document-level Relation Extraction,no
+Effect and Analysis of Large-scale Language Model Rescoring on Competitive ASR Systems,no
+A Baseline Readability Model for Cebuano,no
+Mixed-Phoneme BERT: Improving BERT with Mixed Phoneme and Sup-Phoneme Representations for Text to Speech,no
+Scaling Up Models and Data with $\texttt{t5x}$ and $\texttt{seqio}$,no
+Scaling Language Model Size in Cross-Device Federated Learning,no
+PanGu-Bot: Efficient Generative Dialogue Pre-training from Pre-trained Language Model,no
+PADA: Pruning Assisted Domain Adaptation for Self-Supervised Speech Representations,no
+Generative Pre-Trained Transformers for Biologically Inspired Design,no
+Domain Adaptation for Sparse-Data Settings: What Do We Gain by Not Using Bert?,yes
+A Character-level Span-based Model for Mandarin Prosodic Structure Prediction,no
+Leveraging pre-trained language models for conversational information seeking from text,yes
+"ESGBERT: Language Model to Help with Classification Tasks Related to Companies Environmental, Social, and Governance Practices",no
+An Empirical Study of Language Model Integration for Transducer based Speech Recognition,no
+SpeechPrompt: An Exploration of Prompt Tuning on Generative Spoken Language Model for Speech Processing Tasks,no
+CREATE: A Benchmark for Chinese Short Video Retrieval and Title Generation,no
+Reproducibility Issues for BERT-based Evaluation Metrics,yes
+Transformer Language Models without Positional Encodings Still Learn Positional Information,no
+Improving Speech Recognition for Indic Languages using Language Model,no
+PromptDet: Towards Open-vocabulary Detection using Uncurated Images,no
+Position-based Prompting for Health Outcome Generation,no
+Incorporating Dynamic Semantics into Pre-Trained Language Model for Aspect-based Sentiment Analysis,no
+Auto-MLM: Improved Contrastive Learning for Self-supervised Multi-lingual Knowledge Retrieval,no
+Detecting Unassimilated Borrowings in Spanish: An Annotated Corpus and Approaches to Modeling,no
+An Iterative Co-Training Transductive Framework for Zero Shot Learning,no
+Shallow Fusion of Weighted Finite-State Transducer and Language Model for Text Normalization,no
+WAVPROMPT: Towards Few-Shot Spoken Language Understanding with Frozen Language Models,no
+LinkBERT: Pretraining Language Models with Document Links,no
+Evaluating Prompts Across Multiple Choice Tasks In a Zero-Shot Setting,no
+LightHuBERT: Lightweight and Configurable Speech Representation Learning with Once-for-All Hidden-Unit BERT,no
+Cross-Media Scientific Research Achievements Retrieval Based on Deep Language Model,no
+Training Compute-Optimal Large Language Models,yes
+WeNet 2.0: More Productive End-to-End Speech Recognition Toolkit,no
+mc-BEiT: Multi-choice Discretization for Image BERT Pre-training,no
+Improving Persian Relation Extraction Models by Data Augmentation,no
+A Fast Post-Training Pruning Framework for Transformers,no
+Worldwide city transport typology prediction with sentence-BERT based supervised learning via Wikipedia,no
+Learning to Prompt for Open-Vocabulary Object Detection with Vision-Language Model,no
+Hierarchical Transformer Model for Scientific Named Entity Recognition,no
+ANNA: Enhanced Language Representation for Question Answering,no
+STaR: Bootstrapping Reasoning With Reasoning,no
+Pyramid-BERT: Reducing Complexity via Successive Core-set based Token Selection,no
+Example-based Hypernetworks for Out-of-Distribution Generalization,no
+Text Adversarial Purification as Defense against Adversarial Attacks,no
+A Roadmap for Big Model,no
+Autoregressive Linguistic Steganography Based on BERT and Consistency Coding,no
+A Comparative Evaluation Of Transformer Models For De-Identification Of Clinical Text Data,no
+L3Cube-MahaHate: A Tweet-based Marathi Hate Speech Detection Dataset and BERT models,no
+MKQ-BERT: Quantized BERT with 4-bits Weights and Activations,no
+CodeGen: An Open Large Language Model for Code with Multi-Turn Program Synthesis,no
+Predicting Clinical Intent from Free Text Electronic Health Records,no
+Reshaping Robot Trajectories Using Natural Language Commands: A Study of Multi-Modal Data Alignment Using Transformers,no
+GPT-D: Inducing Dementia-related Linguistic Anomalies by Deliberate Degradation of Artificial Neural Language Models,yes
+Remember and Forget Experience Replay for Multi-Agent Reinforcement Learning,no
+Mix and Match: Learning-free Controllable Text Generation using Energy Language Models,no
+Token Dropping for Efficient BERT Pretraining,no
+Language Models that Seek for Knowledge: Modular Search & Generation for Dialogue and Prompt Completion,no
+"Multi-armed bandits for resource efficient, online optimization of language model pre-training: the use case of dynamic masking",no
+minicons: Enabling Flexible Behavioral and Representational Analyses of Transformer Language Models,no
+Ensembling and Knowledge Distilling of Large Sequence Taggers for Grammatical Error Correction,no
+Bailando: 3D Dance Generation by Actor-Critic GPT with Choreographic Memory,no
+mcBERT: Momentum Contrastive Learning with BERT for Zero-Shot Slot Filling,no
+Mono vs Multilingual BERT: A Case Study in Hindi and Marathi Named Entity Recognition,no
+Adversarial Training for Improving Model Robustness? Look at Both Prediction and Interpretation,yes
+Mitigating Gender Bias in Distilled Language Models via Counterfactual Role Reversal,no
+Prompt-based System for Personality and Interpersonal Reactivity Prediction,no
+Input-specific Attention Subnetworks for Adversarial Detection,no
+Visual Prompt Tuning,no
+Self-supervision through Random Segments with Autoregressive Coding (RandSAC),no
+Transformer based ensemble for emotion detection,no
+Under the Hood of Transformer Networks for Trajectory Forecasting,no
+Open-Vocabulary DETR with Conditional Matching,no
+Listening to Affected Communities to Define Extreme Speech: Dataset and Experiments,no
+BERT-ASC: Implicit Aspect Representation Learning through Auxiliary-Sentence Construction for Sentiment Analysis,yes
+Are You Misinformed? A Study of Covid-Related Fake News in Bengali on Facebook,no
+Factual Consistency of Multilingual Pretrained Language Models,no
+VLSP 2021 - ViMRC Challenge: Vietnamese Machine Reading Comprehension,no
+Towards Textual Out-of-Domain Detection without In-Domain Labels,no
+Enhancing Speech Recognition Decoding via Layer Aggregation,no
+DQ-BART: Efficient Sequence-to-Sequence Model via Joint Distillation and Quantization,yes
+Self-Consistency Improves Chain of Thought Reasoning in Language Models,no
+Teaching language models to support answers with verified quotes,yes
+Towards Explainable Evaluation Metrics for Natural Language Generation,no
+AraBART: a Pretrained Arabic Sequence-to-Sequence Model for Abstractive Summarization,no
+Neural Token Segmentation for High Token-Internal Complexity,no
+Multitask Neuroevolution for Reinforcement Learning with Long and Short Episodes,no
+TCM-SD: A Benchmark for Probing Syndrome Differentiation via Natural Language Processing,no
+Semantic Similarity Computing for Scientific Academic Conferences fused with domain features,no
+An Intellectual Property Entity Recognition Method Based on Transformer and Technological Word Information,no
+Compression of Generative Pre-trained Language Models via Quantization,no
+Better Language Model with Hypernym Class Prediction,no
+Mitigating Gender Bias in Machine Translation through Adversarial Learning,yes
+Immersive Text Game and Personality Classification,no
+Open-Vocabulary One-Stage Detection with Hierarchical Visual-Language Knowledge Distillation,no
+Cluster & Tune: Boost Cold Start Performance in Text Classification,no
+g2pW: A Conditional Weighted Softmax BERT for Polyphone Disambiguation in Mandarin,no
+How does the pre-training objective affect what large language models learn about linguistic properties?,no
+On Robust Prefix-Tuning for Text Classification,no
+Perturbations in the Wild: Leveraging Human-Written Text Perturbations for Realistic Adversarial Attack and Defense,no
+Automatic Detection of Entity-Manipulated Text using Factual Knowledge,no
+Distinguishing Non-natural from Natural Adversarial Samples for More Robust Pre-trained Language Model,yes
+Bridging Pre-trained Language Models and Hand-crafted Features for Unsupervised POS Tagging,no
+Dependency-based Mixture Language Models,no
+Are You Robert or RoBERTa? Deceiving Online Authorship Attribution Models Using Neural Text Generators,yes
+Three things everyone should know about Vision Transformers,no
+HiStruct+: Improving Extractive Text Summarization with Hierarchical Structure Information,no
+ToxiGen: A Large-Scale Machine-Generated Dataset for Adversarial and Implicit Hate Speech Detection,no
+Coloring the Blank Slate: Pre-training Imparts a Hierarchical Inductive Bias to Sequence-to-sequence Models,no
+Finding Structural Knowledge in Multimodal-BERT,no
+Universal Conditional Masked Language Pre-training for Neural Machine Translation,no
+Entropy-based Attention Regularization Frees Unintended Bias Mitigation from Lists,yes
+Multilingual Detection of Personal Employment Status on Twitter,no
+RelationPrompt: Leveraging Prompts to Generate Synthetic Data for Zero-Shot Relation Triplet Extraction,no
+Fine- and Coarse-Granularity Hybrid Self-Attention for Efficient BERT,yes
+Triangular Transfer: Freezing the Pivot for Triangular Machine Translation,no
+AdapLeR: Speeding up Inference by Adaptive Length Reduction,no
+Label Semantics for Few Shot Named Entity Recognition,no
+CUE Vectors: Modular Training of Language Models Conditioned on Diverse Contextual Signals,no
+Multi-Stage Prompting for Knowledgeable Dialogue Generation,yes
+In-Context Learning for Few-Shot Dialogue State Tracking,no
+Linking Theories and Methods in Cognitive Sciences via Joint Embedding of the Scientific Literature: The Example of Cognitive Control,no
+Pseudo-Q: Generating Pseudo Language Queries for Visual Grounding,no
+KinyaBERT: a Morphology-aware Kinyarwanda Language Model,no
+Cross-Lingual Ability of Multilingual Masked Language Models: A Study of Language Structure,no
+Thinking about GPT-3 In-Context Learning for Biomedical IE? Think Again,yes
+Data Contamination: From Memorization to Exploitation,yes
+Representation Learning for Resource-Constrained Keyphrase Generation,yes
+Evaluating the Text-to-SQL Capabilities of Large Language Models,no
+Measuring the Impact of (Psycho-)Linguistic and Readability Features and Their Spill Over Effects on the Prediction of Eye Movement Patterns,no
+Training a Tokenizer for Free with Private Federated Learning,yes
+Imputing Out-of-Vocabulary Embeddings with LOVE Makes Language Models Robust with Little Cost,no
+Do BERTs Learn to Use Browser User Interface? Exploring Multi-Step Tasks with Unified Vision-and-Language BERTs,no
+The Ghost in the Machine has an American accent: value conflict in GPT-3,yes
+UniSAr: A Unified Structure-Aware Autoregressive Language Model for Text-to-SQL,no
+Evaluating BERT-based Pre-training Language Models for Detecting Misinformation,no
+ReACC: A Retrieval-Augmented Code Completion Framework,no
+Compressing Sentence Representation for Semantic Retrieval via Homomorphic Projective Distillation,yes
+Do Language Models Plagiarize?,yes
+Long Document Summarization with Top-down and Bottom-up Inference,no
+Choose Your QA Model Wisely: A Systematic Study of Generative and Extractive Readers for Question Answering,no
+Leveraging Visual Knowledge in Language Tasks: An Empirical Study on Intermediate Pre-training for Cross-modal Knowledge Transfer,yes
+Contrastive Visual Semantic Pretraining Magnifies the Semantics of Natural Language Representations,no
+VAST: The Valence-Assessing Semantics Test for Contextualizing Language Models,no
+CoNTACT: A Dutch COVID-19 Adapted BERT for Vaccine Hesitancy and Argumentation Detection,no
+All in One: Exploring Unified Video-Language Pre-training,no
+"GrIPS: Gradient-free, Edit-based Instruction Search for Prompting Large Language Models",yes
+The Optimal BERT Surgeon: Scalable and Accurate Second-Order Pruning for Large Language Models,yes
+WCL-BBCD: A Contrastive Learning and Knowledge Graph Approach to Named Entity Recognition,no
+PERT: Pre-training BERT with Permuted Language Model,no
+Can pre-trained Transformers be used in detecting complex sensitive sentences? -- A Monsanto case study,yes
+Pruned Graph Neural Network for Short Story Ordering,no
+Towards Visual-Prompt Temporal Answering Grounding in Medical Instructional Video,no
+FiNER: Financial Numeric Entity Recognition for XBRL Tagging,no
+Low-Rank Softmax Can Have Unargmaxable Classes in Theory but Rarely in Practice,yes
+BiBERT: Accurate Fully Binarized BERT,no
+Enabling Multimodal Generation on CLIP via Vision-Language Knowledge Distillation,no
+MarkBERT: Marking Word Boundaries Improves Chinese BERT,no
+ELLE: Efficient Lifelong Pre-training for Emerging Data,no
+verBERT: Automating Brazilian Case Law Document Multi-label Categorization Using BERT,no
+"When classifying grammatical role, BERT doesn't care about word order... except when it matters",yes
+Block-Sparse Adversarial Attack to Fool Transformer-Based Text Classifiers,yes
+Are discrete units necessary for Spoken Language Modeling?,no
+A Sentence is Worth 128 Pseudo Tokens: A Semantic-Aware Contrastive Learning Framework for Sentence Embeddings,no
+DeepTrust: A Reliable Financial Knowledge Retrieval Framework For Explaining Extreme Pricing Anomalies,no
+Hierarchical BERT for Medical Document Understanding,no
+"Contextualized Sensorimotor Norms: multi-dimensional measures of sensorimotor strength for ambiguous English words, in context",yes
+A new approach to calculating BERTScore for automatic assessment of translation quality,no
+Semantic Norm Recognition and its application to Portuguese Law,no
+MVP: Multimodality-guided Visual Pre-training,no
+Speciesist Language and Nonhuman Animal Bias in English Masked Language Models,yes
+Compilable Neural Code Generation with Compiler Feedback,no
+NLX-GPT: A Model for Natural Language Explanations in Vision and Vision-Language Tasks,no
+HealthPrompt: A Zero-shot Learning Paradigm for Clinical Natural Language Processing,no
+Sentence-Select: Large-Scale Language Model Data Selection for Rare-Word Speech Recognition,yes
+Pretrained Domain-Specific Language Model for General Information Retrieval Tasks in the AEC Domain,no
+LEMON: LanguagE ModeL for Negative Sampling of Knowledge Graph Embeddings,no
+Gym-saturation: an OpenAI Gym environment for saturation provers,no
+Extraction of Sleep Information from Clinical Notes of Patients with Alzheimer's Disease Using Natural Language Processing,yes
+Learning Bidirectional Translation between Descriptions and Actions with Small Paired Data,no
+InstructionNER: A Multi-Task Instruction-Based Generative Framework for Few-shot NER,no
+HyperPELT: Unified Parameter-Efficient Language Model Tuning for Both Language and Vision-and-Language Tasks,no
+Semantic-Preserving Linguistic Steganography by Pivot Translation and Semantic-Aware Bins Coding,no
+IT5: Large-scale Text-to-text Pretraining for Italian Language Understanding and Generation,no
+The Unsurprising Effectiveness of Pre-Trained Vision Models for Control,no
+Tensor Programs V: Tuning Large Neural Networks via Zero-Shot Hyperparameter Transfer,no
+What Did You Say? Task-Oriented Dialog Datasets Are Not Conversational!?,yes
+Multi-CPR: A Multi Domain Chinese Dataset for Passage Retrieval,no
+Input-Tuning: Adapting Unfamiliar Inputs to Frozen Pretrained Models,yes
+Learnable Irrelevant Modality Dropout for Multimodal Action Recognition on Modality-Specific Annotated Videos,no
+Conditional Bilingual Mutual Information Based Adaptive Training for Neural Machine Translation,no
+Graph Neural Network Enhanced Language Models for Efficient Multilingual Text Classification,no
+Divide and Conquer: Text Semantic Matching with Disentangled Keywords and Intents,no
+Leveraging Pre-trained BERT for Audio Captioning,no
+Bridging the Gap Between Learning in Discrete and Continuous Environments for Vision-and-Language Navigation,no
+Unfreeze with Care: Space-Efficient Fine-Tuning of Semantic Parsing Models,no
+Training language models to follow instructions with human feedback,yes
+Detecting Offensive Language on Social Networks: An End-to-end Detection Method based on Graph Attention Networks,no
+LiteTransformerSearch: Training-free Neural Architecture Search for Efficient Language Models,yes
+Deep Lexical Hypothesis: Identifying personality structure in natural language,no
+"Vision-Language Intelligence: Tasks, Representation Learning, and Large Models",no
+Improving Health Mentioning Classification of Tweets using Contrastive Adversarial Training,no
+Quantum Reinforcement Learning via Policy Iteration,no
+A Deep Neural Framework for Image Caption Generation Using GRU-Based Attention Mechanism,no
+BoMD: Bag of Multi-label Descriptors for Noisy Chest X-ray Classification,yes
+"Dialogue Summaries as Dialogue States (DS2), Template-Guided Summarization for Few-shot Dialogue State Tracking",no
+Providing Insights for Open-Response Surveys via End-to-End Context-Aware Clustering,no
+Integrating Contrastive Learning with Dynamic Models for Reinforcement Learning from Images,no
+Parameter-Efficient Mixture-of-Experts Architecture for Pre-trained Language Models,no
+Discontinuous Constituency and BERT: A Case Study of Dutch,no
+HyperPrompt: Prompt-based Task-Conditioning of Transformers,no
+E-LANG: Energy-Based Joint Inferencing of Super and Swift Language Models,no
+BERT-LID: Leveraging BERT to Improve Spoken Language Identification,no
+"""Is Whole Word Masking Always Better for Chinese BERT?"": Probing on Chinese Grammatical Error Correction",no
+Fast-R2D2: A Pretrained Recursive Neural Network based on Pruned CKY for Grammar Induction and Text Representation,no
+Exploring and Adapting Chinese GPT to Pinyin Input Method,no
+The impact of lexical and grammatical processing on generating code from natural language,no
+Provably Efficient Convergence of Primal-Dual Actor-Critic with Nonlinear Function Approximation,no
+Text Smoothing: Enhance Various Data Augmentation Methods on Text Classification Tasks,no
+Logical Fallacy Detection,yes
+Confidence Based Bidirectional Global Context Aware Training Framework for Neural Machine Translation,yes
+Avalanche RL: a Continual Reinforcement Learning Library,no
+Cross-Lingual Text Classification with Multilingual Distillation and Zero-Shot-Aware Training,no
+CINO: A Chinese Minority Pre-trained Language Model,no
+Enhancing Legal Argument Mining with Domain Pre-training and Neural Networks,no
+Controllable Natural Language Generation with Contrastive Prefixes,no
+Toward Interpretable Semantic Textual Similarity via Optimal Transport-based Contrastive Sentence Learning,no
+A Systematic Evaluation of Large Language Models of Code,yes
+Multi-Level Contrastive Learning for Cross-Lingual Alignment,no
+Bi-directional Joint Neural Networks for Intent Classification and Slot Filling,no
+AugESC: Dialogue Augmentation with Large Language Models for Emotional Support Conversation,yes
+Rethinking the Role of Demonstrations: What Makes In-Context Learning Work?,yes
+Exploring Multi-Modal Representations for Ambiguity Detection & Coreference Resolution in the SIMMC 2.0 Challenge,no
+TrimBERT: Tailoring BERT for Trade-offs,yes
+Oolong: Investigating What Makes Transfer Learning Hard with Controlled Studies,yes
+Capturing Failures of Large Language Models via Human Cognitive Biases,yes
+Probing BERT's priors with serial reproduction chains,no
+Ask2Mask: Guided Data Selection for Masked Speech Modeling,yes
+BERTVision -- A Parameter-Efficient Approach for Question Answering,no
+Pretraining without Wordpieces: Learning Over a Vocabulary of Millions of Words,no
+Leveraging Unimodal Self-Supervised Learning for Multimodal Audio-Visual Speech Recognition,no
+From Natural Language to Simulations: Applying GPT-3 Codex to Automate Simulation Modeling of Logistics Systems,no
+Using calibrator to improve robustness in Machine Reading Comprehension,no
+Sky Computing: Accelerating Geo-distributed Computing in Federated Learning,no
+Consistent Dropout for Policy Gradient Reinforcement Learning,no
+Knowledge Augmented BERT Mutual Network in Multi-turn Spoken Dialogues,no
+Speciesist bias in AI -- How AI applications perpetuate discrimination and unfair outcomes against animals,yes
+Improving CTC-based speech recognition via knowledge transferring from pre-trained language models,no
+Korean Tokenization for Beam Search Rescoring in Speech Recognition,no
+VU-BERT: A Unified framework for Visual Dialog,no
+Items from Psychometric Tests as Training Data for Personality Profiling Models of Twitter Users,no
+BERT WEAVER: Using WEight AVERaging to enable lifelong learning for transformer-based models in biomedical semantic search engines,no
+Adaptive Discounting of Implicit Language Models in RNN-Transducers,yes
+Don't Touch What Matters: Task-Aware Lipschitz Data Augmentation for Visual Reinforcement Learning,no
+StyleBERT: Chinese pretraining by font style information,no
+GPT-based Open-Ended Knowledge Tracing,yes
+Contextual Semantic Embeddings for Ontology Subsumption Prediction,no
+Reward Modeling for Mitigating Toxicity in Transformer-based Language Models,yes
+"Do Transformers know symbolic rules, and would we know if they did?",no
+From FreEM to D'AlemBERT: a Large Corpus and a Language Model for Early Modern French,no
+Mixture-of-Experts with Expert Choice Routing,no
+Evaluating the Construct Validity of Text Embeddings with Application to Survey Questions,no
+AMS_ADRN at SemEval-2022 Task 5: A Suitable Image-text Multimodal Joint Modeling Method for Multi-task Misogyny Identification,no
+SGPT: GPT Sentence Embeddings for Semantic Search,yes
+An alternative approach to train neural networks using monotone variational inequality,no
+LAMP: Extracting Text from Gradients with Language Model Priors,no
+A Survey of Knowledge-Intensive NLP with Pre-Trained Language Models,no
+Mining On Alzheimer's Diseases Related Knowledge Graph to Identity Potential AD-related Semantic Triples for Drug Repurposing,no
+Revisiting Over-smoothing in BERT from the Perspective of Graph,no
+When BERT Meets Quantum Temporal Convolution Learning for Text Classification in Heterogeneous Computing,no
+Knowledge-informed Molecular Learning: A Survey on Paradigm Transfer,no
+FAMIE: A Fast Active Learning Framework for Multilingual Information Extraction,no
+GraphNLI: A Graph-based Natural Language Inference Model for Polarity Prediction in Online Debates,no
+Capitalization Normalization for Language Modeling with an Accurate and Efficient Hierarchical RNN Model,no
+XFBoost: Improving Text Generation with Controllable Decoders,no
+Information Extraction in Low-Resource Scenarios: Survey and Perspective,yes
+No One Left Behind: Inclusive Federated Learning over Heterogeneous Devices,no
+Should You Mask 15% in Masked Language Modeling?,yes
+Knowledge Transfer from Large-scale Pretrained Language Models to End-to-end Speech Recognizers,yes
+"A Survey of Pretraining on Graphs: Taxonomy, Methods, and Applications",yes
+Multimodal Emotion Recognition using Transfer Learning from Speaker Recognition and BERT-based models,no
+"Tomayto, Tomahto. Beyond Token-level Answer Equivalence for Question Answering Evaluation",no
+Predicting on the Edge: Identifying Where a Larger Model Does Better,yes
+Quantifying Memorization Across Neural Language Models,yes
+Defending against Reconstruction Attacks with Rényi Differential Privacy,no
+"BLUE at Memotion 2.0 2022: You have my Image, my Text and my Transformer",no
+Toxic Comments Hunter : Score Severity of Toxic Comments,no
+Impact of Pretraining Term Frequencies on Few-Shot Reasoning,no
+Text-Based Action-Model Acquisition for Planning,no
+QuadSim: A Quadcopter Rotational Dynamics Simulation Framework For Reinforcement Learning Algorithms,no
+Punctuation restoration in Swedish through fine-tuned KB-BERT,no
+CodeFill: Multi-token Code Completion by Jointly Learning from Structure and Naming Sequences,no
+"Can Machines Help Us Answering Question 16 in Datasheets, and In Turn Reflecting on Inappropriate Content?",yes
+Neighborhood Contrastive Learning for Scientific Document Representations with Citation Embeddings,no
+UserBERT: Modeling Long- and Short-Term User Preferences via Self-Supervision,no
+Deduplicating Training Data Mitigates Privacy Risks in Language Models,yes
+"Modeling Intention, Emotion and External World in Dialogue Systems",no
+Assessment of contextualised representations in detecting outcome phrases in clinical trials,yes
+ET-BERT: A Contextualized Datagram Representation with Pre-training Transformers for Encrypted Traffic Classification,yes
+Semantic-Oriented Unlabeled Priming for Large-Scale Language Models,yes
+Indication as Prior Knowledge for Multimodal Disease Classification in Chest Radiographs with Transformers,no
+USTED: Improving ASR with a Unified Speech and Text Encoder-Decoder,no
+A multi-task semi-supervised framework for Text2Graph & Graph2Text,no
+Maximizing Communication Efficiency for Large-scale Training via 0/1 Adam,yes
+White-Box Attacks on Hate-speech BERT Classifiers in German with Explicit and Implicit Character Level Defense,no
+HaT5: Hate Language Identification using Text-to-Text Transfer Transformer,no
+What Does it Mean for a Language Model to Preserve Privacy?,yes
+Describing image focused in cognitive and visual details for visually impaired people: An approach to generating inclusive paragraphs,no
+Locating and Editing Factual Associations in GPT,no
+Improving Automatic Speech Recognition for Non-Native English with Transfer Learning and Language Model Decoding,no
+Zero Shot Learning for Predicting Energy Usage of Buildings in Sustainable Design,no
+InPars: Data Augmentation for Information Retrieval using Large Language Models,no
+Slovene SuperGLUE Benchmark: Translation and Evaluation,no
+Predicting Human Similarity Judgments Using Large Language Models,no
+Topic Discovery via Latent Space Clustering of Pretrained Language Model Representations,yes
+Generating Training Data with Language Models: Towards Zero-Shot Language Understanding,no
+Social Media as an Instant Source of Feedback on Water Quality,no
+Can Open Domain Question Answering Systems Answer Visual Knowledge Questions?,no
+The Volcspeech system for the ICASSP 2022 multi-channel multi-party meeting transcription challenge,no
+Exploring the Limits of Domain-Adaptive Training for Detoxifying Large-Scale Language Models,yes
+Logical Reasoning for Task Oriented Dialogue Systems,yes
+Using a Language Model in a Kiosk Recommender System at Fast-Food Restaurants,no
+PGMax: Factor Graphs for Discrete Probabilistic Graphical Models and Loopy Belief Propagation in JAX,no
+DALL-Eval: Probing the Reasoning Skills and Social Biases of Text-to-Image Generation Models,no
+Differentiable N-gram Objective on Abstractive Summarization,no
+TimeLMs: Diachronic Language Models from Twitter,no
+skrl: Modular and Flexible Library for Reinforcement Learning,no
+What are the best systems? New perspectives on NLP Benchmarking,no
+Semantic features of object concepts generated with GPT-3,no
+How to Understand Masked Autoencoders,no
+Causal Scene BERT: Improving object detection by searching for challenging groups of data,no
+ECRECer: Enzyme Commission Number Recommendation and Benchmarking based on Multiagent Dual-core Learning,no
+Survey of Hallucination in Natural Language Generation,yes
+HistBERT: A Pre-trained Language Model for Diachronic Lexical Semantic Analysis,no
+Do Language Models Learn Position-Role Mappings?,yes
+Universal Spam Detection using Transfer Learning of BERT Model,no
+Cedille: A large autoregressive French language model,no
+Fine-Tuning Approach for Arabic Offensive Language Detection System: BERT-Based Model,yes
+Soft Actor-Critic with Inhibitory Networks for Faster Retraining,no
+Evaluating natural language processing models with generalization metrics that do not need access to any training or testing data,no
+"Ethics, Rules of Engagement, and AI: Neural Narrative Mapping Using Large Transformer Language Models",no
+Classification on Sentence Embeddings for Legal Assistance,no
+Multilingual Hate Speech and Offensive Content Detection using Modified Cross-entropy Loss,yes
+JARVix at SemEval-2022 Task 2: It Takes One to Know One? Idiomaticity Detection using Zero and One-Shot Learning,yes
+Webly Supervised Concept Expansion for General Purpose Vision Models,no
+StonkBERT: Can Language Models Predict Medium-Run Stock Price Movements?,no
+From Discrimination to Generation: Knowledge Graph Completion with Generative Transformer,no
+Temporal Attention for Language Models,no
+A Benchmark Corpus for the Detection of Automatically Generated Text in Academic Publications,no
+A Unified Training Process for Fake News Detection based on Fine-Tuned BERT Model,no
+Self-supervised Learning with Random-projection Quantizer for Speech Recognition,no
+Pre-Trained Language Models for Interactive Decision-Making,no
+mSLAM: Massively multilingual joint pre-training for speech and text,no
+ASR-Aware End-to-end Neural Diarization,no
+Unified Scaling Laws for Routed Language Models,no
+"L3Cube-MahaCorpus and MahaBERT: Marathi Monolingual Corpus, Marathi BERT Language Models, and Resources",no
+Pop Quiz! Can a Large Language Model Help With Reverse Engineering?,yes
+RescoreBERT: Discriminative Speech Recognition Rescoring with BERT,no
+GatorTron: A Large Clinical Language Model to Unlock Patient Information from Unstructured Electronic Health Records,yes
+Robust Training of Neural Networks Using Scale Invariant Architectures,no
+What Has Been Enhanced in my Knowledge-Enhanced Language Model?,yes
+Co-training Improves Prompt-based Learning for Large Language Models,yes
+A Semi-Supervised Deep Clustering Pipeline for Mining Intentions From Texts,no
+BEA-Base: A Benchmark for ASR of Spontaneous Hungarian,no
+Examining Scaling and Transfer of Language Model Architectures for Machine Translation,yes
+AlphaDesign: A graph protein design method and benchmark on AlphaFoldDB,no
+Transformer-based Models of Text Normalization for Speech Applications,no
+Learning affective meanings that derives the social behavior using Bidirectional Encoder Representations from Transformers,no
+Score vs. Winrate in Score-Based Games: which Reward for Reinforcement Learning?,no
+Assessment of DeepONet for reliability analysis of stochastic nonlinear dynamical systems,no
+Disaster Tweets Classification using BERT-Based Language Model,no
+Similarity Learning based Few Shot Learning for ECG Time Series Classification,no
+A Frustratingly Simple Approach for End-to-End Image Captioning,no
+MVPTR: Multi-Level Semantic Alignment for Vision-Language Pre-Training via Multi-Stage Learning,no
+AutoDistil: Few-shot Task-agnostic Neural Architecture Search for Distilling Large Language Models,no
+ScaLA: Accelerating Adaptation of Pre-Trained Transformer-Based Language Models via Efficient Large-Batch Adversarial Noise,yes
+Neuro-Symbolic Language Modeling with Automaton-augmented Retrieval,no
+Schema-Free Dependency Parsing via Sequence Generation,no
+Describing Differences between Text Distributions with Natural Language,no
+A Post-Quantum Associative Memory,no
+From data to functa: Your data point is a function and you can treat it like one,no
+"Protum: A New Method For Prompt Tuning Based on ""[MASK]""",no
+"Using DeepSpeed and Megatron to Train Megatron-Turing NLG 530B, A Large-Scale Generative Language Model",no
+Chain-of-Thought Prompting Elicits Reasoning in Large Language Models,no
+"""That's so cute!"": The CARE Dataset for Affective Response Detection",no
+Multiple-Source Domain Adaptation via Coordinated Domain Encoders and Paired Classifiers,no
+Neural-FST Class Language Model for End-to-End Speech Recognition,no
+Clinical-Longformer and Clinical-BigBird: Transformers for long clinical sequences,yes
+Going Extreme: Comparative Analysis of Hate Speech in Parler and Gab,yes
+Grad2Task: Improved Few-shot Text Classification Using Gradients for Task Representation,no
+Synchromesh: Reliable code generation from pre-trained language models,yes
+DiscoScore: Evaluating Text Generation with BERT and Discourse Coherence,yes
+Language-biased image classification: evaluation based on semantic representations,no
+Learning To Recognize Procedural Activities with Distant Supervision,no
+FiNCAT: Financial Numeral Claim Analysis Tool,no
+On the Effectiveness of Pinyin-Character Dual-Decoding for End-to-End Mandarin Chinese ASR,no
+Internal Language Model Estimation Through Explicit Context Vector Learning for Attention-based Encoder-decoder ASR,no
+Self-supervised 3D Semantic Representation Learning for Vision-and-Language Navigation,no
+Neural Grapheme-to-Phoneme Conversion with Pre-trained Grapheme Models,no
+A Unified Strategy for Multilingual Grammatical Error Correction with Pre-trained Cross-Lingual Language Model,no
+Whose Language Counts as High Quality? Measuring Language Ideologies in Text Data Selection,no
+Differentially Private Temporal Difference Learning with Stochastic Nonconvex-Strongly-Concave Optimization,no
+BERTHA: Video Captioning Evaluation Via Transfer-Learned Human Assessment,no
+Pre-Trained Language Transformers are Universal Image Classifiers,no
+Multimodal data matters: language model pre-training over structured and unstructured electronic health records,no
+Documenting Geographically and Contextually Diverse Data Sources: The BigScience Catalogue of Language Data and Resources,no
+Relational Memory Augmented Language Models,no
+Unified Multimodal Punctuation Restoration Framework for Mixed-Modality Corpus,no
+Synthetic Books,no
+Emotion-based Modeling of Mental Disorders on Social Media,no
+An Application of Pseudo-Log-Likelihoods to Natural Language Scoring,no
+A Large and Diverse Arabic Corpus for Language Modeling,no
+Chinese Word Segmentation with Heterogeneous Graph Neural Network,no
+Nearest Class-Center Simplification through Intermediate Layers,no
+Recurrent Neural Networks with Mixed Hierarchical Structures and EM Algorithm for Natural Language Processing,no
+Less is Less: When Are Snippets Insufficient for Human vs Machine Relevance Estimation?,no
+A Comparative Study on Language Models for Task-Oriented Dialogue Systems,no
+Deep Q-learning: a robust control approach,no
+Identifying Adversarial Attacks on Text Classifiers,no
+AutoDistill: an End-to-End Framework to Explore and Distill Hardware-Efficient Language Models,no
+Black-box Prompt Learning for Pre-trained Language Models,no
+Transfer Learning Approaches for Building Cross-Language Dense Retrieval Models,no
+Cheating Automatic Short Answer Grading: On the Adversarial Usage of Adjectives and Adverbs,yes
+End-to-end Generative Pretraining for Multimodal Video Captioning,no
+LEMON: Language-Based Environment Manipulation via Execution-Guided Pre-training,no
+Sentiment Analysis: Predicting Yelp Scores,no
+AstBERT: Enabling Language Model for Financial Code Understanding with Abstract Syntax Trees,yes
+Near-Optimal Sparse Allreduce for Distributed Deep Learning,no
+TourBERT: A pretrained language model for the tourism industry,no
+GAP-Gen: Guided Automatic Python Code Generation,no
+Many Ways to Be Lonely: Fine-Grained Characterization of Loneliness and Its Potential Changes in COVID-19,no
+Fooling MOSS Detection with Pretrained Language Models,no
+Unveiling Project-Specific Bias in Neural Code Models,yes
+Language Models as Zero-Shot Planners: Extracting Actionable Knowledge for Embodied Agents,yes
+Accelerating Representation Learning with View-Consistent Dynamics in Data-Efficient Reinforcement Learning,no
+CoAuthor: Designing a Human-AI Collaborative Writing Dataset for Exploring Language Model Capabilities,yes
+Label Dependent Attention Model for Disease Risk Prediction Using Multimodal Electronic Health Records,yes
+Hierarchical Neural Network Approaches for Long Document Classification,yes
+Towards a Cleaner Document-Oriented Multilingual Crawled Corpus,no
+Language Model-Based Paired Variational Autoencoders for Robotic Language Learning,no
+"MuLVE, A Multi-Language Vocabulary Evaluation Data Set",no
+Unintended Bias in Language Model-driven Conversational Recommendation,yes
+Korean-Specific Dataset for Table Question Answering,no
+Natural Language Deduction through Search over Statement Compositions,no
+Memory-assisted prompt editing to improve GPT-3 after deployment,yes
+UnifiedSKG: Unifying and Multi-Tasking Structured Knowledge Grounding with Text-to-Text Language Models,no
+WANLI: Worker and AI Collaboration for Natural Language Inference Dataset Creation,no
+Automatic Correction of Syntactic Dependency Annotation Differences,no
+StolenEncoder: Stealing Pre-trained Encoders in Self-supervised Learning,no
+Automatic Lexical Simplification for Turkish,no
+Tailor Versatile Multi-modal Learning for Multi-label Emotion Recognition,no
+A Novel Multi-Task Learning Method for Symbolic Music Emotion Recognition,no
+Machine Learning for Food Review and Recommendation,no
+The Dark Side of the Language: Pre-trained Transformers in the DarkNet,yes
+Polarity and Subjectivity Detection with Multitask Learning and BERT Embedding,no
+A Survey of Controllable Text Generation using Transformer-based Pre-trained Language Models,yes
+CommonsenseQA 2.0: Exposing the Limits of AI through Gamification,yes
+Applying a Generic Sequence-to-Sequence Model for Simple and Effective Keyphrase Generation,no
+Assemble Foundation Models for Automatic Code Summarization,no
+Multi-task Pre-training Language Model for Semantic Network Completion,no
+Direct Mutation and Crossover in Genetic Algorithms Applied to Reinforcement Learning Tasks,no
+Detection of Increased Time Intervals of Anti-Vaccine Tweets for COVID-19 Vaccine with BERT Model,no
+Diagnosing BERT with Retrieval Heuristics,no
+PromptBERT: Improving BERT Sentence Embeddings with Prompts,no
+A Feature Extraction based Model for Hate Speech Identification,no
+Quantifying Robustness to Adversarial Word Substitutions,yes
+Polish Natural Language Inference and Factivity -- an Expert-based Dataset and Benchmarks,no
+Black-Box Tuning for Language-Model-as-a-Service,no
+BERT for Sentiment Analysis: Pre-trained and Fine-Tuned Alternatives,no
+Latency Adjustable Transformer Encoder for Language Understanding,yes
+Handwriting recognition and automatic scoring for descriptive answers in Japanese language tests,no
+Semantic and sentiment analysis of selected Bhagavad Gita translations using BERT-based language framework,no
+Medication Error Detection Using Contextual Language Models,no
+An Ensemble Approach to Acronym Extraction using Transformers,no
+Imagined versus Remembered Stories: Quantifying Differences in Narrative Flow,yes
+Textual Data Augmentation for Arabic-English Code-Switching Speech Recognition,no
+"An Opinion Mining of Text in COVID-19 Issues along with Comparative Study in ML, BERT & RNN",no
+Self-Training Vision Language BERTs with a Unified Conditional Model,no
+Improving Mandarin End-to-End Speech Recognition with Word N-gram Language Model,yes
+Formal Analysis of Art: Proxy Learning of Visual Concepts from Style Through Language Models,yes
+Learning Audio-Visual Speech Representation by Masked Multimodal Cluster Prediction,no
+Comparison of biomedical relationship extraction methods and models for knowledge graph creation,no
+Submix: Practical Private Prediction for Large-Scale Language Models,yes
+Interactive Attention AI to translate low light photos to captions for night scene understanding in women safety,no
+An Adversarial Benchmark for Fake News Detection Models,no
+Which Student is Best? A Comprehensive Knowledge Distillation Exam for Task-Specific BERT Models,no
+On Sensitivity of Deep Learning Based Text Classification Algorithms to Practical Input Perturbations,yes
+Semantic Search for Large Scale Clinical Ontologies,no
