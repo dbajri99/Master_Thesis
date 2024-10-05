@@ -1,0 +1,2 @@
+Title,Talks about LLMs,Rate,Evidence
+"Large Language Models Effectively Leverage Document-level Context for Literary Translation, but Critical Errors Persist",Yes.,4.,"The abstract mentions ""critical errors still abound, including occasional content omissions, and a human translator's intervention remains necessary to ensure that the author's voice remains intact."" This suggests that while LLMs are capable of translating at a high level, there are still significant limitations in their ability to fully capture and translate the nuances of a text without error."

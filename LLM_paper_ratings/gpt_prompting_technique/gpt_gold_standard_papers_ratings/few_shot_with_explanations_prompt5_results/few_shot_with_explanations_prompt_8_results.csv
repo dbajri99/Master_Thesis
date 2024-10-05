@@ -1,0 +1,20 @@
+Title,Talks about LLMs,Rate,Evidence
+Generative Spoken Dialogue Language Modeling,No.,1.,The abstract does not mention LLMs or their limitations.
+Discontinuous Combinatory Constituency Parsing,No.,1.,The abstract does not mention LLMs or any type of language models.
+Efficient Long-Text Understanding with Short-Text Models,,,
+Hate Speech Classifiers Learn Normative Social Stereotypes,No.,1.,The abstract does not mention LLMs or any specific language models.
+Domain-Specific Word Embeddings with Structure Prediction,,,
+Why Does Surprisal From Larger Transformer-Based Language Models Provide a Poorer Fit to Human Reading Times?,Yes.,5.,"""These results suggest that the propensity of larger Transformer-based models to ‘memorize’ sequences during training makes their surprisal estimates diverge from humanlike expectations, which warrants caution in using pre-trained language models to study human language processing."""
+On the Robustness of Dialogue History Representation in Conversational Question Answering: A Comprehensive Study and a New Prompt-based Method,No.,1.,The abstract does not mention LLMs or their limitations.
+Bridging the Gap between Synthetic and Natural Questions via Sentence Decomposition for Semantic Parsing,No.,1.,The abstract does not mention LLMs or their limitations.
+Naturalistic Causal Probing for Morpho-Syntax,Yes.,1.,"""We apply our naturalistic causal probing framework to analyze the effects of grammatical gender and number on contextualized representations extracted from three pre-trained models in Spanish, the multilingual versions of BERT, RoBERTa, and GPT-2."""
+Tracking Brand-Associated Polarity-Bearing Topics in User Reviews,No.,1.,The abstract does not mention LLMs or any kind of language models.
+Dubbing in Practice: A Large Scale Study of Human Localization With Insights for Automatic Dubbing,No.,1.,The abstract does not mention language models (LLMs or LMs) at all.
+Aggretriever: A Simple Approach to Aggregate Textual Representations for Robust Dense Passage Retrieval,,,
+InSCIt: Information-Seeking Conversations with Mixed-Initiative Interactions,No.,1.,The abstract does not mention LLMs or their limitations.
+Sub-Character Tokenization for Chinese Pretrained Language Models,Yes.,1.,"""Tokenization is fundamental to pretrained language models (PLMs). Existing tokenization methods for Chinese PLMs typically treat each character as an indivisible token."""
+Erasure of Unaligned Attributes from Neural Representations,No.,1.,The abstract does not mention LLMs or any specific type of language models.
+Less is More: Mitigate Spurious Correlations for Open-Domain Dialogue Response Generation Models by Causal Discovery,No.,1.,The abstract does not mention LLMs or any specific type of language models.
+The Parallelism Tradeoff: Limitations of Log-Precision Transformers,Yes.,5.,"""This suggests a potential inherent weakness of the scaling paradigm."""
+Understanding and Detecting Hallucinations in Neural Machine Translation via Model Introspection,No.,1.,The abstract does not mention LLMs or any specific limitations related to them. It focuses on neural sequence generation models in the context of neural machine translation.
+Visual Writing Prompts: Character-Grounded Story Generation with Curated Image Sequences,No.,1.,The abstract does not mention LLMs or any limitations related to them.

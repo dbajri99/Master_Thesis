@@ -1,0 +1,20 @@
+Title,Talks about LLMs,Rate,Evidence
+Unleashing the True Potential of Sequence-to-Sequence Models for Sequence Tagging and Structure Parsing,No.,1.,The abstract does not mention LLMs or any limitations related to them.
+Questions Are All You Need to Train a Dense Passage Retriever,No.,1.,The abstract does not mention LLMs or their limitations.
+Transparency Helps Reveal When Language Models Learn Meaning,Yes.,5.,"""our experiments with a specific phenomenon—referential opacity—add to the growing body of evidence that current language models do not represent natural language semantics well. We show this failure relates to the context-dependent nature of natural language form-meaning mappings."""
+Visual Spatial Reasoning,,,
+How Much Do Language Models Copy From Their Training Data? Evaluating Linguistic Novelty in Text Generation Using RAVEN,,,
+FRMT: A Benchmark for Few-Shot Region-Aware Machine Translation,No.,1.,The abstract does not mention LLMs or any limitations related to them.
+OpenFact: Factuality Enhanced Open Knowledge Extraction,No.,1.,The abstract does not mention LLMs or any limitations related to them.
+On Graph-based Reentrancy-free Semantic Parsing,No.,1.,The abstract does not mention LLMs or any related models.
+Supervised Gradual Machine Learning for Aspect-Term Sentiment Analysis,No.,1.,The abstract does not mention LLMs or any limitations related to them.
+Chinese Idiom Paraphrasing,No.,1.,The abstract does not mention LLMs or any other language models. It focuses on the task of Chinese idiom paraphrasing and the development of a CIP dataset.
+Evaluating Transformer Models and Human Behaviors on Chinese Character Naming,,,
+Rank-Aware Negative Training for Semi-Supervised Text Classification,,,
+MACSum: Controllable Summarization with Mixed Attributes,No.,1.,The abstract does not mention language models (LLMs or LMs) at all.
+MENLI: Robust Evaluation Metrics from Natural Language Inference,No.,1.,The abstract does not mention LLMs or their limitations.
+Efficient Methods for Natural Language Processing: A Survey,No.,1.,The abstract does not mention LLMs or their limitations.
+Abstractive Meeting Summarization: A Survey,No.,1.,"The abstract does not mention LLMs or their limitations. It focuses on abstractive summarization and related challenges, datasets, models, and evaluation metrics."
+Expectations over Unspoken Alternatives Predict Pragmatic Inferences,,,
+Reasoning over Public and Private Data in Retrieval-Based Systems,No.,1.,The abstract does not mention LLMs or any specific language models.
+Multilingual Coreference Resolution in Multiparty Dialogue,No.,1.,The abstract does not mention language models (LLMs or LMs) at all.
