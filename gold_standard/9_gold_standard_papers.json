@@ -1,0 +1,268 @@
+[
+    {
+        "title": "Unleashing the True Potential of Sequence-to-Sequence Models for Sequence Tagging and Structure Parsing",
+        "authors": [
+            "Han He",
+            "Jinho D. Choi"
+        ],
+        "published": "2023",
+        "summary": "Sequence-to-Sequence (S2S) models have achieved remarkable success on various text generation tasks. However, learning complex structures with S2S models remains challenging as external neural modules and additional lexicons are often supplemented to predict non-textual outputs. We present a systematic study of S2S modeling using contained decoding on four core tasks: part-of-speech tagging, named entity recognition, constituency, and dependency parsing, to develop efficient exploitation methods costing zero extra parameters. In particular, 3 lexically diverse linearization schemas and corresponding constrained decoding methods are designed and evaluated. Experiments show that although more lexicalized schemas yield longer output sequences that require heavier training, their sequences being closer to natural language makes them easier to learn. Moreover, S2S models using our constrained decoding outperform other S2S approaches using external resources. Our best models perform better than or comparably to the state-of-the-art for all 4 tasks, lighting a promise for S2S models to generate non-sequential structures.",
+        "pdf_link": "https://aclanthology.org/2023.tacl-1.34.pdf"
+    },
+    {
+        "title": "Questions Are All You Need to Train a Dense Passage Retriever",
+        "authors": [
+            "Devendra Singh Sachan",
+            "Mike Lewis",
+            "Dani Yogatama",
+            "Luke Zettlemoyer",
+            "Joelle Pineau",
+            "Manzil Zaheer"
+        ],
+        "published": "2023",
+        "summary": "We introduce ART, a new corpus-level autoencoding approach for training dense retrieval models that does not require any labeled training data. Dense retrieval is a central challenge for open-domain tasks, such as Open QA, where state-of-the-art methods typically require large supervised datasets with custom hard-negative mining and denoising of positive examples. ART, in contrast, only requires access to unpaired inputs and outputs (e.g., questions and potential answer passages). It uses a new passage-retrieval autoencoding scheme, where (1) an input question is used to retrieve a set of evidence passages, and (2) the passages are then used to compute the probability of reconstructing the original question. Training for retrieval based on question reconstruction enables effective unsupervised learning of both passage and question encoders, which can be later incorporated into complete Open QA systems without any further finetuning. Extensive experiments demonstrate that ART obtains state-of-the-art results on multiple QA retrieval benchmarks with only generic initialization from a pre-trained language model, removing the need for labeled data and task-specific losses.1 Our code and model checkpoints are available at: https://github.com/DevSinghSachan/art.",
+        "pdf_link": "https://aclanthology.org/2023.tacl-1.35.pdf"
+    },
+    {
+        "title": "Transparency Helps Reveal When Language Models Learn Meaning",
+        "authors": [
+            "Zhaofeng Wu",
+            "William Merrill",
+            "Hao Peng",
+            "Iz Beltagy",
+            "Noah A. Smith"
+        ],
+        "published": "2023",
+        "summary": "Many current NLP systems are built from language models trained to optimize unsupervised objectives on large amounts of raw text. Under what conditions might such a procedure acquire meaning? Our systematic experiments with synthetic data reveal that, with languages where all expressions have context-independent denotations (i.e., languages with strong transparency), both autoregressive and masked language models successfully learn to emulate semantic relations between expressions. However, when denotations are changed to be context-dependent with the language otherwise unmodified, this ability degrades. Turning to natural language, our experiments with a specific phenomenon—referential opacity—add to the growing body of evidence that current language models do not represent natural language semantics well. We show this failure relates to the context-dependent nature of natural language form-meaning mappings.",
+        "pdf_link": "https://aclanthology.org/2023.tacl-1.36.pdf"
+    },
+    {
+        "title": "Visual Spatial Reasoning",
+        "authors": [
+            "Fangyu Liu",
+            "Guy Emerson",
+            "Nigel Collier"
+        ],
+        "published": "2023",
+        "summary": "Spatial relations are a basic part of human cognition. However, they are expressed in natural language in a variety of ways, and previous work has suggested that current vision-and-language models (VLMs) struggle to capture relational information. In this paper, we present Visual Spatial Reasoning (VSR), a dataset containing more than 10k natural text-image pairs with 66 types of spatial relations in English (e.g., under, in front of, facing). While using a seemingly simple annotation format, we show how the dataset includes challenging linguistic phenomena, such as varying reference frames. We demonstrate a large gap between human and model performance: The human ceiling is above 95%, while state-of-the-art models only achieve around 70%. We observe that VLMs’ by-relation performances have little correlation with the number of training examples and the tested models are in general incapable of recognising relations concerning the orientations of objects.1",
+        "pdf_link": "https://aclanthology.org/2023.tacl-1.37.pdf"
+    },
+    {
+        "title": "How Much Do Language Models Copy From Their Training Data? Evaluating Linguistic Novelty in Text Generation Using RAVEN",
+        "authors": [
+            "R. Thomas McCoy",
+            "Paul Smolensky",
+            "Tal Linzen",
+            "Jianfeng Gao",
+            "Asli Celikyilmaz"
+        ],
+        "published": "2023",
+        "summary": "Current language models can generate high-quality text. Are they simply copying text they have seen before, or have they learned generalizable linguistic abstractions? To tease apart these possibilities, we introduce RAVEN, a suite of analyses for assessing the novelty of generated text, focusing on sequential structure (n-grams) and syntactic structure. We apply these analyses to four neural language models trained on English (an LSTM, a Transformer, Transformer-XL, and GPT-2). For local structure—e.g., individual dependencies—text generated with a standard sampling scheme is substantially less novel than our baseline of human-generated text from each model’s test set. For larger-scale structure—e.g., overall sentence structure—model-generated text is as novel or even more novel than the human-generated baseline, but models still sometimes copy substantially, in some cases duplicating passages over 1,000 words long from the training set. We also perform extensive manual analysis, finding evidence that GPT-2 uses both compositional and analogical generalization mechanisms and showing that GPT-2’s novel text is usually well-formed morphologically and syntactically but has reasonably frequent semantic issues (e.g., being self-contradictory).",
+        "pdf_link": "https://aclanthology.org/2023.tacl-1.38.pdf"
+    },
+    {
+        "title": "FRMT: A Benchmark for Few-Shot Region-Aware Machine Translation",
+        "authors": [
+            "Parker Riley",
+            "Timothy Dozat",
+            "Jan A. Botha",
+            "Xavier Garcia",
+            "Dan Garrette",
+            "Jason Riesa",
+            "Orhan Firat",
+            "Noah Constant"
+        ],
+        "published": "2023",
+        "summary": "We present FRMT, a new dataset and evaluation benchmark for Few-shot Region-aware Machine Translation, a type of style-targeted translation. The dataset consists of professional translations from English into two regional variants each of Portuguese and Mandarin Chinese. Source documents are selected to enable detailed analysis of phenomena of interest, including lexically distinct terms and distractor terms. We explore automatic evaluation metrics for FRMT and validate their correlation with expert human evaluation across both region-matched and mismatched rating scenarios. Finally, we present a number of baseline models for this task, and offer guidelines for how researchers can train, evaluate, and compare their own models. Our dataset and evaluation code are publicly available: https://bit.ly/frmt-task.",
+        "pdf_link": "https://aclanthology.org/2023.tacl-1.39.pdf"
+    },
+    {
+        "title": "OpenFact: Factuality Enhanced Open Knowledge Extraction",
+        "authors": [
+            "Linfeng Song",
+            "Ante Wang",
+            "Xiaoman Pan",
+            "Hongming Zhang",
+            "Dian Yu",
+            "Lifeng Jin",
+            "Haitao Mi",
+            "Jinsong Su",
+            "Yue Zhang",
+            "Dong Yu"
+        ],
+        "published": "2023",
+        "summary": "We focus on the factuality property during the extraction of an OpenIE corpus named OpenFact, which contains more than 12 million high-quality knowledge triplets. We break down the factuality property into two important aspects—expressiveness and groundedness—and we propose a comprehensive framework to handle both aspects. To enhance expressiveness, we formulate each knowledge piece in OpenFact based on a semantic frame. We also design templates, extra constraints, and adopt human efforts so that most OpenFact triplets contain enough details. For groundedness, we require the main arguments of each triplet to contain linked Wikidata1 entities. A human evaluation suggests that the OpenFact triplets are much more accurate and contain denser information compared to OPIEC-Linked (Gashteovski et al., 2019), one recent high-quality OpenIE corpus grounded to Wikidata. Further experiments on knowledge base completion and knowledge base question answering show the effectiveness of OpenFact over OPIEC-Linked as supplementary knowledge to Wikidata as the major KG.",
+        "pdf_link": "https://aclanthology.org/2023.tacl-1.40.pdf"
+    },
+    {
+        "title": "On Graph-based Reentrancy-free Semantic Parsing",
+        "authors": [
+            "Alban Petit",
+            "Caio Corro"
+        ],
+        "published": "2023",
+        "summary": "We propose a novel graph-based approach for semantic parsing that resolves two problems observed in the literature: (1) seq2seq models fail on compositional generalization tasks; (2) previous work using phrase structure parsers cannot cover all the semantic parses observed in treebanks. We prove that both MAP inference and latent tag anchoring (required for weakly-supervised learning) are NP-hard problems. We propose two optimization algorithms based on constraint smoothing and conditional gradient to approximately solve these inference problems. Experimentally, our approach delivers state-of-the-art results on GeoQuery, Scan, and Clevr, both for i.i.d. splits and for splits that test for compositional generalization.",
+        "pdf_link": "https://aclanthology.org/2023.tacl-1.41.pdf"
+    },
+    {
+        "title": "Supervised Gradual Machine Learning for Aspect-Term Sentiment Analysis",
+        "authors": [
+            "Yanyan Wang",
+            "Qun Chen",
+            "Murtadha H.M. Ahmed",
+            "Zhaoqiang Chen",
+            "Jing Su",
+            "Wei Pan",
+            "Zhanhuai Li"
+        ],
+        "published": "2023",
+        "summary": "Recent work has shown that Aspect-Term Sentiment Analysis (ATSA) can be effectively performed by Gradual Machine Learning (GML). However, the performance of the current unsupervised solution is limited by inaccurate and insufficient knowledge conveyance. In this paper, we propose a supervised GML approach for ATSA, which can effectively exploit labeled training data to improve knowledge conveyance. It leverages binary polarity relations between instances, which can be either similar or opposite, to enable supervised knowledge conveyance. Besides the explicit polarity relations indicated by discourse structures, it also separately supervises a polarity classification DNN and a binary Siamese network to extract implicit polarity relations. The proposed approach fulfills knowledge conveyance by modeling detected relations as binary features in a factor graph. Our extensive experiments on real benchmark data show that it achieves the state-of-the-art performance across all the test workloads. Our work demonstrates clearly that, in collaboration with DNN for feature extraction, GML outperforms pure DNN solutions.",
+        "pdf_link": "https://aclanthology.org/2023.tacl-1.42.pdf"
+    },
+    {
+        "title": "Chinese Idiom Paraphrasing",
+        "authors": [
+            "Jipeng Qiang",
+            "Yang Li",
+            "Chaowei Zhang",
+            "Yun Li",
+            "Yi Zhu",
+            "Yunhao Yuan",
+            "Xindong Wu"
+        ],
+        "published": "2023",
+        "summary": "Idioms are a kind of idiomatic expression in Chinese, most of which consist of four Chinese characters. Due to the properties of non-compositionality and metaphorical meaning, Chinese idioms are hard to be understood by children and non-native speakers. This study proposes a novel task, denoted as Chinese Idiom Paraphrasing (CIP). CIP aims to rephrase idiom-containing sentences to non-idiomatic ones under the premise of preserving the original sentence’s meaning. Since the sentences without idioms are more easily handled by Chinese NLP systems, CIP can be used to pre-process Chinese datasets, thereby facilitating and improving the performance of Chinese NLP tasks, e.g., machine translation systems, Chinese idiom cloze, and Chinese idiom embeddings. In this study, we can treat the CIP task as a special paraphrase generation task. To circumvent difficulties in acquiring annotations, we first establish a large-scale CIP dataset based on human and machine collaboration, which consists of 115,529 sentence pairs. In addition to three sequence-to-sequence methods as the baselines, we further propose a novel infill-based approach based on text infilling. The results show that the proposed method has better performance than the baselines based on the established CIP dataset.",
+        "pdf_link": "https://aclanthology.org/2023.tacl-1.43.pdf"
+    },
+    {
+        "title": "Evaluating Transformer Models and Human Behaviors on Chinese Character Naming",
+        "authors": [
+            "Xiaomeng Ma",
+            "Lingyu Gao"
+        ],
+        "published": "2023",
+        "summary": "Neural network models have been proposed to explain the grapheme-phoneme mapping process in humans for many alphabet languages. These models not only successfully learned the correspondence of the letter strings and their pronunciation, but also captured human behavior in nonce word naming tasks. How would the neural models perform for a non-alphabet language (e.g., Chinese) unknown character task? How well would the model capture human behavior? In this study, we first collect human speakers’ answers on unknown Character naming tasks and then evaluate a set of transformer models by comparing their performance with human behaviors on an unknown Chinese character naming task. We found that the models and humans behaved very similarly, that they had similar accuracy distribution for each character, and had a substantial overlap in answers. In addition, the models’ answers are highly correlated with humans’ answers. These results suggested that the transformer models can capture humans’ character naming behavior well.1",
+        "pdf_link": "https://aclanthology.org/2023.tacl-1.44.pdf"
+    },
+    {
+        "title": "Rank-Aware Negative Training for Semi-Supervised Text Classification",
+        "authors": [
+            "Ahmed Murtadha",
+            "Shengfeng Pan",
+            "Wen Bo",
+            "Jianlin Su",
+            "Xinxin Cao",
+            "Wenze Zhang",
+            "Yunfeng Liu"
+        ],
+        "published": "2023",
+        "summary": "Semi-supervised text classification-based paradigms (SSTC) typically employ the spirit of self-training. The key idea is to train a deep classifier on limited labeled texts and then iteratively predict the unlabeled texts as their pseudo-labels for further training. However, the performance is largely affected by the accuracy of pseudo-labels, which may not be significant in real-world scenarios. This paper presents a Rank-aware Negative Training (RNT) framework to address SSTC in learning with noisy label settings. To alleviate the noisy information, we adapt a reasoning with uncertainty-based approach to rank the unlabeled texts based on the evidential support received from the labeled texts. Moreover, we propose the use of negative training to train RNT based on the concept that “the input instance does not belong to the complementary label”. A complementary label is randomly selected from all labels except the label on-target. Intuitively, the probability of a true label serving as a complementary label is low and thus provides less noisy information during the training, resulting in better performance on the test data. Finally, we evaluate the proposed solution on various text classification benchmark datasets. Our extensive experiments show that it consistently overcomes the state-of-the-art alternatives in most scenarios and achieves competitive performance in the others. The code of RNT is publicly available on GitHub.",
+        "pdf_link": "https://aclanthology.org/2023.tacl-1.45.pdf"
+    },
+    {
+        "title": "MACSum: Controllable Summarization with Mixed Attributes",
+        "authors": [
+            "Yusen Zhang",
+            "Yang Liu",
+            "Ziyi Yang",
+            "Yuwei Fang",
+            "Yulong Chen",
+            "Dragomir Radev",
+            "Chenguang Zhu",
+            "Michael Zeng",
+            "Rui Zhang"
+        ],
+        "published": "2023",
+        "summary": "Controllable summarization allows users to generate customized summaries with specified attributes. However, due to the lack of designated annotations of controlled summaries, existing work has to craft pseudo datasets by adapting generic summarization benchmarks. Furthermore, most research focuses on controlling single attributes individually (e.g., a short summary or a highly abstractive summary) rather than controlling a mix of attributes together (e.g., a short and highly abstractive summary). In this paper, we propose MACSum, the first human-annotated summarization dataset for controlling mixed attributes. It contains source texts from two domains, news articles and dialogues, with human-annotated summaries controlled by five designed attributes (Length, Extractiveness, Specificity, Topic, and Speaker). We propose two simple and effective parameter-efficient approaches for the new task of mixed controllable summarization based on hard prompt tuning and soft prefix tuning. Results and analysis demonstrate that hard prompt models yield the best performance on most metrics and human evaluations. However, mixed-attribute control is still challenging for summarization tasks. Our dataset and code are available at https://github.com/psunlpgroup/MACSum.",
+        "pdf_link": "https://aclanthology.org/2023.tacl-1.46.pdf"
+    },
+    {
+        "title": "MENLI: Robust Evaluation Metrics from Natural Language Inference",
+        "authors": [
+            "Yanran Chen",
+            "Steffen Eger"
+        ],
+        "published": "2023",
+        "summary": "Recently proposed BERT-based evaluation metrics for text generation perform well on standard benchmarks but are vulnerable to adversarial attacks, e.g., relating to information correctness. We argue that this stems (in part) from the fact that they are models of semantic similarity. In contrast, we develop evaluation metrics based on Natural Language Inference (NLI), which we deem a more appropriate modeling. We design a preference-based adversarial attack framework and show that our NLI based metrics are much more robust to the attacks than the recent BERT-based metrics. On standard benchmarks, our NLI based metrics outperform existing summarization metrics, but perform below SOTA MT metrics. However, when combining existing metrics with our NLI metrics, we obtain both higher adversarial robustness (15%–30%) and higher quality metrics as measured on standard benchmarks (+5% to 30%).",
+        "pdf_link": "https://aclanthology.org/2023.tacl-1.47.pdf"
+    },
+    {
+        "title": "Efficient Methods for Natural Language Processing: A Survey",
+        "authors": [
+            "Marcos Treviso",
+            "Ji-Ung Lee",
+            "Tianchu Ji",
+            "Betty van Aken",
+            "Qingqing Cao",
+            "Manuel R. Ciosici",
+            "Michael Hassid",
+            "Kenneth Heafield",
+            "Sara Hooker",
+            "Colin Raffel",
+            "Pedro H. Martins",
+            "André F. T. Martins",
+            "Jessica Zosa Forde",
+            "Peter Milder",
+            "Edwin Simpson",
+            "Noam Slonim",
+            "Jesse Dodge",
+            "Emma Strubell",
+            "Niranjan Balasubramanian",
+            "Leon Derczynski",
+            "Iryna Gurevych",
+            "Roy Schwartz"
+        ],
+        "published": "2023",
+        "summary": "Recent work in natural language processing (NLP) has yielded appealing results from scaling model parameters and training data; however, using only scale to improve performance means that resource consumption also grows. Such resources include data, time, storage, or energy, all of which are naturally limited and unevenly distributed. This motivates research into efficient methods that require fewer resources to achieve similar results. This survey synthesizes and relates current methods and findings in efficient NLP. We aim to provide both guidance for conducting NLP under limited resources, and point towards promising research directions for developing more efficient methods.",
+        "pdf_link": "https://aclanthology.org/2023.tacl-1.48.pdf"
+    },
+    {
+        "title": "Abstractive Meeting Summarization: A Survey",
+        "authors": [
+            "Virgile Rennard",
+            "Guokan Shang",
+            "Julie Hunter",
+            "Michalis Vazirgiannis"
+        ],
+        "published": "2023",
+        "summary": "A system that could reliably identify and sum up the most important points of a conversation would be valuable in a wide variety of real-world contexts, from business meetings to medical consultations to customer service calls. Recent advances in deep learning, and especially the invention of encoder-decoder architectures, has significantly improved language generation systems, opening the door to improved forms of abstractive summarization—a form of summarization particularly well-suited for multi-party conversation. In this paper, we provide an overview of the challenges raised by the task of abstractive meeting summarization and of the data sets, models, and evaluation metrics that have been used to tackle the problems.",
+        "pdf_link": "https://aclanthology.org/2023.tacl-1.49.pdf"
+    },
+    {
+        "title": "Expectations over Unspoken Alternatives Predict Pragmatic Inferences",
+        "authors": [
+            "Jennifer Hu",
+            "Roger Levy",
+            "Judith Degen",
+            "Sebastian Schuster"
+        ],
+        "published": "2023",
+        "summary": "Scalar inferences (SI) are a signature example of how humans interpret language based on unspoken alternatives. While empirical studies have demonstrated that human SI rates are highly variable—both within instances of a single scale, and across different scales—there have been few proposals that quantitatively explain both cross- and within-scale variation. Furthermore, while it is generally assumed that SIs arise through reasoning about unspoken alternatives, it remains debated whether humans reason about alternatives as linguistic forms, or at the level of concepts. Here, we test a shared mechanism explaining SI rates within and across scales: context-driven expectations about the unspoken alternatives. Using neural language models to approximate human predictive distributions, we find that SI rates are captured by the expectedness of the strong scalemate as an alternative. Crucially, however, expectedness robustly predicts cross-scale variation only under a meaning-based view of alternatives. Our results suggest that pragmatic inferences arise from context-driven expectations over alternatives, and these expectations operate at the level of concepts.1",
+        "pdf_link": "https://aclanthology.org/2023.tacl-1.50.pdf"
+    },
+    {
+        "title": "Reasoning over Public and Private Data in Retrieval-Based Systems",
+        "authors": [
+            "Simran Arora",
+            "Patrick Lewis",
+            "Angela Fan",
+            "Jacob Kahn",
+            "Christopher Ré"
+        ],
+        "published": "2023",
+        "summary": "Users an organizations are generating ever-increasing amounts of private data from a wide range of sources. Incorporating private context is important to personalize open-domain tasks such as question-answering, fact-checking, and personal assistants. State-of-the-art systems for these tasks explicitly retrieve information that is relevant to an input question from a background corpus before producing an answer. While today’s retrieval systems assume relevant corpora are fully (e.g., publicly) accessible, users are often unable or unwilling to expose their private data to entities hosting public data. We define the Split Iterative Retrieval (SPIRAL) problem involving iterative retrieval over multiple privacy scopes. We introduce a foundational benchmark with which to study SPIRAL, as no existing benchmark includes data from a private distribution. Our dataset, ConcurrentQA, includes data from distinct public and private distributions and is the first textual QA benchmark requiring concurrent retrieval over multiple distributions. Finally, we show that existing retrieval approaches face significant performance degradations when applied to our proposed retrieval setting and investigate approaches with which these tradeoffs can be mitigated. We release the new benchmark and code to reproduce the results.1",
+        "pdf_link": "https://aclanthology.org/2023.tacl-1.51.pdf"
+    },
+    {
+        "title": "Multilingual Coreference Resolution in Multiparty Dialogue",
+        "authors": [
+            "Boyuan Zheng",
+            "Patrick Xia",
+            "Mahsa Yarmohammadi",
+            "Benjamin Van Durme"
+        ],
+        "published": "2023",
+        "summary": "Existing multiparty dialogue datasets for entity coreference resolution are nascent, and many challenges are still unaddressed. We create a large-scale dataset, Multilingual Multiparty Coref (MMC), for this task based on TV transcripts. Due to the availability of gold-quality subtitles in multiple languages, we propose reusing the annotations to create silver coreference resolution data in other languages (Chinese and Farsi) via annotation projection. On the gold (English) data, off-the-shelf models perform relatively poorly on MMC, suggesting that MMC has broader coverage of multiparty coreference than prior datasets. On the silver data, we find success both using it for data augmentation and training from scratch, which effectively simulates the zero-shot cross-lingual setting.",
+        "pdf_link": "https://aclanthology.org/2023.tacl-1.52.pdf"
+    }
+]

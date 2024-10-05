@@ -1,0 +1,239 @@
+[
+    {
+        "title": "Generative Spoken Dialogue Language Modeling",
+        "authors": [
+            "Tu Anh Nguyen",
+            "Eugene Kharitonov",
+            "Jade Copet",
+            "Yossi Adi",
+            "Wei-Ning Hsu",
+            "Ali Elkahky",
+            "Paden Tomasello",
+            "Robin Algayres",
+            "Benoît Sagot",
+            "Abdelrahman Mohamed",
+            "Emmanuel Dupoux"
+        ],
+        "published": "2023",
+        "summary": "We introduce dGSLM, the first “textless” model able to generate audio samples of naturalistic spoken dialogues. It uses recent work on unsupervised spoken unit discovery coupled with a dual-tower transformer architecture with cross-attention trained on 2000 hours of two-channel raw conversational audio (Fisher dataset) without any text or labels. We show that our model is able to generate speech, laughter, and other paralinguistic signals in the two channels simultaneously and reproduces more naturalistic and fluid turn taking compared to a text-based cascaded model.1,2",
+        "pdf_link": "https://aclanthology.org/2023.tacl-1.15.pdf"
+    },
+    {
+        "title": "Discontinuous Combinatory Constituency Parsing",
+        "authors": [
+            "Zhousi Chen",
+            "Mamoru Komachi"
+        ],
+        "published": "2023",
+        "summary": "We extend a pair of continuous combinator-based constituency parsers (one binary and one multi-branching) into a discontinuous pair. Our parsers iteratively compose constituent vectors from word embeddings without any grammar constraints. Their empirical complexities are subquadratic. Our extension includes 1) a swap action for the orientation-based binary model and 2) biaffine attention for the chunker-based multi-branching model. In tests conducted with the Discontinuous Penn Treebank and TIGER Treebank, we achieved state-of-the-art discontinuous accuracy with a significant speed advantage.",
+        "pdf_link": "https://aclanthology.org/2023.tacl-1.16.pdf"
+    },
+    {
+        "title": "Efficient Long-Text Understanding with Short-Text Models",
+        "authors": [
+            "Maor Ivgi",
+            "Uri Shaham",
+            "Jonathan Berant"
+        ],
+        "published": "2023",
+        "summary": "Transformer-based pretrained language models (LMs) are ubiquitous across natural language understanding, but cannot be applied to long sequences such as stories, scientific articles, and long documents due to their quadratic complexity. While a myriad of efficient transformer variants have been proposed, they are typically based on custom implementations that require expensive pretraining from scratch. In this work, we propose SLED: SLiding-Encoder and Decoder, a simple approach for processing long sequences that re-uses and leverages battle-tested short-text pretrained LMs. Specifically, we partition the input into overlapping chunks, encode each with a short-text LM encoder and use the pretrained decoder to fuse information across chunks (fusion-in-decoder). We illustrate through controlled experiments that SLED offers a viable strategy for long text understanding and evaluate our approach on SCROLLS, a benchmark with seven datasets across a wide range of language understanding tasks. We find that SLED is competitive with specialized models that are up to 50x larger and require a dedicated and expensive pretraining step.",
+        "pdf_link": "https://aclanthology.org/2023.tacl-1.17.pdf"
+    },
+    {
+        "title": "Hate Speech Classifiers Learn Normative Social Stereotypes",
+        "authors": [
+            "Aida Mostafazadeh Davani",
+            "Mohammad Atari",
+            "Brendan Kennedy",
+            "Morteza Dehghani"
+        ],
+        "published": "2023",
+        "summary": "Social stereotypes negatively impact individuals’ judgments about different groups and may have a critical role in understanding language directed toward marginalized groups. Here, we assess the role of social stereotypes in the automated detection of hate speech in the English language by examining the impact of social stereotypes on annotation behaviors, annotated datasets, and hate speech classifiers. Specifically, we first investigate the impact of novice annotators’ stereotypes on their hate-speech-annotation behavior. Then, we examine the effect of normative stereotypes in language on the aggregated annotators’ judgments in a large annotated corpus. Finally, we demonstrate how normative stereotypes embedded in language resources are associated with systematic prediction errors in a hate-speech classifier. The results demonstrate that hate-speech classifiers reflect social stereotypes against marginalized groups, which can perpetuate social inequalities when propagated at scale. This framework, combining social-psychological and computational-linguistic methods, provides insights into sources of bias in hate-speech moderation, informing ongoing debates regarding machine learning fairness.",
+        "pdf_link": "https://aclanthology.org/2023.tacl-1.18.pdf"
+    },
+    {
+        "title": "Domain-Specific Word Embeddings with Structure Prediction",
+        "authors": [
+            "David Lassner",
+            "Stephanie Brandl",
+            "Anne Baillot",
+            "Shinichi Nakajima"
+        ],
+        "published": "2023",
+        "summary": "Complementary to finding good general word embeddings, an important question for representation learning is to find dynamic word embeddings, for example, across time or domain. Current methods do not offer a way to use or predict information on structure between sub-corpora, time or domain and dynamic embeddings can only be compared after post-alignment. We propose novel word embedding methods that provide general word representations for the whole corpus, domain- specific representations for each sub-corpus, sub-corpus structure, and embedding alignment simultaneously. We present an empirical evaluation on New York Times articles and two English Wikipedia datasets with articles on science and philosophy. Our method, called Word2Vec with Structure Prediction (W2VPred), provides better performance than baselines in terms of the general analogy tests, domain-specific analogy tests, and multiple specific word embedding evaluations as well as structure prediction performance when no structure is given a priori. As a use case in the field of Digital Humanities we demonstrate how to raise novel research questions for high literature from the German Text Archive.",
+        "pdf_link": "https://aclanthology.org/2023.tacl-1.19.pdf"
+    },
+    {
+        "title": "Why Does Surprisal From Larger Transformer-Based Language Models Provide a Poorer Fit to Human Reading Times?",
+        "authors": [
+            "Byung-Doh Oh",
+            "William Schuler"
+        ],
+        "published": "2023",
+        "summary": "This work presents a linguistic analysis into why larger Transformer-based pre-trained language models with more parameters and lower perplexity nonetheless yield surprisal estimates that are less predictive of human reading times. First, regression analyses show a strictly monotonic, positive log-linear relationship between perplexity and fit to reading times for the more recently released five GPT-Neo variants and eight OPT variants on two separate datasets, replicating earlier results limited to just GPT-2 (Oh et al., 2022). Subsequently, analysis of residual errors reveals a systematic deviation of the larger variants, such as underpredicting reading times of named entities and making compensatory overpredictions for reading times of function words such as modals and conjunctions. These results suggest that the propensity of larger Transformer-based models to ‘memorize’ sequences during training makes their surprisal estimates diverge from humanlike expectations, which warrants caution in using pre-trained language models to study human language processing.",
+        "pdf_link": "https://aclanthology.org/2023.tacl-1.20.pdf"
+    },
+    {
+        "title": "On the Robustness of Dialogue History Representation in Conversational Question Answering: A Comprehensive Study and a New Prompt-based Method",
+        "authors": [
+            "Zorik Gekhman",
+            "Nadav Oved",
+            "Orgad Keller",
+            "Idan Szpektor",
+            "Roi Reichart"
+        ],
+        "published": "2023",
+        "summary": "Most work on modeling the conversation history in Conversational Question Answering (CQA) reports a single main result on a common CQA benchmark. While existing models show impressive results on CQA leaderboards, it remains unclear whether they are robust to shifts in setting (sometimes to more realistic ones), training data size (e.g., from large to small sets) and domain. In this work, we design and conduct the first large-scale robustness study of history modeling approaches for CQA. We find that high benchmark scores do not necessarily translate to strong robustness, and that various methods can perform extremely differently under different settings. Equipped with the insights from our study, we design a novel prompt-based history modeling approach and demonstrate its strong robustness across various settings. Our approach is inspired by existing methods that highlight historic answers in the passage. However, instead of highlighting by modifying the passage token embeddings, we add textual prompts directly in the passage text. Our approach is simple, easy to plug into practically any model, and highly effective, thus we recommend it as a starting point for future model developers. We also hope that our study and insights will raise awareness to the importance of robustness-focused evaluation, in addition to obtaining high leaderboard scores, leading to better CQA systems.1",
+        "pdf_link": "https://aclanthology.org/2023.tacl-1.21.pdf"
+    },
+    {
+        "title": "Bridging the Gap between Synthetic and Natural Questions via Sentence Decomposition for Semantic Parsing",
+        "authors": [
+            "Yilin Niu",
+            "Fei Huang",
+            "Wei Liu",
+            "Jianwei Cui",
+            "Bin Wang",
+            "Minlie Huang"
+        ],
+        "published": "2023",
+        "summary": "Semantic parsing maps natural language questions into logical forms, which can be executed against a knowledge base for answers. In real-world applications, the performance of a parser is often limited by the lack of training data. To facilitate zero-shot learning, data synthesis has been widely studied to automatically generate paired questions and logical forms. However, data synthesis methods can hardly cover the diverse structures in natural languages, leading to a large gap in sentence structure between synthetic and natural questions. In this paper, we propose a decomposition-based method to unify the sentence structures of questions, which benefits the generalization to natural questions. Experiments demonstrate that our method significantly improves the semantic parser trained on synthetic data (+7.9% on KQA and +8.9% on ComplexWebQuestions in terms of exact match accuracy). Extensive analysis demonstrates that our method can better generalize to natural questions with novel text expressions compared with baselines. Besides semantic parsing, our idea potentially benefits other semantic understanding tasks by mitigating the distracting structure features. To illustrate this, we extend our method to the task of sentence embedding learning, and observe substantial improvements on sentence retrieval (+13.1% for Hit@1).",
+        "pdf_link": "https://aclanthology.org/2023.tacl-1.22.pdf"
+    },
+    {
+        "title": "Naturalistic Causal Probing for Morpho-Syntax",
+        "authors": [
+            "Afra Amini",
+            "Tiago Pimentel",
+            "Clara Meister",
+            "Ryan Cotterell"
+        ],
+        "published": "2023",
+        "summary": "Probing has become a go-to methodology for interpreting and analyzing deep neural models in natural language processing. However, there is still a lack of understanding of the limitations and weaknesses of various types of probes. In this work, we suggest a strategy for input-level intervention on naturalistic sentences. Using our approach, we intervene on the morpho-syntactic features of a sentence, while keeping the rest of the sentence unchanged. Such an intervention allows us to causally probe pre-trained models. We apply our naturalistic causal probing framework to analyze the effects of grammatical gender and number on contextualized representations extracted from three pre-trained models in Spanish, the multilingual versions of BERT, RoBERTa, and GPT-2. Our experiments suggest that naturalistic interventions lead to stable estimates of the causal effects of various linguistic properties. Moreover, our experiments demonstrate the importance of naturalistic causal probing when analyzing pre-trained models. https://github.com/rycolab/naturalistic-causal-probing",
+        "pdf_link": "https://aclanthology.org/2023.tacl-1.23.pdf"
+    },
+    {
+        "title": "Tracking Brand-Associated Polarity-Bearing Topics in User Reviews",
+        "authors": [
+            "Runcong Zhao",
+            "Lin Gui",
+            "Hanqi Yan",
+            "Yulan He"
+        ],
+        "published": "2023",
+        "summary": "Monitoring online customer reviews is important for business organizations to measure customer satisfaction and better manage their reputations. In this paper, we propose a novel dynamic Brand-Topic Model (dBTM) which is able to automatically detect and track brand-associated sentiment scores and polarity-bearing topics from product reviews organized in temporally ordered time intervals. dBTM models the evolution of the latent brand polarity scores and the topic-word distributions over time by Gaussian state space models. It also incorporates a meta learning strategy to control the update of the topic-word distribution in each time interval in order to ensure smooth topic transitions and better brand score predictions. It has been evaluated on a dataset constructed from MakeupAlley reviews and a hotel review dataset. Experimental results show that dBTM outperforms a number of competitive baselines in brand ranking, achieving a good balance of topic coherence and uniqueness, and extracting well-separated polarity-bearing topics across time intervals.1",
+        "pdf_link": "https://aclanthology.org/2023.tacl-1.24.pdf"
+    },
+    {
+        "title": "Dubbing in Practice: A Large Scale Study of Human Localization With Insights for Automatic Dubbing",
+        "authors": [
+            "William Brannon",
+            "Yogesh Virkar",
+            "Brian Thompson"
+        ],
+        "published": "2023",
+        "summary": "We investigate how humans perform the task of dubbing video content from one language into another, leveraging a novel corpus of 319.57 hours of video from 54 professionally produced titles. This is the first such large-scale study we are aware of. The results challenge a number of assumptions commonly made in both qualitative literature on human dubbing and machine-learning literature on automatic dubbing, arguing for the importance of vocal naturalness and translation quality over commonly emphasized isometric (character length) and lip-sync constraints, and for a more qualified view of the importance of isochronic (timing) constraints. We also find substantial influence of the source-side audio on human dubs through channels other than the words of the translation, pointing to the need for research on ways to preserve speech characteristics, as well as transfer of semantic properties such as emphasis and emotion, in automatic dubbing systems.",
+        "pdf_link": "https://aclanthology.org/2023.tacl-1.25.pdf"
+    },
+    {
+        "title": "Aggretriever: A Simple Approach to Aggregate Textual Representations for Robust Dense Passage Retrieval",
+        "authors": [
+            "Sheng-Chieh Lin",
+            "Minghan Li",
+            "Jimmy Lin"
+        ],
+        "published": "2023",
+        "summary": "Pre-trained language models have been successful in many knowledge-intensive NLP tasks. However, recent work has shown that models such as BERT are not “structurally ready” to aggregate textual information into a [CLS] vector for dense passage retrieval (DPR). This “lack of readiness” results from the gap between language model pre-training and DPR fine-tuning. Previous solutions call for computationally expensive techniques such as hard negative mining, cross-encoder distillation, and further pre-training to learn a robust DPR model. In this work, we instead propose to fully exploit knowledge in a pre-trained language model for DPR by aggregating the contextualized token embeddings into a dense vector, which we call agg★. By concatenating vectors from the [CLS] token and agg★, our Aggretriever model substantially improves the effectiveness of dense retrieval models on both in-domain and zero-shot evaluations without introducing substantial training overhead. Code is available at https://github.com/castorini/dhr.",
+        "pdf_link": "https://aclanthology.org/2023.tacl-1.26.pdf"
+    },
+    {
+        "title": "InSCIt: Information-Seeking Conversations with Mixed-Initiative Interactions",
+        "authors": [
+            "Zeqiu Wu",
+            "Ryu Parish",
+            "Hao Cheng",
+            "Sewon Min",
+            "Prithviraj Ammanabrolu",
+            "Mari Ostendorf",
+            "Hannaneh Hajishirzi"
+        ],
+        "published": "2023",
+        "summary": "In an information-seeking conversation, a user may ask questions that are under-specified or unanswerable. An ideal agent would interact by initiating different response types according to the available knowledge sources. However, most current studies either fail to or artificially incorporate such agent-side initiative. This work presents InSCIt, a dataset for Information-Seeking Conversations with mixed-initiative Interactions. It contains 4.7K user-agent turns from 805 human-human conversations where the agent searches over Wikipedia and either directly answers, asks for clarification, or provides relevant information to address user queries. The data supports two subtasks, evidence passage identification and response generation, as well as a human evaluation protocol to assess model performance. We report results of two systems based on state-of-the-art models of conversational knowledge identification and open-domain question answering. Both systems significantly underperform humans, suggesting ample room for improvement in future studies.1",
+        "pdf_link": "https://aclanthology.org/2023.tacl-1.27.pdf"
+    },
+    {
+        "title": "Sub-Character Tokenization for Chinese Pretrained Language Models",
+        "authors": [
+            "Chenglei Si",
+            "Zhengyan Zhang",
+            "Yingfa Chen",
+            "Fanchao Qi",
+            "Xiaozhi Wang",
+            "Zhiyuan Liu",
+            "Yasheng Wang",
+            "Qun Liu",
+            "Maosong Sun"
+        ],
+        "published": "2023",
+        "summary": "Tokenization is fundamental to pretrained language models (PLMs). Existing tokenization methods for Chinese PLMs typically treat each character as an indivisible token. However, they ignore the unique feature of the Chinese writing system where additional linguistic information exists below the character level, i.e., at the sub-character level. To utilize such information, we propose sub-character (SubChar for short) tokenization. Specifically, we first encode the input text by converting each Chinese character into a short sequence based on its glyph or pronunciation, and then construct the vocabulary based on the encoded text with sub-word segmentation. Experimental results show that SubChar tokenizers have two main advantages over existing tokenizers: 1) They can tokenize inputs into much shorter sequences, thus improving the computational efficiency. 2) Pronunciation-based SubChar tokenizers can encode Chinese homophones into the same transliteration sequences and produce the same tokenization output, hence being robust to homophone typos. At the same time, models trained with SubChar tokenizers perform competitively on downstream tasks. We release our code and models at https://github.com/thunlp/SubCharTokenization to facilitate future work.",
+        "pdf_link": "https://aclanthology.org/2023.tacl-1.28.pdf"
+    },
+    {
+        "title": "Erasure of Unaligned Attributes from Neural Representations",
+        "authors": [
+            "Shun Shao",
+            "Yftah Ziser",
+            "Shay B. Cohen"
+        ],
+        "published": "2023",
+        "summary": "We present the Assignment-Maximization Spectral Attribute removaL (AMSAL) algorithm, which erases information from neural representations when the information to be erased is implicit rather than directly being aligned to each input example. Our algorithm works by alternating between two steps. In one, it finds an assignment of the input representations to the information to be erased, and in the other, it creates projections of both the input representations and the information to be erased into a joint latent space. We test our algorithm on an extensive array of datasets, including a Twitter dataset with multiple guarded attributes, the BiasBios dataset, and the BiasBench benchmark. The latter benchmark includes four datasets with various types of protected attributes. Our results demonstrate that bias can often be removed in our setup. We also discuss the limitations of our approach when there is a strong entanglement between the main task and the information to be erased.1",
+        "pdf_link": "https://aclanthology.org/2023.tacl-1.29.pdf"
+    },
+    {
+        "title": "Less is More: Mitigate Spurious Correlations for Open-Domain Dialogue Response Generation Models by Causal Discovery",
+        "authors": [
+            "Tao Feng",
+            "Lizhen Qu",
+            "Gholamreza Haffari"
+        ],
+        "published": "2023",
+        "summary": "In this paper, we conduct the first study on spurious correlations for open-domain response generation models based on a corpus CGDialog curated by ourselves. The current models indeed suffer from spurious correlations and have a tendency to generate irrelevant and generic responses. Inspired by causal discovery algorithms, we propose a novel model-agnostic method for training and inference using a conditional independence classifier. The classifier is trained by a constrained self-training method, coined ConSTrain, to overcome data sparsity. The experimental results based on both human and automatic evaluation show that our method significantly outperforms the competitive baselines in terms of relevance, informativeness, and fluency.",
+        "pdf_link": "https://aclanthology.org/2023.tacl-1.30.pdf"
+    },
+    {
+        "title": "The Parallelism Tradeoff: Limitations of Log-Precision Transformers",
+        "authors": [
+            "William Merrill",
+            "Ashish Sabharwal"
+        ],
+        "published": "2023",
+        "summary": "Despite their omnipresence in modern NLP, characterizing the computational power of transformer neural nets remains an interesting open question. We prove that transformers whose arithmetic precision is logarithmic in the number of input tokens (and whose feedforward nets are computable using space linear in their input) can be simulated by constant-depth logspace-uniform threshold circuits. This provides insight on the power of transformers using known results in complexity theory. For example, if L≠P (i.e., not all poly-time problems can be solved using logarithmic space), then transformers cannot even accurately solve linear equalities or check membership in an arbitrary context-free grammar with empty productions. Our result intuitively emerges from the transformer architecture’s high parallelizability. We thus speculatively introduce the idea of a fundamental parallelism tradeoff: any model architecture as parallelizable as the transformer will obey limitations similar to it. Since parallelism is key to training models at massive scale, this suggests a potential inherent weakness of the scaling paradigm.",
+        "pdf_link": "https://aclanthology.org/2023.tacl-1.31.pdf"
+    },
+    {
+        "title": "Understanding and Detecting Hallucinations in Neural Machine Translation via Model Introspection",
+        "authors": [
+            "Weijia Xu",
+            "Sweta Agrawal",
+            "Eleftheria Briakou",
+            "Marianna J. Martindale",
+            "Marine Carpuat"
+        ],
+        "published": "2023",
+        "summary": "Neural sequence generation models are known to “hallucinate”, by producing outputs that are unrelated to the source text. These hallucinations are potentially harmful, yet it remains unclear in what conditions they arise and how to mitigate their impact. In this work, we first identify internal model symptoms of hallucinations by analyzing the relative token contributions to the generation in contrastive hallucinated vs. non-hallucinated outputs generated via source perturbations. We then show that these symptoms are reliable indicators of natural hallucinations, by using them to design a lightweight hallucination detector which outperforms both model-free baselines and strong classifiers based on quality estimation or large pre-trained models on manually annotated English-Chinese and German-English translation test beds.",
+        "pdf_link": "https://aclanthology.org/2023.tacl-1.32.pdf"
+    },
+    {
+        "title": "Visual Writing Prompts: Character-Grounded Story Generation with Curated Image Sequences",
+        "authors": [
+            "Xudong Hong",
+            "Asad Sayeed",
+            "Khushboo Mehra",
+            "Vera Demberg",
+            "Bernt Schiele"
+        ],
+        "published": "2023",
+        "summary": "Current work on image-based story generation suffers from the fact that the existing image sequence collections do not have coherent plots behind them. We improve visual story generation by producing a new image-grounded dataset, Visual Writing Prompts (VWP). VWP contains almost 2K selected sequences of movie shots, each including 5-10 images. The image sequences are aligned with a total of 12K stories which were collected via crowdsourcing given the image sequences and a set of grounded characters from the corresponding image sequence. Our new image sequence collection and filtering process has allowed us to obtain stories that are more coherent, diverse, and visually grounded compared to previous work. We also propose a character-based story generation model driven by coherence as a strong baseline. Evaluations show that our generated stories are more coherent, visually grounded, and diverse than stories generated with the current state-of-the-art model. Our code, image features, annotations and collected stories are available at https://vwprompt.github.io/.",
+        "pdf_link": "https://aclanthology.org/2023.tacl-1.33.pdf"
+    }
+]

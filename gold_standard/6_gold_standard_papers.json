@@ -1,0 +1,263 @@
+[
+ { 
+    "title": "Meta-Reasoning: Semantics-Symbol Deconstruction for Large Language Models",
+    "authors": [
+        "Yiming Wang",
+        "Zhuosheng Zhang",
+        "Pei Zhang",
+        "Baosong Yang",
+        "Rui Wang"
+    ],
+    "published": "2023-06-30T17:38:10Z",
+    "summary": "Neural-symbolic methods have demonstrated efficiency in enhancing the reasoning abilities of large language models (LLMs). However, existing methods mainly rely on syntactically mapping natural languages to complete formal languages like Python and SQL. Those methods require that reasoning tasks be convertible into programs, which cater to the computer execution mindset and deviate from human reasoning habits. To broaden symbolic methods' applicability and adaptability in the real world, we propose the Meta-Reasoning from a linguistic perspective. This method empowers LLMs to deconstruct reasoning-independent semantic information into generic symbolic representations, thereby efficiently capturing more generalized reasoning knowledge. We conduct extensive experiments on more than ten datasets encompassing conventional reasoning tasks like arithmetic, symbolic, and logical reasoning, and the more complex interactive reasoning tasks like theory-of-mind reasoning. Experimental results demonstrate that Meta-Reasoning significantly enhances in-context reasoning accuracy, learning efficiency, out-of-domain generalization, and output stability compared to the Chain-of-Thought technique. Code and data are publicly available at \\url{https://github.com/Alsace08/Meta-Reasoning}.",
+    "pdf_link": "https://arxiv.org/pdf/2306.17820v3.pdf"
+ }, 
+ {
+    "title": "Large Language Models are Effective Text Rankers with Pairwise Ranking Prompting",
+    "authors": [
+        "Zhen Qin",
+        "Rolf Jagerman",
+        "Kai Hui",
+        "Honglei Zhuang",
+        "Junru Wu",
+        "Le Yan",
+        "Jiaming Shen",
+        "Tianqi Liu",
+        "Jialu Liu",
+        "Donald Metzler",
+        "Xuanhui Wang",
+        "Michael Bendersky"
+    ],
+    "published": "2023-06-30T11:32:25Z",
+    "summary": "Ranking documents using Large Language Models (LLMs) by directly feeding the query and candidate documents into the prompt is an interesting and practical problem. However, researchers have found it difficult to outperform fine-tuned baseline rankers on benchmark datasets. We analyze pointwise and listwise ranking prompts used by existing methods and argue that off-the-shelf LLMs do not fully understand these challenging ranking formulations. In this paper, we propose to significantly reduce the burden on LLMs by using a new technique called Pairwise Ranking Prompting (PRP). Our results are the first in the literature to achieve state-of-the-art ranking performance on standard benchmarks using moderate-sized open-sourced LLMs. On TREC-DL 2019&2020, PRP based on the Flan-UL2 model with 20B parameters performs favorably with the previous best approach in the literature, which is based on the blackbox commercial GPT-4 that has 50x (estimated) model size, while outperforming other LLM-based solutions, such as InstructGPT which has 175B parameters, by over 10% for all ranking metrics. By using the same prompt template on seven BEIR tasks, PRP outperforms supervised baselines and outperforms the blackbox commercial ChatGPT solution by 4.2% and pointwise LLM-based solutions by more than 10% on average NDCG@10. Furthermore, we propose several variants of PRP to improve efficiency and show that it is possible to achieve competitive results even with linear complexity.",
+    "pdf_link": "https://arxiv.org/pdf/2306.17563v2.pdf"
+ },
+ {
+    "title": "Preference Ranking Optimization for Human Alignment",
+    "authors": [
+        "Feifan Song",
+        "Bowen Yu",
+        "Minghao Li",
+        "Haiyang Yu",
+        "Fei Huang",
+        "Yongbin Li",
+        "Houfeng Wang"
+    ],
+    "published": "2023-06-30T09:07:37Z",
+    "summary": "Large language models (LLMs) often contain misleading content, emphasizing the need to align them with human values to ensure secure AI systems. Reinforcement learning from human feedback (RLHF) has been employed to achieve this alignment. However, it encompasses two main drawbacks: (1) RLHF exhibits complexity, instability, and sensitivity to hyperparameters in contrast to SFT. (2) Despite massive trial-and-error, multiple sampling is reduced to pair-wise contrast, thus lacking contrasts from a macro perspective. In this paper, we propose Preference Ranking Optimization (PRO) as an efficient SFT algorithm to directly fine-tune LLMs for human alignment. PRO extends the pair-wise contrast to accommodate preference rankings of any length. By iteratively contrasting candidates, PRO instructs the LLM to prioritize the best response while progressively ranking the rest responses. In this manner, PRO effectively transforms human alignment into aligning the probability ranking of n responses generated by LLM with the preference ranking of humans towards these responses. Experiments have shown that PRO outperforms baseline algorithms, achieving comparable results to ChatGPT and human responses through automatic-based, reward-based, GPT-4, and human evaluations.",
+    "pdf_link": "https://arxiv.org/pdf/2306.17492v2.pdf"
+ },
+ {
+    "title": "A Survey on Large Language Models: Applications, Challenges, Limitations, and Practical Usage",
+    "authors": [
+        "Muhammad Usman Hadi",
+        "Qasem Al-Tashi",
+        "Rizwan Qureshi",
+        "Abbas Shah",
+        "Amgad Muneer",
+        "Muhammad Irfan",
+        "Anas Zafar",
+        "Muhammad Bilal Shaikh",
+        "Naveed Akhtar",
+        "Jia Wu",
+        "Seyedali Mirjalili"
+    ],
+    "published": "2023-06-06T00:00:00Z",
+    "summary": "Within the vast expanse of computerized language processing, a revolutionary entity known as Large Language Models (LLMs) has emerged, wielding immense power in its capacity to comprehend intricate linguistic patterns and conjure coherent and contextually fitting responses. Large language models (LLMs) are a type of artificial intelligence (AI) that have emerged as powerful tools for a wide range of tasks, including natural language processing (NLP), machine translation, and question-answering. This survey paper provides a comprehensive overview of LLMs, including their history, architecture, training methods, applications, and challenges. The paper begins by discussing the fundamental concepts of generative AI and the architecture of generative pre-trained transformers (GPT). It then provides an overview of the history of LLMs, their evolution over time, and the different training methods that have been used to train them. The paper then discusses the wide range of applications of LLMs, including medical, education, finance, and engineering. It also discusses how LLMs are shaping the future of AI and how they can be used to solve real-world problems. The paper then discusses the challenges associated with deploying LLMs in real-world scenarios, including ethical considerations, model biases, interpretability, and computational resource requirements. It also highlights techniques for enhancing the robustness and controllability of LLMs and addressing bias, fairness, and generation quality issues. Finally, the paper concludes by highlighting the future of LLM research and the challenges that need to be addressed in order to make LLMs more reliable and useful. This survey paper is intended to provide researchers, practitioners, and enthusiasts with a comprehensive understanding of LLMs, their evolution, applications, and challenges. By consolidating the state-of-the-art knowledge in the field, this survey serves as a valuable resource for further advancements in the development and utilization of LLMs for a wide range of real-world applications. The GitHub repo for this project is available at https://github.com/anas-zafar/LLM-Survey",
+    "pdf_link": "https://www.techrxiv.org/doi/full/10.36227/techrxiv.23589741.v1"
+  },
+  {
+    "title": "Concept-Oriented Deep Learning with Large Language Models",
+    "authors": [
+        "Daniel T. Chang"
+    ],
+    "published": "2023-06-29T16:47:11Z",
+    "summary": "Large Language Models (LLMs) have been successfully used in many natural-language tasks and applications including text generation and AI chatbots. They also are a promising new technology for concept-oriented deep learning (CODL). However, the prerequisite is that LLMs understand concepts and ensure conceptual consistency. We discuss these in this paper, as well as major uses of LLMs for CODL including concept extraction from text, concept graph extraction from text, and concept learning. Human knowledge consists of both symbolic (conceptual) knowledge and embodied (sensory) knowledge. Text-only LLMs, however, can represent only symbolic (conceptual) knowledge. Multimodal LLMs, on the other hand, are capable of representing the full range (conceptual and sensory) of human knowledge. We discuss conceptual understanding in visual-language LLMs, the most important multimodal LLMs, and major uses of them for CODL including concept extraction from image, concept graph extraction from image, and concept learning. While uses of LLMs for CODL are valuable standalone, they are particularly valuable as part of LLM applications such as AI chatbots.",
+    "pdf_link": "https://arxiv.org/pdf/2306.17089v2.pdf"
+  },
+  {
+    "title": "Automatic Calibration and Error Correction for Generative Large Language Models via Pareto Optimal Self-Supervision",
+    "authors": [
+        "Theodore Zhao",
+        "Mu Wei",
+        "J. Samuel Preston",
+        "Hoifung Poon"
+    ],
+    "published": "2023-06-28T21:11:15Z",
+    "summary": "Generative Large language models (LLMs) have demonstrated remarkable capabilities for a wide range of applications, but reducing ungrounded or erroneous responses remains a major growth area. Unlike task-specific models, there lack an effective method to calibrate the confidence level of LLM responses to indicate potential errors and facilitate human-in-the-loop verification. An important source of calibration stems from expert-stipulated programmatic supervision, which is often available at low cost but has its own limitations such as noise and coverage. In this paper, we introduce a Pareto optimal self-supervision framework that can leverage available programmatic supervision to systematically calibrate LLM responses by producing a risk score for every LLM response, without any additional manual efforts. This is accomplished by learning a harmonizer model to align with LLM output as well as other weak supervision sources. The model assigns higher risk scores to more uncertain LLM responses and facilitate error correction. Experiments on standard relation extraction and classification tasks in biomedical and general domains demonstrate that the proposed risk score is highly correlated with the actual LLM error rate. By using a dynamic prompting strategy based on the risk score, we observed significant accuracy improvement for off-the-shelf LLMs, boosting GPT-3.5 results past state-of-the-art (SOTA) weak supervision model and GPT-4 results past SOTA supervised results on challenging evaluation datasets.",
+    "pdf_link": "https://arxiv.org/pdf/2306.16564v3.pdf"
+  },
+  {
+    "title": "Taqyim: Evaluating Arabic NLP Tasks Using ChatGPT Models",
+    "authors": [
+        "Zaid Alyafeai",
+        "Maged S. Alshaibani",
+        "Badr AlKhamissi",
+        "Hamzah Luqman",
+        "Ebrahim Alareqi",
+        "Ali Fadel"
+    ],
+    "published": "2023-06-28T15:54:29Z",
+    "summary": "Large language models (LLMs) have demonstrated impressive performance on various downstream tasks without requiring fine-tuning, including ChatGPT, a chat-based model built on top of LLMs such as GPT-3.5 and GPT-4. Despite having a lower training proportion compared to English, these models also exhibit remarkable capabilities in other languages. In this study, we assess the performance of GPT-3.5 and GPT-4 models on seven distinct Arabic NLP tasks: sentiment analysis, translation, transliteration, paraphrasing, part of speech tagging, summarization, and diacritization. Our findings reveal that GPT-4 outperforms GPT-3.5 on five out of the seven tasks. Furthermore, we conduct an extensive analysis of the sentiment analysis task, providing insights into how LLMs achieve exceptional results on a challenging dialectal dataset. Additionally, we introduce a new Python interface https://github.com/ARBML/Taqyim that facilitates the evaluation of these tasks effortlessly.",
+    "pdf_link": "https://arxiv.org/pdf/2306.16322v1.pdf"
+  },
+  { 
+    "title": "Large Language Model as Attributed Training Data Generator: A Tale of Diversity and Bias",
+    "authors": [
+        "Yue Yu",
+        "Yuchen Zhuang",
+        "Jieyu Zhang",
+        "Yu Meng",
+        "Alexander Ratner",
+        "Ranjay Krishna",
+        "Jiaming Shen",
+        "Chao Zhang"
+    ],
+    "published": "2023-06-28T03:31:31Z",
+    "summary": "Large language models (LLMs) have been recently leveraged as training data generators for various natural language processing (NLP) tasks. While previous research has explored different approaches to training models using generated data, they generally rely on simple class-conditional prompts, which may limit the diversity of the generated data and inherit systematic biases of LLM. Thus, we investigate training data generation with diversely attributed prompts (e.g., specifying attributes like length and style), which have the potential to yield diverse and attributed generated data. Our investigation focuses on datasets with high cardinality and diverse domains, wherein we demonstrate that attributed prompts outperform simple class-conditional prompts in terms of the resulting model's performance. Additionally, we present a comprehensive empirical study on data generation encompassing vital aspects like bias, diversity, and efficiency, and highlight three key observations: firstly, synthetic datasets generated by simple prompts exhibit significant biases, such as regional bias; secondly, attribute diversity plays a pivotal role in enhancing model performance; lastly, attributed prompts achieve the performance of simple class-conditional prompts while utilizing only 5\\% of the querying cost of ChatGPT associated with the latter. The data and code are available on \\url{https://github.com/yueyu1030/AttrPrompt}.",
+    "pdf_link": "https://arxiv.org/pdf/2306.15895v2.pdf"
+  },
+  {
+    "title": "Large Language Models as Annotators: Enhancing Generalization of NLP Models at Minimal Cost",
+    "authors": [
+        "Parikshit Bansal",
+        "Amit Sharma"
+    ],
+    "published": "2023-06-27T19:29:55Z",
+    "summary": "State-of-the-art supervised NLP models achieve high accuracy but are also susceptible to failures on inputs from low-data regimes, such as domains that are not represented in training data. As an approximation to collecting ground-truth labels for the specific domain, we study the use of large language models (LLMs) for annotating inputs and improving the generalization of NLP models. Specifically, given a budget for LLM annotations, we present an algorithm for sampling the most informative inputs to annotate and retrain the NLP model. We find that popular active learning strategies such as uncertainty-based sampling do not work well. Instead, we propose a sampling strategy based on the difference in prediction scores between the base model and the finetuned NLP model, utilizing the fact that most NLP models are finetuned from a base model. Experiments with classification (semantic similarity) and ranking (semantic search) tasks show that our sampling strategy leads to significant gains in accuracy for both the training and target domains.",
+    "pdf_link": "https://arxiv.org/pdf/2306.15766v1.pdf"
+  },
+  {
+    "title": "ChatGPT Label: Comparing the Quality of Human-Generated and LLM-Generated Annotations in Low-resource Language NLP Tasks",
+    "authors": [
+        "A. H. Nasution",
+        "A. Onan"
+    ],
+    "published": "2024-01-01T00:00:00Z",
+    "summary": "This research paper presents a comprehensive comparative study assessing the quality of annotations in Turkish, Indonesian, and Minangkabau Natural Language Processing (NLP) tasks, with a specific focus on the contrast between annotations generated by human annotators and those produced by Large Language Models (LLMs). In the context of NLP, high-quality annotations play a pivotal role in training and evaluating machine-learning models. The study encompasses three core NLP tasks: topic classification, tweet sentiment analysis, and emotion classification, each reflecting a distinct aspect of text analysis. The research methodology incorporates a meticulously curated dataset sourced from a variety of text data, spanning diverse topics and emotions. Human annotators, proficient in the Turkish, Indonesian, and Minangkabau language, were tasked with producing high-quality annotations, adhering to comprehensive annotation guidelines. Additionally, fine-tuned Turkish LLMs were employed to generate annotations for the same tasks. The evaluation process employed precision, recall, and F1-score metrics, tailored to each specific NLP task. The findings of this study underscore the nuanced nature of annotation quality. While LLM-generated annotations demonstrated competitive quality, particularly in sentiment analysis, human-generated annotations consistently outperformed LLM-generated ones in more intricate NLP tasks. The observed differences highlight LLM limitations in understanding context and addressing ambiguity. This research contributes to the ongoing discourse on annotation sources in Turkish, Indonesian, and Minangkabau NLP, emphasizing the importance of judicious selection between human and LLM-generated annotations. It also underscores the necessity for continued advancements in LLM capabilities, as they continue to reshape the landscape of data annotation in NLP and machine learning.",
+    "pdf_link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10534765&isnumber=6514899"
+  },
+  {
+    "title": "REFLECT: Summarizing Robot Experiences for Failure Explanation and Correction",
+    "authors": [
+        "Zeyi Liu",
+        "Arpit Bahety",
+        "Shuran Song"
+    ],
+    "published": "2023-06-27T18:03:15Z",
+    "summary": "The ability to detect and analyze failed executions automatically is crucial for an explainable and robust robotic system. Recently, Large Language Models (LLMs) have demonstrated strong reasoning abilities on textual inputs. To leverage the power of LLMs for robot failure explanation, we introduce REFLECT, a framework which queries LLM for failure reasoning based on a hierarchical summary of robot past experiences generated from multisensory observations. The failure explanation can further guide a language-based planner to correct the failure and complete the task. To systematically evaluate the framework, we create the RoboFail dataset with a variety of tasks and failure scenarios. We demonstrate that the LLM-based framework is able to generate informative failure explanations that assist successful correction planning.",
+    "pdf_link": "https://arxiv.org/pdf/2306.15724v4.pdf"
+  },
+  {
+    "title": "Exploring the Robustness of Large Language Models for Solving Programming Problems",
+    "authors": [
+        "Atsushi Shirafuji",
+        "Yutaka Watanobe",
+        "Takumi Ito",
+        "Makoto Morishita",
+        "Yuki Nakamura",
+        "Yusuke Oda",
+        "Jun Suzuki"
+    ],
+    "published": "2023-06-26T10:48:50Z",
+    "summary": "Using large language models (LLMs) for source code has recently gained attention. LLMs, such as Transformer-based models like Codex and ChatGPT, have been shown to be highly capable of solving a wide range of programming problems. However, the extent to which LLMs understand problem descriptions and generate programs accordingly or just retrieve source code from the most relevant problem in training data based on superficial cues has not been discovered yet. To explore this research question, we conduct experiments to understand the robustness of several popular LLMs, CodeGen and GPT-3.5 series models, capable of tackling code generation tasks in introductory programming problems. Our experimental results show that CodeGen and Codex are sensitive to the superficial modifications of problem descriptions and significantly impact code generation performance. Furthermore, we observe that Codex relies on variable names, as randomized variables decrease the solved rate significantly. However, the state-of-the-art (SOTA) models, such as InstructGPT and ChatGPT, show higher robustness to superficial modifications and have an outstanding capability for solving programming problems. This highlights the fact that slight modifications to the prompts given to the LLMs can greatly affect code generation performance, and careful formatting of prompts is essential for high-quality code generation, while the SOTA models are becoming more robust to perturbations.",
+    "pdf_link": "https://arxiv.org/pdf/2306.14583v1.pdf"
+  },
+  {
+    "title": "Language models are weak learners",
+    "authors": [
+        "Hariharan Manikandan",
+        "Yiding Jiang",
+        "J Zico Kolter"
+    ],
+    "published": "2023-06-25T02:39:19Z",
+    "summary": "A central notion in practical and theoretical machine learning is that of a $\\textit{weak learner}$, classifiers that achieve better-than-random performance (on any given distribution over data), even by a small margin. Such weak learners form the practical basis for canonical machine learning methods such as boosting. In this work, we illustrate that prompt-based large language models can operate effectively as said weak learners. Specifically, we illustrate the use of a large language model (LLM) as a weak learner in a boosting algorithm applied to tabular data. We show that by providing (properly sampled according to the distribution of interest) text descriptions of tabular data samples, LLMs can produce a summary of the samples that serves as a template for classification and achieves the aim of acting as a weak learner on this task. We incorporate these models into a boosting approach, which in some settings can leverage the knowledge within the LLM to outperform traditional tree-based boosting. The model outperforms both few-shot learning and occasionally even more involved fine-tuning procedures, particularly for tasks involving small numbers of data points. The results illustrate the potential for prompt-based LLMs to function not just as few-shot learners themselves, but as components of larger machine learning pipelines.",
+    "pdf_link": "https://arxiv.org/pdf/2306.14101v1.pdf"
+  },
+  {
+    "title": "Teaching Large Language Models to Self-Debug",
+    "authors": [
+        "Xinyun Chen",
+        "Maxwell Lin",
+        "Nathanael Schärli",
+        "Denny Zhou"
+    ],
+    "published": "2023-04-11T10:43:43Z",
+    "summary": "Large language models (LLMs) have achieved impressive performance on code generation. However, for complex programming tasks, generating the correct solution in one go becomes challenging, thus some prior works have designed program repair approaches to improve code generation performance. In this work, we propose Self-Debugging, which teaches a large language model to debug its predicted program via few-shot demonstrations. In particular, we demonstrate that Self-Debugging can teach the large language model to perform rubber duck debugging; i.e., without any human feedback on the code correctness or error messages, the model is able to identify its mistakes by investigating the execution results and explaining the generated code in natural language. Self-Debugging achieves the state-of-the-art performance on several code generation benchmarks, including the Spider dataset for text-to-SQL generation, TransCoder for C++-to-Python translation, and MBPP for text-to-Python generation. On the Spider benchmark where there are no unit tests to verify the correctness of predictions, Self-Debugging with code explanation consistently improves the baseline by 2-3%, and improves the prediction accuracy on problems of the hardest level by 9%. On TransCoder and MBPP where unit tests are available, Self-Debugging improves the baseline accuracy by up to 12%. Meanwhile, by leveraging feedback messages and reusing failed predictions, Self-Debugging notably improves sample efficiency, and can match or outperform baseline models that generate more than 10x candidate programs.",
+    "pdf_link": "https://arxiv.org/pdf/2304.05128v2.pdf"
+  },
+  {
+    "title": "Towards an Understanding and Explanation for Mixed-Initiative Artificial Scientific Text Detection",
+    "authors": [
+        "Luoxuan Weng",
+        "Minfeng Zhu",
+        "Kam Kwai Wong",
+        "Shi Liu",
+        "Jiashun Sun",
+        "Hang Zhu",
+        "Dongming Han",
+        "Wei Chen"
+    ],
+    "published": "2023-04-11T06:37:30Z",
+    "summary": "Large language models (LLMs) have gained popularity in various fields for their exceptional capability of generating human-like text. Their potential misuse has raised social concerns about plagiarism in academic contexts. However, effective artificial scientific text detection is a non-trivial task due to several challenges, including 1) the lack of a clear understanding of the differences between machine-generated and human-written scientific text, 2) the poor generalization performance of existing methods caused by out-of-distribution issues, and 3) the limited support for human-machine collaboration with sufficient interpretability during the detection process. In this paper, we first identify the critical distinctions between machine-generated and human-written scientific text through a quantitative experiment. Then, we propose a mixed-initiative workflow that combines human experts' prior knowledge with machine intelligence, along with a visual analytics prototype to facilitate efficient and trustworthy scientific text detection. Finally, we demonstrate the effectiveness of our approach through two case studies and a controlled user study with proficient researchers. We also provide design implications for interactive artificial text detection tools in high-stakes decision-making scenarios.",
+    "pdf_link": "https://arxiv.org/pdf/2304.05011v1.pdf"
+  },
+  {
+    "title": "On the Possibilities of AI-Generated Text Detection",
+    "authors": [
+        "Souradip Chakraborty",
+        "Amrit Singh Bedi",
+        "Sicheng Zhu",
+        "Bang An",
+        "Dinesh Manocha",
+        "Furong Huang"
+    ],
+    "published": "2023-04-10T17:47:39Z",
+    "summary": "Our work addresses the critical issue of distinguishing text generated by Large Language Models (LLMs) from human-produced text, a task essential for numerous applications. Despite ongoing debate about the feasibility of such differentiation, we present evidence supporting its consistent achievability, except when human and machine text distributions are indistinguishable across their entire support. Drawing from information theory, we argue that as machine-generated text approximates human-like quality, the sample size needed for detection increases. We establish precise sample complexity bounds for detecting AI-generated text, laying groundwork for future research aimed at developing advanced, multi-sample detectors. Our empirical evaluations across multiple datasets (Xsum, Squad, IMDb, and Kaggle FakeNews) confirm the viability of enhanced detection methods. We test various state-of-the-art text generators, including GPT-2, GPT-3.5-Turbo, Llama, Llama-2-13B-Chat-HF, and Llama-2-70B-Chat-HF, against detectors, including oBERTa-Large/Base-Detector, GPTZero. Our findings align with OpenAI's empirical data related to sequence length, marking the first theoretical substantiation for these observations.",
+    "pdf_link": "https://arxiv.org/pdf/2304.04736v3.pdf"
+  },
+  {
+    "title": "Learnings from Data Integration for Augmented Language Models",
+    "authors": [
+        "Alon Halevy",
+        "Jane Dwivedi-Yu"
+    ],
+    "published": "2023-04-10T13:28:35Z",
+    "summary": "One of the limitations of large language models is that they do not have\naccess to up-to-date, proprietary or personal data. As a result, there are\nmultiple efforts to extend language models with techniques for accessing\nexternal data. In that sense, LLMs share the vision of data integration systems\nwhose goal is to provide seamless access to a large collection of heterogeneous\ndata sources. While the details and the techniques of LLMs differ greatly from\nthose of data integration, this paper shows that some of the lessons learned\nfrom research on data integration can elucidate the research path we are\nconducting today on language models.",
+    "pdf_link": "https://arxiv.org/pdf/2304.04576v1.pdf"
+  },
+  {
+    "title": "Graph-ToolFormer: To Empower LLMs with Graph Reasoning Ability via Prompt Augmented by ChatGPT",
+    "authors": [
+        "Jiawei Zhang"
+    ],
+    "published": "2023-04-10T05:25:54Z",
+    "summary": "In this paper, we aim to develop a large language model (LLM) with the\nreasoning ability on complex graph data. Currently, LLMs have achieved very\nimpressive performance on various natural language learning tasks, extensions\nof which have also been applied to study the vision tasks with multi-modal\ndata. However, when it comes to the graph learning tasks, existing LLMs present\nvery serious flaws due to their several inherited weaknesses in performing\n{multi-step logic reasoning}, {precise mathematical calculation} and\n{perception about the spatial and temporal factors}.\n  To address such challenges, in this paper, we will investigate the\nprinciples, methodologies and algorithms to empower existing LLMs with graph\nreasoning ability, which will have tremendous impacts on the current research\nof both LLMs and graph learning. Inspired by the latest ChatGPT and Toolformer\nmodels, we propose the Graph-ToolFormer (Graph Reasoning oriented Toolformer)\nframework to teach LLMs themselves with prompts augmented by ChatGPT to use\nexternal graph reasoning API tools. Specifically, we will investigate to teach\nGraph-ToolFormer to handle various graph data reasoning tasks in this paper,\nincluding both (1) very basic graph data loading and graph property reasoning\ntasks, ranging from simple graph order and size to the graph diameter and\nperiphery, and (2) more advanced reasoning tasks on real-world graph data, such\nas bibliographic networks, protein molecules, sequential recommender systems,\nsocial networks and knowledge graphs.",
+    "pdf_link": "https://arxiv.org/pdf/2304.11116v3.pdf"
+  },
+  {
+    "title": "Towards Generating Functionally Correct Code Edits from Natural Language Issue Descriptions",
+    "authors": [
+        "Sarah Fakhoury",
+        "Saikat Chakraborty",
+        "Madan Musuvathi",
+        "Shuvendu K. Lahiri"
+    ],
+    "published": "2023-04-07T18:58:33Z",
+    "summary": "Large language models (LLMs), such as OpenAI's Codex, have demonstrated their\npotential to generate code from natural language descriptions across a wide\nrange of programming tasks. Several benchmarks have recently emerged to\nevaluate the ability of LLMs to generate functionally correct code from natural\nlanguage intent with respect to a set of hidden test cases. This has enabled\nthe research community to identify significant and reproducible advancements in\nLLM capabilities. However, there is currently a lack of benchmark datasets for\nassessing the ability of LLMs to generate functionally correct code edits based\non natural language descriptions of intended changes. This paper aims to\naddress this gap by motivating the problem NL2Fix of translating natural\nlanguage descriptions of code changes (namely bug fixes described in Issue\nreports in repositories) into correct code fixes. To this end, we introduce\nDefects4J-NL2Fix, a dataset of 283 Java programs from the popular Defects4J\ndataset augmented with high-level descriptions of bug fixes, and empirically\nevaluate the performance of several state-of-the-art LLMs for the this task.\nResults show that these LLMS together are capable of generating plausible fixes\nfor 64.6% of the bugs, and the best LLM-based technique can achieve up to\n21.20% top-1 and 35.68% top-5 accuracy on this benchmark.",
+    "pdf_link": "https://arxiv.org/pdf/2304.03816v1.pdf"
+  },
+  {
+    "title": "Revisiting Automated Prompting: Are We Actually Doing Better?",
+    "authors": [
+        "Yulin Zhou",
+        "Yiren Zhao",
+        "Ilia Shumailov",
+        "Robert Mullins",
+        "Yarin Gal"
+    ],
+    "published": "2023-04-07T12:06:44Z",
+    "summary": "Current literature demonstrates that Large Language Models (LLMs) are great\nfew-shot learners, and prompting significantly increases their performance on a\nrange of downstream tasks in a few-shot learning setting. An attempt to\nautomate human-led prompting followed, with some progress achieved. In\nparticular, subsequent work demonstrates automation can outperform fine-tuning\nin certain K-shot learning scenarios.\n  In this paper, we revisit techniques for automated prompting on six different\ndownstream tasks and a larger range of K-shot learning settings. We find that\nautomated prompting does not consistently outperform simple manual prompts. Our\nwork suggests that, in addition to fine-tuning, manual prompts should be used\nas a baseline in this line of research.",
+    "pdf_link": "https://arxiv.org/pdf/2304.03609v2.pdf"
+  }
+]

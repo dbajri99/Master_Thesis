@@ -1,0 +1,300 @@
+[
+    {
+        "title": "Using Large Language Models to Automate and Expedite Reinforcement Learning with Reward Machine",
+        "authors": [
+            "Shayan Meshkat Alsadat",
+            "Jean-Raphael Gaglione",
+            "Daniel Neider",
+            "Ufuk Topcu",
+            "Zhe Xu"
+        ],
+        "published": "2024-02-11T00:00:05Z",
+        "summary": "We present LARL-RM (Large language model-generated Automaton for Reinforcement Learning with Reward Machine) algorithm in order to encode high-level knowledge into reinforcement learning using automaton to expedite the reinforcement learning. Our method uses Large Language Models (LLM) to obtain high-level domain-specific knowledge using prompt engineering instead of providing the reinforcement learning algorithm directly with the high-level knowledge which requires an expert to encode the automaton. We use chain-of-thought and few-shot methods for prompt engineering and demonstrate that our method works using these approaches. Additionally, LARL-RM allows for fully closed-loop reinforcement learning without the need for an expert to guide and supervise the learning since LARL-RM can use the LLM directly to generate the required high-level knowledge for the task at hand. We also show the theoretical guarantee of our algorithm to converge to an optimal policy. We demonstrate that LARL-RM speeds up the convergence by 30% by implementing our method in two case studies.",
+        "pdf_link": "https://arxiv.org/pdf/2402.07069v1.pdf"
+     },
+     {
+        "title": "Evolutionary Computation in the Era of Large Language Model: Survey and Roadmap",
+        "authors": [
+            "Xingyu Wu",
+            "Sheng-hao Wu",
+            "Jibin Wu",
+            "Liang Feng",
+            "Kay Chen Tan"
+        ],
+        "published": "2024-01-18T14:58:17Z",
+        "summary": "Large Language Models (LLMs) have not only revolutionized natural language processing but also extended their prowess to various domains, marking a significant stride towards artificial general intelligence. The interplay between LLMs and Evolutionary Algorithms (EAs), despite differing in objectives and methodologies, share a common pursuit of applicability in complex problems. Meanwhile, EA can provide an optimization framework for LLM's further enhancement under black-box settings, empowering LLM with flexible global search capacities. On the other hand, the abundant domain knowledge inherent in LLMs could enable EA to conduct more intelligent searches. Furthermore, the text processing and generative capabilities of LLMs would aid in deploying EAs across a wide range of tasks. Based on these complementary advantages, this paper provides a thorough review and a forward-looking roadmap, categorizing the reciprocal inspiration into two main avenues: LLM-enhanced EA and EA-enhanced LLM. Some integrated synergy methods are further introduced to exemplify the amalgamation of LLMs and EAs in diverse scenarios, including neural architecture search, code generation, software engineering, and various generation tasks. As the first comprehensive review focused on the EA research in the era of LLMs, this paper provides a foundational stepping stone for understanding the collaborative potential of LLMs and EAs. By meticulous categorization and critical analysis, we contribute to the ongoing discourse on the cross-disciplinary study of these two powerful paradigms. The identified challenges and future directions offer guidance for researchers and practitioners aiming to unlock the full potential of this innovative collaboration in propelling advancements in optimization and artificial intelligence.",
+        "pdf_link": "https://arxiv.org/pdf/2401.10034v2.pdf"
+     },
+     {
+        "title": "Large Language Models Are Neurosymbolic Reasoners",
+        "authors": [
+            "Meng Fang",
+            "Shilong Deng",
+            "Yudi Zhang",
+            "Zijing Shi",
+            "Ling Chen",
+            "Mykola Pechenizkiy",
+            "Jun Wang"
+        ],
+        "published": "2024-01-17T16:57:19Z",
+        "summary": "A wide range of real-world applications is characterized by their symbolic nature, necessitating a strong capability for symbolic reasoning. This paper investigates the potential application of Large Language Models (LLMs) as symbolic reasoners. We focus on text-based games, significant benchmarks for agents with natural language capabilities, particularly in symbolic tasks like math, map reading, sorting, and applying common sense in text-based worlds. To facilitate these agents, we propose an LLM agent designed to tackle symbolic challenges and achieve in-game objectives. We begin by initializing the LLM agent and informing it of its role. The agent then receives observations and a set of valid actions from the text-based games, along with a specific symbolic module. With these inputs, the LLM agent chooses an action and interacts with the game environments. Our experimental results demonstrate that our method significantly enhances the capability of LLMs as automated agents for symbolic reasoning, and our LLM agent is effective in text-based games involving symbolic tasks, achieving an average performance of 88% across all tasks.",
+        "pdf_link": "https://arxiv.org/pdf/2401.09334v1.pdf"
+     },
+     {
+        "title": "LLMs for Relational Reasoning: How Far are We?",
+        "authors": [
+            "Zhiming Li",
+            "Yushi Cao",
+            "Xiufeng Xu",
+            "Junzhe Jiang",
+            "Xu Liu",
+            "Yon Shin Teo",
+            "Shang-wei Lin",
+            "Yang Liu"
+        ],
+        "published": "2024-01-17T08:22:52Z",
+        "summary": "Large language models (LLMs) have revolutionized many areas (e.g. natural language processing, software engineering, etc.) by achieving state-of-the-art performance on extensive downstream tasks. Aiming to achieve robust and general artificial intelligence, there has been a surge of interest in investigating the reasoning ability of the LLMs. Whereas the textual and numerical reasoning benchmarks adopted by previous works are rather shallow and simple, it is hard to conclude that the LLMs possess strong reasoning ability by merely achieving positive results on these benchmarks. Recent efforts have demonstrated that the LLMs are poor at solving sequential decision-making problems that require common-sense planning by evaluating their performance on the reinforcement learning benchmarks. In this work, we conduct an in-depth assessment of several state-of-the-art LLMs' reasoning ability based on the inductive logic programming (ILP) benchmark, which is broadly recognized as a representative and challenging measurement for evaluating logic program induction/synthesis systems as it requires inducing strict cause-effect logic to achieve robust deduction on independent and identically distributed (IID) and out-of-distribution (OOD) test samples. Our evaluations illustrate that compared with the neural program induction systems which are much smaller in model size, the state-of-the-art LLMs are much poorer in terms of reasoning ability by achieving much lower performance and generalization using either natural language prompting or truth-value matrix prompting.",
+        "pdf_link": "https://arxiv.org/pdf/2401.09042v1.pdf"
+     },
+     {
+        "title": "Large Language Models in Plant Biology",
+        "authors": [
+            "Hilbert Yuen In Lam",
+            "Xing Er Ong",
+            "Marek Mutwil"
+        ],
+        "published": "2024-01-05T12:59:20Z",
+        "summary": "Large Language Models (LLMs), such as ChatGPT, have taken the world by storm and have passed certain forms of the Turing test. However, LLMs are not limited to human language and analyze sequential data, such as DNA, protein, and gene expression. The resulting foundation models can be repurposed to identify the complex patterns within the data, resulting in powerful, multi-purpose prediction tools able to explain cellular systems. This review outlines the different types of LLMs and showcases their recent uses in biology. Since LLMs have not yet been embraced by the plant community, we also cover how these models can be deployed for the plant kingdom.",
+        "pdf_link": "https://arxiv.org/pdf/2401.02789v1.pdf"
+     },
+     {
+        "title": "From LLM to Conversational Agent: A Memory Enhanced Architecture with Fine-Tuning of Large Language Models",
+        "authors": [
+            "Na Liu",
+            "Liangyu Chen",
+            "Xiaoyu Tian",
+            "Wei Zou",
+            "Kaijiang Chen",
+            "Ming Cui"
+        ],
+        "published": "2024-01-05T12:26:46Z",
+        "summary": "This paper introduces RAISE (Reasoning and Acting through Scratchpad and Examples), an advanced architecture enhancing the integration of Large Language Models (LLMs) like GPT-4 into conversational agents. RAISE, an enhancement of the ReAct framework, incorporates a dual-component memory system, mirroring human short-term and long-term memory, to maintain context and continuity in conversations. It entails a comprehensive agent construction scenario, including phases like Conversation Selection, Scene Extraction, CoT Completion, and Scene Augmentation, leading to the LLMs Training phase. This approach appears to enhance agent controllability and adaptability in complex, multi-turn dialogues. Our preliminary evaluations in a real estate sales context suggest that RAISE has some advantages over traditional agents, indicating its potential for broader applications. This work contributes to the AI field by providing a robust framework for developing more context-aware and versatile conversational agents.",
+        "pdf_link": "https://arxiv.org/pdf/2401.02777v2.pdf"
+     },
+     {
+        "title": "GeoGalactica: A Scientific Large Language Model in Geoscience",
+        "authors": [
+            "Zhouhan Lin",
+            "Cheng Deng",
+            "Le Zhou",
+            "Tianhang Zhang",
+            "Yi Xu",
+            "Yutong Xu",
+            "Zhongmou He",
+            "Yuanyuan Shi",
+            "Beiya Dai",
+            "Yunchong Song",
+            "Boyi Zeng",
+            "Qiyuan Chen",
+            "Tao Shi",
+            "Tianyu Huang",
+            "Yiwei Xu",
+            "Shu Wang",
+            "Luoyi Fu",
+            "Weinan Zhang",
+            "Junxian He",
+            "Chao Ma",
+            "Yunqiang Zhu",
+            "Xinbing Wang",
+            "Chenghu Zhou"
+        ],
+        "published": "2023-12-31T09:22:54Z",
+        "summary": "Large language models (LLMs) have achieved huge success for their general knowledge and ability to solve a wide spectrum of tasks in natural language processing (NLP). Due to their impressive abilities, LLMs have shed light on potential inter-discipline applications to foster scientific discoveries of a specific domain by using artificial intelligence (AI for science, AI4S). In the meantime, utilizing NLP techniques in geoscience research and practice is wide and convoluted, contributing from knowledge extraction and document classification to question answering and knowledge discovery. In this work, we take the initial step to leverage LLM for science, through a rather straightforward approach. We try to specialize an LLM into geoscience, by further pre-training the model with a vast amount of texts in geoscience, as well as supervised fine-tuning (SFT) the resulting model with our custom collected instruction tuning dataset. These efforts result in a model GeoGalactica consisting of 30 billion parameters. To our best knowledge, it is the largest language model for the geoscience domain. More specifically, GeoGalactica is from further pre-training of Galactica. We train GeoGalactica over a geoscience-related text corpus containing 65 billion tokens curated from extensive data sources in the big science project Deep-time Digital Earth (DDE), preserving as the largest geoscience-specific text corpus. Then we fine-tune the model with 1 million pairs of instruction-tuning data consisting of questions that demand professional geoscience knowledge to answer. In this technical report, we will illustrate in detail all aspects of GeoGalactica, including data collection, data cleaning, base model selection, pre-training, SFT, and evaluation. We open-source our data curation tools and the checkpoints of GeoGalactica during the first 3/4 of pre-training.",
+        "pdf_link": "https://arxiv.org/pdf/2401.00434v1.pdf"
+     },
+     {
+        "title": "Large Language Models for Generative Information Extraction: A Survey",
+        "authors": [
+            "Derong Xu",
+            "Wei Chen",
+            "Wenjun Peng",
+            "Chao Zhang",
+            "Tong Xu",
+            "Xiangyu Zhao",
+            "Xian Wu",
+            "Yefeng Zheng",
+            "Enhong Chen"
+        ],
+        "published": "2023-12-29T14:25:22Z",
+        "summary": "Information extraction (IE) aims to extract structural knowledge (such as entities, relations, and events) from plain natural language texts. Recently, generative Large Language Models (LLMs) have demonstrated remarkable capabilities in text understanding and generation, allowing for generalization across various domains and tasks. As a result, numerous works have been proposed to harness abilities of LLMs and offer viable solutions for IE tasks based on a generative paradigm. To conduct a comprehensive systematic review and exploration of LLM efforts for IE tasks, in this study, we survey the most recent advancements in this field. We first present an extensive overview by categorizing these works in terms of various IE subtasks and learning paradigms, then we empirically analyze the most advanced methods and discover the emerging trend of IE tasks with LLMs. Based on thorough review conducted, we identify several insights in technique and promising research directions that deserve further exploration in future studies. We maintain a public repository and consistently update related resources at: \\url{https://github.com/quqxui/Awesome-LLM4IE-Papers}.",
+        "pdf_link": "https://arxiv.org/pdf/2312.17617v1.pdf"
+     },
+     {
+        "title": "Building Efficient Universal Classifiers with Natural Language Inference",
+        "authors": [
+            "Moritz Laurer",
+            "Wouter van Atteveldt",
+            "Andreu Casas",
+            "Kasper Welbers"
+        ],
+        "published": "2023-12-29T10:18:36Z",
+        "summary": "Generative Large Language Models (LLMs) have become the mainstream choice for fewshot and zeroshot learning thanks to the universality of text generation. Many users, however, do not need the broad capabilities of generative LLMs when they only want to automate a classification task. Smaller BERT-like models can also learn universal tasks, which allow them to do any text classification task without requiring fine-tuning (zeroshot classification) or to learn new tasks with only a few examples (fewshot), while being significantly more efficient than generative LLMs. This paper (1) explains how Natural Language Inference (NLI) can be used as a universal classification task that follows similar principles as instruction fine-tuning of generative LLMs, (2) provides a step-by-step guide with reusable Jupyter notebooks for building a universal classifier, and (3) shares the resulting universal classifier that is trained on 33 datasets with 389 diverse classes. Parts of the code we share has been used to train our older zeroshot classifiers that have been downloaded more than 55 million times via the Hugging Face Hub as of December 2023. Our new classifier improves zeroshot performance by 9.4%.",
+        "pdf_link": "https://arxiv.org/pdf/2312.17543v2.pdf"
+     },
+     {
+        "title": "Large Language Models for Conducting Advanced Text Analytics Information Systems Research",
+        "authors": [
+            "Benjamin M. Ampel",
+            "Chi-Heng Yang",
+            "James Hu",
+            "Hsinchun Chen"
+        ],
+        "published": "2023-12-27T19:49:00Z",
+        "summary": "The exponential growth of digital content has generated massive textual datasets, necessitating advanced analytical approaches. Large Language Models (LLMs) have emerged as tools capable of processing and extracting insights from massive unstructured textual datasets. However, how to leverage LLMs for text-based Information Systems (IS) research is currently unclear. To assist IS research in understanding how to operationalize LLMs, we propose a Text Analytics for Information Systems Research (TAISR) framework. Our proposed framework provides detailed recommendations grounded in IS and LLM literature on how to conduct meaningful text-based IS research. We conducted three case studies in business intelligence using our TAISR framework to demonstrate its application across several IS research contexts. We also outline potential challenges and limitations in adopting LLMs for IS. By offering a systematic approach and evidence of its utility, our TAISR framework contributes to future IS research streams looking to incorporate powerful LLMs for text analytics.",
+        "pdf_link": "https://arxiv.org/pdf/2312.17278v1.pdf"
+     },
+     {
+        "title": "LLMs with User-defined Prompts as Generic Data Operators for Reliable Data Processing",
+        "authors": [
+            "Luyi Ma",
+            "Nikhil Thakurdesai",
+            "Jiao Chen",
+            "Jianpeng Xu",
+            "Evren Korpeoglu",
+            "Sushant Kumar",
+            "Kannan Achan"
+        ],
+        "published": "2023-12-26T23:08:38Z",
+        "summary": "Data processing is one of the fundamental steps in machine learning pipelines to ensure data quality. Majority of the applications consider the user-defined function (UDF) design pattern for data processing in databases. Although the UDF design pattern introduces flexibility, reusability and scalability, the increasing demand on machine learning pipelines brings three new challenges to this design pattern -- not low-code, not dependency-free and not knowledge-aware. To address these challenges, we propose a new design pattern that large language models (LLMs) could work as a generic data operator (LLM-GDO) for reliable data cleansing, transformation and modeling with their human-compatible performance. In the LLM-GDO design pattern, user-defined prompts (UDPs) are used to represent the data processing logic rather than implementations with a specific programming language. LLMs can be centrally maintained so users don't have to manage the dependencies at the run-time. Fine-tuning LLMs with domain-specific data could enhance the performance on the domain-specific tasks which makes data processing knowledge-aware. We illustrate these advantages with examples in different data processing tasks. Furthermore, we summarize the challenges and opportunities introduced by LLMs to provide a complete view of this design pattern for more discussions.",
+        "pdf_link": "https://arxiv.org/pdf/2312.16351v1.pdf"
+     },
+     {
+        "title": "Zero-Shot Cross-Lingual Reranking with Large Language Models for Low-Resource Languages",
+        "authors": [
+            "Mofetoluwa Adeyemi",
+            "Akintunde Oladipo",
+            "Ronak Pradeep",
+            "Jimmy Lin"
+        ],
+        "published": "2023-12-26T18:38:54Z",
+        "summary": "Large language models (LLMs) have shown impressive zero-shot capabilities in various document reranking tasks. Despite their successful implementations, there is still a gap in existing literature on their effectiveness in low-resource languages. To address this gap, we investigate how LLMs function as rerankers in cross-lingual information retrieval (CLIR) systems for African languages. Our implementation covers English and four African languages (Hausa, Somali, Swahili, and Yoruba) and we examine cross-lingual reranking with queries in English and passages in the African languages. Additionally, we analyze and compare the effectiveness of monolingual reranking using both query and document translations. We also evaluate the effectiveness of LLMs when leveraging their own generated translations. To get a grasp of the effectiveness of multiple LLMs, our study focuses on the proprietary models RankGPT-4 and RankGPT-3.5, along with the open-source model, RankZephyr. While reranking remains most effective in English, our results reveal that cross-lingual reranking may be competitive with reranking in African languages depending on the multilingual capability of the LLM.",
+        "pdf_link": "https://arxiv.org/pdf/2312.16159v1.pdf"
+     },
+     {
+        "title": "Comparative Analysis of Deep Natural Networks and Large Language Models for Aspect-Based Sentiment Analysis",
+        "authors": [
+            "N. Mughal",
+            "G. Mujtaba",
+            "S. Shaikh",
+            "A. Kumar",
+            "S. M. Daudpota"
+        ],
+        "published": "2024-01-01T00:00:00Z",
+        "summary": "Sentiment analysis is essential for comprehending public opinion, particularly when considering e-commerce and the expansion of online businesses. Early approaches treated sentiment analysis as a document or sentence-level classification problem, lacking the ability to capture nuanced opinions about specific aspects. This limitation was addressed by the development of aspect-based sentiment analysis (ABSA), which links sentiment to specific aspects that are mentioned explicitly or implicitly in the review. ABSA is relatively a recent field of sentiment analysis and the existing models for ABSA face three main challenges, including domain-specificity, reliance on labeled data, and a lack of exploration into the potential of newer large language models (LLMs) such as GPT, PaLM, and T5. Leveraging a diverse set of datasets, including DOTSA, MAMS, and SemEval16, we evaluate the performance of prominent models such as ATAE-LSTM, flan-t5-large-absa, DeBERTa, PaLM, and GPT-3.5-Turbo. Our findings reveal nuanced strengths and weaknesses of these models across different domains, with DeBERTa emerging as consistently high-performing and PaLM demonstrating remarkable competitiveness for aspect term sentiment analysis (ATSA) tasks. In addition, the PaLM demonstrates competitive performance for all the domains that were used in the experiments including the restaurant, hotel, books, clothing, and laptop reviews. Notably, the analysis underscores the models’ domain sensitivity, shedding light on their varying efficacy for both ATSA and ACSA tasks. These insights contribute to a deeper understanding of model applicability and highlight potential areas for improvement in ABSA research and development.",
+        "pdf_link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10504711&isnumber=10380310"
+     },
+     {
+        "title": "LlaMaVAE: Guiding Large Language Model Generation via Continuous Latent Sentence Spaces",
+        "authors": [
+            "Yingji Zhang",
+            "Danilo S. Carvalho",
+            "Ian Pratt-Hartmann",
+            "André Freitas"
+        ],
+        "published": "2023-12-20T17:25:23Z",
+        "summary": "Deep generative neural networks, such as Variational AutoEncoders (VAEs), offer an opportunity to better understand and control language models from the perspective of sentence-level latent spaces. To combine the controllability of VAE latent spaces with the state-of-the-art performance of recent large language models (LLMs), we present in this work LlaMaVAE, which combines expressive encoder and decoder models (sentenceT5 and LlaMA) with a VAE architecture, aiming to provide better text generation control to LLMs. In addition, to conditionally guide the VAE generation, we investigate a new approach based on flow-based invertible neural networks (INNs) named Invertible CVAE. Experimental results reveal that LlaMaVAE can outperform the previous state-of-the-art VAE language model, Optimus, across various tasks, including language modelling, semantic textual similarity and definition modelling. Qualitative analysis on interpolation and traversal experiments also indicates an increased degree of semantic clustering and geometric consistency, which enables better generation control.",
+        "pdf_link": "https://arxiv.org/pdf/2312.13208v1.pdf"
+     },
+     {
+        "title": "A Comparative Analysis of Large Language Models for Code Documentation Generation",
+        "authors": [
+            "Shubhang Shekhar Dvivedi",
+            "Vyshnav Vijay",
+            "Sai Leela Rahul Pujari",
+            "Shoumik Lodh",
+            "Dhruv Kumar"
+        ],
+        "published": "2023-12-16T06:40:09Z",
+        "summary": "This paper presents a comprehensive comparative analysis of Large Language Models (LLMs) for generation of code documentation. Code documentation is an essential part of the software writing process. The paper evaluates models such as GPT-3.5, GPT-4, Bard, Llama2, and Starchat on various parameters like Accuracy, Completeness, Relevance, Understandability, Readability and Time Taken for different levels of code documentation. Our evaluation employs a checklist-based system to minimize subjectivity, providing a more objective assessment. We find that, barring Starchat, all LLMs consistently outperform the original documentation. Notably, closed-source models GPT-3.5, GPT-4, and Bard exhibit superior performance across various parameters compared to open-source/source-available LLMs, namely LLama 2 and StarChat. Considering the time taken for generation, GPT-4 demonstrated the longest duration, followed by Llama2, Bard, with ChatGPT and Starchat having comparable generation times. Additionally, file level documentation had a considerably worse performance across all parameters (except for time taken) as compared to inline and function level documentation.",
+        "pdf_link": "https://arxiv.org/pdf/2312.10349v1.pdf"
+     },
+     {
+        "title": "TigerBot: An Open Multilingual Multitask LLM",
+        "authors": [
+            "Ye Chen",
+            "Wei Cai",
+            "Liangmin Wu",
+            "Xiaowei Li",
+            "Zhanxuan Xin",
+            "Cong Fu"
+        ],
+        "published": "2023-12-14T07:05:42Z",
+        "summary": "We release and introduce the TigerBot family of large language models (LLMs), consisting of base and chat models, sized from 7, 13, 70 and 180 billion parameters. We develop our models embarking from Llama-2 and BLOOM, and push the boundary further in data, training algorithm, infrastructure, and application tools. Our models yield meaningful performance gain over SOTA open-source models, e.g., Llama-2, specifically 6% gain in English and 20% gain in Chinese. TigerBot model family also achieves leading performance in major academic and industrial benchmarks and leaderboards. We believe that TigerBot represents just a snapshot of lightning-fast progression in LLM open-source community. Therefore, we are thrilled to give back by publicly releasing our models and reporting our approach behind, with additional emphases on building SOTA LLMs in a democratized way and making LLMs of use in real-world applications.",
+        "pdf_link": "https://arxiv.org/pdf/2312.08688v2.pdf"
+     },
+     {
+        "title": "Efficiently Programming Large Language Models using SGLang",
+        "authors": [
+            "Lianmin Zheng",
+            "Liangsheng Yin",
+            "Zhiqiang Xie",
+            "Jeff Huang",
+            "Chuyue Sun",
+            "Cody Hao Yu",
+            "Shiyi Cao",
+            "Christos Kozyrakis",
+            "Ion Stoica",
+            "Joseph E. Gonzalez",
+            "Clark Barrett",
+            "Ying Sheng"
+        ],
+        "published": "2023-12-12T09:34:27Z",
+        "summary": "Large language models (LLMs) are increasingly used for complex tasks requiring multiple chained generation calls, advanced prompting techniques, control flow, and interaction with external environments. However, efficient systems for programming and executing these applications are lacking. To bridge this gap, we introduce SGLang, a Structured Generation Language for LLMs. SGLang is designed for the efficient programming of LLMs and incorporates primitives for common LLM programming patterns. We have implemented SGLang as a domain-specific language embedded in Python, and we developed an interpreter, a compiler, and a high-performance runtime for SGLang. These components work together to enable optimizations such as parallelism, batching, caching, sharing, and other compilation techniques. Additionally, we propose RadixAttention, a novel technique that maintains a Least Recently Used (LRU) cache of the Key-Value (KV) cache for all requests in a radix tree, enabling automatic KV cache reuse across multiple generation calls at runtime. SGLang simplifies the writing of LLM programs and boosts execution efficiency. Our experiments demonstrate that SGLang can speed up common LLM tasks by up to 5x, while reducing code complexity and enhancing control.",
+        "pdf_link": "https://arxiv.org/pdf/2312.07104v1.pdf"
+     },
+     {
+        "title": "Large Language Models on Graphs: A Comprehensive Survey",
+        "authors": [
+            "Bowen Jin",
+            "Gang Liu",
+            "Chi Han",
+            "Meng Jiang",
+            "Heng Ji",
+            "Jiawei Han"
+        ],
+        "published": "2023-12-05T14:14:27Z",
+        "summary": "Large language models (LLMs), such as GPT4 and LLaMA, are creating significant advancements in natural language processing, due to their strong text encoding/decoding ability and newly found emergent capability (e.g., reasoning). While LLMs are mainly designed to process pure texts, there are many real-world scenarios where text data is associated with rich structure information in the form of graphs (e.g., academic networks, and e-commerce networks) or scenarios where graph data is paired with rich textual information (e.g., molecules with descriptions). Besides, although LLMs have shown their pure text-based reasoning ability, it is underexplored whether such ability can be generalized to graphs (i.e., graph-based reasoning). In this paper, we provide a systematic review of scenarios and techniques related to large language models on graphs. We first summarize potential scenarios of adopting LLMs on graphs into three categories, namely pure graphs, text-attributed graphs, and text-paired graphs. We then discuss detailed techniques for utilizing LLMs on graphs, including LLM as Predictor, LLM as Encoder, and LLM as Aligner, and compare the advantages and disadvantages of different schools of models. Furthermore, we discuss the real-world applications of such methods and summarize open-source codes and benchmark datasets. Finally, we conclude with potential future research directions in this fast-growing field. The related source can be found at https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs.",
+        "pdf_link": "https://arxiv.org/pdf/2312.02783v2.pdf"
+     },
+     {
+        "title": "Still No Lie Detector for Language Models: Probing Empirical and Conceptual Roadblocks",
+        "authors": [
+            "B. A. Levinstein",
+            "Daniel A. Herrmann"
+        ],
+        "published": "2023-06-30T23:44:51Z",
+        "summary": "We consider the questions of whether or not large language models (LLMs) have beliefs, and, if they do, how we might measure them. First, we evaluate two existing approaches, one due to Azaria and Mitchell (2023) and the other to Burns et al. (2022). We provide empirical results that show that these methods fail to generalize in very basic ways. We then argue that, even if LLMs have beliefs, these methods are unlikely to be successful for conceptual reasons. Thus, there is still no lie-detector for LLMs. After describing our empirical results we take a step back and consider whether or not we should expect LLMs to have something like beliefs in the first place. We consider some recent arguments aiming to show that LLMs cannot have beliefs. We show that these arguments are misguided. We provide a more productive framing of questions surrounding the status of beliefs in LLMs, and highlight the empirical nature of the problem. We conclude by suggesting some concrete paths for future work.",
+        "pdf_link": "https://arxiv.org/pdf/2307.00175v1.pdf"
+     },
+     {
+        "title": "SPAE: Semantic Pyramid AutoEncoder for Multimodal Generation with Frozen LLMs",
+        "authors": [
+            "Lijun Yu",
+            "Yong Cheng",
+            "Zhiruo Wang",
+            "Vivek Kumar",
+            "Wolfgang Macherey",
+            "Yanping Huang",
+            "David A. Ross",
+            "Irfan Essa",
+            "Yonatan Bisk",
+            "Ming-Hsuan Yang",
+            "Kevin Murphy",
+            "Alexander G. Hauptmann",
+            "Lu Jiang"
+        ],
+        "published": "2023-06-30T17:59:07Z",
+        "summary": "In this work, we introduce Semantic Pyramid AutoEncoder (SPAE) for enabling frozen LLMs to perform both understanding and generation tasks involving non-linguistic modalities such as images or videos. SPAE converts between raw pixels and interpretable lexical tokens (or words) extracted from the LLM's vocabulary. The resulting tokens capture both the semantic meaning and the fine-grained details needed for visual reconstruction, effectively translating the visual content into a language comprehensible to the LLM, and empowering it to perform a wide array of multimodal tasks. Our approach is validated through in-context learning experiments with frozen PaLM 2 and GPT 3.5 on a diverse set of image understanding and generation tasks. Our method marks the first successful attempt to enable a frozen LLM to generate image content while surpassing state-of-the-art performance in image understanding tasks, under the same setting, by over 25%.",
+        "pdf_link": "https://arxiv.org/pdf/2306.17842v3.pdf"
+     }
+]

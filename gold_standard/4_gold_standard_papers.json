@@ -1,0 +1,279 @@
+[
+    {
+        "title": "A Survey of using Large Language Models for Generating Infrastructure as Code",
+        "authors": [
+            "Kalahasti Ganesh Srivatsa",
+            "Sabyasachi Mukhopadhyay",
+            "Ganesh Katrapati",
+            "Manish Shrivastava"
+        ],
+        "published": "2024-03-30T02:57:55Z",
+        "summary": "Infrastructure as Code (IaC) is a revolutionary approach which has gained significant prominence in the Industry. IaC manages and provisions IT infrastructure using machine-readable code by enabling automation, consistency across the environments, reproducibility, version control, error reduction and enhancement in scalability. However, IaC orchestration is often a painstaking effort which requires specialised skills as well as a lot of manual effort. Automation of IaC is a necessity in the present conditions of the Industry and in this survey, we study the feasibility of applying Large Language Models (LLM) to address this problem. LLMs are large neural network-based models which have demonstrated significant language processing abilities and shown to be capable of following a range of instructions within a broad scope. Recently, they have also been adapted for code understanding and generation tasks successfully, which makes them a promising choice for the automatic generation of IaC configurations. In this survey, we delve into the details of IaC, usage of IaC in different platforms, their challenges, LLMs in terms of code-generation aspects and the importance of LLMs in IaC along with our own experiments. Finally, we conclude by presenting the challenges in this area and highlighting the scope for future research.",
+        "pdf_link": "https://arxiv.org/pdf/2404.00227v1.pdf"
+     },
+     {
+        "title": "Injecting New Knowledge into Large Language Models via Supervised Fine-Tuning",
+        "authors": [
+            "Nick Mecklenburg",
+            "Yiyou Lin",
+            "Xiaoxiao Li",
+            "Daniel Holstein",
+            "Leonardo Nunes",
+            "Sara Malvar",
+            "Bruno Silva",
+            "Ranveer Chandra",
+            "Vijay Aski",
+            "Pavan Kumar Reddy Yannam",
+            "Tolga Aktas",
+            "Todd Hendry"
+        ],
+        "published": "2024-03-30T01:56:07Z",
+        "summary": "In recent years, Large Language Models (LLMs) have shown remarkable performance in generating human-like text, proving to be a valuable asset across various applications. However, adapting these models to incorporate new, out-of-domain knowledge remains a challenge, particularly for facts and events that occur after the model's knowledge cutoff date. This paper investigates the effectiveness of Supervised Fine-Tuning (SFT) as a method for knowledge injection in LLMs, specifically focusing on the domain of recent sporting events. We compare different dataset generation strategies -- token-based and fact-based scaling -- to create training data that helps the model learn new information. Our experiments on GPT-4 demonstrate that while token-based scaling can lead to improvements in Q&A accuracy, it may not provide uniform coverage of new knowledge. Fact-based scaling, on the other hand, offers a more systematic approach to ensure even coverage across all facts. We present a novel dataset generation process that leads to more effective knowledge ingestion through SFT, and our results show considerable performance improvements in Q&A tasks related to out-of-domain knowledge. This study contributes to the understanding of domain adaptation for LLMs and highlights the potential of SFT in enhancing the factuality of LLM responses in specific knowledge domains.",
+        "pdf_link": "https://arxiv.org/pdf/2404.00213v2.pdf"
+     },
+     {
+        "title": "DataAgent: Evaluating Large Language Models' Ability to Answer Zero-Shot, Natural Language Queries",
+        "authors": [
+            "Manit Mishra",
+            "Abderrahman Braham",
+            "Charles Marsom",
+            "Bryan Chung",
+            "Gavin Griffin",
+            "Dakshesh Sidnerlikar",
+            "Chatanya Sarin",
+            "Arjun Rajaram"
+        ],
+        "published": "2024-03-29T22:59:34Z",
+        "summary": "Conventional processes for analyzing datasets and extracting meaningful information are often time-consuming and laborious. Previous work has identified manual, repetitive coding and data collection as major obstacles that hinder data scientists from undertaking more nuanced labor and high-level projects. To combat this, we evaluated OpenAI's GPT-3.5 as a \"Language Data Scientist\" (LDS) that can extrapolate key findings, including correlations and basic information, from a given dataset. The model was tested on a diverse set of benchmark datasets to evaluate its performance across multiple standards, including data science code-generation based tasks involving libraries such as NumPy, Pandas, Scikit-Learn, and TensorFlow, and was broadly successful in correctly answering a given data science query related to the benchmark dataset. The LDS used various novel prompt engineering techniques to effectively answer a given question, including Chain-of-Thought reinforcement and SayCan prompt engineering. Our findings demonstrate great potential for leveraging Large Language Models for low-level, zero-shot data analysis.",
+        "pdf_link": "https://arxiv.org/pdf/2404.00188v1.pdf"
+     },
+     {
+        "title": "On-the-fly Definition Augmentation of LLMs for Biomedical NER",
+        "authors": [
+            "Monica Munnangi",
+            "Sergey Feldman",
+            "Byron C Wallace",
+            "Silvio Amir",
+            "Tom Hope",
+            "Aakanksha Naik"
+        ],
+        "published": "2024-03-29T20:59:27Z",
+        "summary": "Despite their general capabilities, LLMs still struggle on biomedical NER tasks, which are difficult due to the presence of specialized terminology and lack of training data. In this work we set out to improve LLM performance on biomedical NER in limited data settings via a new knowledge augmentation approach which incorporates definitions of relevant concepts on-the-fly. During this process, to provide a test bed for knowledge augmentation, we perform a comprehensive exploration of prompting strategies. Our experiments show that definition augmentation is useful for both open source and closed LLMs. For example, it leads to a relative improvement of 15\\% (on average) in GPT-4 performance (F1) across all (six) of our test datasets. We conduct extensive ablations and analyses to demonstrate that our performance improvements stem from adding relevant definitional knowledge. We find that careful prompting strategies also improve LLM performance, allowing them to outperform fine-tuned language models in few-shot settings. To facilitate future research in this direction, we release our code at https://github.com/allenai/beacon.",
+        "pdf_link": "https://arxiv.org/pdf/2404.00152v1.pdf"
+     },
+     {
+        "title": "ITCMA: A Generative Agent Based on a Computational Consciousness Structure",
+        "authors": [
+            "Hanzhong Zhang",
+            "Jibin Yin",
+            "Haoyang Wang",
+            "Ziwei Xiang"
+        ],
+        "published": "2024-03-29T10:23:18Z",
+        "summary": "Large Language Models (LLMs) still face challenges in tasks requiring understanding implicit instructions and applying common-sense knowledge. In such scenarios, LLMs may require multiple attempts to achieve human-level performance, potentially leading to inaccurate responses or inferences in practical environments, affecting their long-term consistency and behavior. This paper introduces the Internal Time-Consciousness Machine (ITCM), a computational consciousness structure. We further propose the ITCM-based Agent (ITCMA), which supports behavior generation and reasoning in open-world settings. ITCMA enhances LLMs' ability to understand implicit instructions and apply common-sense knowledge by considering agents' interaction and reasoning with the environment. Evaluations in the Alfworld environment show that trained ITCMA outperforms the state-of-the-art (SOTA) by 9% on the seen set. Even untrained ITCMA achieves a 96% task completion rate on the seen set, 5% higher than SOTA, indicating its superiority over traditional intelligent agents in utility and generalization. In real-world tasks with quadruped robots, the untrained ITCMA achieves an 85% task completion rate, which is close to its performance in the unseen set, demonstrating its comparable utility in real-world settings.",
+        "pdf_link": "https://arxiv.org/pdf/2403.20097v1.pdf"
+     },
+     {
+        "title": "Retrieval-Enhanced Knowledge Editing for Multi-Hop Question Answering in Language Models",
+        "authors": [
+            "Yucheng Shi",
+            "Qiaoyu Tan",
+            "Xuansheng Wu",
+            "Shaochen Zhong",
+            "Kaixiong Zhou",
+            "Ninghao Liu"
+        ],
+        "published": "2024-03-28T17:47:19Z",
+        "summary": "Large Language Models (LLMs) have shown proficiency in question-answering tasks but often struggle to integrate real-time knowledge updates, leading to potentially outdated or inaccurate responses. This problem becomes even more challenging when dealing with multi-hop questions since they require LLMs to update and integrate multiple knowledge pieces relevant to the questions. To tackle the problem, we propose the Retrieval-Augmented model Editing (RAE) framework tailored for multi-hop question answering. RAE first retrieves edited facts and then refines the language model through in-context learning. Specifically, our retrieval approach, based on mutual information maximization, leverages the reasoning abilities of LLMs to identify chain facts that na\\\"ive similarity-based searches might miss. Additionally, our framework incorporates a pruning strategy to eliminate redundant information from the retrieved facts, which enhances the editing accuracy and mitigates the hallucination problem. Our framework is supported by theoretical justification for its fact retrieval efficacy. Finally, comprehensive evaluation across various LLMs validates RAE's ability in providing accurate answers with updated knowledge.",
+        "pdf_link": "https://arxiv.org/pdf/2403.19631v1.pdf"
+     },
+     {
+        "title": "Mixed Preference Optimization: Reinforcement Learning with Data Selection and Better Reference Model",
+        "authors": [
+            "Qi Gou",
+            "Cam-Tu Nguyen"
+        ],
+        "published": "2024-03-28T14:15:10Z",
+        "summary": "Large Language Models (LLMs) have become increasingly popular due to their ability to process and generate natural language. However, as they are trained on massive datasets of text, LLMs can inherit harmful biases and produce outputs that are not aligned with human values. This paper studies two main approaches to LLM alignment: Reinforcement Learning with Human Feedback (RLHF) and contrastive learning-based methods like Direct Preference Optimization (DPO). By analyzing the stability and robustness of RLHF and DPO, we propose MPO (Mixed Preference Optimization), a novel method that mitigates the weaknesses of both approaches. Specifically, we propose a two-stage training procedure: first train DPO on an easy dataset, and then perform RLHF on a difficult set with DPO model being the reference model. Here, the easy and difficult sets are constructed by a well-trained reward model that splits response pairs into those with large gaps of reward (easy), and those with small gaps (difficult). The first stage allows us to obtain a relatively optimal policy (LLM) model quickly, whereas the second stage refines LLM with online RLHF, thus mitigating the distribution shift issue associated with DPO. Experiments are conducted on two public alignment datasets, namely HH-RLHF and TLDR, demonstrating the effectiveness of MPO, both in terms of GPT4 and human evaluation.",
+        "pdf_link": "https://arxiv.org/pdf/2403.19443v1.pdf"
+     },
+     {
+        "title": "FACTOID: FACtual enTailment fOr hallucInation Detection",
+        "authors": [
+            "Vipula Rawte",
+            "S. M Towhidul Islam Tonmoy",
+            "Krishnav Rajbangshi",
+            "Shravani Nag",
+            "Aman Chadha",
+            "Amit P. Sheth",
+            "Amitava Das"
+        ],
+        "published": "2024-03-28T03:09:42Z",
+        "summary": "The widespread adoption of Large Language Models (LLMs) has facilitated numerous benefits. However, hallucination is a significant concern. In response, Retrieval Augmented Generation (RAG) has emerged as a highly promising paradigm to improve LLM outputs by grounding them in factual information. RAG relies on textual entailment (TE) or similar methods to check if the text produced by LLMs is supported or contradicted, compared to retrieved documents. This paper argues that conventional TE methods are inadequate for spotting hallucinations in content generated by LLMs. For instance, consider a prompt about the 'USA's stance on the Ukraine war''. The AI-generated text states, ...U.S. President Barack Obama says the U.S. will not put troops in Ukraine...'' However, during the war the U.S. president is Joe Biden which contradicts factual reality. Moreover, current TE systems are unable to accurately annotate the given text and identify the exact portion that is contradicted. To address this, we introduces a new type of TE called ``Factual Entailment (FE).'', aims to detect factual inaccuracies in content generated by LLMs while also highlighting the specific text segment that contradicts reality. We present FACTOID (FACTual enTAILment for hallucInation Detection), a benchmark dataset for FE. We propose a multi-task learning (MTL) framework for FE, incorporating state-of-the-art (SoTA) long text embeddings such as e5-mistral-7b-instruct, along with GPT-3, SpanBERT, and RoFormer. The proposed MTL architecture for FE achieves an avg. 40\\% improvement in accuracy on the FACTOID benchmark compared to SoTA TE methods. As FE automatically detects hallucinations, we assessed 15 modern LLMs and ranked them using our proposed Auto Hallucination Vulnerability Index (HVI_auto). This index quantifies and offers a comparative scale to evaluate and rank LLMs according to their hallucinations.",
+        "pdf_link": "https://arxiv.org/pdf/2403.19113v1.pdf"
+     },
+     {
+        "title": "Dual Instruction Tuning with Large Language Models for Mathematical Reasoning",
+        "authors": [
+            "Yongwei Zhou",
+            "Tiejun Zhao"
+        ],
+        "published": "2024-03-27T06:43:58Z",
+        "summary": "Recent advancements highlight the success of instruction tuning with large language models (LLMs) utilizing Chain-of-Thought (CoT) data for mathematical reasoning tasks. Despite the fine-tuned LLMs, challenges persist, such as incorrect, missing, and redundant steps in CoT generation leading to inaccuracies in answer predictions. To alleviate this problem, we propose a dual instruction tuning strategy to meticulously model mathematical reasoning from both forward and reverse directions. This involves introducing the Intermediate Reasoning State Prediction task (forward reasoning) and the Instruction Reconstruction task (reverse reasoning) to enhance the LLMs' understanding and execution of instructions. Training instances for these tasks are constructed based on existing mathematical instruction tuning datasets. Subsequently, LLMs undergo multi-task fine-tuning using both existing mathematical instructions and the newly created data. Comprehensive experiments validate the effectiveness and domain generalization of the dual instruction tuning strategy across various mathematical reasoning tasks.",
+        "pdf_link": "https://arxiv.org/pdf/2403.18295v1.pdf"
+     },
+     {
+        "title": "Boosting Conversational Question Answering with Fine-Grained Retrieval-Augmentation and Self-Check",
+        "authors": [
+            "Linhao Ye",
+            "Zhikai Lei",
+            "Jianghao Yin",
+            "Qin Chen",
+            "Jie Zhou",
+            "Liang He"
+        ],
+        "published": "2024-03-27T04:20:18Z",
+        "summary": "Retrieval-Augmented Generation (RAG) aims to generate more reliable and accurate responses, by augmenting large language models (LLMs) with the external vast and dynamic knowledge. Most previous work focuses on using RAG for single-round question answering, while how to adapt RAG to the complex conversational setting wherein the question is interdependent on the preceding context is not well studied. In this paper, we propose a conversation-level RAG approach, which incorporates fine-grained retrieval augmentation and self-check for conversational question answering (CQA). In particular, our approach consists of three components, namely conversational question refiner, fine-grained retriever and self-check based response generator, which work collaboratively for question understanding and relevant information acquisition in conversational settings. Extensive experiments demonstrate the great advantages of our approach over the state-of-the-art baselines. Moreover, we also release a Chinese CQA dataset with new features including reformulated question, extracted keyword, retrieved paragraphs and their helpfulness, which facilitates further researches in RAG enhanced CQA.",
+        "pdf_link": "https://arxiv.org/pdf/2403.18243v1.pdf"
+     },
+     {
+        "title": "Aligning Large Language Models for Enhancing Psychiatric Interviews through Symptom Delineation and Summarization",
+        "authors": [
+            "Jae-hee So",
+            "Joonhwan Chang",
+            "Eunji Kim",
+            "Junho Na",
+            "JiYeon Choi",
+            "Jy-yong Sohn",
+            "Byung-Hoon Kim",
+            "Sang Hui Chu"
+        ],
+        "published": "2024-03-26T06:50:04Z",
+        "summary": "Recent advancements in Large Language Models (LLMs) have accelerated their usage in various domains. Given the fact that psychiatric interviews are goal-oriented and structured dialogues between the professional interviewer and the interviewee, it is one of the most underexplored areas where LLMs can contribute substantial value. Here, we explore the use of LLMs for enhancing psychiatric interviews, by analyzing counseling data from North Korean defectors with traumatic events and mental health issues. Specifically, we investigate whether LLMs can (1) delineate the part of the conversation that suggests psychiatric symptoms and name the symptoms, and (2) summarize stressors and symptoms, based on the interview dialogue transcript. Here, the transcript data was labeled by mental health experts for training and evaluation of LLMs. Our experimental results show that appropriately prompted LLMs can achieve high performance on both the symptom delineation task and the summarization task. This research contributes to the nascent field of applying LLMs to psychiatric interview and demonstrates their potential effectiveness in aiding mental health practitioners.",
+        "pdf_link": "https://arxiv.org/pdf/2403.17428v1.pdf"
+     },
+     {
+        "title": "PropTest: Automatic Property Testing for Improved Visual Programming",
+        "authors": [
+            "Jaywon Koo",
+            "Ziyan Yang",
+            "Paola Cascante-Bonilla",
+            "Baishakhi Ray",
+            "Vicente Ordonez"
+        ],
+        "published": "2024-03-25T16:39:15Z",
+        "summary": "Visual Programming has emerged as an alternative to end-to-end black-box visual reasoning models. This type of methods leverage Large Language Models (LLMs) to decompose a problem and generate the source code for an executable computer program. This strategy has the advantage of offering an interpretable reasoning path and does not require finetuning a model with task-specific data. We propose PropTest, a general strategy that improves visual programming by further using an LLM to generate code that tests for visual properties in an initial round of proposed solutions. Particularly, our method tests for data-type consistency, as well as syntactic and semantic properties in the generated solutions. Our proposed solution outperforms baselines and achieves comparable results to state-of-the-art methods while using smaller and publicly available LLMs (CodeLlama-7B and WizardCoder-15B). This is demonstrated across different benchmarks on visual question answering and referring expression comprehension, showing the efficacy of our approach in enhancing the performance and generalization of visual reasoning tasks. Specifically, PropTest improves ViperGPT by obtaining 48.66% accuracy (+8.3%) on the A-OKVQA benchmark and 52.8% (+3.3%) on the RefCOCO+ benchmark using CodeLlama-7B.",
+        "pdf_link": "https://arxiv.org/pdf/2403.16921v1.pdf"
+     },
+     {
+        "title": "LARA: Linguistic-Adaptive Retrieval-Augmented LLMs for Multi-Turn Intent Classification",
+        "authors": [
+            "Liu Junhua",
+            "Tan Yong Keat",
+            "Fu Bin"
+        ],
+        "published": "2024-03-25T07:38:40Z",
+        "summary": "Following the significant achievements of large language models (LLMs), researchers have employed in-context learning for text classification tasks. However, these studies focused on monolingual, single-turn classification tasks. In this paper, we introduce LARA (Linguistic-Adaptive Retrieval-Augmented Language Models), designed to enhance accuracy in multi-turn classification tasks across six languages, accommodating numerous intents in chatbot interactions. Multi-turn intent classification is notably challenging due to the complexity and evolving nature of conversational contexts. LARA tackles these issues by combining a fine-tuned smaller model with a retrieval-augmented mechanism, integrated within the architecture of LLMs. This integration allows LARA to dynamically utilize past dialogues and relevant intents, thereby improving the understanding of the context. Furthermore, our adaptive retrieval techniques bolster the cross-lingual capabilities of LLMs without extensive retraining and fine-tune. Comprehensive experiments demonstrate that LARA achieves state-of-the-art performance on multi-turn intent classification tasks, enhancing the average accuracy by 3.67% compared to existing methods.",
+        "pdf_link": "https://arxiv.org/pdf/2403.16504v1.pdf"
+     },
+     {
+        "title": "CodeS: Natural Language to Code Repository via Multi-Layer Sketch",
+        "authors": [
+            "Daoguang Zan",
+            "Ailun Yu",
+            "Wei Liu",
+            "Dong Chen",
+            "Bo Shen",
+            "Wei Li",
+            "Yafen Yao",
+            "Yongshun Gong",
+            "Xiaolin Chen",
+            "Bei Guan",
+            "Zhiguang Yang",
+            "Yongji Wang",
+            "Qianxiang Wang",
+            "Lizhen Cui"
+        ],
+        "published": "2024-03-25T06:09:55Z",
+        "summary": "The impressive performance of large language models (LLMs) on code-related tasks has shown the potential of fully automated software development. In light of this, we introduce a new software engineering task, namely Natural Language to code Repository (NL2Repo). This task aims to generate an entire code repository from its natural language requirements. To address this task, we propose a simple yet effective framework CodeS, which decomposes NL2Repo into multiple sub-tasks by a multi-layer sketch. Specifically, CodeS includes three modules: RepoSketcher, FileSketcher, and SketchFiller. RepoSketcher first generates a repository's directory structure for given requirements; FileSketcher then generates a file sketch for each file in the generated structure; SketchFiller finally fills in the details for each function in the generated file sketch. To rigorously assess CodeS on the NL2Repo task, we carry out evaluations through both automated benchmarking and manual feedback analysis. For benchmark-based evaluation, we craft a repository-oriented benchmark, SketchEval, and design an evaluation metric, SketchBLEU. For feedback-based evaluation, we develop a VSCode plugin for CodeS and engage 30 participants in conducting empirical studies. Extensive experiments prove the effectiveness and practicality of CodeS on the NL2Repo task.",
+        "pdf_link": "https://arxiv.org/pdf/2403.16443v1.pdf"
+     },
+     {
+        "title": "Synthesize Step-by-Step: Tools, Templates and LLMs as Data Generators for Reasoning-Based Chart VQA",
+        "authors": [
+            "Zhuowan Li",
+            "Bhavan Jasani",
+            "Peng Tang",
+            "Shabnam Ghadar"
+        ],
+        "published": "2024-03-25T03:02:27Z",
+        "summary": "Understanding data visualizations like charts and plots requires reasoning about both visual elements and numerics. Although strong in extractive questions, current chart visual question answering (chart VQA) models suffer on complex reasoning questions. In this work, we address the lack of reasoning ability by data augmentation. We leverage Large Language Models (LLMs), which have shown to have strong reasoning ability, as an automatic data annotator that generates question-answer annotations for chart images. The key innovation in our method lies in the Synthesize Step-by-Step strategy: our LLM-based data generator learns to decompose the complex question into step-by-step sub-questions (rationales), which are then used to derive the final answer using external tools, i.e. Python. This step-wise generation procedure is trained on synthetic data generated using a template-based QA generation pipeline. Experimental results highlight the significance of the proposed step-by-step generation. By training with the LLM-augmented data (LAMENDA), we significantly enhance the chart VQA models, achieving the state-of-the-art accuracy on the ChartQA and PlotQA datasets. In particular, our approach improves the accuracy of the previous state-of-the-art approach from 38% to 54% on the human-written questions in the ChartQA dataset, which needs strong reasoning. We hope our work underscores the potential of synthetic data and encourages further exploration of data augmentation using LLMs for reasoning-heavy tasks.",
+        "pdf_link": "https://arxiv.org/pdf/2403.16385v2.pdf"
+     },
+     {
+        "title": "ChatDBG: An AI-Powered Debugging Assistant",
+        "authors": [
+            "Kyla Levin",
+            "Nicolas van Kempen",
+            "Emery D. Berger",
+            "Stephen N. Freund"
+        ],
+        "published": "2024-03-25T01:12:57Z",
+        "summary": "This paper presents ChatDBG, the first AI-powered debugging assistant. ChatDBG integrates large language models (LLMs) to significantly enhance the capabilities and user-friendliness of conventional debuggers. ChatDBG lets programmers engage in a collaborative dialogue with the debugger, allowing them to pose complex questions about program state, perform root cause analysis for crashes or assertion failures, and explore open-ended queries like \"why is x null?\". To handle these queries, ChatDBG grants the LLM autonomy to take the wheel and drive debugging by issuing commands to navigate through stacks and inspect program state; it then reports its findings and yields back control to the programmer. Our ChatDBG prototype integrates with standard debuggers including LLDB, GDB, and WinDBG for native code and Pdb for Python. Our evaluation across a diverse set of code, including C/C++ code with known bugs and a suite of Python code including standalone scripts and Jupyter notebooks, demonstrates that ChatDBG can successfully analyze root causes, explain bugs, and generate accurate fixes for a wide range of real-world errors. For the Python programs, a single query led to an actionable bug fix 67% of the time; one additional follow-up query increased the success rate to 85%. ChatDBG has seen rapid uptake; it has already been downloaded nearly 30,000 times.",
+        "pdf_link": "https://arxiv.org/pdf/2403.16354v1.pdf"
+     },
+     {
+        "title": "A Chain-of-Thought Prompting Approach with LLMs for Evaluating Students' Formative Assessment Responses in Science",
+        "authors": [
+            "Clayton Cohn",
+            "Nicole Hutchins",
+            "Tuan Le",
+            "Gautam Biswas"
+        ],
+        "published": "2024-03-21T17:09:08Z",
+        "summary": "This paper explores the use of large language models (LLMs) to score and explain short-answer assessments in K-12 science. While existing methods can score more structured math and computer science assessments, they often do not provide explanations for the scores. Our study focuses on employing GPT-4 for automated assessment in middle school Earth Science, combining few-shot and active learning with chain-of-thought reasoning. Using a human-in-the-loop approach, we successfully score and provide meaningful explanations for formative assessment responses. A systematic analysis of our method's pros and cons sheds light on the potential for human-in-the-loop techniques to enhance automated grading for open-ended science assessments.",
+        "pdf_link": "https://arxiv.org/pdf/2403.14565v1.pdf"
+     },
+     {
+        "title": "Summing Up the Facts: Additive Mechanisms Behind Factual Recall in LLMs",
+        "authors": [
+            "Bilal Chughtai",
+            "Alan Cooney",
+            "Neel Nanda"
+        ],
+        "published": "2024-02-11T22:58:49Z",
+        "summary": "How do transformer-based large language models (LLMs) store and retrieve knowledge? We focus on the most basic form of this task -- factual recall, where the model is tasked with explicitly surfacing stored facts in prompts of form `Fact: The Colosseum is in the country of'. We find that the mechanistic story behind factual recall is more complex than previously thought. It comprises several distinct, independent, and qualitatively different mechanisms that additively combine, constructively interfering on the correct attribute. We term this generic phenomena the additive motif: models compute through summing up multiple independent contributions. Each mechanism's contribution may be insufficient alone, but summing results in constructive interfere on the correct answer. In addition, we extend the method of direct logit attribution to attribute an attention head's output to individual source tokens. We use this technique to unpack what we call `mixed heads' -- which are themselves a pair of two separate additive updates from different source tokens.",
+        "pdf_link": "https://arxiv.org/pdf/2402.07321v1.pdf"
+     },
+     {
+        "title": "CPSDBench: A Large Language Model Evaluation Benchmark and Baseline for Chinese Public Security Domain",
+        "authors": [
+            "Xin Tong",
+            "Bo Jin",
+            "Zhi Lin",
+            "Binjun Wang",
+            "Ting Yu",
+            "Qiang Cheng"
+        ],
+        "published": "2024-02-11T15:56:03Z",
+        "summary": "Large Language Models (LLMs) have demonstrated significant potential and effectiveness across multiple application domains. To assess the performance of mainstream LLMs in public security tasks, this study aims to construct a specialized evaluation benchmark tailored to the Chinese public security domain--CPSDbench. CPSDbench integrates datasets related to public security collected from real-world scenarios, supporting a comprehensive assessment of LLMs across four key dimensions: text classification, information extraction, question answering, and text generation. Furthermore, this study introduces a set of innovative evaluation metrics designed to more precisely quantify the efficacy of LLMs in executing tasks related to public security. Through the in-depth analysis and evaluation conducted in this research, we not only enhance our understanding of the performance strengths and limitations of existing models in addressing public security issues but also provide references for the future development of more accurate and customized LLM models targeted at applications in this field.",
+        "pdf_link": "https://arxiv.org/pdf/2402.07234v3.pdf"
+     },
+     {
+        "title": "GraphTranslator: Aligning Graph Model to Large Language Model for Open-ended Tasks",
+        "authors": [
+            "Mengmei Zhang",
+            "Mingwei Sun",
+            "Peng Wang",
+            "Shen Fan",
+            "Yanhu Mo",
+            "Xiaoxiao Xu",
+            "Hong Liu",
+            "Cheng Yang",
+            "Chuan Shi"
+        ],
+        "published": "2024-02-11T13:24:13Z",
+        "summary": "Large language models (LLMs) like ChatGPT, exhibit powerful zero-shot and instruction-following capabilities, have catalyzed a revolutionary transformation across diverse fields, especially for open-ended tasks. While the idea is less explored in the graph domain, despite the availability of numerous powerful graph models (GMs), they are restricted to tasks in a pre-defined form. Although several methods applying LLMs to graphs have been proposed, they fail to simultaneously handle the pre-defined and open-ended tasks, with LLM as a node feature enhancer or as a standalone predictor. To break this dilemma, we propose to bridge the pretrained GM and LLM by a Translator, named GraphTranslator, aiming to leverage GM to handle the pre-defined tasks effectively and utilize the extended interface of LLMs to offer various open-ended tasks for GM. To train such Translator, we propose a Producer capable of constructing the graph-text alignment data along node information, neighbor information and model information. By translating node representation into tokens, GraphTranslator empowers an LLM to make predictions based on language instructions, providing a unified perspective for both pre-defined and open-ended tasks. Extensive results demonstrate the effectiveness of our proposed GraphTranslator on zero-shot node classification. The graph question answering experiments reveal our GraphTranslator potential across a broad spectrum of open-ended tasks through language instructions. Our code is available at: https://github.com/alibaba/GraphTranslator.",
+        "pdf_link": "https://arxiv.org/pdf/2402.07197v4.pdf"
+     }
+]

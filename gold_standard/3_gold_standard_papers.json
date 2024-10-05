@@ -1,0 +1,286 @@
+[
+    {
+        "title": "Large Language Models Enable Few-Shot Clustering",
+        "authors": [
+            "Vijay Viswanathan",
+            "Kiril Gashteovski",
+            "Kiril Gashteovski",
+            "Carolin Lawrence",
+            "Tongshuang Wu",
+            "Graham Neubig"
+        ],
+        "published": "2024-04-05T00:00:00Z",
+        "summary": "Unlike traditional unsupervised clustering, semi-supervised clustering allows users to provide meaningful structure to the data, which helps the clustering algorithm to match the user’s intent. Existing approaches to semi-supervised clustering require a significant amount of feedback from an expert to improve the clusters. In this paper, we ask whether a large language model (LLM) can amplify an expert’s guidance to enable query-efficient, few-shot semi-supervised text clustering. We show that LLMs are surprisingly effective at improving clustering. We explore three stages where LLMs can be incorporated into clustering: before clustering (improving input features), during clustering (by providing constraints to the clusterer), and after clustering (using LLMs post-correction). We find that incorporating LLMs in the first two stages routinely provides significant improvements in cluster quality, and that LLMs enable a user to make trade-offs between cost and accuracy to produce desired clusters. We release our code and LLM prompts for the public to use.",
+        "pdf_link": "https://doi.org/10.1162/tacl_a_00648"
+     },
+     {
+        "title": "JustiLM: Few-shot Justification Generation for Explainable Fact-Checking of Real-world Claims",
+        "authors": [
+            "Fengzhu Zeng",
+            "Wei Gao"
+        ],
+        "published": "2024-04-05T00:00:00Z",
+        "summary": "Justification is an explanation that supports the veracity assigned to a claim in fact-checking. However, the task of justification generation has been previously oversimplified as summarization of a fact-check article authored by fact-checkers. Therefore, we propose a realistic approach to generate justification based on retrieved evidence. We present a new benchmark dataset called ExClaim (for Explainable fact-checking of real-world Claims), and introduce JustiLM, a novel few-shot Justification generation based on retrieval-augmented Language Model by using fact-check articles as an auxiliary resource during training only. Experiments show that JustiLM achieves promising performance in justification generation compared to strong baselines, and can also enhance veracity classification with a straightforward extension.",
+        "pdf_link": "https://doi.org/10.1162/tacl_a_00649"
+     },
+     {
+        "title": "To Diverge or Not to Diverge: A Morphosyntactic Perspective on Machine Translation vs Human Translation",
+        "authors": [
+            "Jiaming Luo",
+            "Colin Cherry",
+            "George Foster"
+        ],
+        "published": "2024-04-08T00:00:00Z",
+        "summary": "We conduct a large-scale fine-grained comparative analysis of machine translations (MTs) against human translations (HTs) through the lens of morphosyntactic divergence. Across three language pairs and two types of divergence defined as the structural difference between the source and the target, MT is consistently more conservative than HT, with less morphosyntactic diversity, more convergent patterns, and more one-to-one alignments. Through analysis on different decoding algorithms, we attribute this discrepancy to the use of beam search that biases MT towards more convergent patterns. This bias is most amplified when the convergent pattern appears around 50% of the time in training data. Lastly, we show that for a majority of morphosyntactic divergences, their presence in HT is correlated with decreased MT performance, presenting a greater challenge for MT systems.",
+        "pdf_link": "https://doi.org/10.1162/tacl_a_00645"
+     },
+     {
+        "title": "What Do Self-Supervised Speech Models Know About Words?",
+        "authors": [
+            "Ankita Pasad",
+            "Chung-Ming Chien",
+            "Shane Settle",
+            "Karen Livescu"
+        ],
+        "published": "2024-04-12T00:00:00Z",
+        "summary": "Many self-supervised speech models (S3Ms) have been introduced over the last few years, improving performance and data efficiency on various speech tasks. However, these empirical successes alone do not give a complete picture of what is learned during pre-training. Recent work has begun analyzing how S3Ms encode certain properties, such as phonetic and speaker information, but we still lack a proper understanding of knowledge encoded at the word level and beyond. In this work, we use lightweight analysis methods to study segment-level linguistic properties—word identity, boundaries, pronunciation, syntactic features, and semantic features—encoded in S3Ms. We present a comparative study of layer-wise representations from ten S3Ms and find that (i) the frame-level representations within each word segment are not all equally informative, and (ii) the pre-training objective and model size heavily influence the accessibility and distribution of linguistic information across layers. We also find that on several tasks—word discrimination, word segmentation, and semantic sentence similarity—S3Ms trained with visual grounding outperform their speech-only counterparts. Finally, our task-based analyses demonstrate improved performance on word segmentation and acoustic word discrimination while using simpler methods than prior work.",
+        "pdf_link": "https://doi.org/10.1162/tacl_a_00656"
+     },
+     {
+        "title": "Are Character-level Translations Worth the Wait? Comparing ByT5 and mT5 for Machine Translation",
+        "authors": [
+            "Lukas Edman",
+            "Gabriele Sarti",
+            "Antonio Toral",
+            "Gertjan van Noord",
+            "Arianna Bisazza"
+        ],
+        "published": "2024-04-16T00:00:00Z",
+        "summary": "Pretrained character-level and byte-level language models have been shown to be competitive with popular subword models across a range of Natural Language Processing tasks. However, there has been little research on their effectiveness for neural machine translation (NMT), particularly within the popular pretrain-then-finetune paradigm. This work performs an extensive comparison across multiple languages and experimental conditions of character- and subword-level pretrained models (ByT5 and mT5, respectively) on NMT. We show the effectiveness of character-level modeling in translation, particularly in cases where fine-tuning data is limited. In our analysis, we show how character models’ gains in translation quality are reflected in better translations of orthographically similar words and rare words. While evaluating the importance of source texts in driving model predictions, we highlight word-level patterns within ByT5, suggesting an ability to modulate word-level and character-level information during generation. We conclude by assessing the efficiency tradeoff of byte models, suggesting their usage in non-time-critical scenarios to boost translation quality.",
+        "pdf_link": "https://doi.org/10.1162/tacl_a_00651"
+     },
+     {
+        "title": "Geographic Adaptation of Pretrained Language Models",
+        "authors": [
+            "Valentin Hofmann",
+            "Goran Glavaš",
+            "Nikola Ljubešić",
+            "Janet B. Pierrehumbert",
+            "Hinrich Schütze"
+        ],
+        "published": "2024-04-16T00:00:00Z",
+        "summary": "While pretrained language models (PLMs) have been shown to possess a plethora of linguistic knowledge, the existing body of research has largely neglected extralinguistic knowledge, which is generally difficult to obtain by pretraining on text alone. Here, we contribute to closing this gap by examining geolinguistic knowledge, i.e., knowledge about geographic variation in language. We introduce geoadaptation, an intermediate training step that couples language modeling with geolocation prediction in a multi-task learning setup. We geoadapt four PLMs, covering language groups from three geographic areas, and evaluate them on five different tasks: fine-tuned (i.e., supervised) geolocation prediction, zero-shot (i.e., unsupervised) geolocation prediction, fine-tuned language identification, zero-shot language identification, and zero-shot prediction of dialect features. Geoadaptation is very successful at injecting geolinguistic knowledge into the PLMs: The geoadapted PLMs consistently outperform PLMs adapted using only language modeling (by especially wide margins on zero-shot prediction tasks), and we obtain new state-of-the-art results on two benchmarks for geolocation prediction and language identification. Furthermore, we show that the effectiveness of geoadaptation stems from its ability to geographically retrofit the representation space of the PLMs.",
+        "pdf_link": "https://doi.org/10.1162/tacl_a_00652"
+     },
+     {
+        "title": "Do Text Simplification Systems Preserve Meaning? A Human Evaluation via Reading Comprehension",
+        "authors": [
+            "Sweta Agrawal",
+            "Marine Carpuat"
+        ],
+        "published": "2024-04-16T00:00:00Z",
+        "summary": "Automatic text simplification (TS) aims to automate the process of rewriting text to make it easier for people to read. A pre-requisite for TS to be useful is that it should convey information that is consistent with the meaning of the original text. However, current TS evaluation protocols assess system outputs for simplicity and meaning preservation without regard for the document context in which output sentences occur and for how people understand them. In this work, we introduce a human evaluation framework to assess whether simplified texts preserve meaning using reading comprehension questions. With this framework, we conduct a thorough human evaluation of texts by humans and by nine automatic systems. Supervised systems that leverage pre-training knowledge achieve the highest scores on the reading comprehension tasks among the automatic controllable TS systems. However, even the best-performing supervised system struggles with at least 14% of the questions, marking them as “unanswerable” based on simplified content. We further investigate how existing TS evaluation metrics and automatic question-answering systems approximate the human judgments we obtained.",
+        "pdf_link": "https://doi.org/10.1162/tacl_a_00653"
+     },
+     {
+        "title": "Text-to-OverpassQL: A Natural Language Interface for Complex Geodata Querying of OpenStreetMap",
+        "authors": [
+            "Michael Staniek",
+            "Raphael Schumann",
+            "Maike Züfle",
+            "Stefan Riezler"
+        ],
+        "published": "2024-04-30T00:00:00Z",
+        "summary": "We present Text-to-OverpassQL, a task designed to facilitate a natural language interface for querying geodata from OpenStreetMap (OSM). The Overpass Query Language (OverpassQL) allows users to formulate complex database queries and is widely adopted in the OSM ecosystem. Generating Overpass queries from natural language input serves multiple use-cases. It enables novice users to utilize OverpassQL without prior knowledge, assists experienced users with crafting advanced queries, and enables tool-augmented large language models to access information stored in the OSM database. In order to assess the performance of current sequence generation models on this task, we propose OverpassNL, a dataset of 8,352 queries with corresponding natural language inputs. We further introduce task specific evaluation metrics and ground the evaluation of the Text-to-OverpassQL task by executing the queries against the OSM database. We establish strong baselines by finetuning sequence-to-sequence models and adapting large language models with in-context examples. The detailed evaluation reveals strengths and weaknesses of the considered learning strategies, laying the foundations for further research into the Text-to-OverpassQL task.",
+        "pdf_link": "https://doi.org/10.1162/tacl_a_00654"
+     },
+     {
+        "title": "Eliciting the Translation Ability of Large Language Models via Multilingual Finetuning with Translation Instructions",
+        "authors": [
+            "Jiahuan Li",
+            "Hao Zhou",
+            "Shujian Huang",
+            "Shanbo Cheng",
+            "Jiajun Chen"
+        ],
+        "published": "2024-04-30T00:00:00Z",
+        "summary": "Large-scale pretrained language models (LLMs), such as ChatGPT and GPT4, have shown strong abilities in multilingual translation, without being explicitly trained on parallel corpora. It is intriguing how the LLMs obtain their ability to carry out translation instructions for different languages. In this paper, we present a detailed analysis by finetuning a multilingual pretrained language model, XGLM-7.5B, to perform multilingual translation following given instructions. Firstly, we show that multilingual LLMs have stronger translation abilities than previously demonstrated. For a certain language, the translation performance depends on its similarity to English and the amount of data used in the pretraining phase. Secondly, we find that LLMs’ ability to carry out translation instructions relies on the understanding of translation instructions and the alignment among different languages. With multilingual finetuning with translation instructions, LLMs could learn to perform the translation task well even for those language pairs unseen during the instruction tuning phase.",
+        "pdf_link": "https://doi.org/10.1162/tacl_a_00655"
+     },
+     {
+        "title": "Semantics of Multiword Expressions in Transformer-Based Models: A Survey",
+        "authors": [
+            "Filip Miletić",
+            "Sabine Schulte im Walde"
+        ],
+        "published": "2024-04-30T00:00:00Z",
+        "summary": "Multiword expressions (MWEs) are composed of multiple words and exhibit variable degrees of compositionality. As such, their meanings are notoriously difficult to model, and it is unclear to what extent this issue affects transformer architectures. Addressing this gap, we provide the first in-depth survey of MWE processing with transformer models. We overall find that they capture MWE semantics inconsistently, as shown by reliance on surface patterns and memorized information. MWE meaning is also strongly localized, predominantly in early layers of the architecture. Representations benefit from specific linguistic properties, such as lower semantic idiosyncrasy and ambiguity of target expressions. Our findings overall question the ability of transformer models to robustly capture fine-grained semantics. Furthermore, we highlight the need for more directly comparable evaluation setups.",
+        "pdf_link": "https://doi.org/10.1162/tacl_a_00657"
+     },
+     {
+        "title": "Extracting Social Determinants of Health from Pediatric Patient Notes Using Large Language Models: Novel Corpus and Methods",
+        "authors": [
+            "Yujuan Fu",
+            "Giridhar Kaushik Ramachandran",
+            "Nicholas J Dobbins",
+            "Namu Park",
+            "Michael Leu",
+            "Abby R. Rosenberg",
+            "Kevin Lybarger",
+            "Fei Xia",
+            "Ozlem Uzuner",
+            "Meliha Yetisgen"
+        ],
+        "published": "2024-03-31T23:37:18Z",
+        "summary": "Social determinants of health (SDoH) play a critical role in shaping health outcomes, particularly in pediatric populations where interventions can have long-term implications. SDoH are frequently studied in the Electronic Health Record (EHR), which provides a rich repository for diverse patient data. In this work, we present a novel annotated corpus, the Pediatric Social History Annotation Corpus (PedSHAC), and evaluate the automatic extraction of detailed SDoH representations using fine-tuned and in-context learning methods with  Large Language Models (LLMs). PedSHAC comprises annotated social history sections from 1,260 clinical notes obtained from pediatric patients within the University of Washington (UW) hospital system. Employing an event-based annotation scheme, PedSHAC captures ten distinct health determinants to encompass living and economic stability, prior trauma, education access, substance use history, and mental health with an overall annotator agreement of 81.9 F1. Our proposed fine-tuning LLM-based extractors achieve high performance at 78.4 F1 for event arguments. In-context learning approaches with GPT-4 demonstrate promise for reliable SDoH extraction with limited annotated examples, with extraction performance at 82.3 F1 for event triggers.",
+        "pdf_link": "https://arxiv.org/pdf/2404.00826v2.pdf"
+     },
+     {
+        "title": "Fairness in Large Language Models: A Taxonomic Survey",
+        "authors": [
+            "Zhibo Chu",
+            "Zichong Wang",
+            "Wenbin Zhang"
+        ],
+        "published": "2024-03-31T22:22:53Z",
+        "summary": "Large Language Models (LLMs) have demonstrated remarkable success across various domains. However, despite their promising performance in numerous real-world applications, most of these algorithms lack fairness considerations. Consequently, they may lead to discriminatory outcomes against certain communities, particularly marginalized populations, prompting extensive study in fair LLMs. On the other hand, fairness in LLMs, in contrast to fairness in traditional machine learning, entails exclusive backgrounds, taxonomies, and fulfillment techniques. To this end, this survey presents a comprehensive overview of recent advances in the existing literature concerning fair LLMs. Specifically, a brief introduction to LLMs is provided, followed by an analysis of factors contributing to bias in LLMs. Additionally, the concept of fairness in LLMs is discussed categorically, summarizing metrics for evaluating bias in LLMs and existing algorithms for promoting fairness. Furthermore, resources for evaluating bias in LLMs, including toolkits and datasets, are summarized. Finally, existing research challenges and open questions are discussed.",
+        "pdf_link": "https://arxiv.org/pdf/2404.01349v1.pdf"
+     },
+     {
+        "title": "Algorithmic Collusion by Large Language Models",
+        "authors": [
+            "Sara Fish",
+            "Yannai A. Gonczarowski",
+            "Ran I. Shorrer"
+        ],
+        "published": "2024-03-31T21:43:05Z",
+        "summary": "The rise of algorithmic pricing raises concerns of algorithmic collusion. We conduct experiments with algorithmic pricing agents based on Large Language Models (LLMs), and specifically GPT-4. We find that (1) LLM-based agents are adept at pricing tasks, (2) LLM-based pricing agents autonomously collude in oligopoly settings to the detriment of consumers, and (3) variation in seemingly innocuous phrases in LLM instructions (\"prompts\") may increase collusion. These results extend to auction settings. Our findings underscore the need for antitrust regulation regarding algorithmic pricing, and uncover regulatory challenges unique to LLM-based pricing agents.",
+        "pdf_link": "https://arxiv.org/pdf/2404.00806v1.pdf"
+     },
+     {
+        "title": "Recover: A Neuro-Symbolic Framework for Failure Detection and Recovery",
+        "authors": [
+            "Cristina Cornelio",
+            "Mohammed Diab"
+        ],
+        "published": "2024-03-31T17:54:22Z",
+        "summary": "Recognizing failures during task execution and implementing recovery procedures is challenging in robotics. Traditional approaches rely on the availability of extensive data or a tight set of constraints, while more recent approaches leverage large language models (LLMs) to verify task steps and replan accordingly. However, these methods often operate offline, necessitating scene resets and incurring in high costs. This paper introduces Recover, a neuro-symbolic framework for online failure identification and recovery. By integrating ontologies, logical rules, and LLM-based planners, Recover exploits symbolic information to enhance the ability of LLMs to generate recovery plans and also to decrease the associated costs. In order to demonstrate the capabilities of our method in a simulated kitchen environment, we introduce OntoThor, an ontology describing the AI2Thor simulator setting. Empirical evaluation shows that OntoThor's logical rules accurately detect all failures in the analyzed tasks, and that Recover considerably outperforms, for both failure detection and recovery, a baseline method reliant solely on LLMs.",
+        "pdf_link": "https://arxiv.org/pdf/2404.00756v1.pdf"
+     },
+     {
+        "title": "Can Language Models Recognize Convincing Arguments?",
+        "authors": [
+            "Paula Rescala",
+            "Manoel Horta Ribeiro",
+            "Tiancheng Hu",
+            "Robert West"
+        ],
+        "published": "2024-03-31T17:38:33Z",
+        "summary": "The remarkable and ever-increasing capabilities of Large Language Models (LLMs) have raised concerns about their potential misuse for creating personalized, convincing misinformation and propaganda. To gain insights into LLMs' persuasive capabilities without directly engaging in experimentation with humans, we propose studying their performance on the related task of detecting convincing arguments. We extend a dataset by Durmus & Cardie (2018) with debates, votes, and user traits and propose tasks measuring LLMs' ability to (1) distinguish between strong and weak arguments, (2) predict stances based on beliefs and demographic characteristics, and (3) determine the appeal of an argument to an individual based on their traits. We show that LLMs perform on par with humans in these tasks and that combining predictions from different LLMs yields significant performance gains, even surpassing human performance. The data and code released with this paper contribute to the crucial ongoing effort of continuously evaluating and monitoring the rapidly evolving capabilities and potential impact of LLMs.",
+        "pdf_link": "https://arxiv.org/pdf/2404.00750v1.pdf"
+     },
+     {
+        "title": "WavLLM: Towards Robust and Adaptive Speech Large Language Model",
+        "authors": [
+            "Shujie Hu",
+            "Long Zhou",
+            "Shujie Liu",
+            "Sanyuan Chen",
+            "Hongkun Hao",
+            "Jing Pan",
+            "Xunying Liu",
+            "Jinyu Li",
+            "Sunit Sivasankaran",
+            "Linquan Liu",
+            "Furu Wei"
+        ],
+        "published": "2024-03-31T12:01:32Z",
+        "summary": "The recent advancements in large language models (LLMs) have revolutionized the field of natural language processing, progressively broadening their scope to multimodal perception and generation. However, effectively integrating listening capabilities into LLMs poses significant challenges, particularly with respect to generalizing across varied contexts and executing complex auditory tasks. In this work, we introduce WavLLM, a robust and adaptive speech large language model with dual encoders, and a prompt-aware LoRA weight adapter, optimized by a two-stage curriculum learning approach. Leveraging dual encoders, we decouple different types of speech information, utilizing a Whisper encoder to process the semantic content of speech, and a WavLM encoder to capture the unique characteristics of the speaker's identity. Within the curriculum learning framework, WavLLM first builds its foundational capabilities by optimizing on mixed elementary single tasks, followed by advanced multi-task training on more complex tasks such as combinations of the elementary tasks. To enhance the flexibility and adherence to different tasks and instructions, a prompt-aware LoRA weight adapter is introduced in the second advanced multi-task training stage. We validate the proposed model on universal speech benchmarks including tasks such as ASR, ST, SV, ER, and also apply it to specialized datasets like Gaokao English listening comprehension set for SQA, and speech Chain-of-Thought (CoT) evaluation set. Experiments demonstrate that the proposed model achieves state-of-the-art performance across a range of speech tasks on the same model size, exhibiting robust generalization capabilities in executing complex tasks using CoT approach. Furthermore, our model successfully completes Gaokao tasks without specialized training. The codes, models, audio, and Gaokao evaluation set can be accessed at \\url{aka.ms/wavllm}.",
+        "pdf_link": "https://arxiv.org/pdf/2404.00656v1.pdf"
+     },
+     {
+        "title": "RQ-RAG: Learning to Refine Queries for Retrieval Augmented Generation",
+        "authors": [
+            "Chi-Min Chan",
+            "Chunpu Xu",
+            "Ruibin Yuan",
+            "Hongyin Luo",
+            "Wei Xue",
+            "Yike Guo",
+            "Jie Fu"
+        ],
+        "published": "2024-03-31T08:58:54Z",
+        "summary": "Large Language Models (LLMs) exhibit remarkable capabilities but are prone to generating inaccurate or hallucinatory responses. This limitation stems from their reliance on vast pretraining datasets, making them susceptible to errors in unseen scenarios. To tackle these challenges, Retrieval-Augmented Generation (RAG) addresses this by incorporating external, relevant documents into the response generation process, thus leveraging non-parametric knowledge alongside LLMs' in-context learning abilities. However, existing RAG implementations primarily focus on initial input for context retrieval, overlooking the nuances of ambiguous or complex queries that necessitate further clarification or decomposition for accurate responses. To this end, we propose learning to Refine Query for Retrieval Augmented Generation (RQ-RAG) in this paper, endeavoring to enhance the model by equipping it with capabilities for explicit rewriting, decomposition, and disambiguation. Our experimental results indicate that our method, when applied to a 7B Llama2 model, surpasses the previous state-of-the-art (SOTA) by an average of 1.9\\% across three single-hop QA datasets, and also demonstrates enhanced performance in handling complex, multi-hop QA datasets. Our code is available at https://github.com/chanchimin/RQ-RAG.",
+        "pdf_link": "https://arxiv.org/pdf/2404.00610v1.pdf"
+     },
+     {
+        "title": "CHOPS: CHat with custOmer Profile Systems for Customer Service with LLMs",
+        "authors": [
+            "Jingzhe Shi",
+            "Jialuo Li",
+            "Qinwei Ma",
+            "Zaiwen Yang",
+            "Huan Ma",
+            "Lei Li"
+        ],
+        "published": "2024-03-31T07:11:48Z",
+        "summary": "Businesses and software platforms are increasingly turning to Large Language Models (LLMs) such as GPT-3.5, GPT-4, GLM-3, and LLaMa-2 for chat assistance with file access or as reasoning agents for customer service. However, current LLM-based customer service models have limited integration with customer profiles and lack the operational capabilities necessary for effective service. Moreover, existing API integrations emphasize diversity over the precision and error avoidance essential in real-world customer service scenarios. To address these issues, we propose an LLM agent named CHOPS (CHat with custOmer Profile in existing System), designed to: (1) efficiently utilize existing databases or systems for accessing user information or interacting with these systems following existing guidelines; (2) provide accurate and reasonable responses or carry out required operations in the system while avoiding harmful operations; and (3) leverage a combination of small and large LLMs to achieve satisfying performance at a reasonable inference cost. We introduce a practical dataset, the CPHOS-dataset, which includes a database, guiding files, and QA pairs collected from CPHOS, an online platform that facilitates the organization of simulated Physics Olympiads for high school teachers and students. We have conducted extensive experiments to validate the performance of our proposed CHOPS architecture using the CPHOS-dataset, with the aim of demonstrating how LLMs can enhance or serve as alternatives to human customer service. Our code and dataset will be open-sourced soon.",
+        "pdf_link": "https://arxiv.org/pdf/2404.01343v1.pdf"
+     },
+     {
+        "title": "NumeroLogic: Number Encoding for Enhanced LLMs' Numerical Reasoning",
+        "authors": [
+            "Eli Schwartz",
+            "Leshem Choshen",
+            "Joseph Shtok",
+            "Sivan Doveh",
+            "Leonid Karlinsky",
+            "Assaf Arbelle"
+        ],
+        "published": "2024-03-30T19:46:59Z",
+        "summary": "Language models struggle with handling numerical data and performing arithmetic operations. We hypothesize that this limitation can be partially attributed to non-intuitive textual numbers representation. When a digit is read or generated by a causal language model it does not know its place value (e.g. thousands vs. hundreds) until the entire number is processed. To address this issue, we propose a simple adjustment to how numbers are represented by including the count of digits before each number. For instance, instead of \"42\", we suggest using \"{2:42}\" as the new format. This approach, which we term NumeroLogic, offers an added advantage in number generation by serving as a Chain of Thought (CoT). By requiring the model to consider the number of digits first, it enhances the reasoning process before generating the actual number. We use arithmetic tasks to demonstrate the effectiveness of the NumeroLogic formatting. We further demonstrate NumeroLogic applicability to general natural language modeling, improving language understanding performance in the MMLU benchmark.",
+        "pdf_link": "https://arxiv.org/pdf/2404.00459v1.pdf"
+     },
+     {
+        "title": "Can LLMs Master Math? Investigating Large Language Models on Math Stack Exchange",
+        "authors": [
+            "Ankit Satpute",
+            "Noah Giessing",
+            "Andre Greiner-Petter",
+            "Moritz Schubotz",
+            "Olaf Teschke",
+            "Akiko Aizawa",
+            "Bela Gipp"
+        ],
+        "published": "2024-03-30T12:48:31Z",
+        "summary": "Large Language Models (LLMs) have demonstrated exceptional capabilities in various natural language tasks, often achieving performances that surpass those of humans. Despite these advancements, the domain of mathematics presents a distinctive challenge, primarily due to its specialized structure and the precision it demands. In this study, we adopted a two-step approach for investigating the proficiency of LLMs in answering mathematical questions. First, we employ the most effective LLMs, as identified by their performance on math question-answer benchmarks, to generate answers to 78 questions from the Math Stack Exchange (MSE). Second, a case analysis is conducted on the LLM that showed the highest performance, focusing on the quality and accuracy of its answers through manual evaluation. We found that GPT-4 performs best (nDCG of 0.48 and P@10 of 0.37) amongst existing LLMs fine-tuned for answering mathematics questions and outperforms the current best approach on ArqMATH3 Task1, considering P@10. Our Case analysis indicates that while the GPT-4 can generate relevant responses in certain instances, it does not consistently answer all questions accurately. This paper explores the current limitations of LLMs in navigating complex mathematical problem-solving. Through case analysis, we shed light on the gaps in LLM capabilities within mathematics, thereby setting the stage for future research and advancements in AI-driven mathematical reasoning. We make our code and findings publicly available for research: \\url{https://github.com/gipplab/LLM-Investig-MathStackExchange}",
+        "pdf_link": "https://arxiv.org/pdf/2404.00344v1.pdf"
+     },
+     {
+        "title": "Augmenting NER Datasets with LLMs: Towards Automated and Refined Annotation",
+        "authors": [
+            "Yuji Naraki",
+            "Ryosuke Yamaki",
+            "Yoshikazu Ikeda",
+            "Takafumi Horie",
+            "Hiroki Naganuma"
+        ],
+        "published": "2024-03-30T12:13:57Z",
+        "summary": "In the field of Natural Language Processing (NLP), Named Entity Recognition (NER) is recognized as a critical technology, employed across a wide array of applications. Traditional methodologies for annotating datasets for NER models are challenged by high costs and variations in dataset quality. This research introduces a novel hybrid annotation approach that synergizes human effort with the capabilities of Large Language Models (LLMs). This approach not only aims to ameliorate the noise inherent in manual annotations, such as omissions, thereby enhancing the performance of NER models, but also achieves this in a cost-effective manner. Additionally, by employing a label mixing strategy, it addresses the issue of class imbalance encountered in LLM-based annotations. Through an analysis across multiple datasets, this method has been consistently shown to provide superior performance compared to traditional annotation methods, even under constrained budget conditions. This study illuminates the potential of leveraging LLMs to improve dataset quality, introduces a novel technique to mitigate class imbalances, and demonstrates the feasibility of achieving high-performance NER in a cost-effective way.",
+        "pdf_link": "https://arxiv.org/pdf/2404.01334v1.pdf"
+     },
+     {
+        "title": "ST-LLM: Large Language Models Are Effective Temporal Learners",
+        "authors": [
+            "Ruyang Liu",
+            "Chen Li",
+            "Haoran Tang",
+            "Yixiao Ge",
+            "Ying Shan",
+            "Ge Li"
+        ],
+        "published": "2024-03-30T10:11:26Z",
+        "summary": "Large Language Models (LLMs) have showcased impressive capabilities in text comprehension and generation, prompting research efforts towards video LLMs to facilitate human-AI interaction at the video level. However, how to effectively encode and understand videos in video-based dialogue systems remains to be solved. In this paper, we investigate a straightforward yet unexplored question: Can we feed all spatial-temporal tokens into the LLM, thus delegating the task of video sequence modeling to the LLMs? Surprisingly, this simple approach yields significant improvements in video understanding. Based upon this, we propose ST-LLM, an effective video-LLM baseline with Spatial-Temporal sequence modeling inside LLM. Furthermore, to address the overhead and stability issues introduced by uncompressed video tokens within LLMs, we develop a dynamic masking strategy with tailor-made training objectives. For particularly long videos, we have also designed a global-local input module to balance efficiency and effectiveness. Consequently, we harness LLM for proficient spatial-temporal modeling, while upholding efficiency and stability. Extensive experimental results attest to the effectiveness of our method. Through a more concise model and training pipeline, ST-LLM establishes a new state-of-the-art result on VideoChatGPT-Bench and MVBench. Codes have been available at https://github.com/TencentARC/ST-LLM.",
+        "pdf_link": "https://arxiv.org/pdf/2404.00308v1.pdf"
+     }
+]
