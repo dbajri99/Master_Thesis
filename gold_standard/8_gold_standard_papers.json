@@ -14,7 +14,7 @@
             "Abdelrahman Mohamed",
             "Emmanuel Dupoux"
         ],
-        "published": "2023",
+        "published": "2022",
         "summary": "We introduce dGSLM, the first “textless” model able to generate audio samples of naturalistic spoken dialogues. It uses recent work on unsupervised spoken unit discovery coupled with a dual-tower transformer architecture with cross-attention trained on 2000 hours of two-channel raw conversational audio (Fisher dataset) without any text or labels. We show that our model is able to generate speech, laughter, and other paralinguistic signals in the two channels simultaneously and reproduces more naturalistic and fluid turn taking compared to a text-based cascaded model.1,2",
         "pdf_link": "https://aclanthology.org/2023.tacl-1.15.pdf"
     },
@@ -24,7 +24,7 @@
             "Zhousi Chen",
             "Mamoru Komachi"
         ],
-        "published": "2023",
+        "published": "2022",
         "summary": "We extend a pair of continuous combinator-based constituency parsers (one binary and one multi-branching) into a discontinuous pair. Our parsers iteratively compose constituent vectors from word embeddings without any grammar constraints. Their empirical complexities are subquadratic. Our extension includes 1) a swap action for the orientation-based binary model and 2) biaffine attention for the chunker-based multi-branching model. In tests conducted with the Discontinuous Penn Treebank and TIGER Treebank, we achieved state-of-the-art discontinuous accuracy with a significant speed advantage.",
         "pdf_link": "https://aclanthology.org/2023.tacl-1.16.pdf"
     },
@@ -157,7 +157,7 @@
             "Mari Ostendorf",
             "Hannaneh Hajishirzi"
         ],
-        "published": "2023",
+        "published": "2022",
         "summary": "In an information-seeking conversation, a user may ask questions that are under-specified or unanswerable. An ideal agent would interact by initiating different response types according to the available knowledge sources. However, most current studies either fail to or artificially incorporate such agent-side initiative. This work presents InSCIt, a dataset for Information-Seeking Conversations with mixed-initiative Interactions. It contains 4.7K user-agent turns from 805 human-human conversations where the agent searches over Wikipedia and either directly answers, asks for clarification, or provides relevant information to address user queries. The data supports two subtasks, evidence passage identification and response generation, as well as a human evaluation protocol to assess model performance. We report results of two systems based on state-of-the-art models of conversational knowledge identification and open-domain question answering. Both systems significantly underperform humans, suggesting ample room for improvement in future studies.1",
         "pdf_link": "https://aclanthology.org/2023.tacl-1.27.pdf"
     },
@@ -219,7 +219,7 @@
             "Marianna J. Martindale",
             "Marine Carpuat"
         ],
-        "published": "2023",
+        "published": "2022",
         "summary": "Neural sequence generation models are known to “hallucinate”, by producing outputs that are unrelated to the source text. These hallucinations are potentially harmful, yet it remains unclear in what conditions they arise and how to mitigate their impact. In this work, we first identify internal model symptoms of hallucinations by analyzing the relative token contributions to the generation in contrastive hallucinated vs. non-hallucinated outputs generated via source perturbations. We then show that these symptoms are reliable indicators of natural hallucinations, by using them to design a lightweight hallucination detector which outperforms both model-free baselines and strong classifiers based on quality estimation or large pre-trained models on manually annotated English-Chinese and German-English translation test beds.",
         "pdf_link": "https://aclanthology.org/2023.tacl-1.32.pdf"
     },
@@ -232,7 +232,7 @@
             "Vera Demberg",
             "Bernt Schiele"
         ],
-        "published": "2023",
+        "published": "2022",
         "summary": "Current work on image-based story generation suffers from the fact that the existing image sequence collections do not have coherent plots behind them. We improve visual story generation by producing a new image-grounded dataset, Visual Writing Prompts (VWP). VWP contains almost 2K selected sequences of movie shots, each including 5-10 images. The image sequences are aligned with a total of 12K stories which were collected via crowdsourcing given the image sequences and a set of grounded characters from the corresponding image sequence. Our new image sequence collection and filtering process has allowed us to obtain stories that are more coherent, diverse, and visually grounded compared to previous work. We also propose a character-based story generation model driven by coherence as a strong baseline. Evaluations show that our generated stories are more coherent, visually grounded, and diverse than stories generated with the current state-of-the-art model. Our code, image features, annotations and collected stories are available at https://vwprompt.github.io/.",
         "pdf_link": "https://aclanthology.org/2023.tacl-1.33.pdf"
     }
