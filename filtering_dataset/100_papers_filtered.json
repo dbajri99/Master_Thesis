@@ -1,0 +1,130 @@
+[
+    {
+        "title": "Understanding Counterspeech for Online Harm Mitigation",
+        "authors": [
+            "Yi-Ling Chung",
+            "Gavin Abercrombie",
+            "Florence Enock",
+            "Jonathan Bright",
+            "Verena Rieser"
+        ],
+        "published": "2023-07-01T20:54:01Z",
+        "summary": "Counterspeech offers direct rebuttals to hateful speech by challenging perpetrators of hate and showing support to targets of abuse. It provides a promising alternative to more contentious measures, such as content moderation and deplatforming, by contributing a greater amount of positive online speech rather than attempting to mitigate harmful content through removal. Advances in the development of large language models mean that the process of producing counterspeech could be made more efficient by automating its generation, which would enable large-scale online campaigns. However, we currently lack a systematic understanding of several important factors relating to the efficacy of counterspeech for hate mitigation, such as which types of counterspeech are most effective, what are the optimal conditions for implementation, and which specific effects of hate it can best ameliorate. This paper aims to fill this gap by systematically reviewing counterspeech research in the social sciences and comparing methodologies and findings with computer science efforts in automatic counterspeech generation. By taking this multi-disciplinary view, we identify promising future directions in both fields.",
+        "pdf_link": "https://arxiv.org/pdf/2307.04761v1.pdf"
+    },
+    {
+        "title": "CephGPT-4: An Interactive Multimodal Cephalometric Measurement and Diagnostic System with Visual Large Language Model",
+        "authors": [
+            "Lei Ma",
+            "Jincong Han",
+            "Zhaoxin Wang",
+            "Dian Zhang"
+        ],
+        "published": "2023-07-01T15:41:12Z",
+        "summary": "Large-scale multimodal language models (LMMs) have achieved remarkable success in general domains. However, the exploration of diagnostic language models based on multimodal cephalometric medical data remains limited. In this paper, we propose a novel multimodal cephalometric analysis and diagnostic dialogue model. Firstly, a multimodal orthodontic medical dataset is constructed, comprising cephalometric images and doctor-patient dialogue data, with automatic analysis of cephalometric landmarks using U-net and generation of diagnostic reports. Then, the cephalometric dataset and generated diagnostic reports are separately fine-tuned on Minigpt-4 and VisualGLM. Results demonstrate that the CephGPT-4 model exhibits excellent performance and has the potential to revolutionize orthodontic measurement and diagnostic applications. These innovations hold revolutionary application potential in the field of orthodontics.",
+        "pdf_link": "https://arxiv.org/pdf/2307.07518v1.pdf"
+    },
+    {
+        "title": "BatGPT: A Bidirectional Autoregessive Talker from Generative Pre-trained Transformer",
+        "authors": [
+            "Zuchao Li",
+            "Shitou Zhang",
+            "Hai Zhao",
+            "Yifei Yang",
+            "Dongjie Yang"
+        ],
+        "published": "2023-07-01T15:10:01Z",
+        "summary": "BatGPT is a large-scale language model designed and trained jointly by Wuhan University and Shanghai Jiao Tong University. It is capable of generating highly natural and fluent text in response to various types of input, including text prompts, images, and audio. In the modeling level, we employ a bidirectional autoregressive architecture that allows the model to efficiently capture the complex dependencies of natural language, making it highly effective in tasks such as language generation, dialog systems, and question answering. Moreover, the bidirectional autoregressive modeling not only operates from left to right but also from right to left, effectively reducing fixed memory effects and alleviating model hallucinations.   In the training aspect, we propose a novel parameter expansion method for leveraging the pre-training of smaller models and employ reinforcement learning from both AI and human feedback, aimed at improving the model's alignment performance. Overall, these approaches significantly improve the effectiveness of BatGPT, and the model can be utilized for a wide range of natural language applications.",
+        "pdf_link": "https://arxiv.org/pdf/2307.00360v2.pdf"
+    },
+    {
+        "title": "DoReMi: Grounding Language Model by Detecting and Recovering from Plan-Execution Misalignment",
+        "authors": [
+            "Yanjiang Guo",
+            "Yen-Jen Wang",
+            "Lihan Zha",
+            "Zheyuan Jiang",
+            "Jianyu Chen"
+        ],
+        "published": "2023-07-01T12:51:02Z",
+        "summary": "Large language models (LLMs) encode a vast amount of semantic knowledge and possess remarkable understanding and reasoning capabilities. Previous work has explored how to ground LLMs in robotic tasks to generate feasible and executable textual plans. However, low-level execution in the physical world may deviate from the high-level textual plan due to environmental perturbations or imperfect controller design. In this paper, we propose \\textbf{DoReMi}, a novel language model grounding framework that enables immediate Detection and Recovery from Misalignments between plan and execution. Specifically, we leverage LLMs to play a dual role, aiding not only in high-level planning but also generating constraints that can indicate misalignment during execution. Then vision language models (VLMs) are utilized to detect constraint violations continuously. Our pipeline can monitor the low-level execution and enable timely recovery if certain plan-execution misalignment occurs. Experiments on various complex tasks including robot arms and humanoid robots demonstrate that our method can lead to higher task success rates and shorter task completion times. Videos of DoReMi are available at \\url{https://sites.google.com/view/doremi-paper}.",
+        "pdf_link": "https://arxiv.org/pdf/2307.00329v3.pdf"
+    },
+    {
+        "title": "Let Me Teach You: Pedagogical Foundations of Feedback for Language Models",
+        "authors": [
+            "Beatriz Borges",
+            "Niket Tandon",
+            "Tanja K\u00e4ser",
+            "Antoine Bosselut"
+        ],
+        "published": "2023-07-01T09:18:24Z",
+        "summary": "Natural Language Feedback (NLF) is an increasingly popular avenue to align Large Language Models (LLMs) to human preferences. Despite the richness and diversity of the information it can convey, NLF is often hand-designed and arbitrary. In a different world, research in pedagogy has long established several effective feedback models. In this opinion piece, we compile ideas from pedagogy to introduce FELT, a feedback framework for LLMs that outlines the various characteristics of the feedback space, and a feedback content taxonomy based on these variables. Our taxonomy offers both a general mapping of the feedback space, as well as pedagogy-established discrete categories, allowing us to empirically demonstrate the impact of different feedback types on revised generations. In addition to streamlining existing NLF designs, FELT also brings out new, unexplored directions for research in NLF. We make our taxonomy available to the community, providing guides and examples for mapping our categorizations to future resources.",
+        "pdf_link": "https://arxiv.org/pdf/2307.00279v1.pdf"
+    },
+    {
+        "title": "InstructEval: Systematic Evaluation of Instruction Selection Methods",
+        "authors": [
+            "Anirudh Ajith",
+            "Chris Pan",
+            "Mengzhou Xia",
+            "Ameet Deshpande",
+            "Karthik Narasimhan"
+        ],
+        "published": "2023-07-01T07:45:38Z",
+        "summary": "In-context learning (ICL) performs tasks by prompting a large language model (LLM) using an instruction and a small set of annotated examples called demonstrations. Recent work has shown that precise details of the inputs used in the ICL prompt significantly impact performance, which has incentivized instruction selection algorithms. The effect of instruction-choice however is severely underexplored, with existing analyses restricted to shallow subsets of models and tasks, limiting the generalizability of their insights. We develop InstructEval, an ICL evaluation suite to conduct a thorough assessment of these techniques. The suite includes 13 open-sourced LLMs of varying scales from four model families, and covers nine tasks across three categories. Using the suite, we evaluate the relative performance of seven popular instruction selection methods over five metrics relevant to ICL. Our experiments reveal that using curated manually-written instructions or simple instructions without any task-specific descriptions often elicits superior ICL performance overall than that of automatic instruction-induction methods, pointing to a lack of generalizability among the latter. We release our evaluation suite for benchmarking instruction selection approaches and enabling more generalizable methods in this space.",
+        "pdf_link": "https://arxiv.org/pdf/2307.00259v2.pdf"
+    },
+    {
+        "title": "THUIR2 at NTCIR-16 Session Search (SS) Task",
+        "authors": [
+            "Weihang Su",
+            "Xiangsheng Li",
+            "Yiqun Liu",
+            "Min Zhang",
+            "Shaoping Ma"
+        ],
+        "published": "2023-07-01T06:55:06Z",
+        "summary": "Our team(THUIR2) participated in both FOSS and POSS subtasks of the NTCIR-161 Session Search (SS) Task. This paper describes our approaches and results. In the FOSS subtask, we submit five runs using learning-to-rank and fine-tuned pre-trained language models. We fine-tuned the pre-trained language model with ad-hoc data and session information and assembled them by a learning-to-rank method. The assembled model achieves the best performance among all participants in the preliminary evaluation. In the POSS subtask, we used an assembled model which also achieves the best performance in the preliminary evaluation.",
+        "pdf_link": "https://arxiv.org/pdf/2307.00250v1.pdf"
+    },
+    {
+        "title": "Automatic Counterfactual Augmentation for Robust Text Classification Based on Word-Group Search",
+        "authors": [
+            "Rui Song",
+            "Fausto Giunchiglia",
+            "Yingji Li",
+            "Hao Xu"
+        ],
+        "published": "2023-07-01T02:26:34Z",
+        "summary": "Despite large-scale pre-trained language models have achieved striking results for text classificaion, recent work has raised concerns about the challenge of shortcut learning. In general, a keyword is regarded as a shortcut if it creates a superficial association with the label, resulting in a false prediction. Conversely, shortcut learning can be mitigated if the model relies on robust causal features that help produce sound predictions. To this end, many studies have explored post-hoc interpretable methods to mine shortcuts and causal features for robustness and generalization. However, most existing methods focus only on single word in a sentence and lack consideration of word-group, leading to wrong causal features. To solve this problem, we propose a new Word-Group mining approach, which captures the causal effect of any keyword combination and orders the combinations that most affect the prediction. Our approach bases on effective post-hoc analysis and beam search, which ensures the mining effect and reduces the complexity. Then, we build a counterfactual augmentation method based on the multiple word-groups, and use an adaptive voting mechanism to learn the influence of different augmentated samples on the prediction results, so as to force the model to pay attention to effective causal features. We demonstrate the effectiveness of the proposed method by several tasks on 8 affective review datasets and 4 toxic language datasets, including cross-domain text classificaion, text attack and gender fairness test.",
+        "pdf_link": "https://arxiv.org/pdf/2307.01214v1.pdf"
+    },
+    {
+        "title": "How far is Language Model from 100% Few-shot Named Entity Recognition in Medical Domain",
+        "authors": [
+            "Mingchen Li",
+            "Rui Zhang"
+        ],
+        "published": "2023-07-01T01:18:09Z",
+        "summary": "Recent advancements in language models (LMs) have led to the emergence of powerful models such as Small LMs (e.g., T5) and Large LMs (e.g., GPT-4). These models have demonstrated exceptional capabilities across a wide range of tasks, such as name entity recognition (NER) in the general domain. (We define SLMs as pre-trained models with fewer parameters compared to models like GPT-3/3.5/4, such as T5, BERT, and others.) Nevertheless, their efficacy in the medical section remains uncertain and the performance of medical NER always needs high accuracy because of the particularity of the field. This paper aims to provide a thorough investigation to compare the performance of LMs in medical few-shot NER and answer How far is LMs from 100\\% Few-shot NER in Medical Domain, and moreover to explore an effective entity recognizer to help improve the NER performance. Based on our extensive experiments conducted on 16 NER models spanning from 2018 to 2023, our findings clearly indicate that LLMs outperform SLMs in few-shot medical NER tasks, given the presence of suitable examples and appropriate logical frameworks. Despite the overall superiority of LLMs in few-shot medical NER tasks, it is important to note that they still encounter some challenges, such as misidentification, wrong template prediction, etc. Building on previous findings, we introduce a simple and effective method called \\textsc{RT} (Retrieving and Thinking), which serves as retrievers, finding relevant examples, and as thinkers, employing a step-by-step reasoning process. Experimental results show that our proposed \\textsc{RT} framework significantly outperforms the strong open baselines on the two open medical benchmark datasets",
+        "pdf_link": "https://arxiv.org/pdf/2307.00186v1.pdf"
+    },
+    {
+        "title": "Personality Traits in Large Language Models",
+        "authors": [
+            "Greg Serapio-Garc\u00eda",
+            "Mustafa Safdari",
+            "Cl\u00e9ment Crepy",
+            "Luning Sun",
+            "Stephen Fitz",
+            "Peter Romero",
+            "Marwa Abdulhai",
+            "Aleksandra Faust",
+            "Maja Matari\u0107"
+        ],
+        "published": "2023-07-01T00:58:51Z",
+        "summary": "The advent of large language models (LLMs) has revolutionized natural language processing, enabling the generation of coherent and contextually relevant human-like text. As LLMs increasingly power conversational agents used by the general public world-wide, the synthetic personality embedded in these models, by virtue of training on large amounts of human data, is becoming increasingly important. Since personality is a key factor determining the effectiveness of communication, we present a comprehensive method for administering and validating personality tests on widely-used LLMs, as well as for shaping personality in the generated text of such LLMs. Applying this method, we found: 1) personality measurements in the outputs of some LLMs under specific prompting configurations are reliable and valid; 2) evidence of reliability and validity of synthetic LLM personality is stronger for larger and instruction fine-tuned models; and 3) personality in LLM outputs can be shaped along desired dimensions to mimic specific human personality profiles. We discuss application and ethical implications of the measurement and shaping method, in particular regarding responsible AI.",
+        "pdf_link": "https://arxiv.org/pdf/2307.00184v3.pdf"
+    }
+]
