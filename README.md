@@ -17,3 +17,9 @@ This section includes Python scripts for automated data retrieval from interacti
 - Robust Handling: Efficiently processes large volumes of data, with built-in mechanisms for retries and pagination.
 #### Data Retrieval Scripts Setup and Usage
 To run the data retrieval scripts for ACL Anthology and arXiv, first ensure Python is installed on your system. Install necessary dependencies with pip install requests beautifulsoup4 tqdm arxiv. For the ACL script, navigate to the script's directory and run python "ACL retriever.ipynb" to fetch and save papers in a JSON format (e.g., acl2023.json). Similarly, for the arXiv script, execute python "arXiv retriever.ipynb" to retrieve and store articles (e.g., data_collected_Jan2022-Feb2022.json). Both scripts allow customization of query parameters, such as date ranges and fields, to suit specific research needs.
+
+### Code Description
+This repository contains a collection of Jupyter Notebooks that form the experimental pipeline of this thesis project:
+
+- Filter_Papers.ipynb: Located in the "filtering_dataset" folder, this notebook filters scientific papers from a JSON dataset based on specified keywords found in the titles or abstracts. The filtering process uses regular expressions for efficient matching, and the results are exported to a new JSON file for further analysis.
+- gpt_prompting_techniques.ipynb: Found in the "LLM_paper_ratings" folder, this notebook details various prompting techniques used to assess papers with GPT models. It experiments with different methods to determine how well these models can evaluate and rate the discussion depth of LLM limitations within academic papers.
