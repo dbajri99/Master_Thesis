@@ -15,3 +15,5 @@ This section includes Python scripts for automated data retrieval from interacti
 #### ArXiv retriever.ipynb
 - Dynamic Query Building: Constructs search queries based on user-specified fields ("cs.CL", "cs.LG", 'cs.AI', 'cs.CV'), categories, and date ranges.
 - Robust Handling: Efficiently processes large volumes of data, with built-in mechanisms for retries and pagination.
+#### Data Retrieval Scripts Setup and Usage
+To run the data retrieval scripts for ACL Anthology and arXiv, first ensure Python is installed on your system. Install necessary dependencies with pip install requests beautifulsoup4 tqdm arxiv. For the ACL script, navigate to the script's directory and run python "ACL retriever.ipynb" to fetch and save papers in a JSON format (e.g., acl2023.json). Similarly, for the arXiv script, execute python "arXiv retriever.ipynb" to retrieve and store articles (e.g., data_collected_Jan2022-Feb2022.json). Both scripts allow customization of query parameters, such as date ranges and fields, to suit specific research needs.
