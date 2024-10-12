@@ -2,12 +2,10 @@
 ### Project Overview
 This repository contains the script conducted for my master's thesis, focusing on identifying and analyzing limitations of Large Language Models (LLMs). The study examines approximately 145,800 academic papers from ArXiv and ACL Anthology, ranging from 2022 to 2024, to create a taxonomy of LLM limitations.
 
-<div align="center">
-  <figure>
-    <img src="/schema_thesis.png" alt="Pipeline Diagram" width="600">
-    <figcaption>Figure 1: This diagram summarizes the steps or the pipeline of the experiment of the thesis, showing the process step-by-step.</figcaption>
-  </figure>
-</div>
+<figure style="text-align: center;">
+  <img src="/schema_thesis.png" alt="Pipeline Diagram" width="600" style="margin: 0 auto;">
+  <figcaption>Figure 1: This diagram summarizes the steps or the pipeline of the experiment of the thesis, showing the process step-by-step.</figcaption>
+</figure>
 
 In this project, we use methods such as zero-shot and few-shot learning applied to OpenAI GPT-3.5 Turbo, GPT 4.o [gpt-4o-2024-05-13] and two opensource models: LLaMa2 [meta-llama/Llama-2-7b-chat-hf] and Mistral [”mistralai/Mistral-7B-Instruct-v0.2], LLM-based embeddings using OpenAI's feature [text-embedding-ada-002], BERTopic clustering combined to HDBSCAN, and the semi-supervised clustering using few-shot learning approach by using the OpenAI's GPT-3.5 Turbo to evaluate and categorize these limitations into clusters like reasoning failures, bias propagation, hallucination risks, privacy concerns, and resource constraints.
 The taxonomy categorizes LLM challenges into five areas: Cognitive and Logical Limitations, Ethical and Social Limitations, Technical and Operational Limitations, Application-Specific Limitations, and Performance and Reliability. 
