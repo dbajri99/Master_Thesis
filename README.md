@@ -6,7 +6,7 @@ In this project, we use methods such as zero-shot and few-shot learning applied 
 The taxonomy categorizes LLM challenges into five areas: Cognitive and Logical Limitations, Ethical and Social Limitations, Technical and Operational Limitations, Application-Specific Limitations, and Performance and Reliability. 
 
 <img src="/schema_thesis.png" alt="Pipeline Diagram" width="600">
-  *Figure 1: This diagram summarizes the steps or the pipeline of the experiment of the thesis, showing the process step-by-step.*
+  Figure 1: This diagram summarizes the steps or the pipeline of the experiment of the thesis, showing the process step-by-step.
 
 ### Data Crawling Scripts
 This section includes Python scripts for automated data retrieval from interacting with arXiv and ACL Anthology APIs, targeting papers published from the beginning of 2022 to the start of 2024. The scripts, housed in this repository's "data_crawling" folder, facilitate systematic collection and structuring of data into JSON format. This format includes essential details such as titles, authors, publication dates, summary (abstracts), and full-text links.
